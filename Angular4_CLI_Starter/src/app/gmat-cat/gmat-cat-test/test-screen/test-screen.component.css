@@ -7,6 +7,7 @@
   margin-left: 10px;
   width: 980px;
   background: #ffffff;
+  min-height: 600px;
 }
 
 #header {
@@ -80,4 +81,39 @@ a.testPause {
 #section {
   background-color: #ffffff;
   overflow: auto;
+}
+
+.testForm #footer {
+  width: 960px;
+  height: 40px;
+  background: #006eae;
+}
+
+#footer a {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 40px;
+  color: white;
+}
+
+.endExamBtn {
+  float: left;
+}
+
+.practiceBtn {
+  float: left;
+  margin-left: 40px;
+}
+
+.testForm #setUp {
+  width: 980px;
+}
+
+#setUp {
+  background-color: #d8d8d8;
+  font-family: "Open Sans", geneva, sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  margin: 0 10px;
+  clear: both;
 }

@@ -1,3 +1,4 @@
 <div class="animated fadeIn">
-  Test Screen
+  <test-welcome-screen *ngIf="testStage == EnumTestStage.WELCOME" (backToSummary)="onBackToSummary()" (testStart)="onTestStart()"></test-welcome-screen>
+  <test-screen *ngIf="testStage == EnumTestStage.STARTED || testStage == EnumTestStage.PAUSED"></test-screen>
 </div>

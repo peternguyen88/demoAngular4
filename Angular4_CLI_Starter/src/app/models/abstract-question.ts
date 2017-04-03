@@ -1,4 +1,4 @@
-import {QuestionType} from "./question-type.enum";
+import {QuestionType} from "./constants.enum";
 /**
  * We don't put question here because SC doesn't have question. RC also have reading. CR sometimes has question stem
  * before stimulus.

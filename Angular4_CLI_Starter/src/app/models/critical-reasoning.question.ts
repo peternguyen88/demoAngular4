@@ -1,5 +1,5 @@
 import {AbstractQuestion} from "./abstract-question";
-import {QuestionType} from "./question-type.enum";
+import {QuestionType} from "./constants.enum";
 /**
  * Critical Reasoning Question - Verbal
  */

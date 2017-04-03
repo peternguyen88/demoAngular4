@@ -1,0 +1,83 @@
+.testForm {
+  width: 1000px;
+  background: #006eae;
+}
+
+.testForm .whiteBG {
+  margin-left: 10px;
+  width: 980px;
+  background: #ffffff;
+}
+
+#header {
+  color: #ffffff;
+  font-family: "Open Sans", geneva, sans-serif;
+  height: 40px;
+}
+
+#header div {
+  line-height: 30px;
+  float: right;
+  margin: 5px 0;
+}
+
+#header, #questionInfo, #section, #footer {
+  margin: 0 10px;
+}
+
+#header h1 {
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 5px 0 5px 15px;
+  color: #FFFFFF;
+}
+
+.timer {
+  border-right: 1px solid #3F8FC8;
+  padding-right: 13px;
+}
+
+.quizNum {
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 8px;
+}
+
+a.testPause {
+  position: relative;
+}
+
+.nextBtn {
+  float: right;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.testPause {
+  padding-right: 25px;
+  margin: 5px 13px 0 0;
+  line-height: 32px;
+}
+
+#questionInfo {
+  height: 25px;
+  font-family: "Open Sans", geneva, sans-serif;
+  background-color: #7eafe1;
+}
+
+#questionInfo > a {
+  display: block;
+  float: right;
+  font-size: 12px;
+  line-height: 25px;
+  margin-right: 11px;
+  color: white;
+}
+
+#section {
+  background-color: #ffffff;
+  overflow: auto;
+}

@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 //Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import { GmatTimerComponent } from "./gmat-timer/gmat-timer.component";
+import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-screen.component";
 
 export const routes: Routes = [
   {
@@ -31,6 +32,13 @@ export const routes: Routes = [
         component: GmatTimerComponent,
         data:{
           title: 'GMAT Timer'
+        }
+      },
+      {
+        path: 'gmat-test',
+        component: TestScreenComponent,
+        data:{
+          title: 'GMAT Test'
         }
       },
     ]

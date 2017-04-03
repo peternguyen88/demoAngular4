@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app.routing';
 //Layouts
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import {GmatTimerComponent} from "./gmat-timer/gmat-timer.component";
+import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-screen.component";
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import {GmatTimerComponent} from "./gmat-timer/gmat-timer.component";
     AsideToggleDirective,
 
     // Custom Components
-    GmatTimerComponent
+    GmatTimerComponent,
+    TestScreenComponent
   ],
   providers: [{
     provide: LocationStrategy,

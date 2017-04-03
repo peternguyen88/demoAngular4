@@ -1,5 +1,8 @@
 <div class="animated fadeIn">
-  Please wait to take GMAT test.
-
-  <gmat-cat-list></gmat-cat-list>
+  <div *ngIf="currentTest == null">
+    <gmat-cat-list (testSelected)="setCurrentTest($event)"></gmat-cat-list>
+  </div>
+  <div *ngIf="currentTest != null">
+    <gmat-cat-test [currentTest]="currentTest" (backToSummary)="setCurrentTest(null)"></gmat-cat-test>
+  </div>
 </div>

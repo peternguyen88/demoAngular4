@@ -4,6 +4,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {EnumTestStage} from "../../models/constants.enum";
 import {GMATTest} from "../../models/gmat-test";
+import {TestScreenService} from "../services/gmat-test-screen.service";
 
 @Component({
     moduleId: module.id,
@@ -17,7 +18,7 @@ export class GmatCatTestComponent {
     @Input() currentTest : GMATTest;
     @Output() backToSummary = new EventEmitter();
 
-    constructor() {
+    constructor(public testScreenService : TestScreenService) {
       this.testStage = EnumTestStage.WELCOME;
     }
 
@@ -27,6 +28,7 @@ export class GmatCatTestComponent {
 
     public onTestStart() : void {
       this.testStage = EnumTestStage.STARTED;
+      this.testScreenService.start();
     }
 
     public onTestPause() : void {

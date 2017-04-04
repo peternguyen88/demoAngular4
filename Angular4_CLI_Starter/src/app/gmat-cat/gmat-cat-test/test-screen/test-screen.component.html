@@ -1,83 +1,81 @@
-<div class="testForm">
-  <div id="header">
-    <h1>GMAT - Zero To Hero</h1>
+<div id="test-container">
+  <div id="wrapper">
+    <div class="testForm">
+      <div id="header">
+        <h1>GMAT - Zero To Hero</h1>
 
-    <div id="steps" class="control quizNum">
-      <span class="headIcon"></span>
-      <span>1 of 21</span>
-    </div>
-    <div id="timer" class="control timer">
-      <span class="title">Time Remaining</span>
-      <span class="headIcon"></span>
-      <span class="time" id="countdown">40:33</span>
-    </div>
-    <a id="button_pause" class="nextBtn testPause" href="#">PAUSE</a>
+        <div class="control quizNum">
+          <span>Expected: 15</span>
+        </div>
+        <div id="steps" class="control quizNum">
+          <i class="icon-note icons"></i>
+          <span>4 of 41</span>
+        </div>
+        <div id="timer" class="control timer">
+          <span class="title">Time Remaining</span>
+          <i class="icons icon-clock" style="padding-left: 5px;"></i>
+          <span class="time" id="countdown">40:33</span>
+        </div>
+        <a id="button_pause" class="nextBtn testPause" >PAUSE <i class="fa fa-star-half-o"></i></a>
 
-  </div>
+      </div>
 
-  <!-- Hidden fields with question info -->
-  <input type="hidden" id="session_id" name="session_id" value="714286">
-  <input type="hidden" id="question_id" name="question_id" value="S94-01">
-  <input type="hidden" id="timestamp" name="timestamp" value="1348f10d5d089f3edeef69abc921201df3aa30cd1490668005">
-  <input type="hidden" id="valid_answer" value="B">
-  <input type="hidden" id="remaining_time" value="2435">
-  <input type="hidden" id="spend_time" value="85">
-  <input type="hidden" id="active" value="1">
-  <input type="hidden" id="mode" value="timed">
+      <!-- Hidden fields with question info -->
+      <input type="hidden" id="session_id" name="session_id" value="714286">
+      <input type="hidden" id="question_id" name="question_id" value="S94-01">
+      <input type="hidden" id="timestamp" name="timestamp" value="1348f10d5d089f3edeef69abc921201df3aa30cd1490668005">
+      <input type="hidden" id="valid_answer" value="B">
+      <input type="hidden" id="remaining_time" value="2435">
+      <input type="hidden" id="spend_time" value="85">
+      <input type="hidden" id="active" value="1">
+      <input type="hidden" id="mode" value="timed">
 
-  <div id="questionInfo">
-  </div>
+      <div id="questionInfo">
+        <p style="line-height: 30px; margin-left: 30px; float: left; color: yellow;">You have spent a lot time on this question. Please consider moving on.</p>
+        <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: 02:15</p>
+      </div>
 
 
-  <div class="whiteBG">
-    <div id="section">
-      <div class="content">
-        <div class="questionWrap">
-          <div class="question">
-            Skeptics propose that many eyewitnesses have mistaken an ordinary animal or even a floating inanimate object <u>as the Loch Ness monster</u>.                        </div>
+      <div class="whiteBG">
+        <div id="section">
+          <div class="content">
+            <div class="questionWrap">
+              <div class="question">
+                Skeptics propose that many eyewitnesses have mistaken an ordinary animal or even a floating inanimate
+                object <u>as the Loch Ness monster</u>.
+              </div>
 
-            <div class="option">
-              <div class="radio" id="uniform-A"><span><input type="radio" name="answer" id="A" value="A" style="opacity: 0;"></span></div>
-              <label for="A">as the Loch Ness Monster</label>
+              <div style="margin-top: 20px;">
+                <span><input type="radio" name="gender" value="A" style="margin: 10px 0;"> <span>as the Loch Ness Monster</span></span><br>
+                <span><input type="radio" name="gender" value="B" style="margin: 10px 0;"> for the Loch Ness Monster</span><br>
+                <span><input type="radio" name="gender" value="C" style="margin: 10px 0;"> with the Loch Ness Monster</span><br>
+                <span><input type="radio" name="gender" value="D" style="margin: 10px 0;"> as being the Loch Ness Monster</span><br>
+                <span><input type="radio" name="gender" value="E" style="margin: 10px 0;"> for being the Loch Ness Monster</span><br>
+              </div>
+
+              <div style="clear: both"></div>
             </div>
-            <div class="option">
-              <div class="radio" id="uniform-B"><span><input type="radio" name="answer" id="B" value="B" style="opacity: 0;"></span></div>
-              <label for="B">for the Loch Ness Monster</label>
-            </div>
-            <div class="option">
-              <div class="radio" id="uniform-C"><span><input type="radio" name="answer" id="C" value="C" style="opacity: 0;"></span></div>
-              <label for="C">with the Loch Ness Monster</label>
-            </div>
-            <div class="option">
-              <div class="radio" id="uniform-D"><span><input type="radio" name="answer" id="D" value="D" style="opacity: 0;"></span></div>
-              <label for="D">as being the Loch Ness Monster</label>
-            </div>
-            <div class="option">
-              <div class="radio" id="uniform-E"><span><input type="radio" name="answer" id="E" value="E" style="opacity: 0;"></span></div>
-              <label for="E">for being the Loch Ness Monster</label>
-            </div>
-
-            <div style="clear: both"></div>
           </div>
+
+        </div>
+      </div>
+
+      <div id="setUp">
+        <a style="float: left; margin-left: 30px;">Mark as a guess</a>
+        <a style="float: right; margin-right: 10px;">Bookmark</a>
+      </div>
+
+      <div id="footer">
+
+        <a id="button_exit" class="endExamBtn" (click)="onBackToSummary()" target="_self"><i class="fa fa-close"></i> End Exam</a>
+
+        <a id="button_study" class="practiceBtn" ><i class="fa fa-mortar-board"> </i> Practice Mode</a>
+
+        <a id="button_next" class="nextBtn" >Next <i class="fa fa-arrow-right"></i></a>
+
+
       </div>
 
     </div>
   </div>
-
-  <div id="setUp" style="padding: 2px;">
-    <p style="height: 20px;">Mark as a guess</p>
-  </div>
-
-  <div id="footer">
-
-
-    <a id="button_exit" class="endExamBtn" href="#">End Exam</a>
-
-    <a id="button_study" class="practiceBtn" href="#">Practice Mode</a>
-
-    <a id="button_next" class="nextBtn" href="#">Next<span></span></a>
-
-
-  </div>
-
 </div>

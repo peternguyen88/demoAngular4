@@ -34,13 +34,6 @@ export const routes: Routes = [
           title: 'GMAT Timer'
         }
       },
-      {
-        path: 'gmat-test',
-        component: TestScreenComponent,
-        data:{
-          title: 'GMAT Test'
-        }
-      },
     ]
   }
 ];

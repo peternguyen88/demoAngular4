@@ -10,6 +10,7 @@ import {CommonModule} from "@angular/common";
 import {GMATTestService} from "../services/gmat-test.service";
 import {TestWelcomeScreenComponent} from "./gmat-cat-test/test-welcome-screen/test-welcome-screen.component";
 import {TestScreenComponent} from "./gmat-cat-test/test-screen/test-screen.component";
+import {TestScreenService} from "./services/gmat-test-screen.service";
 
 @NgModule({
   imports: [CommonModule,
@@ -20,7 +21,7 @@ import {TestScreenComponent} from "./gmat-cat-test/test-screen/test-screen.compo
     TestWelcomeScreenComponent,
     TestScreenComponent
   ],
-  providers: [GMATTestService]
+  providers: [GMATTestService, TestScreenService]
 })
 
 export class GmatCatModule {

@@ -1,13 +1,41 @@
-.testForm {
-  width: 1000px;
-  background: #006eae;
+#test-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #292b2c;
 }
 
+div#wrapper{
+  width: 1000px;
+  margin: auto;
+  max-height: 800px;
+}
+
+.testForm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  min-width: 1000px;
+  background: #006eae;
+  max-height: 800px;
+}
+
+a { cursor: pointer; }
+a:hover {color: yellow}
+
 .testForm .whiteBG {
+  position: absolute;
+  bottom: 62px;
+  top: 70px;
   margin-left: 10px;
   width: 980px;
   background: #ffffff;
-  min-height: 600px;
+}
+
+.testForm .content .questionWrap {
+  padding: 10px 30px;
 }
 
 #header {
@@ -36,12 +64,11 @@
 }
 
 .timer {
-  border-right: 1px solid #3F8FC8;
   padding-right: 13px;
 }
 
 .quizNum {
-  font-size: 16px;
+  border-left: 1px solid #3F8FC8;
   padding-left: 15px;
   padding-right: 8px;
 }
@@ -58,13 +85,13 @@ a.testPause {
 }
 
 .testPause {
-  padding-right: 25px;
+  padding-right: 5px;
   margin: 5px 13px 0 0;
   line-height: 32px;
 }
 
 #questionInfo {
-  height: 25px;
+  height: 30px;
   font-family: "Open Sans", geneva, sans-serif;
   background-color: #7eafe1;
 }
@@ -79,12 +106,17 @@ a.testPause {
 }
 
 #section {
-  background-color: #ffffff;
+  color: #000000;
+  line-height: 20px;
+  height: 100%;
+  margin: 0;
   overflow: auto;
 }
 
 .testForm #footer {
-  width: 960px;
+  position: absolute;
+  bottom: 0;
+  width: 980px;
   height: 40px;
   background: #006eae;
 }
@@ -106,14 +138,15 @@ a.testPause {
 }
 
 .testForm #setUp {
+  position: absolute;
   width: 980px;
+  bottom: 40px;
+  height: 25px;
 }
 
 #setUp {
   background-color: #d8d8d8;
   font-family: "Open Sans", geneva, sans-serif;
-  font-size: 15px;
-  line-height: 40px;
   margin: 0 10px;
   clear: both;
 }

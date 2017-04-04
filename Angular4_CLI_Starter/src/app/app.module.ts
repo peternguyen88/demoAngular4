@@ -37,8 +37,7 @@ import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-scr
     AsideToggleDirective,
 
     // Custom Components
-    GmatTimerComponent,
-    TestScreenComponent
+    GmatTimerComponent
   ],
   providers: [{
     provide: LocationStrategy,

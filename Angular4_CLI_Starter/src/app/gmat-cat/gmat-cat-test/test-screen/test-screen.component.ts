@@ -1,7 +1,7 @@
 /**
  * Display Test To User
  */
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Output} from "@angular/core";
 
 @Component({
     moduleId: module.id,
@@ -10,5 +10,11 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['test-screen.component.css']
 })
 export class TestScreenComponent{
+    @Output() backToSummary = new EventEmitter();
+
     constructor() { }
+
+    public onBackToSummary() : void {
+      this.backToSummary.emit();
+    }
 }

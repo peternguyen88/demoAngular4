@@ -21,4 +21,16 @@ export abstract class AbstractQuestion {
   public isCorrect(): boolean {
     return this.selected_answer == this.correct_answer;
   }
+
+  public isCriticalReasoning() : boolean {
+    return this.question_type == QuestionType.CRITICAL_REASONING;
+  }
+
+  public isSentenceCorrection() : boolean {
+    return this.question_type == QuestionType.SENTENCE_CORRECTION;
+  }
+
+  public isReadingComprehension() : boolean {
+    return this.question_type == QuestionType.READING_COMPREHENSION;
+  }
 }

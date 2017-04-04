@@ -14,8 +14,8 @@ export class GmatCatListComponent {
     tests : GMATTest[];
     @Output() testSelected = new EventEmitter();
 
-    constructor(testService : GMATTestService) {
-      this.tests = testService.getAllTests();
+    constructor() {
+      this.tests = GMATTestService.getAllTests();
     }
 
     public selectTest(test : GMATTest){

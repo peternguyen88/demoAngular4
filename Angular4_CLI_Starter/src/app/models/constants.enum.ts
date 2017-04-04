@@ -10,8 +10,8 @@ export enum QuestionType{
 }
 
 export enum TestType{
-  QUANTITATIVE = <any>"QUANTITATIVE",
-  VERBAL = <any>"VERBAL"
+  QUANTITATIVE,
+  VERBAL
 }
 
 export enum Status{

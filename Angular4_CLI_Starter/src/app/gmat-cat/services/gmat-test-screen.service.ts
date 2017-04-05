@@ -14,7 +14,7 @@ export class TestScreenService {
     currentTest : GMATTest;
     remainingTime : number;
 
-    currentQuestion : Question;
+    currentQuestionIndex : number;
     currentQuestionTime : number;
 
     constructor(private http: Http) { }
@@ -23,6 +23,7 @@ export class TestScreenService {
       this.isStarted = true;
       this.isPaused = false;
       this.currentQuestionTime = 0;
+      this.currentQuestionIndex = 0;
     }
 
     public pauseOrResume() {
@@ -35,7 +36,13 @@ export class TestScreenService {
     }
 
     public nextQuestion(){
+      if(this.currentQuestionIndex < this.currentTest.numberOfQuestions){
+        this.currentQuestionIndex++;
+      }
+    }
 
+    public getCurrentQuestion():Question{
+      return this.currentTest.questions[this.currentQuestionIndex];
     }
 
     public setCurrentTest(test : GMATTest){

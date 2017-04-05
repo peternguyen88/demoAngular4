@@ -2,6 +2,8 @@
  * Display Test To User
  */
 import {Component, EventEmitter, Output} from "@angular/core";
+import {TestScreenService} from "../../services/gmat-test-screen.service";
+import {Question} from "../../../models/question";
 
 @Component({
     moduleId: module.id,
@@ -10,11 +12,17 @@ import {Component, EventEmitter, Output} from "@angular/core";
     styleUrls: ['test-screen.component.css']
 })
 export class TestScreenComponent{
-    @Output() backToSummary = new EventEmitter();
+    currentQuestion : Question;
+    constructor(private testScreenService: TestScreenService) {
+      this.currentQuestion = this.testScreenService.getCurrentQuestion();
+    }
 
-    constructor() { }
+    public nextQuestion(){
+      this.testScreenService.nextQuestion();
+      this.currentQuestion = this.testScreenService.getCurrentQuestion();
+    }
 
-    public onBackToSummary() : void {
-      this.backToSummary.emit();
+    public backToSummary() : void {
+      this.testScreenService.backToSummary();
     }
 }

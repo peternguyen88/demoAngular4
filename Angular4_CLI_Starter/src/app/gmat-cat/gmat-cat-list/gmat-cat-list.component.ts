@@ -4,6 +4,7 @@
 import {Component, EventEmitter, Output} from "@angular/core";
 import {GMATTest} from "../../models/gmat-test";
 import {GMATTestService} from "../../services/gmat-test.service";
+import {TestScreenService} from "../services/gmat-test-screen.service";
 
 @Component({
     moduleId: module.id,
@@ -12,15 +13,14 @@ import {GMATTestService} from "../../services/gmat-test.service";
 })
 export class GmatCatListComponent {
     tests : GMATTest[];
-    @Output() testSelected = new EventEmitter();
 
-    constructor() {
+    constructor(private testScreenService: TestScreenService) {
       this.tests = GMATTestService.getAllTests();
     }
 
     public selectTest(test : GMATTest){
       console.log("Select Test "+ test.testName);
-      this.testSelected.emit(test);
+      this.testScreenService.setCurrentTest(test);
     }
 
     public unlockTest(test : GMATTest){

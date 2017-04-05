@@ -1,5 +1,5 @@
 import {Status, TestType} from "./constants.enum";
-import {AbstractQuestion} from "./abstract-question";
+import {Question} from "./question";
 /**
  * GMATTest class - There are two types of test. Quant - 37 questions & Verbal - 41 questions
  */
@@ -10,16 +10,11 @@ export class GMATTest {
   testDifficulty: string;
   status: Status;
   fileLocation: string;
-  questions: AbstractQuestion[];
+  questions: Question[];
 
   constructor(testType: TestType) {
     this.testType = testType;
-    if (testType == TestType.VERBAL) {
-      this.numberOfQuestions = 41;
-    }
-    else if (testType == TestType.QUANTITATIVE) {
-      this.numberOfQuestions = 37;
-    }
+    this.questions = [];
   }
 
   public isActive(): boolean {

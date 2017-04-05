@@ -1,8 +1,8 @@
 <div class="animated fadeIn">
-  <div *ngIf="currentTest == null">
-    <gmat-cat-list (testSelected)="setCurrentTest($event)"></gmat-cat-list>
+  <div *ngIf="getCurrentTest() == null">
+    <gmat-cat-list></gmat-cat-list>
   </div>
-  <div *ngIf="currentTest != null">
-    <gmat-cat-test [currentTest]="currentTest" (backToSummary)="setCurrentTest(null)"></gmat-cat-test>
+  <div *ngIf="getCurrentTest() != null">
+    <gmat-cat-test></gmat-cat-test>
   </div>
 </div>

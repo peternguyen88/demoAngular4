@@ -15,15 +15,15 @@ export class GmatCatTestComponent {
     EnumTestStage: typeof EnumTestStage = EnumTestStage;
     testStage : EnumTestStage;
 
-    @Input() currentTest : GMATTest;
-    @Output() backToSummary = new EventEmitter();
+    currentTest : GMATTest;
 
     constructor(public testScreenService : TestScreenService) {
       this.testStage = EnumTestStage.WELCOME;
+      this.currentTest = testScreenService.currentTest;
     }
 
     public onBackToSummary() : void{
-      this.backToSummary.emit();
+      this.testScreenService.backToSummary();
     }
 
     public onTestStart() : void {

@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app.routing';
 import { FullLayoutComponent } from './layouts/full-layout.component';
 import {GmatTimerComponent} from "./gmat-timer/gmat-timer.component";
 import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-screen.component";
+import {HttpModule} from "@angular/http";
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-scr
     AppRoutingModule,
     DropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    HttpModule
   ],
   declarations: [
     AppComponent,

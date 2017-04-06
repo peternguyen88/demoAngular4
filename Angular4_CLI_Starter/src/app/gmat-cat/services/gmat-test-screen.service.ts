@@ -36,7 +36,7 @@ export class TestScreenService {
     }
 
     public nextQuestion(){
-      if(this.currentQuestionIndex < this.currentTest.numberOfQuestions){
+      if(this.currentQuestionIndex < this.currentTest.numberOfQuestions - 1){
         this.currentQuestionIndex++;
       }
     }

@@ -9,7 +9,7 @@ import {GmatCatListComponent} from "./gmat-cat-list/gmat-cat-list.component";
 import {CommonModule} from "@angular/common";
 import {GMATTestService} from "../services/gmat-test.service";
 import {TestWelcomeScreenComponent} from "./gmat-cat-test/test-welcome-screen/test-welcome-screen.component";
-import {TestScreenComponent} from "./gmat-cat-test/test-screen/test-screen.component";
+import {SafeHtmlPipe, TestScreenComponent} from "./gmat-cat-test/test-screen/test-screen.component";
 import {TestScreenService} from "./services/gmat-test-screen.service";
 
 @NgModule({
@@ -19,7 +19,8 @@ import {TestScreenService} from "./services/gmat-test-screen.service";
     GmatCatTestComponent,
     GmatCatListComponent,
     TestWelcomeScreenComponent,
-    TestScreenComponent
+    TestScreenComponent,
+    SafeHtmlPipe
   ],
   providers: [GMATTestService, TestScreenService]
 })

@@ -4,12 +4,10 @@
       <div id="header">
         <h1>GMAT - Zero To Hero</h1>
 
-        <div class="control quizNum">
-          <span>Expected: 15</span>
-        </div>
+        <div class="control quizNum"><span>Expected: 15</span></div>
         <div id="steps" class="control quizNum">
           <i class="icon-note icons"></i>
-          <span>4 of 41</span>
+          <span>{{currentQuestion.question_number}} of {{currentTest.numberOfQuestions}}</span>
         </div>
         <div id="timer" class="control timer">
           <span class="title">Time Remaining</span>
@@ -38,18 +36,51 @@
 
       <div class="whiteBG">
         <div id="section">
-          <div class="content">
-            <div class="questionWrap">
+          <div class="content" style="display: inline-block">
+            <div class="passage" [innerHTML]="currentQuestion.reading_passage | safeHtml" *ngIf="currentQuestion.isReadingComprehension()" style="width: 50%;">
+            </div>
+            <div class="questionWrap" [ngClass]="{halfWidth: currentQuestion.isReadingComprehension(), fullWidth : !currentQuestion.isReadingComprehension()}">
               <div class="question">
-                <div [innerHTML]="currentQuestion.question_stem"></div>
+                <div [innerHTML]="currentQuestion.question_stem | safeHtml"></div>
               </div>
 
-              <div style="margin-top: 20px;">
-                <span><input type="radio" name="gender" value="A" style="margin: 10px 0;"> <span>as the Loch Ness Monster</span></span><br>
-                <span><input type="radio" name="gender" value="B" style="margin: 10px 0;"> for the Loch Ness Monster</span><br>
-                <span><input type="radio" name="gender" value="C" style="margin: 10px 0;"> with the Loch Ness Monster</span><br>
-                <span><input type="radio" name="gender" value="D" style="margin: 10px 0;"> as being the Loch Ness Monster</span><br>
-                <span><input type="radio" name="gender" value="E" style="margin: 10px 0;"> for being the Loch Ness Monster</span><br>
+              <div style="margin-top: 10px;">
+                <div class="option">
+                  <div class="radio">
+                    <input type="radio" name="option" id="option_A" value="A" (change)="selectAnswer('A')" [checked]="currentQuestion.selected_answer=='A'">
+                  </div>
+                  <label for="option_A">{{currentQuestion.option_A}}</label>
+                </div>
+
+                <div style="clear: both"></div>
+
+                <div class="option">
+                  <div class="radio">
+                    <input type="radio" name="option" id="option_B" value="B" (change)="selectAnswer('B')" [checked]="currentQuestion.selected_answer=='B'">
+                  </div>
+                  <label for="option_B">{{currentQuestion.option_B}}</label>
+                </div>
+
+                <div class="option">
+                  <div class="radio">
+                    <input type="radio" name="option" id="option_C" value="C" (change)="selectAnswer('C')" [checked]="currentQuestion.selected_answer=='C'">
+                  </div>
+                  <label for="option_C">{{currentQuestion.option_C}}</label>
+                </div>
+
+                <div class="option">
+                  <div class="radio">
+                    <input type="radio" name="option" id="option_D" value="D" (change)="selectAnswer('D')" [checked]="currentQuestion.selected_answer=='D'">
+                  </div>
+                  <label for="option_D">{{currentQuestion.option_D}}</label>
+                </div>
+
+                <div class="option">
+                  <div class="radio">
+                    <input type="radio" name="option" id="option_E" value="E" (change)="selectAnswer('E')" [checked]="currentQuestion.selected_answer=='E'">
+                  </div>
+                  <label for="option_E">{{currentQuestion.option_E}}</label>
+                </div>
               </div>
 
               <div style="clear: both"></div>

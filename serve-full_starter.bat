@@ -1,2 +1,2 @@
-cd D:\Personal\WebstormProjects\CoreUI-Free-Bootstrap-Admin-Template\Angular4_CLI_Starter
+cd D:\Personal\WebstormProjects\GMAT Test\Angular4_CLI_Starter
 ng serve

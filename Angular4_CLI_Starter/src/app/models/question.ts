@@ -9,6 +9,7 @@ export class Question {
   question_stem: string;
   reading_passage: string;
   question_difficulty: string;
+  question_time: number;
   option_A: string;
   option_B: string;
   option_C: string;

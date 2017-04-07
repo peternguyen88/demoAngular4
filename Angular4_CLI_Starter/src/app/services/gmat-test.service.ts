@@ -16,8 +16,9 @@ export class GMATTestService {
         test.testName = e[0] as string;
         test.numberOfQuestions = e[2] as number;
         test.testDifficulty = e[3] as string;
-        test.status = Status[e[4]];
-        test.fileLocation = e[5] as string;
+        test.allowedTime = e[4] as number * 60;
+        test.status = Status[e[5]];
+        test.fileLocation = e[6] as string;
         GMATTestService.tests.push(test);
 
         console.log(test);

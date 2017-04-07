@@ -17,7 +17,7 @@ export class TestScreenComponent {
   currentQuestion: Question;
   currentTest: GMATTest;
 
-  constructor(private testScreenService: TestScreenService) {
+  constructor(public testScreenService: TestScreenService) {
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
     this.currentTest = this.testScreenService.currentTest;
   }
@@ -29,10 +29,11 @@ export class TestScreenComponent {
 
   public backToSummary(): void {
     this.testScreenService.backToSummary();
+    // this.testScreenService.stop();
   }
 
-  public selectAnswer(selected : string){
-    this.currentQuestion.selected_answer = selected;
+  ngOnDestroy(){
+    this.testScreenService.stop();
   }
 }
 

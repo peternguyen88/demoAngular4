@@ -12,25 +12,15 @@
         <div id="timer" class="control timer">
           <span class="title">Time Remaining</span>
           <i class="icons icon-clock" style="padding-left: 5px;"></i>
-          <span class="time" id="countdown">40:33</span>
+          <span class="time" id="countdown" gm-digital-time [time]="testScreenService.remainingTime"></span>
         </div>
-        <a id="button_pause" class="nextBtn testPause" >PAUSE <i class="fa fa-star-half-o"></i></a>
+        <a id="button_pause" class="nextBtn testPause" (click)="testScreenService.pauseOrResume()">PAUSE <i class="fa fa-star-half-o"></i></a>
 
       </div>
 
-      <!-- Hidden fields with question info -->
-      <input type="hidden" id="session_id" name="session_id" value="714286">
-      <input type="hidden" id="question_id" name="question_id" value="S94-01">
-      <input type="hidden" id="timestamp" name="timestamp" value="1348f10d5d089f3edeef69abc921201df3aa30cd1490668005">
-      <input type="hidden" id="valid_answer" value="B">
-      <input type="hidden" id="remaining_time" value="2435">
-      <input type="hidden" id="spend_time" value="85">
-      <input type="hidden" id="active" value="1">
-      <input type="hidden" id="mode" value="timed">
-
       <div id="questionInfo">
         <p style="line-height: 30px; margin-left: 30px; float: left; color: yellow;">You have spent a lot time on this question. Please consider moving on.</p>
-        <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: 02:15</p>
+        <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: <span gm-digital-time [time]="testScreenService.currentQuestionTime"></span></p>
       </div>
 
 
@@ -47,7 +37,7 @@
               <div style="margin-top: 10px;">
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_A" value="A" (change)="selectAnswer('A')" [checked]="currentQuestion.selected_answer=='A'">
+                    <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="currentQuestion.selected_answer">
                   </div>
                   <label for="option_A">{{currentQuestion.option_A}}</label>
                 </div>
@@ -56,28 +46,28 @@
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_B" value="B" (change)="selectAnswer('B')" [checked]="currentQuestion.selected_answer=='B'">
+                    <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="currentQuestion.selected_answer">
                   </div>
                   <label for="option_B">{{currentQuestion.option_B}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_C" value="C" (change)="selectAnswer('C')" [checked]="currentQuestion.selected_answer=='C'">
+                    <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="currentQuestion.selected_answer">
                   </div>
                   <label for="option_C">{{currentQuestion.option_C}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_D" value="D" (change)="selectAnswer('D')" [checked]="currentQuestion.selected_answer=='D'">
+                    <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="currentQuestion.selected_answer">
                   </div>
                   <label for="option_D">{{currentQuestion.option_D}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_E" value="E" (change)="selectAnswer('E')" [checked]="currentQuestion.selected_answer=='E'">
+                    <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="currentQuestion.selected_answer">
                   </div>
                   <label for="option_E">{{currentQuestion.option_E}}</label>
                 </div>

@@ -6,6 +6,7 @@ import {GMATTest} from "../../models/gmat-test";
 import {Question} from "../../models/question";
 import {Http} from "@angular/http";
 import {QuestionType} from "../../models/constants.enum";
+import {Observable, Subscription} from "rxjs";
 
 @Injectable()
 export class TestScreenService {
@@ -13,9 +14,12 @@ export class TestScreenService {
     isPaused : boolean;
     currentTest : GMATTest;
     remainingTime : number;
+    allowedTime: number;
 
     currentQuestionIndex : number;
-    currentQuestionTime : number;
+    currentQuestionTime : number = 0;
+
+    subscription : Subscription;
 
     constructor(private http: Http) { }
 
@@ -24,20 +28,36 @@ export class TestScreenService {
       this.isPaused = false;
       this.currentQuestionTime = 0;
       this.currentQuestionIndex = 0;
+      this.remainingTime = this.allowedTime;
+
+      this.subscribe();
     }
 
     public pauseOrResume() {
       this.isPaused = !this.isPaused;
+      if(this.isPaused){
+        this.unSubscribe();
+      }
+      else{
+        this.subscribe();
+      }
     }
 
     public stop(){
       this.isStarted = false;
       this.isPaused = true;
+      this.unSubscribe();
     }
 
     public nextQuestion(){
       if(this.currentQuestionIndex < this.currentTest.numberOfQuestions - 1){
+        this.getCurrentQuestion().question_time = this.currentQuestionTime;
+        this.currentQuestionTime = 0;
         this.currentQuestionIndex++;
+      }
+      else{
+        // Last Question - Only need to keep track time
+        this.getCurrentQuestion().question_time = this.currentQuestionTime;
       }
     }
 
@@ -49,6 +69,7 @@ export class TestScreenService {
       this.currentTest = test;
       if(this.currentTest!=null) {
         this.loadQuestionsFromServer();
+        this.allowedTime = this.currentTest.allowedTime;
       }
     }
 
@@ -58,6 +79,30 @@ export class TestScreenService {
           this.processTestFile(response.text());
         }
       });
+    }
+
+    private subscribe(){
+      console.log("Subscribe");
+      this.subscription = Observable.interval(1000).subscribe(res => {
+        this.updateEachSecond();
+      });
+    }
+
+    private unSubscribe(){
+      if(this.subscription){
+        this.subscription.unsubscribe();
+        this.subscription = null;
+      }
+    }
+
+    private updateEachSecond(){
+      console.log("Tick");
+      this.currentQuestionTime++;
+      this.remainingTime--;
+
+      if(this.remainingTime <= 0){
+        this.subscription.unsubscribe();
+      }
     }
 
     private processTestFile(testContent : string){

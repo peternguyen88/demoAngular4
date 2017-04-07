@@ -8,6 +8,7 @@ export class GMATTest {
   numberOfQuestions: number;
   testName: string;
   testDifficulty: string;
+  allowedTime: number;
   status: Status;
   fileLocation: string;
   questions: Question[];

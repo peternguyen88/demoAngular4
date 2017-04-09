@@ -4,22 +4,27 @@
       <div id="header">
         <h1>GMAT - Zero To Hero</h1>
 
-        <div class="control quizNum"><span>Expected: 15</span></div>
+        <div class="control quizNum" *ngIf="isTestMode()"><span>Expected: {{testScreenService.expectedQuestion}}</span></div>
         <div id="steps" class="control quizNum">
           <i class="icon-note icons"></i>
           <span>{{currentQuestion.question_number}} of {{currentTest.numberOfQuestions}}</span>
         </div>
-        <div id="timer" class="control timer">
+        <div class="control timer" *ngIf="isTestMode()">
           <span class="title">Time Remaining</span>
           <i class="icons icon-clock" style="padding-left: 5px;"></i>
-          <span class="time" id="countdown" gm-digital-time [time]="testScreenService.remainingTime"></span>
+          <span class="time" gm-digital-time [time]="testScreenService.remainingTime"></span>
         </div>
-        <a id="button_pause" class="nextBtn testPause" (click)="testScreenService.pauseOrResume()">PAUSE <i class="fa fa-star-half-o"></i></a>
+        <div class="control timer" *ngIf="isPracticeMode()">
+          <span class="title">Time Spent</span>
+          <i class="icons icon-clock" style="padding-left: 5px;"></i>
+          <span class="time" gm-digital-time [time]="testScreenService.elapsedTime"></span>
+        </div>
+        <a id="button_pause" class="nextBtn testPause" (click)="pauseOrResume()">{{testScreenService.isPaused? 'RESUME' : 'PAUSE'}} <i class="fa fa-star-half-o"></i></a>
 
       </div>
 
       <div id="questionInfo">
-        <p style="line-height: 30px; margin-left: 30px; float: left; color: yellow;">You have spent a lot time on this question. Please consider moving on.</p>
+        <p style="line-height: 30px; margin-left: 20px; float: left; color: yellow;">You have spent a lot time on this question. Please consider moving on.</p>
         <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: <span gm-digital-time [time]="testScreenService.currentQuestionTime"></span></p>
       </div>
 
@@ -89,13 +94,41 @@
 
         <a id="button_exit" class="endExamBtn" (click)="backToSummary()" target="_self"><i class="fa fa-close"></i> End Exam</a>
 
-        <a id="button_study" class="practiceBtn" ><i class="fa fa-mortar-board"> </i> Practice Mode</a>
+        <a id="button_study" class="practiceBtn" (click)="switchTestMode()"><i class="fa fa-mortar-board"> </i> {{isTestMode()? "Practice Mode" : "Test Mode"}}</a>
 
         <a id="button_next" class="nextBtn" (click)="nextQuestion()">Next <i class="fa fa-arrow-right"></i></a>
 
 
       </div>
 
+    </div>
+  </div>
+</div>
+
+<div id="modal_overlay" style="position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: #607d8b; opacity: 0.3;" *ngIf="popupMessage">
+
+</div>
+
+<div id="modal_wrapper" style="position: fixed; top: 0; bottom: 0; left: 0; right: 0;" *ngIf="popupMessage">
+  <!-- Modal -->
+  <div id="myModal" tabindex="-1" role="dialog" style="max-width: 600px; margin: auto; position: relative; top: 25%;">
+    <div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{popupMessage.title}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closePopup()" *ngIf="!popupMessage.isPaused()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          {{popupMessage.content}}
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" (click)="confirmNextQuestion()" *ngIf="popupMessage.isConfirmation()">Confirm</button>
+          <button type="button" class="btn btn-danger" (click)="closePopup()" *ngIf="!popupMessage.isPaused()">Close</button>
+          <button type="button" class="btn btn-primary" (click)="pauseOrResume()" *ngIf="popupMessage.isPaused()">Resume</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

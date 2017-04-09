@@ -5,7 +5,7 @@ import {Injectable} from "@angular/core";
 import {GMATTest} from "../../models/gmat-test";
 import {Question} from "../../models/question";
 import {Http} from "@angular/http";
-import {QuestionType} from "../../models/constants.enum";
+import {QuestionType, TestMode} from "../../models/constants.enum";
 import {Observable, Subscription} from "rxjs";
 
 @Injectable()
@@ -15,7 +15,10 @@ export class TestScreenService {
     currentTest : GMATTest;
     remainingTime : number;
     allowedTime: number;
+    elapsedTime: number;
+    testMode: TestMode = TestMode.TEST;
 
+    expectedQuestion: number;
     currentQuestionIndex : number;
     currentQuestionTime : number = 0;
 
@@ -29,6 +32,8 @@ export class TestScreenService {
       this.currentQuestionTime = 0;
       this.currentQuestionIndex = 0;
       this.remainingTime = this.allowedTime;
+      this.elapsedTime = 0;
+      this.expectedQuestion = 1;
 
       this.subscribe();
     }
@@ -98,11 +103,17 @@ export class TestScreenService {
     private updateEachSecond(){
       console.log("Tick");
       this.currentQuestionTime++;
+      this.expectedQuestion = Math.floor(this.currentTest.numberOfQuestions * this.elapsedTime/this.allowedTime) + 1;
+      this.elapsedTime++;
       this.remainingTime--;
-
-      if(this.remainingTime <= 0){
+      if(this.remainingTime <= 0 && this.testMode == TestMode.TEST){
         this.subscription.unsubscribe();
       }
+    }
+
+    public continueInPracticeMode(){
+      this.testMode = TestMode.PRACTICE;
+      this.subscribe();
     }
 
     private processTestFile(testContent : string){

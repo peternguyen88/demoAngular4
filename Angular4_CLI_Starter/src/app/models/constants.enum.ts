@@ -25,3 +25,8 @@ export enum EnumTestStage{
   PAUSED = <any>"PAUSED",
   FINISHED = <any>"FINISHED"
 }
+
+export enum TestMode{
+  TEST = <any>"TEST",
+  PRACTICE = <any>"PRACTICE"
+}

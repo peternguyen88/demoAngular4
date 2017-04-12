@@ -6,8 +6,8 @@ import {TestScreenService} from "../../services/gmat-test-screen.service";
 import {Question} from "../../../models/question";
 import {DomSanitizer} from "@angular/platform-browser";
 import {GMATTest} from "../../../models/gmat-test";
-import {PopupMessage} from "../../../models/popup-message";
 import {TestMode} from "../../../models/constants.enum";
+import {ConfirmMessage, ConfirmMessageConstant} from "../../../models/confirm-message";
 
 @Component({
   moduleId: module.id,
@@ -18,7 +18,7 @@ import {TestMode} from "../../../models/constants.enum";
 export class TestScreenComponent {
   currentQuestion: Question;
   currentTest: GMATTest;
-  popupMessage: PopupMessage;
+  popupMessage: ConfirmMessage;
   testMode: TestMode = TestMode.TEST;
 
   constructor(public testScreenService: TestScreenService) {
@@ -28,13 +28,16 @@ export class TestScreenComponent {
 
   public nextQuestion() {
     if (!this.currentQuestion.selected_answer) {
-      this.popupMessage = PopupMessage.ANSWER_REQUIRED;
+      this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
     } else {
-      this.popupMessage = PopupMessage.CONFIRM_NEXT_QUESTION;
+      this.popupMessage = ConfirmMessageConstant.CONFIRM_NEXT_QUESTION;
+      this.popupMessage.accept = () => {
+        this.confirmNextQuestion();
+      }
     }
   }
 
-  public confirmNextQuestion(){
+  public confirmNextQuestion() {
     this.testScreenService.nextQuestion();
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
     this.closePopup();
@@ -44,36 +47,39 @@ export class TestScreenComponent {
     this.testScreenService.backToSummary();
   }
 
-  public pauseOrResume(){
+  public pauseOrResume() {
     this.testScreenService.pauseOrResume();
-    if(this.testScreenService.isPaused){
-      this.popupMessage = PopupMessage.TEST_PAUSED;
+    if (this.testScreenService.isPaused) {
+      this.popupMessage = ConfirmMessageConstant.TEST_PAUSED;
+      this.popupMessage.accept = () => {
+        this.testScreenService.pauseOrResume();
+      }
     }
-    else{
+    else {
       this.popupMessage = null;
     }
   }
 
-  public closePopup(){
+  public closePopup() {
     this.popupMessage = null;
   }
 
-  public switchTestMode(){
-    if(this.testMode == TestMode.TEST){
+  public switchTestMode() {
+    if (this.testMode == TestMode.TEST) {
       this.testMode = TestMode.PRACTICE;
       this.testScreenService.testMode = TestMode.PRACTICE;
     }
-    else{
+    else {
       this.testMode = TestMode.TEST;
       this.testScreenService.testMode = TestMode.TEST;
     }
   }
 
-  public isTestMode(): boolean{
+  public isTestMode(): boolean {
     return this.testMode == TestMode.TEST;
   }
 
-  public isPracticeMode(): boolean{
+  public isPracticeMode(): boolean {
     return this.testMode == TestMode.PRACTICE;
   }
 

@@ -20,10 +20,12 @@ import { FullLayoutComponent } from './layouts/full-layout.component';
 import {GmatTimerComponent} from "./gmat-timer/gmat-timer.component";
 import {TestScreenComponent} from "./gmat-cat/gmat-cat-test/test-screen/test-screen.component";
 import {HttpModule} from "@angular/http";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     DropdownModule.forRoot(),
     TabsModule.forRoot(),

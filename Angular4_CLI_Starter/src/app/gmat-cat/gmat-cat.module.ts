@@ -13,6 +13,7 @@ import {SafeHtmlPipe, TestScreenComponent} from "./gmat-cat-test/test-screen/tes
 import {TestScreenService} from "./services/gmat-test-screen.service";
 import {DigitalTimeDirective} from "app/directives/gm-digital-time.directive";
 import {FormsModule} from "@angular/forms";
+import {ConfirmDialogComponent} from "../shared/confirm-dialog/confirm-dialog.component";
 
 @NgModule({
   imports: [CommonModule,
@@ -23,7 +24,8 @@ import {FormsModule} from "@angular/forms";
     TestWelcomeScreenComponent,
     TestScreenComponent,
     SafeHtmlPipe,
-    DigitalTimeDirective
+    DigitalTimeDirective,
+    ConfirmDialogComponent
   ],
   providers: [GMATTestService, TestScreenService]
 })

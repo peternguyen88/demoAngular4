@@ -16,6 +16,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.0.2",
     "@angular/common": "4.0.0",
     "@angular/compiler": "4.0.0",
     "@angular/core": "4.0.0",
@@ -25,15 +26,15 @@
     "@angular/platform-browser-dynamic": "4.0.0",
     "@angular/router": "4.0.0",
     "@angular/upgrade": "4.0.0",
-    "core-js": "2.4.1",
-    "rxjs": "5.2.0",
-    "ts-helpers": "1.1.2",
-    "zone.js": "0.8.5",
-
     "chart.js": "2.5.0",
+    "core-js": "2.4.1",
+    "moment": "2.18.1",
     "ng2-bootstrap": "1.4.2",
     "ng2-charts": "1.5.0",
-    "moment": "2.18.1"
+    "primeng": "^4.0.0-rc.2",
+    "rxjs": "5.2.0",
+    "ts-helpers": "1.1.2",
+    "zone.js": "0.8.5"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0",

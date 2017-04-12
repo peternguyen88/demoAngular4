@@ -1,7 +1,7 @@
 /**
  * Static Welcome Screen Before User Takes Test
  */
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
     moduleId: module.id,

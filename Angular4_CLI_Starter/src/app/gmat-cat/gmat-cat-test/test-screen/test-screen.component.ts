@@ -1,7 +1,7 @@
 /**
  * Display Test To User
  */
-import {Component, Pipe, PipeTransform} from "@angular/core";
+import {Component, EventEmitter, Output, Pipe, PipeTransform} from "@angular/core";
 import {TestScreenService} from "../../services/gmat-test-screen.service";
 import {Question} from "../../../models/question";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -21,18 +21,44 @@ export class TestScreenComponent {
   popupMessage: ConfirmMessage;
   testMode: TestMode = TestMode.TEST;
 
+  @Output() endTestEvent = new EventEmitter();
+
   constructor(public testScreenService: TestScreenService) {
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
     this.currentTest = this.testScreenService.currentTest;
+    this.testScreenService.timeout = () => {
+      this.popupMessage = ConfirmMessageConstant.TIMEOUT;
+      this.popupMessage.accept = () => {
+        this.switchTestMode();
+        this.testScreenService.continueInPracticeMode();
+      };
+      this.popupMessage.reject = () => {
+        this.backToSummary();
+      };
+    }
+  };
+
+  private endTestAndStartReview(){
+    this.endTestEvent.emit();
   }
 
   public nextQuestion() {
-    if (!this.currentQuestion.selected_answer) {
-      this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
-    } else {
-      this.popupMessage = ConfirmMessageConstant.CONFIRM_NEXT_QUESTION;
-      this.popupMessage.accept = () => {
-        this.confirmNextQuestion();
+    // if (!this.currentQuestion.selected_answer) {
+    //   this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
+    // } else
+      {
+      if(this.testScreenService.isLastQuestionReached()){
+        this.popupMessage = ConfirmMessageConstant.FINAL_QUESTION_REACHED;
+        this.popupMessage.accept = ()=>{
+          this.confirmNextQuestion();
+          this.endTestAndStartReview();
+        }
+      }
+      else {
+        // this.popupMessage = ConfirmMessageConstant.CONFIRM_NEXT_QUESTION;
+        // this.popupMessage.accept = () => {
+          this.confirmNextQuestion();
+        // }
       }
     }
   }
@@ -70,8 +96,13 @@ export class TestScreenComponent {
       this.testScreenService.testMode = TestMode.PRACTICE;
     }
     else {
-      this.testMode = TestMode.TEST;
-      this.testScreenService.testMode = TestMode.TEST;
+      if(this.testScreenService.remainingTime >0) {
+        this.testMode = TestMode.TEST;
+        this.testScreenService.testMode = TestMode.TEST;
+      }
+      else{
+        this.popupMessage = ConfirmMessageConstant.CANNOT_SWITCH_TO_TEST_MODE;
+      }
     }
   }
 

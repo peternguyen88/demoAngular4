@@ -39,4 +39,19 @@ export class ConfirmMessageConstant {
     rejectLabel: 'End Test',
     showCloseIcon: false
   };
+
+  static CANNOT_SWITCH_TO_TEST_MODE: ConfirmMessage = {
+    header: 'Cannot Switch To Test Mode!',
+    message: 'Test time has run out. You cannot switch to Test Mode',
+    acceptLabel: 'OK',
+    showCloseIcon: true
+  };
+
+  static FINAL_QUESTION_REACHED: ConfirmMessage = {
+    header: 'Final Question',
+    message: 'Congratulation, you have reached the end of the test. Click Finish to end the test or Cancel to change your answer.',
+    acceptLabel: 'Finish',
+    rejectLabel: 'Cancel',
+    showCloseIcon: true
+  };
 }

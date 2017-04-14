@@ -9,7 +9,8 @@ import {TestScreenService} from "../services/gmat-test-screen.service";
 @Component({
     moduleId: module.id,
     selector: 'gmat-cat-test',
-    templateUrl: 'gmat-cat-test.component.html'
+    templateUrl: 'gmat-cat-test.component.html',
+    styles: ['.table th, .table td {  padding: 0.35rem;  }']
 })
 export class GmatCatTestComponent {
     EnumTestStage: typeof EnumTestStage = EnumTestStage;
@@ -22,16 +23,12 @@ export class GmatCatTestComponent {
       this.currentTest = testScreenService.currentTest;
     }
 
-    public onBackToSummary() : void{
-      this.testScreenService.backToSummary();
-    }
-
-    public onTestStart() : void {
+    public onTestStart(): void {
       this.testStage = EnumTestStage.STARTED;
       this.testScreenService.start();
     }
 
-    public onTestPause() : void {
-      this.testStage = EnumTestStage.PAUSED;
+    public onTestEnd(): void {
+      this.testStage = EnumTestStage.FINISHED;
     }
 }

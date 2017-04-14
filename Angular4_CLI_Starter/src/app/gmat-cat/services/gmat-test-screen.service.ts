@@ -23,6 +23,7 @@ export class TestScreenService {
     currentQuestionTime : number = 0;
 
     subscription : Subscription;
+    timeout: Function;
 
     constructor(private http: Http) { }
 
@@ -35,6 +36,13 @@ export class TestScreenService {
       this.elapsedTime = 0;
       this.expectedQuestion = 1;
 
+      this.subscribe();
+    }
+
+    public continueInPracticeMode(){
+      this.isStarted = true;
+      this.isPaused = false;
+      this.testMode = TestMode.PRACTICE;
       this.subscribe();
     }
 
@@ -63,6 +71,17 @@ export class TestScreenService {
       else{
         // Last Question - Only need to keep track time
         this.getCurrentQuestion().question_time = this.currentQuestionTime;
+      }
+    }
+
+    public isLastQuestionReached(): boolean{
+      return this.currentQuestionIndex == this.currentTest.numberOfQuestions - 1;
+    }
+
+    public previousQuestion(){
+      if(this.currentQuestionIndex > 0){
+        this.currentQuestionIndex--;
+        this.currentQuestionTime = this.getCurrentQuestion().question_time;
       }
     }
 
@@ -108,15 +127,14 @@ export class TestScreenService {
       this.remainingTime--;
       if(this.remainingTime <= 0 && this.testMode == TestMode.TEST){
         this.subscription.unsubscribe();
+        if(this.timeout){
+          this.timeout();
+        }
       }
     }
 
-    public continueInPracticeMode(){
-      this.testMode = TestMode.PRACTICE;
-      this.subscribe();
-    }
-
     private processTestFile(testContent : string){
+      this.currentTest.questions = [];
       let lines : string[] = testContent.split("\n");
       lines.pop(); // Remove Last Line
       // Line 1 - Number of Questions

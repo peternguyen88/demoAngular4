@@ -22,11 +22,11 @@ export enum Status{
 export enum EnumTestStage{
   WELCOME = <any>"WELCOME",
   STARTED = <any>"STARTED",
-  PAUSED = <any>"PAUSED",
   FINISHED = <any>"FINISHED"
 }
 
 export enum TestMode{
   TEST = <any>"TEST",
-  PRACTICE = <any>"PRACTICE"
+  PRACTICE = <any>"PRACTICE",
+  REVIEW = <any>"REVIEW"
 }

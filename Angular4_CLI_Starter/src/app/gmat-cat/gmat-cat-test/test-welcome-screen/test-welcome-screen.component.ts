@@ -2,6 +2,7 @@
  * Static Welcome Screen Before User Takes Test
  */
 import {Component, EventEmitter, Output} from '@angular/core';
+import {TestScreenService} from "../../services/gmat-test-screen.service";
 
 @Component({
     moduleId: module.id,
@@ -10,15 +11,14 @@ import {Component, EventEmitter, Output} from '@angular/core';
 })
 export class TestWelcomeScreenComponent{
     @Output() testStart = new EventEmitter();
-    @Output() backToSummary = new EventEmitter();
 
-    constructor() { }
+    constructor(private testScreenService: TestScreenService) { }
 
     public onTestStart() : void{
       this.testStart.emit();
     }
 
-    public onBackToSummary() : void {
-      this.backToSummary.emit();
-    }
+    public onBackToSummary(){
+      this.testScreenService.backToSummary();
+}
 }

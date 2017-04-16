@@ -17,6 +17,7 @@ export class Question {
   option_E: string;
   selected_answer: string;
   correct_answer: string;
+  bookmarked: boolean = false;
 
   public isCorrect(): boolean {
     return this.selected_answer == this.correct_answer;

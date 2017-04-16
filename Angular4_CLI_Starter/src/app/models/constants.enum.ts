@@ -22,7 +22,8 @@ export enum Status{
 export enum EnumTestStage{
   WELCOME = <any>"WELCOME",
   STARTED = <any>"STARTED",
-  FINISHED = <any>"FINISHED"
+  FINISHED = <any>"FINISHED",
+  REVIEW = <any>"REVIEW"
 }
 
 export enum TestMode{

@@ -2,7 +2,7 @@
  * Test Screen, which will display question for user to answer
  */
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {EnumTestStage} from "../../models/constants.enum";
+import {EnumTestStage, TestMode} from "../../models/constants.enum";
 import {GMATTest} from "../../models/gmat-test";
 import {TestScreenService} from "../services/gmat-test-screen.service";
 
@@ -10,7 +10,6 @@ import {TestScreenService} from "../services/gmat-test-screen.service";
     moduleId: module.id,
     selector: 'gmat-cat-test',
     templateUrl: 'gmat-cat-test.component.html',
-    styles: ['.table th, .table td {  padding: 0.35rem;  }']
 })
 export class GmatCatTestComponent {
     EnumTestStage: typeof EnumTestStage = EnumTestStage;
@@ -30,5 +29,9 @@ export class GmatCatTestComponent {
 
     public onTestEnd(): void {
       this.testStage = EnumTestStage.FINISHED;
+    }
+
+    public onReview(): void{
+      this.testStage = EnumTestStage.REVIEW;
     }
 }

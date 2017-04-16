@@ -1,2 +1,3 @@
-cd D:\Personal\WebstormProjects\GMAT Test\Angular4_CLI_Starter
+cd C:\Users\Peter\WebstormProjects\GMAT Test\Angular4_CLI_Starter
+
 ng serve

@@ -3,6 +3,7 @@
  */
 import {Component, EventEmitter, Output} from '@angular/core';
 import {TestScreenService} from "../../services/gmat-test-screen.service";
+import {EnumTestStage} from "../../../models/constants.enum";
 
 @Component({
     moduleId: module.id,

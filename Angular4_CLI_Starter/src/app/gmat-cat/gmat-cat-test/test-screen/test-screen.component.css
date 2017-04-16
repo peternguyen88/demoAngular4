@@ -17,6 +17,8 @@ div#wrapper{
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 50%;
+  margin-left: -500px;
   min-width: 1000px;
   background: #006eae;
   max-height: 800px;

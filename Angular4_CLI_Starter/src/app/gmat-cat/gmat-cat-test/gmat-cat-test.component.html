@@ -1,5 +1,5 @@
 <div class="animated fadeIn">
   <test-welcome-screen *ngIf="testStage == EnumTestStage.WELCOME" (testStart)="onTestStart()"></test-welcome-screen>
-  <test-screen *ngIf="testStage == EnumTestStage.STARTED" (endTestEvent)="onTestEnd()"></test-screen>
-  <test-summary *ngIf="testStage == EnumTestStage.FINISHED"></test-summary>
+  <test-screen *ngIf="testStage == EnumTestStage.STARTED || testStage == EnumTestStage.REVIEW" (endTestEvent)="onTestEnd()"></test-screen>
+  <test-summary *ngIf="testStage == EnumTestStage.FINISHED" (reviewEvent)="onReview()"></test-summary>
 </div>

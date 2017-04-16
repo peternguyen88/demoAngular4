@@ -5,7 +5,7 @@ import {Injectable} from "@angular/core";
 import {GMATTest} from "../../models/gmat-test";
 import {Question} from "../../models/question";
 import {Http} from "@angular/http";
-import {QuestionType, TestMode} from "../../models/constants.enum";
+import {EnumTestStage, QuestionType, TestMode} from "../../models/constants.enum";
 import {Observable, Subscription} from "rxjs";
 
 @Injectable()
@@ -17,6 +17,7 @@ export class TestScreenService {
     allowedTime: number;
     elapsedTime: number;
     testMode: TestMode = TestMode.TEST;
+    testStage : EnumTestStage = EnumTestStage.WELCOME;
 
     expectedQuestion: number;
     currentQuestionIndex : number;
@@ -35,8 +36,13 @@ export class TestScreenService {
       this.remainingTime = this.allowedTime;
       this.elapsedTime = 0;
       this.expectedQuestion = 1;
+      this.testMode = TestMode.TEST;
 
       this.subscribe();
+    }
+
+    public endTestAndStartReview(){
+      this.testStage = EnumTestStage.FINISHED;
     }
 
     public continueInPracticeMode(){
@@ -71,6 +77,14 @@ export class TestScreenService {
       else{
         // Last Question - Only need to keep track time
         this.getCurrentQuestion().question_time = this.currentQuestionTime;
+      }
+    }
+
+    public reviewNextQuestion(){
+      console.log("Review Next Question");
+      if(this.currentQuestionIndex < this.currentTest.numberOfQuestions - 1){
+        this.currentQuestionIndex++;
+        this.currentQuestionTime = this.currentTest.questions[this.currentQuestionIndex].question_time;
       }
     }
 

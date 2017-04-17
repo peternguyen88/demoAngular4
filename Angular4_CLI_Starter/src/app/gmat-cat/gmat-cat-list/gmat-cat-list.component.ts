@@ -5,6 +5,7 @@ import {Component, EventEmitter, Output} from "@angular/core";
 import {GMATTest} from "../../models/gmat-test";
 import {GMATTestService} from "../../services/gmat-test.service";
 import {TestScreenService} from "../services/gmat-test-screen.service";
+import {EnumTestStage} from "../../models/constants.enum";
 
 @Component({
     moduleId: module.id,
@@ -21,6 +22,7 @@ export class GmatCatListComponent {
     public selectTest(test : GMATTest){
       console.log("Select Test "+ test.testName);
       this.testScreenService.setCurrentTest(test);
+      this.testScreenService.testStage = EnumTestStage.WELCOME;
     }
 
     public unlockTest(test : GMATTest){

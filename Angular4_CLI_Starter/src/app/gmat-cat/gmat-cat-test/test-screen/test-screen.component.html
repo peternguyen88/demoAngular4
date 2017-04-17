@@ -19,12 +19,12 @@
           <i class="icons icon-clock" style="padding-left: 5px;"></i>
           <span class="time" gm-digital-time [time]="testScreenService.elapsedTime"></span>
         </div>
-        <a id="button_pause" class="nextBtn testPause" (click)="pauseOrResume()">{{testScreenService.isPaused? 'RESUME' : 'PAUSE'}} <i class="fa fa-star-half-o"></i></a>
+        <a *ngIf="!isReview()" class="nextBtn testPause" (click)="pauseOrResume()">{{testScreenService.isPaused? 'RESUME' : 'PAUSE'}} <i class="fa fa-star-half-o"></i></a>
 
       </div>
 
       <div id="questionInfo">
-        <p style="line-height: 30px; margin-left: 20px; float: left; color: yellow;">You have spent a lot time on this question. Please consider moving on.</p>
+        <p class="onscreenMessage blink_me" *ngIf="currentQuestion.isShowUrgingMessage(testScreenService.currentQuestionTime)">You have spent a lot time on this question. Please consider moving on.</p>
         <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: <span gm-digital-time [time]="testScreenService.currentQuestionTime"></span></p>
       </div>
 
@@ -86,20 +86,20 @@
       </div>
 
       <div id="setUp">
-        <a style="float: left; margin-left: 30px;">Mark as a guess</a>
-        <a style="float: right; margin-right: 10px;">Bookmark</a>
+        <a style="float: left; margin-left: 30px;">Bookmark</a>
       </div>
 
       <div id="footer">
 
-        <a class="endExamBtn" (click)="backToSummary()" target="_self"><i class="fa fa-close"></i> End Review</a>
-        <a class="endExamBtn" (click)="backToSummary()" target="_self"><i class="fa fa-close"></i> End Exam</a>
+        <a class="endExamBtn" (click)="testScreenService.endReview()" target="_self" *ngIf="isReview()"><i class="fa fa-close"></i> End Review</a>
+        <a class="endExamBtn" (click)="backToSummary()" target="_self" *ngIf="!isReview()"><i class="fa fa-close"></i> End Exam</a>
 
-        <a id="button_study" class="practiceBtn" (click)="switchTestMode()"><i class="fa fa-mortar-board"> </i> {{isTestMode()? "Practice Mode" : "Test Mode"}}</a>
+        <a id="button_study" class="practiceBtn" (click)="switchTestMode()" *ngIf="!isReview()"><i class="fa fa-mortar-board"> </i> {{isTestMode()? "Practice Mode" : "Test Mode"}}</a>
 
-        <a id="button_next" class="nextBtn" (click)="nextQuestion()">Next <i class="fa fa-arrow-right"></i></a>
-
-
+        <div class="nextBtn">
+          <a  (click)="previousQuestion()" *ngIf="isReview()" [ngClass]="{disabled: testScreenService.isFirstQuestion()}" style="margin-right: 10px;"><i class="fa fa-arrow-left"> Previous</i></a>
+          <a  (click)="nextQuestion()" [ngClass]="{disabled: isReview() && testScreenService.isLastQuestionReached()}">Next <i class="fa fa-arrow-right"></i></a>
+        </div>
       </div>
 
     </div>

@@ -22,6 +22,7 @@ export class TestScreenService {
     expectedQuestion: number;
     currentQuestionIndex : number;
     currentQuestionTime : number = 0;
+    numberOfCorrectQuestions: number = 0;
 
     subscription : Subscription;
     timeout: Function;
@@ -37,12 +38,23 @@ export class TestScreenService {
       this.elapsedTime = 0;
       this.expectedQuestion = 1;
       this.testMode = TestMode.TEST;
+      this.testStage = EnumTestStage.STARTED;
 
       this.subscribe();
     }
 
     public endTestAndStartReview(){
       this.testStage = EnumTestStage.FINISHED;
+      this.numberOfCorrectQuestions = 0;
+      this.currentTest.questions.forEach(e => {if (e.isCorrect()) this.numberOfCorrectQuestions++});
+    }
+
+    public endReview(){
+      this.testStage = EnumTestStage.FINISHED;
+    }
+
+    public startReviewMode(){
+      this.testStage = EnumTestStage.REVIEW;
     }
 
     public continueInPracticeMode(){
@@ -92,8 +104,13 @@ export class TestScreenService {
       return this.currentQuestionIndex == this.currentTest.numberOfQuestions - 1;
     }
 
+    public isFirstQuestion(): boolean{
+      return this.currentQuestionIndex == 0;
+    }
+
     public previousQuestion(){
       if(this.currentQuestionIndex > 0){
+        console.log("Go to Previous Question");
         this.currentQuestionIndex--;
         this.currentQuestionTime = this.getCurrentQuestion().question_time;
       }
@@ -157,6 +174,7 @@ export class TestScreenService {
       let numberOfLines = lines.length;
       let currentLineIndex = 1;
       let currentQuestionIndex = 1;
+      let lastQuestionType = null;
       while(currentLineIndex < numberOfLines){
         // First Line is Question Type
         let question = new Question();
@@ -172,8 +190,12 @@ export class TestScreenService {
           console.log("RC");
           question.question_type = QuestionType.READING_COMPREHENSION;
           question.reading_passage = lines[++currentLineIndex].replace("#R#","");
+          if(lastQuestionType!=QuestionType.READING_COMPREHENSION){
+            question.isFirstRC = true;
+          }
         }
 
+        lastQuestionType = question.question_type;
         currentLineIndex++;
 
         question.question_number = currentQuestionIndex++;

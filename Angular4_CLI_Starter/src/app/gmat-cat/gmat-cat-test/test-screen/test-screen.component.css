@@ -192,3 +192,19 @@ a.testPause {
   margin: 0 10px;
   clear: both;
 }
+
+.disabled{
+  color: #7eafe1 !important;
+}
+
+.onscreenMessage{
+  line-height: 30px; margin-left: 20px; float: left; color: yellow;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}

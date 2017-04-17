@@ -18,6 +18,7 @@ export class Question {
   selected_answer: string;
   correct_answer: string;
   bookmarked: boolean = false;
+  isFirstRC: boolean = false;
 
   public isCorrect(): boolean {
     return this.selected_answer == this.correct_answer;
@@ -33,5 +34,21 @@ export class Question {
 
   public isReadingComprehension() : boolean {
     return this.question_type == QuestionType.READING_COMPREHENSION;
+  }
+
+  public isShowUrgingMessage(time : number): boolean {
+    if(this.isCriticalReasoning()){
+      return time >= 60 * 2;
+    }
+    else if(this.isSentenceCorrection()){
+      return time >= 60 * 1.75;
+    }
+    else if(this.isReadingComprehension()){
+      if(this.isFirstRC){
+        return false;
+      }
+      return time >= 60 * 1.3;
+    }
+    return false;
   }
 }

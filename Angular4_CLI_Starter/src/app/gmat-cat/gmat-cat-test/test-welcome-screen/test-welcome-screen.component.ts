@@ -16,7 +16,8 @@ export class TestWelcomeScreenComponent{
     constructor(private testScreenService: TestScreenService) { }
 
     public onTestStart() : void{
-      this.testStart.emit();
+      // this.testStart.emit();
+      this.testScreenService.start();
     }
 
     public onBackToSummary(){

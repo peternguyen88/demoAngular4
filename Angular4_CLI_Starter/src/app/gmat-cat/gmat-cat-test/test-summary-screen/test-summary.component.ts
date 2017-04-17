@@ -45,6 +45,7 @@ export class TestSummaryComponent {
     }
 
     private switchToReviewMode(){
-      this.reviewEvent.emit();
+      // this.reviewEvent.emit();
+      this.testScreenService.startReviewMode();
   }
 }

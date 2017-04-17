@@ -44,18 +44,19 @@ export class TestScreenComponent {
   };
 
   private endTestAndStartReview() {
-    this.endTestEvent.emit();
+    // this.endTestEvent.emit();
+    this.testScreenService.endTestAndStartReview();
+  }
+
+  public previousQuestion() {
+    this.testScreenService.previousQuestion();
+    this.currentQuestion = this.testScreenService.getCurrentQuestion();
   }
 
   public nextQuestion() {
     if (this.testScreenService.testMode == TestMode.REVIEW) {
-      if(!this.testScreenService.isLastQuestionReached()){
         this.testScreenService.reviewNextQuestion();
         this.currentQuestion = this.testScreenService.getCurrentQuestion();
-      }
-      else{
-        this.endTestAndStartReview();
-      }
     }
     else if (!this.currentQuestion.selected_answer) {
       this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
@@ -120,11 +121,15 @@ export class TestScreenComponent {
   }
 
   public isTestMode(): boolean {
-    return this.testMode == TestMode.TEST;
+    return this.testScreenService.testMode == TestMode.TEST;
   }
 
   public isPracticeMode(): boolean {
-    return this.testMode == TestMode.PRACTICE;
+    return this.testScreenService.testMode == TestMode.PRACTICE;
+  }
+
+  public isReview(): boolean{
+    return this.testScreenService.testMode == TestMode.REVIEW;
   }
 
   ngOnDestroy() {

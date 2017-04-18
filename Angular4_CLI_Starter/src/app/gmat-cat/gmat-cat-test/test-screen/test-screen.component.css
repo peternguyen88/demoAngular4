@@ -208,3 +208,11 @@ a.testPause {
 @keyframes blinker {
   50% { opacity: 0; }
 }
+
+.correct_answer{
+  background-color: lightgreen;
+}
+
+.incorrect_answer{
+  background-color: lightcoral;
+}

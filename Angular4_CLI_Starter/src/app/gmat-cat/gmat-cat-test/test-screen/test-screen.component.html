@@ -42,39 +42,39 @@
               <div style="margin-top: 10px;">
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="currentQuestion.selected_answer">
+                    <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="currentQuestion.selected_answer" [disabled]="isReview()">
                   </div>
-                  <label for="option_A">{{currentQuestion.option_A}}</label>
+                  <label for="option_A" [attr.class]="isReview()? currentQuestion.getLabelClass('A', showCorrectAnswer): ''">{{currentQuestion.option_A}}</label>
                 </div>
 
                 <div style="clear: both"></div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="currentQuestion.selected_answer">
+                    <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="currentQuestion.selected_answer" [disabled]="isReview()">
                   </div>
-                  <label for="option_B">{{currentQuestion.option_B}}</label>
+                  <label for="option_B" [attr.class]="isReview()? currentQuestion.getLabelClass('B', showCorrectAnswer): ''">{{currentQuestion.option_B}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="currentQuestion.selected_answer">
+                    <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="currentQuestion.selected_answer" [disabled]="isReview()">
                   </div>
-                  <label for="option_C">{{currentQuestion.option_C}}</label>
+                  <label for="option_C" [attr.class]="isReview()? currentQuestion.getLabelClass('C', showCorrectAnswer): ''">{{currentQuestion.option_C}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="currentQuestion.selected_answer">
+                    <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="currentQuestion.selected_answer" [disabled]="isReview()">
                   </div>
-                  <label for="option_D">{{currentQuestion.option_D}}</label>
+                  <label for="option_D" [attr.class]="isReview()? currentQuestion.getLabelClass('D', showCorrectAnswer): ''">{{currentQuestion.option_D}}</label>
                 </div>
 
                 <div class="option">
                   <div class="radio">
-                    <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="currentQuestion.selected_answer">
+                    <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="currentQuestion.selected_answer" [disabled]="isReview()">
                   </div>
-                  <label for="option_E">{{currentQuestion.option_E}}</label>
+                  <label for="option_E" [attr.class]="isReview()? currentQuestion.getLabelClass('E', showCorrectAnswer): ''">{{currentQuestion.option_E}}</label>
                 </div>
               </div>
 

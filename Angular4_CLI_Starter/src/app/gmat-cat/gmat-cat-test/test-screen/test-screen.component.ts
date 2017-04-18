@@ -20,6 +20,7 @@ export class TestScreenComponent {
   currentTest: GMATTest;
   popupMessage: ConfirmMessage;
   testMode: TestMode = TestMode.TEST;
+  showCorrectAnswer: boolean = true;
   reviewQuestions: Question[];
 
   @Output() endTestEvent = new EventEmitter();
@@ -51,12 +52,14 @@ export class TestScreenComponent {
   public previousQuestion() {
     this.testScreenService.previousQuestion();
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
+    // this.showCorrectAnswer = false;
   }
 
   public nextQuestion() {
     if (this.testScreenService.testMode == TestMode.REVIEW) {
         this.testScreenService.reviewNextQuestion();
         this.currentQuestion = this.testScreenService.getCurrentQuestion();
+        // this.showCorrectAnswer = false;
     }
     else if (!this.currentQuestion.selected_answer) {
       this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;

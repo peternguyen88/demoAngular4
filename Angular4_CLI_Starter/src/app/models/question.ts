@@ -51,4 +51,17 @@ export class Question {
     }
     return false;
   }
+
+  public getLabelClass(option: string, isShowAnswer: boolean): string{
+    console.log("GET Label: "+ option);
+    if(isShowAnswer && option == this.correct_answer){
+      return 'correct_answer';
+    }
+    else{
+      if(option != this.selected_answer) return '';
+
+      if(this.isCorrect()) return 'correct_answer';
+      else return 'incorrect_answer';
+    }
+  }
 }

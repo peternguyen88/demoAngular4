@@ -24,8 +24,9 @@
       </div>
 
       <div id="questionInfo">
-        <p class="onscreenMessage blink_me" *ngIf="currentQuestion.isShowUrgingMessage(testScreenService.currentQuestionTime)">You have spent a lot time on this question. Please consider moving on.</p>
-        <p style="line-height: 30px; float: right; margin-right: 10px; color: white;">Current Question Time: <span gm-digital-time [time]="testScreenService.currentQuestionTime"></span></p>
+        <button type="button" class="btn btn-outline-success no-glow-button white-text" *ngIf="isReview()" (click)="showAnswer()"><i class="fa" [ngClass]="{'fa-star-o': !showCorrectAnswer, 'fa-star': showCorrectAnswer}"></i>&nbsp; Show Answer</button>
+        <p class="onscreenMessage blink_me" *ngIf="!isReview() && currentQuestion.isShowUrgingMessage(testScreenService.currentQuestionTime)">You have spent a lot time on this question. Please consider moving on.</p>
+        <p class="question-time">Current Question Time: <span gm-digital-time [time]="testScreenService.currentQuestionTime"></span></p>
       </div>
 
 
@@ -86,7 +87,7 @@
       </div>
 
       <div id="setUp">
-        <a style="float: left; margin-left: 30px;">Bookmark</a>
+        <button type="button" class="btn btn-outline-info no-glow-button black-text" (click)="currentQuestion.toggleBookmark()"><i class="fa" [ngClass]="{'fa-flag-o': !currentQuestion.bookmarked, 'fa-flag': currentQuestion.bookmarked}"></i>&nbsp; Bookmark</button>
       </div>
 
       <div id="footer">

@@ -1,5 +1,5 @@
 <div>
   <test-welcome-screen *ngIf="testScreenService.testStage == EnumTestStage.WELCOME" (testStart)="onTestStart()"></test-welcome-screen>
-  <test-screen *ngIf="testScreenService.testStage == EnumTestStage.STARTED || testScreenService.testStage == EnumTestStage.REVIEW" (endTestEvent)="onTestEnd()"></test-screen>
+  <test-screen *ngIf="testScreenService.testStage == EnumTestStage.STARTED || testScreenService.testStage == EnumTestStage.REVIEW"></test-screen>
   <test-summary *ngIf="testScreenService.testStage == EnumTestStage.FINISHED" (reviewEvent)="onReview()"></test-summary>
 </div>

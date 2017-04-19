@@ -20,10 +20,8 @@ export class TestScreenComponent {
   currentTest: GMATTest;
   popupMessage: ConfirmMessage;
   testMode: TestMode = TestMode.TEST;
-  showCorrectAnswer: boolean = true;
-  reviewQuestions: Question[];
+  showCorrectAnswer: boolean = false;
 
-  @Output() endTestEvent = new EventEmitter();
 
   constructor(public testScreenService: TestScreenService) {
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
@@ -45,23 +43,32 @@ export class TestScreenComponent {
   };
 
   private endTestAndStartReview() {
-    // this.endTestEvent.emit();
     this.testScreenService.endTestAndStartReview();
   }
 
   public previousQuestion() {
     this.testScreenService.previousQuestion();
     this.currentQuestion = this.testScreenService.getCurrentQuestion();
-    // this.showCorrectAnswer = false;
+    this.showCorrectAnswer = false;
   }
 
   public nextQuestion() {
     if (this.testScreenService.testMode == TestMode.REVIEW) {
-        this.testScreenService.reviewNextQuestion();
-        this.currentQuestion = this.testScreenService.getCurrentQuestion();
-        // this.showCorrectAnswer = false;
+        this.nextQuestionInReview();
     }
-    else if (!this.currentQuestion.selected_answer) {
+    else {
+      this.nextQuestionInTest();
+    }
+  }
+
+  private nextQuestionInReview(){
+    this.testScreenService.reviewNextQuestion();
+    this.currentQuestion = this.testScreenService.getCurrentQuestion();
+    this.showCorrectAnswer = false;
+  }
+
+  private nextQuestionInTest(){
+    if (!this.currentQuestion.selected_answer) {
       this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
     } else {
       if (this.testScreenService.isLastQuestionReached()) {
@@ -133,6 +140,10 @@ export class TestScreenComponent {
 
   public isReview(): boolean{
     return this.testScreenService.testMode == TestMode.REVIEW;
+  }
+
+  public showAnswer(){
+    this.showCorrectAnswer = !this.showCorrectAnswer;
   }
 
   ngOnDestroy() {

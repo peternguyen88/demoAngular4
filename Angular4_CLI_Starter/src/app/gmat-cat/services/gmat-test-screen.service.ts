@@ -27,6 +27,8 @@ export class TestScreenService {
     subscription : Subscription;
     timeout: Function;
 
+    questions: Question[];
+
     constructor(private http: Http) { }
 
     public start(){
@@ -122,6 +124,7 @@ export class TestScreenService {
 
     public setCurrentTest(test : GMATTest){
       this.currentTest = test;
+      this.questions = test.questions;
       if(this.currentTest!=null) {
         this.loadQuestionsFromServer();
         this.allowedTime = this.currentTest.allowedTime;

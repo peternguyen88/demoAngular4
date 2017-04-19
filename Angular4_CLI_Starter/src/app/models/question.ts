@@ -52,6 +52,10 @@ export class Question {
     return false;
   }
 
+  public toggleBookmark(){
+    this.bookmarked = !this.bookmarked;
+  }
+
   public getLabelClass(option: string, isShowAnswer: boolean): string{
     console.log("GET Label: "+ option);
     if(isShowAnswer && option == this.correct_answer){

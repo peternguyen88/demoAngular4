@@ -1,6 +1,7 @@
 <button type="button" class="btn btn-primary" (click)="onBackToSummary()">Back To Summary</button>
 <button type="button" class="btn btn-success" (click)="reviewAll()">Review All</button>
-<button type="button" class="btn btn-info" (click)="reviewIncorrect()">Review Incorrect</button>
+<button type="button" class="btn btn-danger" (click)="reviewIncorrect()">Review Incorrect</button>
+<button type="button" class="btn btn-info" (click)="reviewBookmarked()">Review Bookmarked</button>
 
 <div class="row" style="margin-top: 10px;">
   <div class="col-lg-12">
@@ -20,8 +21,8 @@
             <td>{{question.selected_answer}}</td>
             <td><span gm-digital-time [time]="question.question_time"></span></td>
             <td><span>{{question.selected_answer == question.correct_answer ? 'Correct' : 'Incorrect'}}</span></td>
-            <td>{{question.bookmarked}}</td>
-            <td><button type="button" class="btn {{question.selected_answer ? question.isCorrect()? 'btn-success' : 'btn-danger' : 'btn-primary'}}" style="padding: 5px 10px;" (click)="reviewSingleQuestion(question)">Review</button></td>
+            <td><button type="button" class="btn btn-outline-info no-glow-button black-text short-button no-glow-button" (click)="question.toggleBookmark()"><i class="fa" [ngClass]="{'fa-flag-o': !question.bookmarked, 'fa-flag': question.bookmarked}"></i></button></td>
+            <td><button type="button" class="btn {{question.selected_answer ? question.isCorrect()? 'btn-success' : 'btn-danger' : 'btn-primary'}} short-button" (click)="reviewSingleQuestion(question)">Review</button></td>
           </tr>
           </tbody>
         </table>

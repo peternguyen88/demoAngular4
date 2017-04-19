@@ -10,7 +10,8 @@ import {TestMode} from "../../../models/constants.enum";
 @Component({
     moduleId: module.id,
     selector: 'test-summary',
-    templateUrl: 'test-summary.component.html'
+    templateUrl: 'test-summary.component.html',
+    styleUrls: ['test-summary.component.css']
 })
 export class TestSummaryComponent {
     currentTest: GMATTest;
@@ -28,10 +29,14 @@ export class TestSummaryComponent {
     }
 
     public reviewAll(){
-
+      this.reviewSingleQuestion(this.questions[0]);
     }
 
     public reviewIncorrect(){
+
+    }
+
+    public reviewBookmarked(){
 
     }
 

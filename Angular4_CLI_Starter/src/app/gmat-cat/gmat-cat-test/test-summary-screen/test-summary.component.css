@@ -1,0 +1,18 @@
+.no-glow-button {
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+  outline: 0;
+}
+
+.black-text {
+  color: black;
+}
+
+.short-button{
+  padding: 5px 10px;
+}
+
+.table td{
+  padding: 0.5rem;
+}

@@ -10,7 +10,8 @@ import {EnumTestStage} from "../../models/constants.enum";
 @Component({
     moduleId: module.id,
     selector: 'gmat-cat-list',
-    templateUrl: 'gmat-cat-list.component.html'
+    templateUrl: 'gmat-cat-list.component.html',
+    styles:['.table td{ padding: 0.5rem;}']
 })
 export class GmatCatListComponent {
     tests : GMATTest[];

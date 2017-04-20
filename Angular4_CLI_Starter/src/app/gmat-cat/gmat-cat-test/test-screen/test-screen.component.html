@@ -92,14 +92,14 @@
 
       <div id="footer">
 
-        <a class="endExamBtn" (click)="testScreenService.endReview()" target="_self" *ngIf="isReview()"><i class="fa fa-close"></i> End Review</a>
-        <a class="endExamBtn" (click)="backToSummary()" target="_self" *ngIf="!isReview()"><i class="fa fa-close"></i> End Exam</a>
+        <a class="endExamBtn" (click)="testScreenService.endReview()" *ngIf="isReview()"><i class="fa fa-close"></i> End Review</a>
+        <a class="endExamBtn" (click)="backToSummary()" *ngIf="!isReview()"><i class="fa fa-close"></i> End Exam</a>
 
         <a id="button_study" class="practiceBtn" (click)="switchTestMode()" *ngIf="!isReview()"><i class="fa fa-mortar-board"> </i> {{isTestMode()? "Practice Mode" : "Test Mode"}}</a>
 
         <div class="nextBtn">
           <a  (click)="previousQuestion()" *ngIf="isReview()" [ngClass]="{disabled: testScreenService.isFirstQuestion()}" style="margin-right: 10px;"><i class="fa fa-arrow-left"> Previous</i></a>
-          <a  (click)="nextQuestion()" [ngClass]="{disabled: isReview() && testScreenService.isLastQuestionReached()}">Next <i class="fa fa-arrow-right"></i></a>
+          <a  (click)="nextQuestion()" [ngClass]="{disabled: isReview() && testScreenService.isLastQuestionReached()}">{{!isReview() && testScreenService.isLastQuestionReached() ? 'Finish' : 'Next'}} <i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
 

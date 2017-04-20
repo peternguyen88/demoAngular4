@@ -1,7 +1,7 @@
 /**
  * Display Test To User
  */
-import {Component, EventEmitter, Output, Pipe, PipeTransform} from "@angular/core";
+import {Component, EventEmitter, HostListener, Output, Pipe, PipeTransform} from "@angular/core";
 import {TestScreenService} from "../../services/gmat-test-screen.service";
 import {Question} from "../../../models/question";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -40,7 +40,24 @@ export class TestScreenComponent {
         this.backToSummary();
       };
     }
-  };
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  public registerHostkey(event: KeyboardEvent){
+    if(this.isReview()){
+      switch (event.keyCode){
+        case 39: // Key Arrow Right
+              this.nextQuestion();
+              break;
+        case 37: // Key Arrow Left
+              this.previousQuestion();
+              break;
+        case 17: // Ctrl
+              this.showAnswer();
+              break;
+      }
+    }
+  }
 
   private endTestAndStartReview() {
     this.testScreenService.endTestAndOpenTestSummaryScreen();

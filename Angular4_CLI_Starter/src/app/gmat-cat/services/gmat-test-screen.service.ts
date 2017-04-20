@@ -41,18 +41,27 @@ export class TestScreenService {
       this.expectedQuestion = 1;
       this.testMode = TestMode.TEST;
       this.testStage = EnumTestStage.STARTED;
+      this.questions = this.currentTest.questions;
 
       this.subscribe();
     }
 
-    public endTestAndStartReview(){
+    public endTestAndOpenTestSummaryScreen(){
       this.testStage = EnumTestStage.FINISHED;
       this.numberOfCorrectQuestions = 0;
       this.currentTest.questions.forEach(e => {if (e.isCorrect()) this.numberOfCorrectQuestions++});
     }
 
+    public reviewQuestion(question: Question){
+      this.testMode = TestMode.REVIEW;
+      this.currentQuestionIndex = this.questions.indexOf(question);
+      this.currentQuestionTime = question.question_time;
+      this.startReviewMode();
+    }
+
     public endReview(){
       this.testStage = EnumTestStage.FINISHED;
+      this.questions = this.currentTest.questions;
     }
 
     public startReviewMode(){
@@ -96,14 +105,14 @@ export class TestScreenService {
 
     public reviewNextQuestion(){
       console.log("Review Next Question");
-      if(this.currentQuestionIndex < this.currentTest.numberOfQuestions - 1){
+      if(this.currentQuestionIndex < this.questions.length - 1){
         this.currentQuestionIndex++;
-        this.currentQuestionTime = this.currentTest.questions[this.currentQuestionIndex].question_time;
+        this.currentQuestionTime = this.questions[this.currentQuestionIndex].question_time;
       }
     }
 
     public isLastQuestionReached(): boolean{
-      return this.currentQuestionIndex == this.currentTest.numberOfQuestions - 1;
+      return this.currentQuestionIndex == this.questions.length - 1;
     }
 
     public isFirstQuestion(): boolean{
@@ -119,7 +128,7 @@ export class TestScreenService {
     }
 
     public getCurrentQuestion():Question{
-      return this.currentTest.questions[this.currentQuestionIndex];
+      return this.questions[this.currentQuestionIndex];
     }
 
     public setCurrentTest(test : GMATTest){
@@ -156,7 +165,7 @@ export class TestScreenService {
     private updateEachSecond(){
       console.log("Tick");
       this.currentQuestionTime++;
-      this.expectedQuestion = Math.floor(this.currentTest.numberOfQuestions * this.elapsedTime/this.allowedTime) + 1;
+      this.expectedQuestion = Math.floor(this.questions.length * this.elapsedTime/this.allowedTime) + 1;
       this.elapsedTime++;
       this.remainingTime--;
       if(this.remainingTime <= 0 && this.testMode == TestMode.TEST){

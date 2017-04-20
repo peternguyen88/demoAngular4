@@ -33,24 +33,23 @@ export class TestSummaryComponent {
     }
 
     public reviewIncorrect(){
-
+      let incorrectQuestions = this.questions.filter((question) => !question.isCorrect());
+      if(incorrectQuestions.length > 0){
+        this.testScreenService.questions = incorrectQuestions;
+        this.testScreenService.reviewQuestion(incorrectQuestions[0]);
+      }
     }
 
     public reviewBookmarked(){
-
+      let bookmarkedQuestions = this.questions.filter((question) => question.bookmarked);
+      if(bookmarkedQuestions.length > 0){
+        this.testScreenService.questions = bookmarkedQuestions;
+        this.testScreenService.reviewQuestion(bookmarkedQuestions[0]);
+      }
     }
 
     public reviewSingleQuestion(question: Question){
-      this.testScreenService.testMode = TestMode.REVIEW;
-      this.testScreenService.currentQuestionIndex = question.question_number - 1;
-      this.testScreenService.currentQuestionTime = question.question_time;
-
-      console.log("Review Question: "+question.question_number);
-      this.switchToReviewMode();
+      console.log("Review Question: "+ question.question_number);
+      this.testScreenService.reviewQuestion(question);
     }
-
-    private switchToReviewMode(){
-      // this.reviewEvent.emit();
-      this.testScreenService.startReviewMode();
-  }
 }

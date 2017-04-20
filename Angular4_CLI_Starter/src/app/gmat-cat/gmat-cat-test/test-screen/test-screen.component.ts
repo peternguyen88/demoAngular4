@@ -43,7 +43,7 @@ export class TestScreenComponent {
   };
 
   private endTestAndStartReview() {
-    this.testScreenService.endTestAndStartReview();
+    this.testScreenService.endTestAndOpenTestSummaryScreen();
   }
 
   public previousQuestion() {

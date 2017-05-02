@@ -7,6 +7,7 @@ import {Question} from "../../models/question";
 import {Http} from "@angular/http";
 import {EnumTestStage, QuestionType, TestMode} from "../../models/constants.enum";
 import {Observable, Subscription} from "rxjs";
+import {TestResult} from "../../models/test-result";
 
 @Injectable()
 export class TestScreenService {
@@ -42,7 +43,7 @@ export class TestScreenService {
       this.testMode = TestMode.TEST;
       this.testStage = EnumTestStage.STARTED;
       this.questions = this.currentTest.questions;
-
+      this.clearSelectedAnswer();
       this.subscribe();
     }
 
@@ -89,6 +90,43 @@ export class TestScreenService {
       this.isStarted = false;
       this.isPaused = true;
       this.unSubscribe();
+    }
+
+    public review(testResult: TestResult){
+      this.questions = this.currentTest.questions;
+      let currentQuestion = 0;
+      while(currentQuestion < testResult.numberOfAnsweredQuestions){
+        this.questions[currentQuestion].selected_answer = testResult.questions[currentQuestion].selected_answer;
+        this.questions[currentQuestion].question_time = testResult.questions[currentQuestion].question_time;
+        currentQuestion++;
+      }
+      this.currentQuestionIndex = 0;
+      this.testMode = TestMode.REVIEW;
+      this.testStage = EnumTestStage.FINISHED;
+    }
+
+    public resume(testResult: TestResult){
+      this.questions = this.currentTest.questions;
+      let currentQuestion = 0;
+      let totalTimeSpent = 0;
+      while(currentQuestion < testResult.numberOfAnsweredQuestions){
+        this.questions[currentQuestion].selected_answer = testResult.questions[currentQuestion].selected_answer;
+        this.questions[currentQuestion].question_time = testResult.questions[currentQuestion].question_time;
+        totalTimeSpent+= testResult.questions[currentQuestion].question_time;
+        currentQuestion++;
+      }
+      this.currentQuestionIndex = currentQuestion;
+
+      this.isStarted = true;
+      this.isPaused = false;
+      this.currentQuestionTime = 0;
+      this.remainingTime = this.allowedTime - totalTimeSpent;
+      this.elapsedTime = totalTimeSpent;
+      this.expectedQuestion = Math.floor(this.questions.length * this.elapsedTime/this.allowedTime) + 1;
+      this.testMode = TestMode.TEST;
+      this.testStage = EnumTestStage.STARTED;
+
+      this.subscribe();
     }
 
     public nextQuestion(){
@@ -176,6 +214,11 @@ export class TestScreenService {
       }
     }
 
+    public autoSaveTest(){
+      let testResult = new TestResult(this.currentTest);
+      localStorage.setItem(this.currentTest.testName, JSON.stringify(testResult));
+    }
+
     private processTestFile(testContent : string){
       this.currentTest.questions = [];
       let lines : string[] = testContent.split("\n");
@@ -226,5 +269,16 @@ export class TestScreenService {
 
     public backToSummary(){
       this.currentTest = null;
+    }
+
+    public backToWelcome(){
+      this.testStage = EnumTestStage.WELCOME;
+    }
+
+    private clearSelectedAnswer(){
+      this.questions.forEach(e => {
+        e.selected_answer = null;
+        e.question_time = 0;
+      });
     }
 }

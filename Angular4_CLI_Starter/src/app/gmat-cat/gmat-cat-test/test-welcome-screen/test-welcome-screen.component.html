@@ -1,2 +1,28 @@
-<button type="button" class="btn btn-primary" (click)="onBackToSummary()">Back To Summary</button>
-<button type="button" class="btn btn-success" (click)="onTestStart()">Start Test</button>
+<button type="button" class="btn btn-primary" (click)="backToSummary()" style="margin-bottom: 10px;">Back To Summary</button>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-header"> New Test</div>
+      <div class="card-block">
+        Please click on Start Test to start a new test
+        <br><br>
+        <button type="button" class="btn btn-success" (click)="startTest()">Start Test</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6" *ngIf="testResult">
+    <div class="card">
+      <div class="card-header"> Saved Test ({{testResult.numberOfAnsweredQuestions}}/{{testResult.numberOfQuestions}} answered)</div>
+      <div class="card-block">
+        You already have a saved test. Do you want to
+        <br><br>
+        <button type="button" class="btn btn-info" (click)="reviewTest()" *ngIf="testResult.isTestFinished">Review Test </button>
+        <button type="button" class="btn btn-info" (click)="resumeTest()" *ngIf="!testResult.isTestFinished">Resume Test </button>
+        <button type="button" class="btn btn-danger pull-right" (click)="deleteSavedData()">Delete Saved Data </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<confirm-dialog [popupMessage]="popupMessage" (close)="popupMessage = null;"></confirm-dialog>

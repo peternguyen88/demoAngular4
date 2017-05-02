@@ -93,7 +93,7 @@
       <div id="footer">
 
         <a class="endExamBtn" (click)="testScreenService.endReview()" *ngIf="isReview()"><i class="fa fa-close"></i> End Review</a>
-        <a class="endExamBtn" (click)="backToSummary()" *ngIf="!isReview()"><i class="fa fa-close"></i> End Exam</a>
+        <a class="endExamBtn" (click)="endTest()" *ngIf="!isReview()"><i class="fa fa-close"></i> End Exam</a>
 
         <a id="button_study" class="practiceBtn" (click)="switchTestMode()" *ngIf="!isReview()"><i class="fa fa-mortar-board"> </i> {{isTestMode()? "Practice Mode" : "Test Mode"}}</a>
 

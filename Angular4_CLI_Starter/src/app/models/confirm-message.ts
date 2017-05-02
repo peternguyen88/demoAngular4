@@ -54,4 +54,12 @@ export class ConfirmMessageConstant {
     rejectLabel: 'Cancel',
     showCloseIcon: true
   };
+
+  static CONFIRM_DELETE_SAVED_DATA: ConfirmMessage = {
+    header: 'Confirm Delete Saved Data',
+    message: 'Do you really want to delete saved data? This action cannot be undone.',
+    acceptLabel: 'Confirm',
+    rejectLabel: 'Cancel',
+    showCloseIcon: true
+  };
 }

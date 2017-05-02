@@ -31,3 +31,17 @@ export enum TestMode{
   PRACTICE = <any>"PRACTICE",
   REVIEW = <any>"REVIEW"
 }
+
+export enum TimerType{
+  QUANTITATIVE, VERBAL, PRACTICE
+}
+
+export enum TimerStage{
+  WELCOME, TIMING, REVIEW
+}
+
+export enum Certainty{
+  SURE = 100,
+  DOUBT = 50,
+  GUESS = 0
+}

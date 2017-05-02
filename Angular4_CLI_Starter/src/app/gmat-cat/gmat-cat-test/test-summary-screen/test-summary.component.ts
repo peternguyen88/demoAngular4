@@ -24,8 +24,8 @@ export class TestSummaryComponent {
       this.questions = this.testScreenService.currentTest.questions;
     }
 
-    public onBackToSummary(){
-      this.testScreenService.backToSummary();
+    public back(){
+      this.testScreenService.backToWelcome();
     }
 
     public reviewAll(){

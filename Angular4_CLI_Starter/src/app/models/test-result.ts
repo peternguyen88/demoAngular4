@@ -6,7 +6,7 @@ export class TestResult{
     this.testName = test.testName;
     this.numberOfQuestions = test.numberOfQuestions;
     this.questions = [];
-    test.questions.filter(e => e.selected_answer!=null).forEach(e => {
+    test.questions.filter(e => e.selected_answer).forEach(e => {
       this.numberOfAnsweredQuestions++;
       this.questions.push(new QuestionResult(e));
     });
@@ -15,7 +15,7 @@ export class TestResult{
 
   testName: string;
   numberOfQuestions: number;
-  numberOfAnsweredQuestions
+  numberOfAnsweredQuestions = 0;
   questions: QuestionResult[];
   isTestFinished: boolean;
 }

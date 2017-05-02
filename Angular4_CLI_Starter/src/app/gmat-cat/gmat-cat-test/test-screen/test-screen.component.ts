@@ -1,7 +1,7 @@
 /**
  * Display Test To User
  */
-import {Component, EventEmitter, HostListener, Output, Pipe, PipeTransform} from "@angular/core";
+import {Component, HostListener, Pipe, PipeTransform} from "@angular/core";
 import {TestScreenService} from "../../services/gmat-test-screen.service";
 import {Question} from "../../../models/question";
 import {DomSanitizer} from "@angular/platform-browser";
@@ -37,7 +37,7 @@ export class TestScreenComponent {
         this.testScreenService.continueInPracticeMode();
       };
       this.popupMessage.reject = () => {
-        this.backToSummary();
+        this.endTest();
       };
     }
   }
@@ -60,6 +60,7 @@ export class TestScreenComponent {
   }
 
   private endTestAndStartReview() {
+    this.testScreenService.autoSaveTest();
     this.testScreenService.endTestAndOpenTestSummaryScreen();
   }
 
@@ -110,8 +111,10 @@ export class TestScreenComponent {
     this.closePopup();
   }
 
-  public backToSummary(): void {
-    this.testScreenService.backToSummary();
+  public endTest() {
+    this.currentQuestion.selected_answer = null; // Need to clear current answer to prevent system from Saving this question.
+    this.testScreenService.autoSaveTest();
+    this.testScreenService.backToWelcome();
   }
 
   public pauseOrResume() {

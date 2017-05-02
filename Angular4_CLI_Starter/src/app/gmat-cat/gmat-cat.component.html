@@ -1,8 +1,6 @@
-<div class="animated fadeIn">
-  <div *ngIf="getCurrentTest() == null">
-    <gmat-cat-list></gmat-cat-list>
-  </div>
-  <div *ngIf="getCurrentTest() != null">
-    <gmat-cat-test></gmat-cat-test>
-  </div>
+<div *ngIf="getCurrentTest() == null">
+  <gmat-cat-list></gmat-cat-list>
+</div>
+<div *ngIf="getCurrentTest() != null">
+  <gmat-cat-test></gmat-cat-test>
 </div>

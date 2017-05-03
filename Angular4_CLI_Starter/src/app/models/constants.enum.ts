@@ -41,7 +41,7 @@ export enum TimerStage{
 }
 
 export enum Certainty{
-  SURE = 100,
-  DOUBT = 50,
-  GUESS = 0
+  SURE = <any>"SURE",
+  DOUBT = <any>"DOUBT",
+  GUESS = <any>"GUESS"
 }

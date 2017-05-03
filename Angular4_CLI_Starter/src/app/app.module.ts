@@ -20,6 +20,7 @@ import {HttpModule} from "@angular/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {TimerService} from "./services/gmat-timer.service";
 import {FormsModule} from "@angular/forms";
+import {DigitalTimeDirective} from "./directives/gm-digital-time.directive";
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import {FormsModule} from "@angular/forms";
     AsideToggleDirective,
 
     // Custom Components
-    GmatTimerComponent
+    GmatTimerComponent,
+    DigitalTimeDirective
   ],
   providers: [{
     provide: LocationStrategy,

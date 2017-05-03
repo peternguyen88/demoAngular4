@@ -35,67 +35,67 @@
 
 <div *ngIf="isTiming()" class="card">
   <div class="card-header">
-    <h5>GMAT Verbal Session</h5>
+    <h5>GMAT {{getSessionLabel()}}</h5>
   </div>
 
   <div class="card-block">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            Control
-          </div>
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-header">
+          Control
+        </div>
 
-          <div class="card-block">
-            <button class="btn btn-primary" (click)="backToWelcome()" style="margin-bottom: 20px;">Back</button>
+        <div class="card-block" style="display: inline-block;">
+          <button class="btn btn-primary" (click)="backToWelcome()"><i class="fa fa-arrow-left"></i>  Back</button>
+          <span class="pull-right">
+            <button class="btn btn-success" (click)="start()" *ngIf="!isStarted()"><i class="fa fa-play"></i> START</button>
+            <button class="btn btn-danger" (click)="stop()" *ngIf="isStarted()"><i class="fa fa-stop"></i> STOP</button>
+            <button class="btn btn-success" (click)="pauseOrResume()" *ngIf="isStarted() && !isPaused()"><i class="fa fa-pause"></i> PAUSE</button>
+            <button class="btn btn-warning" (click)="pauseOrResume()" *ngIf="isStarted() && isPaused()"><i class="fa fa-play"></i> RESUME</button>
+          </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <span>Your Answer</span>
+          <span class="pull-right">Question {{timerService.currentQuestion.question_number}}</span>
+        </div>
+        <div class="card-block">
+
+          <label for="option_A" style="vertical-align: middle; margin-bottom: 0;">A</label>
+          <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+
+          <label for="option_B" style="vertical-align: middle; margin-bottom: 0;">B</label>
+          <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+
+          <label for="option_C" style="vertical-align: middle; margin-bottom: 0;">C</label>
+          <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+
+          <label for="option_D" style="vertical-align: middle; margin-bottom: 0;">D</label>
+          <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+
+          <label for="option_E" style="vertical-align: middle; margin-bottom: 0;">E</label>
+          <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+
+          <hr>
+          <div style="margin-top: 20px;">
+            <button class="btn btn-success" [disabled]="!timerService.currentQuestion.selected_answer">Next  <i class="fa fa-arrow-right"></i></button>
+
+            <form style="display: inline; margin-left: 20px;">
+              <input type="radio" name="radio_certainty" id="radio_sure" class="radio" value="SURE" [(ngModel)]="timerService.currentQuestion.certainty"/>
+              <label for="radio_sure">Sure</label>
+
+              <input type="radio" name="radio_certainty" id="radio_doubt" class="radio" value="DOUBT" [(ngModel)]="timerService.currentQuestion.certainty"/>
+              <label for="radio_doubt">Doubt</label>
+
+              <input type="radio" name="radio_certainty" id="radio_guess" class="radio" value="GUESS" [(ngModel)]="timerService.currentQuestion.certainty"/>
+              <label for="radio_guess">Guess</label>
+            </form>
           </div>
         </div>
       </div>
-
-      <div class="col-sm-12 col-md-6">
-        <div class="card">
-          <div class="card-header">
-              <span>Your Answer</span>
-              <span class="pull-right">Question {{timerService.currentQuestion.question_number}}</span>
-          </div>
-          <div class="card-block">
-
-            <label for="option_A" style="vertical-align: middle; margin-bottom: 0;">A</label>
-            <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
-
-            <label for="option_B" style="vertical-align: middle; margin-bottom: 0;">B</label>
-            <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
-
-            <label for="option_C" style="vertical-align: middle; margin-bottom: 0;">C</label>
-            <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
-
-            <label for="option_D" style="vertical-align: middle; margin-bottom: 0;">D</label>
-            <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
-
-            <label for="option_E" style="vertical-align: middle; margin-bottom: 0;">E</label>
-            <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
-
-            <hr>
-            <div style="margin-top: 20px;">
-              <button class="btn btn-success">Next</button>
-
-              <form style="display: inline; margin-left: 20px;">
-                <input type="radio" name="radio_certainty" id="radio_sure" class="radio" value="100" [(ngModel)]="timerService.currentQuestion.certainty"/>
-                <label for="radio_sure">Sure</label>
-
-                <input type="radio" name="radio_certainty" id="radio_doubt" class="radio" value="50" [(ngModel)]="timerService.currentQuestion.certainty"/>
-                <label for="radio_doubt">Doubt</label>
-
-                <input type="radio" name="radio_certainty" id="radio_guess" class="radio" value="0" [(ngModel)]="timerService.currentQuestion.certainty"/>
-                <label for="radio_guess">Guess</label>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-        <div class="card">
+    <div class="card">
           <div class="card-header">
             Question Stats
           </div>
@@ -109,7 +109,7 @@
                     Current Question Time
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;">00:00</h4>
+                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.currentQuestion.question_time"></h4>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@
                     Remaining Time
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;">00:00</h4>
+                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.remainingTime"></h4>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@
                     Average Time
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;">00:00</h4>
+                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.averageQuestionTime"></h4>
                   </div>
                 </div>
               </div>

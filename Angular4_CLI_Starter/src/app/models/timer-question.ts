@@ -8,5 +8,7 @@ export class TimerQuestion{
 
   constructor(index: number){
     this.question_number = index;
+    this.question_time = 0;
+    this.certainty = Certainty.SURE;
   }
 }

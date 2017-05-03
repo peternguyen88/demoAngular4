@@ -50,4 +50,34 @@ export class GmatTimerComponent implements OnInit {
     public backToWelcome(){
       this.timerService.timerStage = TimerStage.WELCOME;
     }
+
+    public start(){
+      this.timerService.start();
+    }
+
+    public stop(){
+      this.timerService.stop();
+    }
+
+    public pauseOrResume(){
+      this.timerService.pauseOrResume();
+    }
+
+    public isStarted():boolean{
+      return this.timerService.isStarted;
+    }
+
+    public isPaused():boolean{
+      return this.timerService.isPaused;
+    }
+
+    public getSessionLabel():string{
+      if(this.timerService.session == TimerType.QUANTITATIVE){
+        return "Quantitative Session (37 Questions)";
+      }
+      if(this.timerService.session == TimerType.VERBAL){
+        return "Verbal Session (41 Questions)";
+      }
+      return "Practice Session";
+    }
 }

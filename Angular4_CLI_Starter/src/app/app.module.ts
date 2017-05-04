@@ -21,6 +21,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {TimerService} from "./services/gmat-timer.service";
 import {FormsModule} from "@angular/forms";
 import {DigitalTimeDirective} from "./directives/gm-digital-time.directive";
+import {GmatCommonModule} from "./shared/modules/GmatCommonModule";
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import {DigitalTimeDirective} from "./directives/gm-digital-time.directive";
     TabsModule.forRoot(),
     ChartsModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+    GmatCommonModule
   ],
   declarations: [
     AppComponent,
@@ -42,8 +44,7 @@ import {DigitalTimeDirective} from "./directives/gm-digital-time.directive";
     AsideToggleDirective,
 
     // Custom Components
-    GmatTimerComponent,
-    DigitalTimeDirective
+    GmatTimerComponent
   ],
   providers: [{
     provide: LocationStrategy,

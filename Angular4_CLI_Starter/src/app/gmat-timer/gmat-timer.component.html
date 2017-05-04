@@ -1,4 +1,4 @@
-<div class="card" *ngIf="isWelcome()">
+<div *ngIf="isWelcome()" class="card">
     <div class="card-header">
       <h5>Choose Your Timing Session</h5>
     </div>
@@ -35,7 +35,7 @@
 
 <div *ngIf="isTiming()" class="card">
   <div class="card-header">
-    <h5>GMAT {{getSessionLabel()}}</h5>
+    <h5 class="pull-left">GMAT {{getSessionLabel()}}</h5>
   </div>
 
   <div class="card-block">
@@ -47,6 +47,7 @@
 
         <div class="card-block" style="display: inline-block;">
           <button class="btn btn-primary" (click)="backToWelcome()"><i class="fa fa-arrow-left"></i>  Back</button>
+          <button class="btn btn-outline-success" (click)="review()">REVIEW</button>
           <span class="pull-right">
             <button class="btn btn-success" (click)="start()" *ngIf="!isStarted()"><i class="fa fa-play"></i> START</button>
             <button class="btn btn-danger" (click)="stop()" *ngIf="isStarted()"><i class="fa fa-stop"></i> STOP</button>
@@ -57,29 +58,30 @@
       </div>
       <div class="card">
         <div class="card-header">
-          <span>Your Answer</span>
-          <span class="pull-right">Question {{timerService.currentQuestion.question_number}}</span>
+          <span>Question {{timerService.currentQuestion.question_number}}</span>
+          <span class="pull-right">Your Answer</span>
         </div>
         <div class="card-block">
 
-          <label for="option_A" style="vertical-align: middle; margin-bottom: 0;">A</label>
-          <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+          <label for="option_A" class="radio-label">A</label>
+          <input type="radio" name="option" id="option_A" value="A" [(ngModel)]="timerService.currentQuestion.selected_answer" class="radio-option">
 
-          <label for="option_B" style="vertical-align: middle; margin-bottom: 0;">B</label>
-          <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+          <label for="option_B" class="radio-label">B</label>
+          <input type="radio" name="option" id="option_B" value="B" [(ngModel)]="timerService.currentQuestion.selected_answer" class="radio-option">
 
-          <label for="option_C" style="vertical-align: middle; margin-bottom: 0;">C</label>
-          <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+          <label for="option_C" class="radio-label">C</label>
+          <input type="radio" name="option" id="option_C" value="C" [(ngModel)]="timerService.currentQuestion.selected_answer" class="radio-option">
 
-          <label for="option_D" style="vertical-align: middle; margin-bottom: 0;">D</label>
-          <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+          <label for="option_D" class="radio-label">D</label>
+          <input type="radio" name="option" id="option_D" value="D" [(ngModel)]="timerService.currentQuestion.selected_answer" class="radio-option">
 
-          <label for="option_E" style="vertical-align: middle; margin-bottom: 0;">E</label>
-          <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="timerService.currentQuestion.selected_answer" style="vertical-align: middle; margin-right: 20px;">
+          <label for="option_E" class="radio-label">E</label>
+          <input type="radio" name="option" id="option_E" value="E" [(ngModel)]="timerService.currentQuestion.selected_answer" class="radio-option">
 
           <hr>
           <div style="margin-top: 20px;">
-            <button class="btn btn-success" [disabled]="!timerService.currentQuestion.selected_answer">Next  <i class="fa fa-arrow-right"></i></button>
+            <button class="btn btn-success" [disabled]="!isStarted() || !timerService.currentQuestion.selected_answer" (click)="next()">NEXT  <i class="fa fa-arrow-right"></i></button>
+            <button class="btn btn-danger pull-right" *ngIf="isPracticeSession()" [disabled]="!isStarted()" (click)="next()">END  <i class="fa fa-hourglass-end"></i></button>
 
             <form style="display: inline; margin-left: 20px;">
               <input type="radio" name="radio_certainty" id="radio_sure" class="radio" value="SURE" [(ngModel)]="timerService.currentQuestion.certainty"/>
@@ -121,7 +123,7 @@
                     Expected Question
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;">00:00</h4>
+                    <h4 style="text-align: center;">{{timerService.expectedQuestion}}</h4>
                   </div>
                 </div>
               </div>
@@ -132,7 +134,8 @@
                     Remaining Time
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.remainingTime"></h4>
+                    <h4 style="text-align: center;" *ngIf="isPracticeSession()">Unlimited</h4>
+                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.remainingTime" *ngIf="!isPracticeSession()"></h4>
                   </div>
                 </div>
               </div>
@@ -150,5 +153,48 @@
             </div>
           </div>
     </div>
+  </div>
+</div>
+
+<div *ngIf="isReview()" class="card">
+  <div class="card-header">
+    <h5>Review  -  {{getCorrectStatsLabel()}}</h5>
+  </div>
+
+  <div class="card-block">
+    <button class="btn btn-primary" (click)="backToTimingSession()"><i class="fa fa-arrow-left"></i>  Back</button>
+
+    <table class="table table-bordered table-striped table-condensed" style="margin-top: 20px;">
+      <thead>
+      <tr>   <th>No.</th>  <th>Answer</th>   <th>Time</th>  <th>Is Correct?</th> <th>Correct Answer</th> <th>Certainty</th>  </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let question of getQuestionForReview()">
+        <td>{{question.question_number}}</td>
+        <td>{{question.selected_answer}}</td>
+        <td><span gm-digital-time [time]="question.question_time"></span></td>
+        <td><input type="checkbox" class="filled-in" id="Q{{question.question_number}}" name="result" [(ngModel)]="question.is_correct" (change)="onCorrectCheckboxChange(question)"/></td>
+        <td>
+          <form>
+            <label for="Q{{question.question_number}}option_A" class="radio-label">A</label>
+            <input type="radio" name="option" id="Q{{question.question_number}}option_A" value="A" [(ngModel)]="question.correct_answer" class="radio-option" (change)="onRadioCorrectAnswerChange(question)">
+
+            <label for="Q{{question.question_number}}option_B" class="radio-label">B</label>
+            <input type="radio" name="option" id="Q{{question.question_number}}option_B" value="B" [(ngModel)]="question.correct_answer" class="radio-option" (change)="onRadioCorrectAnswerChange(question)">
+
+            <label for="Q{{question.question_number}}option_C" class="radio-label">C</label>
+            <input type="radio" name="option" id="Q{{question.question_number}}option_C" value="C" [(ngModel)]="question.correct_answer" class="radio-option" (change)="onRadioCorrectAnswerChange(question)">
+
+            <label for="Q{{question.question_number}}option_D" class="radio-label">D</label>
+            <input type="radio" name="option" id="Q{{question.question_number}}option_D" value="D" [(ngModel)]="question.correct_answer" class="radio-option" (change)="onRadioCorrectAnswerChange(question)">
+
+            <label for="Q{{question.question_number}}option_E" class="radio-label">E</label>
+            <input type="radio" name="option" id="Q{{question.question_number}}option_E" value="E" [(ngModel)]="question.correct_answer" class="radio-option" (change)="onRadioCorrectAnswerChange(question)">
+          </form>
+        </td>
+        <td>{{question.certainty}}</td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </div>

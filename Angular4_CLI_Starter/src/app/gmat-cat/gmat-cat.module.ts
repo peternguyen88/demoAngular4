@@ -15,9 +15,10 @@ import {DigitalTimeDirective} from "app/directives/gm-digital-time.directive";
 import {FormsModule} from "@angular/forms";
 import {ConfirmDialogComponent} from "../shared/confirm-dialog/confirm-dialog.component";
 import {TestSummaryComponent} from "./gmat-cat-test/test-summary-screen/test-summary.component";
+import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
 
 @NgModule({
-  imports: [CommonModule,
+  imports: [CommonModule, GmatCommonModule,
     GmatCatRoutingModule, FormsModule],
   declarations: [GmatCatComponent,
     GmatCatTestComponent,
@@ -25,7 +26,6 @@ import {TestSummaryComponent} from "./gmat-cat-test/test-summary-screen/test-sum
     TestWelcomeScreenComponent,
     TestScreenComponent,
     SafeHtmlPipe,
-    DigitalTimeDirective,
     ConfirmDialogComponent,
     TestSummaryComponent
   ],

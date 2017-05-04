@@ -9,15 +9,14 @@ export class TimerService {
   session: TimerType;
   timerStage: TimerStage = TimerStage.WELCOME;
   questions: TimerQuestion[];
-  numberOfCorrectAnswer: number;
+  numberOfCorrectAnswer: number = 0;
 
   remainingTime: number = 0;
   allowedTime: number = 0;
   elapsedTime: number = 0;
   averageQuestionTime: number = 0;
-  expectedQuestionTime: number = 0;
 
-  currentQuestion: TimerQuestion = new TimerQuestion(0);
+  currentQuestion: TimerQuestion = new TimerQuestion(1);
   currentQuestionIndex: number = 0;
   expectedQuestion: number = 0;
   numberOfQuestion: number = 0;
@@ -27,16 +26,26 @@ export class TimerService {
 
   subscription: Subscription;
 
-  public start(){
-    this.isStarted = true;
-    this.isPaused = false;
+  constructor(){
+    this.questions = [];
+    this.numberOfCorrectAnswer = 0;
+  }
+
+  public clearStats(){
     this.averageQuestionTime = 0;
     this.remainingTime = this.allowedTime;
     this.elapsedTime = 0;
     this.currentQuestionIndex = 0;
     this.questions = [];
-    this.currentQuestion = new TimerQuestion(0);
+    this.currentQuestion = new TimerQuestion(1);
+    this.numberOfCorrectAnswer = 0;
     this.addQuestion();
+  }
+
+  public start(){
+    this.clearStats();
+    this.isStarted = true;
+    this.isPaused = false;
 
     this.subscribe();
   }
@@ -73,13 +82,21 @@ export class TimerService {
   private updateEachSecond(){
     this.elapsedTime++;
     this.currentQuestion.question_time++;
-    this.remainingTime--;
-    this.averageQuestionTime = this.elapsedTime/this.questions.length;
+    if(this.session != TimerType.PRACTICE) {
+      if(this.remainingTime > 0) {
+        this.remainingTime--;
+      }
+      this.expectedQuestion = Math.floor(this.numberOfQuestion * this.elapsedTime/this.allowedTime) + 1;
+    }
+    else{
+      this.expectedQuestion = Math.floor(this.elapsedTime/(2*60))+1;
+    }
+    this.averageQuestionTime = Math.round(this.elapsedTime/this.questions.length);
   }
 
   public nextQuestion(){
     this.currentQuestionIndex++;
-    this.currentQuestion = new TimerQuestion(this.currentQuestionIndex);
+    this.currentQuestion = new TimerQuestion(this.currentQuestionIndex+1);
     this.addQuestion();
   }
 

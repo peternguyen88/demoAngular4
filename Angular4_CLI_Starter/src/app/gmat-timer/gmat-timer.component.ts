@@ -4,11 +4,13 @@
 import { Component, OnInit } from '@angular/core';
 import {TimerStage, TimerType} from "../models/constants.enum";
 import {TimerService} from "../services/gmat-timer.service";
+import {TimerQuestion} from "../models/timer-question";
 
 @Component({
     moduleId: module.id,
     selector: 'gmat-timer',
-    templateUrl: 'gmat-timer.component.html'
+    templateUrl: 'gmat-timer.component.html',
+    styleUrls:['gmat-timer.component.css']
 })
 export class GmatTimerComponent implements OnInit {
     constructor(public timerService: TimerService) {
@@ -48,7 +50,20 @@ export class GmatTimerComponent implements OnInit {
     }
 
     public backToWelcome(){
+      this.stop();
+      this.timerService.clearStats();
       this.timerService.timerStage = TimerStage.WELCOME;
+    }
+
+    public backToTimingSession(){
+      this.timerService.timerStage = TimerStage.TIMING;
+    }
+
+    public review(){
+      if(this.timerService.isStarted && !this.timerService.isPaused){
+        this.pauseOrResume();
+      }
+      this.timerService.timerStage = TimerStage.REVIEW;
     }
 
     public start(){
@@ -71,6 +86,14 @@ export class GmatTimerComponent implements OnInit {
       return this.timerService.isPaused;
     }
 
+    public isPracticeSession():boolean{
+      return this.timerService.session == TimerType.PRACTICE;
+    }
+
+    public next(){
+      this.timerService.nextQuestion();
+    }
+
     public getSessionLabel():string{
       if(this.timerService.session == TimerType.QUANTITATIVE){
         return "Quantitative Session (37 Questions)";
@@ -80,4 +103,36 @@ export class GmatTimerComponent implements OnInit {
       }
       return "Practice Session";
     }
+
+    public getCorrectStatsLabel(){
+      if(this.timerService.questions){
+        return this.timerService.numberOfCorrectAnswer + "/" + this.timerService.questions.length + " Correct"
+      }
+      else{
+        return "0/0 Correct";
+      }
+    }
+
+    public onCorrectCheckboxChange(question: TimerQuestion){
+      if(question.is_correct){
+        question.correct_answer = question.selected_answer;
+        this.timerService.numberOfCorrectAnswer++;
+      }
+      else{
+        question.correct_answer = null;
+        this.timerService.numberOfCorrectAnswer--;
+      }
+    }
+
+    public onRadioCorrectAnswerChange(question: TimerQuestion){
+      question.is_correct = question.selected_answer == question.correct_answer;
+    }
+
+    public getQuestionForReview(): TimerQuestion[]{
+      return this.timerService.questions.filter(e => e.selected_answer);
+    }
+
+  ngOnDestroy() {
+    this.stop();
+  }
 }

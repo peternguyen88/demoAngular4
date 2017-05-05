@@ -94,6 +94,11 @@ export class GmatTimerComponent implements OnInit {
       this.timerService.nextQuestion();
     }
 
+    public end(){
+      this.stop();
+      this.review();
+    }
+
     public getSessionLabel():string{
       if(this.timerService.session == TimerType.QUANTITATIVE){
         return "Quantitative Session (37 Questions)";
@@ -125,8 +130,15 @@ export class GmatTimerComponent implements OnInit {
     }
 
     public onRadioCorrectAnswerChange(question: TimerQuestion){
+      if(question.is_correct){
+        this.timerService.numberOfCorrectAnswer--;
+      }
+      else{
+        if(question.selected_answer == question.correct_answer){
+          this.timerService.numberOfCorrectAnswer++;
+        }
+      }
       question.is_correct = question.selected_answer == question.correct_answer;
-      this.timerService.numberOfCorrectAnswer += question.is_correct ? 1 : -1;
     }
 
     public getQuestionForReview(): TimerQuestion[]{

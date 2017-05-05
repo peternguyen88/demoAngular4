@@ -131,11 +131,10 @@
               <div class="col-sm-3">
                 <div class="card card-inverse card-warning">
                   <div class="card-header">
-                    Remaining Time
+                    {{isPracticeSession() ? 'Total Time' : 'Remaining Time'}}
                   </div>
                   <div class="card-block">
-                    <h4 style="text-align: center;" *ngIf="isPracticeSession()">Unlimited</h4>
-                    <h4 style="text-align: center;" gm-digital-time [time]="timerService.remainingTime" *ngIf="!isPracticeSession()"></h4>
+                    <h4 style="text-align: center;" gm-digital-time [time]="isPracticeSession() ? timerService.elapsedTime :  timerService.remainingTime"></h4>
                   </div>
                 </div>
               </div>

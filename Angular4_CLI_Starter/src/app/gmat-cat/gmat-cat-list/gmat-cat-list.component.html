@@ -17,7 +17,7 @@
           <td>{{test.numberOfQuestions}}</td>
           <td>{{test.isActive() ? "Active" : "Locked"}}</td>
           <td><button type="button" class="btn btn-sm {{test.isActive() ? 'btn-success' : 'btn-danger'}}" style="width: 80px;"
-              (click)="test.isActive() ? selectTest(test): unlockTest(test)">
+              (click)="test.isActive() ? selectTest(test): unlockTest(test)" [disabled]="!test.isActive()">
             {{test.isActive() ? "Take Test" : "Unlock"}}</button>
           </td>
         </tr>

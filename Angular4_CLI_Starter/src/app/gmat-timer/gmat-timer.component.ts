@@ -106,7 +106,7 @@ export class GmatTimerComponent implements OnInit {
 
     public getCorrectStatsLabel(){
       if(this.timerService.questions){
-        return this.timerService.numberOfCorrectAnswer + "/" + this.timerService.questions.length + " Correct"
+        return this.timerService.numberOfCorrectAnswer + "/" + this.timerService.questions.filter(e => e.selected_answer).length + " Correct"
       }
       else{
         return "0/0 Correct";
@@ -126,6 +126,7 @@ export class GmatTimerComponent implements OnInit {
 
     public onRadioCorrectAnswerChange(question: TimerQuestion){
       question.is_correct = question.selected_answer == question.correct_answer;
+      this.timerService.numberOfCorrectAnswer += question.is_correct ? 1 : -1;
     }
 
     public getQuestionForReview(): TimerQuestion[]{

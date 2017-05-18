@@ -28,6 +28,10 @@ export const routes: Routes = [
         loadChildren: './gmat-cat/gmat-cat.module#GmatCatModule'
       },
       {
+        path: 'gmat-practice',
+        loadChildren: './gmat-practice/gmat-practice.module#GMATPracticeModule'
+      },
+      {
         path: 'gmat-timer',
         component: GmatTimerComponent,
         data:{

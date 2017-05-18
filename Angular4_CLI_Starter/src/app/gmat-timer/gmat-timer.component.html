@@ -81,7 +81,7 @@
           <hr>
           <div style="margin-top: 20px;">
             <button class="btn btn-success" [disabled]="!isStarted() || !timerService.currentQuestion.selected_answer" (click)="next()">NEXT  <i class="fa fa-arrow-right"></i></button>
-            <button class="btn btn-danger pull-right" *ngIf="isPracticeSession()" [disabled]="!isStarted()" (click)="next()">END  <i class="fa fa-hourglass-end"></i></button>
+            <button class="btn btn-danger pull-right" *ngIf="isPracticeSession()" [disabled]="!isStarted()" (click)="end()">END  <i class="fa fa-hourglass-end"></i></button>
 
             <form style="display: inline; margin-left: 20px;">
               <input type="radio" name="radio_certainty" id="radio_sure" class="radio" value="SURE" [(ngModel)]="timerService.currentQuestion.certainty"/>

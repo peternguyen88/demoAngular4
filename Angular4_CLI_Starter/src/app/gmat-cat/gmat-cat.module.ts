@@ -11,9 +11,7 @@ import {GMATTestService} from "../services/gmat-test.service";
 import {TestWelcomeScreenComponent} from "./gmat-cat-test/test-welcome-screen/test-welcome-screen.component";
 import {SafeHtmlPipe, TestScreenComponent} from "./gmat-cat-test/test-screen/test-screen.component";
 import {TestScreenService} from "./services/gmat-test-screen.service";
-import {DigitalTimeDirective} from "app/directives/gm-digital-time.directive";
 import {FormsModule} from "@angular/forms";
-import {ConfirmDialogComponent} from "../shared/confirm-dialog/confirm-dialog.component";
 import {TestSummaryComponent} from "./gmat-cat-test/test-summary-screen/test-summary.component";
 import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
 
@@ -26,7 +24,6 @@ import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
     TestWelcomeScreenComponent,
     TestScreenComponent,
     SafeHtmlPipe,
-    ConfirmDialogComponent,
     TestSummaryComponent
   ],
   providers: [GMATTestService, TestScreenService]

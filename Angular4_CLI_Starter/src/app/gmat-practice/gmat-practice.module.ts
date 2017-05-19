@@ -9,7 +9,7 @@ import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
 import {GMATPracticeComponent} from "./gmat-practice.component";
 import {PracticeService} from "./gmat-practice.service";
 import {GMATPracticeListComponent} from "./gmat-practice-list/gmat-practice-list.component";
-import {GMATPracticeSummaryComponent} from "./gmat-practice-screen/gmat-practice-summary.component";
+import {GMATPracticeSummaryComponent} from "./gmat-practice-summary/gmat-practice-summary.component";
 
 @NgModule({
   imports: [CommonModule, GmatCommonModule,

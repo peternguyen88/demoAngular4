@@ -3,6 +3,7 @@
  */
 import {Component} from "@angular/core";
 import {PracticeService} from "../gmat-practice.service";
+import {GMATPractice} from "../../models/gmat-practice";
 
 @Component({
     moduleId: module.id,
@@ -10,7 +11,9 @@ import {PracticeService} from "../gmat-practice.service";
     templateUrl: 'gmat-practice-summary.component.html'
 })
 export class GMATPracticeSummaryComponent {
-    constructor(private practiceService: PracticeService) {
+    currentPractice: GMATPractice;
 
+    constructor(private practiceService: PracticeService) {
+      this.currentPractice = practiceService.currentPractice;
     }
 }

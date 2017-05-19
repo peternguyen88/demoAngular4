@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-header">
+    <i class="fa fa-align-justify"></i> Practice Summary - {{currentPractice.practiceName}}
+  </div>
+  <div class="card-block">
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+      <tr>   <th>No.</th>  <th>Type</th>  <th>Answer</th>   <th>Time</th>   <th>Correct?</th> <th>Bookmark</th>  <th>Review</th>   </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let question of currentPractice.questions">
+        <td>{{question.question_number}}</td>
+        <td>{{question.question_type}}</td>
+        <td>{{question.selected_answer}}</td>
+        <td><span gm-digital-time [time]="question.question_time"></span></td>
+        <td><span>{{question.selected_answer == question.correct_answer ? 'Correct' : 'Incorrect'}}</span></td>
+        <td><button type="button" class="btn btn-outline-info no-glow-button black-text short-button no-glow-button" (click)="question.toggleBookmark()"><i class="fa" [ngClass]="{'fa-flag-o': !question.bookmarked, 'fa-flag': question.bookmarked}"></i></button></td>
+        <td><button type="button" class="btn {{question.selected_answer ? question.isCorrect()? 'btn-success' : 'btn-danger' : 'btn-primary'}} short-button" (click)="reviewSingleQuestion(question)">Review</button></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

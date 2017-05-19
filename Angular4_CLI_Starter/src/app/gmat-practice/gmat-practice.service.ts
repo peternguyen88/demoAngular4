@@ -1,18 +1,24 @@
 import {Injectable, OnInit} from "@angular/core";
-import {Stage} from "./Model";
+import {Stage} from "./data/Model";
 import {GMATPractice} from "../models/gmat-practice";
+import {Http} from "@angular/http";
+import {PracticeData} from "./data/practice-sets";
 
 @Injectable()
-export class PracticeService implements OnInit{
-  stage: Stage;
+export class PracticeService{
+  stage: Stage = Stage.SELECT;
   currentPractice: GMATPractice;
 
-  ngOnInit(): void {
-    this.stage = Stage.SELECT;
-  }
+  constructor(private http:Http){}
 
-  public choosePracticeSet(practiceSet: GMATPractice){
+  public selectPracticeSet(practiceSet: GMATPractice){
     this.currentPractice = practiceSet;
+    // Load Questions from Server
+    this.http.get(this.currentPractice.fileLocation).subscribe(response =>{
+      if(response.ok) {
+        PracticeData.processQuestionFile(this.currentPractice, response.text());
+      }
+    });
     //===========================
     this.stage = Stage.SUMMARY;
   }

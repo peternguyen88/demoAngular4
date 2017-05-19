@@ -4,7 +4,7 @@ import {QuestionType} from "./constants.enum";
  * before stimulus.
  */
 export class Question {
-  question_number: number;
+  question_number: string;
   question_type: QuestionType;
   question_stem: string;
   reading_passage: string;

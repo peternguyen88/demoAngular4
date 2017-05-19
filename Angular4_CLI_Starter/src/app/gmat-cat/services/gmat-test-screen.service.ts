@@ -253,7 +253,7 @@ export class TestScreenService {
         lastQuestionType = question.question_type;
         currentLineIndex++;
 
-        question.question_number = currentQuestionIndex++;
+        question.question_number = (currentQuestionIndex++)+"";
         question.question_stem = lines[currentLineIndex++].replace("#Q#","");
         question.option_A = lines[currentLineIndex++].replace("#O#(A) ","").replace("#O#A. ","");
         question.option_B = lines[currentLineIndex++].replace("#O#(B) ","").replace("#O#B. ","");

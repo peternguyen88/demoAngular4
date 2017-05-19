@@ -27,7 +27,7 @@ export class QuestionResult{
     this.is_correct = question.isCorrect();
     this.question_time = question.question_time;
   }
-  question_number: number;
+  question_number: string;
   selected_answer: string;
   question_time: number;
   is_correct: boolean;

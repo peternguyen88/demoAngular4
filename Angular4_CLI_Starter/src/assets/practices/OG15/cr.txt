@@ -249,11 +249,11 @@ Which of the following most logically completes the argument?<br><br>Ferber's sy
 ---------------------------------
 #CR#32#B
 Last year the rate of inﬂation was 1.2 percent, but for the current year it has been 4 percent. We can conclude that inﬂation is on an upward trend and the rate will be still higher next year. <br><br>Which of the following, if true, most seriously weakens the conclusion above?
-(A)The inﬂation ﬁgures were computed on the basis of a representative sample of economic data rather than all of the available data.
-(B)Last year a dip in oil prices brought inﬂation temporarily below its recent stable annual level of 4 percent.
-(C)Increases in the pay of some workers are tied to the level of inﬂation, and at an inﬂation rate of 4 percent or above, these pay raises constitute a force causing further inﬂation.
-(D)The 1.2 percent rate of inﬂation last year represented a 10-year low.
-(E)Government intervention cannot affect the rate of inﬂation to any signiﬁcant degree.
+(A) The inﬂation ﬁgures were computed on the basis of a representative sample of economic data rather than all of the available data.
+(B) Last year a dip in oil prices brought inﬂation temporarily below its recent stable annual level of 4 percent.
+(C) Increases in the pay of some workers are tied to the level of inﬂation, and at an inﬂation rate of 4 percent or above, these pay raises constitute a force causing further inﬂation.
+(D) The 1.2 percent rate of inﬂation last year represented a 10-year low.
+(E) Government intervention cannot affect the rate of inﬂation to any signiﬁcant degree.
 ---------------------------------
 #CR#33#E
 Although the number of large artificial satellites orbiting the Earth is small compared to the number of small pieces of debris in orbit, the large satellites interfere more seriously with telescope observations because of the strong reflections they produce. Because many of those large satellites have ceased to function, the proposal has recently been made to eliminate interference from nonfunctioning satellites by exploding them in space. <br><br>This proposal, however, is ill conceived, since _______.
@@ -321,11 +321,11 @@ Crowding on Mooreville's subway frequently leads to delays, because it is diffic
 ---------------------------------
 #CR#41#D
 Installing scrubbers in smokestacks and switching to cleaner-burning fuel are the two methods available to Northern Power for reducing harmful emissions from its plants. Scrubbers will reduce harmful emissions more than cleaner-burning fuels will. Therefore, by installing scrubbers, Northern Power will be doing the most that can be done to reduce harmful emissions from its plants.<br><br>Which of the following is an assumption on which the argument depends?
-(A)Switching to cleaner-burning fuel will not be more expensive than installing scrubbers.
-(B)Northern Power can choose from among various Kinds of scrubbers, some of which are more effective than others.
-(C)Northern Power is not necessarily committed to reducing harmful emissions from its plants.
-(D)Harmful emissions from Northern Power's plants cannot be reduced more by using both methods together than by the installation of scrubbers alone.
-(E)Aside from harmful emissions from the smokestacks of its plants, the activities of Northern Power do not cause significant air pollution
+(A) Switching to cleaner-burning fuel will not be more expensive than installing scrubbers.
+(B) Northern Power can choose from among various Kinds of scrubbers, some of which are more effective than others.
+(C) Northern Power is not necessarily committed to reducing harmful emissions from its plants.
+(D) Harmful emissions from Northern Power's plants cannot be reduced more by using both methods together than by the installation of scrubbers alone.
+(E) Aside from harmful emissions from the smokestacks of its plants, the activities of Northern Power do not cause significant air pollution
 ---------------------------------
 #CR#42#C
 Trancorp currently transports all its goods to Burland Island by truck. The only bridge over the channel separating Burland from the mainland is congested, and trucks typically spend hours in traffic. Trains can reach the channel more quickly than trucks, and freight cars can be transported to Burland by barges that typically cross the channel in an hour. Therefore, to reduce shipping time, Trancorp plans to switch to trains and barges to transport goods to Burland. <br><br>Which of the following would be most important to know in determining whether Trancorp's plan, if implemented, is likely to achieve its goal?
@@ -336,7 +336,7 @@ Trancorp currently transports all its goods to Burland Island by truck. The only
 (E) Whether most trucks transporting goods into Burland return to the mainland empty?
 ---------------------------------
 #CR#43#A
-4. Some anthropologists study modern-day societies of foragers in an effort to learn about our ancient ancestors who were also foragers. A flaw in this strategy is that forager societies are extremely varied. Indeed, any forager society with which anthropologists are familiar has had considerable contact with modern nonforager societies.<br><br>Which of the following, if true, would most weaken the criticism made above of the anthropologists' strategy?
+Some anthropologists study modern-day societies of foragers in an effort to learn about our ancient ancestors who were also foragers. A flaw in this strategy is that forager societies are extremely varied. Indeed, any forager society with which anthropologists are familiar has had considerable contact with modern nonforager societies.<br><br>Which of the following, if true, would most weaken the criticism made above of the anthropologists' strategy?
 (A) All forager societies throughout history have had a number of important features in common that are absent from other types of societies.
 (B) Most ancient forager societies either dissolved or made a transition to another way of life.
 (C) All anthropologists study one kind or another of modern-day society.

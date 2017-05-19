@@ -6,4 +6,8 @@ export class GMATPractice {
   status: Status;
   fileLocation: string;
   questions: Question[] = [];
+
+  isActive():boolean{
+    return this.status == Status.ACTIVE;
+  }
 }

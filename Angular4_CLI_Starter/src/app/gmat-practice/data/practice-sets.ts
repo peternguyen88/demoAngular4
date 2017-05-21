@@ -31,19 +31,17 @@ export class PracticeData {
     let data = fileContent.slice(fileContent.indexOf("\n")).split("---------------------------------").filter(e => e.trim() != "");
 
     data.forEach(e => {
-      console.log("------------------");
       let lines = e.split("\n");
       let questionInfo = (lines[1] as string).split("#").filter(e => e.trim() != "");
 
       let question = new Question();
-
-      if(questionInfo[1] == "CR"){
+      if(questionInfo[0] == "CR"){
         question.question_type = QuestionType.CRITICAL_REASONING;
       }
-      else if(questionInfo[1] == "SC"){
+      else if(questionInfo[0] == "SC"){
         question.question_type = QuestionType.SENTENCE_CORRECTION;
       }
-      else if(questionInfo[1] == "RC"){
+      else if(questionInfo[0] == "RC"){
         question.question_type = QuestionType.READING_COMPREHENSION;
       }
 

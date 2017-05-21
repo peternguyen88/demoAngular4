@@ -2,7 +2,7 @@
  * Summary Screen - Showing a list of test for user to choose
  */
 import {Component} from "@angular/core";
-import {PracticeService} from "../gmat-practice.service";
+import {PracticeService} from "../services/gmat-practice.service";
 import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeData} from "../data/practice-sets";
 

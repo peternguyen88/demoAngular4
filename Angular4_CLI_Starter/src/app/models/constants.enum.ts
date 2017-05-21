@@ -32,6 +32,11 @@ export enum TestMode{
   REVIEW = <any>"REVIEW"
 }
 
+export enum PracticeMode{
+  PRACTICE = <any>"PRACTICE",
+  REVIEW = <any>"REVIEW"
+}
+
 export enum TimerType{
   QUANTITATIVE, VERBAL, PRACTICE
 }

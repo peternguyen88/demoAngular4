@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {PracticeService} from "./gmat-practice.service";
+import {PracticeService} from "./services/gmat-practice.service";
 import {Stage} from "./data/Model";
 /**
  * Main Component for taking GMAT CAT

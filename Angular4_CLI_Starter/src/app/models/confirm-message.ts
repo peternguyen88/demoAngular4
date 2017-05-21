@@ -32,6 +32,13 @@ export class ConfirmMessageConstant {
     showCloseIcon: false
   };
 
+  static PRACTICE_PAUSED: ConfirmMessage = {
+    header: 'Paused!',
+    message: 'Please click Resume to continue.',
+    acceptLabel: 'Resume',
+    showCloseIcon: false
+  };
+
   static TIMEOUT: ConfirmMessage = {
     header: 'Timeout!',
     message: 'Test time has run out. Please click Continue to continue the Test in Practice Mode.',

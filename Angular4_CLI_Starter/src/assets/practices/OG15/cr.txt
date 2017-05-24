@@ -40,7 +40,7 @@ A company is considering changing its policy concerning daily working hours. Cur
 (E) undertake projects that take several days to complete
 ---------------------------------
 #CR#6#D
-Parland's alligator population has been declining in recent years, primarily because of hunting. Alligators prey heavily on a species of freshwater fish that is highly valued as food by Parlanders, who had hoped that the decline in the alligator population would lead to an increase in the numbers of these fish available for human consumption. Yet the population of this fish species has also declined, even though the annual number caught<br><br>for human consumption has not increased.<br><br>Which of the following, if true, most helps to explain the decline in the population of the fish species?
+Parland's alligator population has been declining in recent years, primarily because of hunting. Alligators prey heavily on a species of freshwater fish that is highly valued as food by Parlanders, who had hoped that the decline in the alligator population would lead to an increase in the numbers of these fish available for human consumption. Yet the population of this fish species has also declined, even though the annual number caught for human consumption has not increased.<br><br>Which of the following, if true, most helps to explain the decline in the population of the fish species?
 (A) The decline in the alligator population has meant that fishers can work in some parts of lakes and rivers that were formerly too dangerous.
 (B) Over the last few years, Parland's commercial fishing enterprises have increased the number of fishing boats they use.
 (C) Many Parlanders who hunt alligators do so because of the high market price of alligator skins, not because of the threat alligators pose to the fish population.
@@ -249,14 +249,14 @@ Which of the following most logically completes the argument?<br><br>Ferber's sy
 ---------------------------------
 #CR#32#B
 Last year the rate of inﬂation was 1.2 percent, but for the current year it has been 4 percent. We can conclude that inﬂation is on an upward trend and the rate will be still higher next year. <br><br>Which of the following, if true, most seriously weakens the conclusion above?
-(A) The inﬂation ﬁgures were computed on the basis of a representative sample of economic data rather than all of the available data.
-(B) Last year a dip in oil prices brought inﬂation temporarily below its recent stable annual level of 4 percent.
-(C) Increases in the pay of some workers are tied to the level of inﬂation, and at an inﬂation rate of 4 percent or above, these pay raises constitute a force causing further inﬂation.
-(D) The 1.2 percent rate of inﬂation last year represented a 10-year low.
-(E) Government intervention cannot affect the rate of inﬂation to any signiﬁcant degree.
+(A)The inﬂation ﬁgures were computed on the basis of a representative sample of economic data rather than all of the available data.
+(B)Last year a dip in oil prices brought inﬂation temporarily below its recent stable annual level of 4 percent.
+(C)Increases in the pay of some workers are tied to the level of inﬂation, and at an inﬂation rate of 4 percent or above, these pay raises constitute a force causing further inﬂation.
+(D)The 1.2 percent rate of inﬂation last year represented a 10-year low.
+(E)Government intervention cannot affect the rate of inﬂation to any signiﬁcant degree.
 ---------------------------------
 #CR#33#E
-Although the number of large artificial satellites orbiting the Earth is small compared to the number of small pieces of debris in orbit, the large satellites interfere more seriously with telescope observations because of the strong reflections they produce. Because many of those large satellites have ceased to function, the proposal has recently been made to eliminate interference from nonfunctioning satellites by exploding them in space. <br><br>This proposal, however, is ill conceived, since _______.
+Which of the following most logically completes the argument?<br><br>Although the number of large artificial satellites orbiting the Earth is small compared to the number of small pieces of debris in orbit, the large satellites interfere more seriously with telescope observations because of the strong reflections they produce. Because many of those large satellites have ceased to function, the proposal has recently been made to eliminate interference from nonfunctioning satellites by exploding them in space. This proposal, however, is ill conceived, since _______.
 (A) many nonfunctioning satellites remain in orbit for years
 (B) for satellites that have ceased to function, repairing them while they are in orbit would be prohibitively expensive
 (C) there are no known previous instances of satellites' having been exploded on purpose
@@ -272,7 +272,7 @@ Although the number of large artificial satellites orbiting the Earth is small c
 (E) shifting the discussion from the argument at hand to an attack on the integrity of the cheese inspectors
 ---------------------------------
 #CR#35#B
-The computer industry's estimate that it loses millions of dollars when users illegally copy programs without paying for them is greatly exaggerated. Most of the illegal copying is done by people with no serious interest in the programs. Thus, the loss to the industry is much smaller than estimated because
+Which of the following most logically completes the argument?<br><br>The computer industry's estimate that it loses millions of dollars when users illegally copy programs without paying for them is greatly exaggerated. Most of the illegal copying is done by people with no serious interest in the programs. Thus, the loss to the industry is much smaller than estimated because _______.
 (A) many users who illegally copy programs never find any use for them
 (B) most of the illegally copied programs would not be purchased even if purchasing them were the only way to obtain them
 (C) even if the computer industry received all the revenue it claims to be losing, it would still be experiencing financial difficulties
@@ -280,7 +280,7 @@ The computer industry's estimate that it loses millions of dollars when users il
 (E) the number of programs that are frequently copied illegally is low in comparison to the number of programs available for sale
 ---------------------------------
 #CR#36#C
-Which of the following most logically completes the argument?<br><br>The growing popularity of computer-based activities was widely predicted to result in a corresponding decline in television viewing. Recent studies have found that, in the United States, people who own computers watch, on average, significantly less television than people who do not own computers. In itself, however, this finding does very little to show that computer use tends to reduce television viewing time, since_______.
+Which of the following most logically completes the argument?<br><br>The growing popularity of computer-based activities was widely predicted to result in a corresponding decline in television viewing. Recent studies have found that, in the United States, people who own computers watch, on average, significantly less television than people who do not own computers. In itself, however, this finding does very little to show that computer use tends to reduce television viewing time, since _______.
 (A) many people who watch little or no television do not own a computer.
 (B) even though most computer owners in the United States watch significantly less television than the national average, some computer owners watch far more television than the national average.
 (C) computer owners in the United States predominately belong to a demographic group that have long been known to spend less time watching television than the population as a whole does.
@@ -304,7 +304,7 @@ Which of the following best completes the passage below?<br><br>When the product
 (E) suppliers in crowded markets will have more incentive to reduce prices and thus increase sales than to introduce innovations that would distinguish their product from their competitors' products
 ---------------------------------
 #CR#39#C
-Sviatovin is a medieval Moringian text whose author and exact date of composition are unknown. However, the events in the life of Prince Sviatov that the text describes occurred in 1165, and in the diagram of Sviatov's family that accompanies the text his father, who died in 1167, is identified as still living. Thus Sviatovin must have been written between 1165 and 1167, assuming that _____________ .
+Which of the following most logically completes the argument?<br><br>Sviatovin is a medieval Moringian text whose author and exact date of composition are unknown. However, the events in the life of Prince Sviatov that the text describes occurred in 1165, and in the diagram of Sviatov's family that accompanies the text his father, who died in 1167, is identified as still living. Thus Sviatovin must have been written between 1165 and 1167, assuming that _______.
 (A) the life of Prince Sviatov is not the subject of any other medieval Moringian texts
 (B) the author of Sviatovin intended it to provide as accurate a report about Prince Sviatov's exploits as possible
 (C) the diagram accurately represents the composition of Sviatov's family at the time Sviatovin was written
@@ -321,11 +321,11 @@ Crowding on Mooreville's subway frequently leads to delays, because it is diffic
 ---------------------------------
 #CR#41#D
 Installing scrubbers in smokestacks and switching to cleaner-burning fuel are the two methods available to Northern Power for reducing harmful emissions from its plants. Scrubbers will reduce harmful emissions more than cleaner-burning fuels will. Therefore, by installing scrubbers, Northern Power will be doing the most that can be done to reduce harmful emissions from its plants.<br><br>Which of the following is an assumption on which the argument depends?
-(A) Switching to cleaner-burning fuel will not be more expensive than installing scrubbers.
-(B) Northern Power can choose from among various Kinds of scrubbers, some of which are more effective than others.
-(C) Northern Power is not necessarily committed to reducing harmful emissions from its plants.
-(D) Harmful emissions from Northern Power's plants cannot be reduced more by using both methods together than by the installation of scrubbers alone.
-(E) Aside from harmful emissions from the smokestacks of its plants, the activities of Northern Power do not cause significant air pollution
+(A)Switching to cleaner-burning fuel will not be more expensive than installing scrubbers.
+(B)Northern Power can choose from among various Kinds of scrubbers, some of which are more effective than others.
+(C)Northern Power is not necessarily committed to reducing harmful emissions from its plants.
+(D)Harmful emissions from Northern Power's plants cannot be reduced more by using both methods together than by the installation of scrubbers alone.
+(E)Aside from harmful emissions from the smokestacks of its plants, the activities of Northern Power do not cause significant air pollution
 ---------------------------------
 #CR#42#C
 Trancorp currently transports all its goods to Burland Island by truck. The only bridge over the channel separating Burland from the mainland is congested, and trucks typically spend hours in traffic. Trains can reach the channel more quickly than trucks, and freight cars can be transported to Burland by barges that typically cross the channel in an hour. Therefore, to reduce shipping time, Trancorp plans to switch to trains and barges to transport goods to Burland. <br><br>Which of the following would be most important to know in determining whether Trancorp's plan, if implemented, is likely to achieve its goal?
@@ -352,7 +352,7 @@ Contrary to earlier predictions, demand for sugarcane has not increased in recen
 (E) Rainfall in sugarcane-growing regions was higher than it had been during the previous year, allowing the growers to save money on expensive artificial irrigation.</span>
 ---------------------------------
 #CR#45#A
-Davison River farmers are currently deciding between planting winter wheat this fall or spring wheat next spring. Winter wheat and spring wheat are usually about equally profitable. Because of new government restrictions on the use of Davison River water for irrigation, per acre yields for winter wheat, though not for spring wheat, would be much lower than average. Therefore, planting spring wheat will be more profitable than planting winter wheat, since‗‗‗‗‗‗.
+Which of the following most logically completes the argument?<br><br>Davison River farmers are currently deciding between planting winter wheat this fall or spring wheat next spring. Winter wheat and spring wheat are usually about equally profitable. Because of new government restrictions on the use of Davison River water for irrigation, per acre yields for winter wheat, though not for spring wheat, would be much lower than average. Therefore, planting spring wheat will be more profitable than planting winter wheat, since _______.
 (A) the smaller-than-average size of a winter wheat harvest this year would not be compensated for by higher winter wheat prices
 (B) new crops of spring wheat must be planted earlier than the time at which standing crops of winter wheat are ready to be harvested
 (C) the spring wheat that farmers in the Davison River region plant is well adapted to the soil of the region
@@ -778,7 +778,7 @@ Hotco oil burners, designed to be used in asphalt plants, are so efficient that 
 (E) A steady increase in the price of oil beginning soon after the new burner is installed
 ---------------------------------
 #CR#98#B
-<span style="font-weight: bold">Delta Products Inc. has recently switched at least partly from older technologies using fossil fuels to new technologies powered by electricity.</span><br><br>The question has been raised whether it can be concluded that <span style="font-weight: bold">for a given level of output Delta's operation now causes less fossil fuel to be consumed than it did formerly.</span> The answer, clearly, is yes, since the amount of fossil fuel used to generate the electricity needed to power the new technologies is less than the amount needed to power the older technologies, provided level of output is held constant<br><br>In the argument given, the two boldfaced portions play which of the following roles?
+<span style="font-weight: bold">Delta Products Inc. has recently switched at least partly from older technologies using fossil fuels to new technologies powered by electricity.</span> The question has been raised whether it can be concluded that <span style="font-weight: bold">for a given level of output Delta's operation now causes less fossil fuel to be consumed than it did formerly.</span> The answer, clearly, is yes, since the amount of fossil fuel used to generate the electricity needed to power the new technologies is less than the amount needed to power the older technologies, provided level of output is held constant<br><br>In the argument given, the two boldfaced portions play which of the following roles?
 (A) The first identifies the content of the conclusion of the argument; the second provides support for that conclusion.
 (B) The first provides support for the conclusion of the argument; the second identifies the content of that conclusion.
 (C) The first states the conclusion of the argument; the second calls that conclusion into question.
@@ -810,7 +810,7 @@ The irradiation of food kills bacteria and thus retards spoilage. However, it al
 (E) for food that is both irradiated and cooked, the reduction of vitamin B1 associated with either process individually is compounded
 ---------------------------------
 #CR#102#E
-One way to judge the performance of a company is to compare it with other companies. This technique, commonly called "benchmarking", permits the manager of a company to discover better industrial practices and can provide a justification for the adoption of good practices.<br><br>Any of the following, if true, is a valid reason for benchmarking the performance of a company against companies with which it is not in competition rather that against competitors EXCEPT:
+One way to judge the performance of a company is to compare it with other companies. This technique, commonly called "benchmarking", permits the manager of a company to discover better industrial practices and can provide a justification for the adoption of good practices.<br><br>Any of the following, if true, is a valid reason for benchmarking the performance of a company against companies with which it is not in competition rather that against competitors <span style="font-weight: bold">EXCEPT</span>:
 (A) Comparisons with competitors are most likely to fous on practices that the manager making the comparisions already employs
 (B) Getting "inside" information about the unique practices of competitors is particularly difficult
 (C) Since companies that compete with each other are likely to have cpmparable levels of efficiency, only benchmarking against noncompetitors is likely to reveal practices that would aid in beating competitors
@@ -858,7 +858,7 @@ Although the discount stores in Goreville central shopping district are expected
 (E) Many stores in the central shopping district sell types of merchandise that are not available at either SpendLess or Colson's.
 ---------------------------------
 #CR#108#A
-Kale has more nutritional value than spinach. But since collard greens have more nutritional value than lettuce, if follows that kale has more nutritional value than lettuce. <br><br>Any of the following, if introduced into the argument as an additional premise, makes the argument above logically correct EXCEPT:
+Kale has more nutritional value than spinach. But since collard greens have more nutritional value than lettuce, if follows that kale has more nutritional value than lettuce. <br><br>Any of the following, if introduced into the argument as an additional premise, makes the argument above logically correct <span style="font-weight: bold">EXCEPT</span>:
 (A) Collard greens have more nutritional value than kale
 (B) Spinach has more nutritional value than lettuce
 (C) Spinach has more nutritional value than collard greens

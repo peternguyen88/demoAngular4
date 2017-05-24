@@ -3,8 +3,9 @@ import {GMATPractice} from "../../models/gmat-practice";
 import {Question} from "../../models/question";
 export class PracticeData {
   static DATA = [
-    ['OG15-CR',125,Status.ACTIVE, 'assets/practices/OG15/cr.txt'],
-    ['OG15-SC',125,Status.ACTIVE, 'assets/practices/OG15/sc.txt']
+    ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt'],
+    ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt'],
+    ['OG15-RC',143,Status.ACTIVE, 'assets/practices/OG15/rc.txt']
   ];
 
   static practices:GMATPractice[];
@@ -49,18 +50,24 @@ export class PracticeData {
       question.correct_answer = questionInfo[2];
       question.question_time = 0;
 
-      question.question_stem = lines[2];
-      question.option_A = lines[3].slice(4);
-      question.option_B = lines[4].slice(4);
-      question.option_C = lines[5].slice(4);
-      question.option_D = lines[6].slice(4);
-      question.option_E = lines[7].slice(4);
+      let questionStemStart = 2;
+      if(question.question_type == QuestionType.READING_COMPREHENSION){
+        question.reading_passage = lines[2];
+        questionStemStart = 3;
+      }
 
-      PracticeData.safeGuardQuestion(lines[3]);
-      PracticeData.safeGuardQuestion(lines[4]);
-      PracticeData.safeGuardQuestion(lines[5]);
-      PracticeData.safeGuardQuestion(lines[6]);
-      PracticeData.safeGuardQuestion(lines[7]);
+      question.question_stem = lines[questionStemStart];
+      question.option_A = lines[questionStemStart+1].slice(4);
+      question.option_B = lines[questionStemStart+2].slice(4);
+      question.option_C = lines[questionStemStart+3].slice(4);
+      question.option_D = lines[questionStemStart+4].slice(4);
+      question.option_E = lines[questionStemStart+5].slice(4);
+
+      PracticeData.safeGuardQuestion(lines[questionStemStart+1]);
+      PracticeData.safeGuardQuestion(lines[questionStemStart+2]);
+      PracticeData.safeGuardQuestion(lines[questionStemStart+3]);
+      PracticeData.safeGuardQuestion(lines[questionStemStart+4]);
+      PracticeData.safeGuardQuestion(lines[questionStemStart+5]);
 
       questions.push(question);
     });

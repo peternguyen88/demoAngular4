@@ -8,7 +8,7 @@ In a review of 2000 studies of human behavior that date back to the 1940's, two 
 (E) psychologists declared that since most of the studies had failed to control for variables such as social class and family size,
 ---------------------------------
 #SC#2#C
-Manufacturers rate batteries in watt-hours;<span style="text-decoration: underline"> if they rate the watt-hour higher, the longer</span> the battery can be expected to last.
+Manufacturers rate batteries in watt-hours; <span style="text-decoration: underline">if they rate the watt-hour higher, the longer</span> the battery can be expected to last.
 (A) if they rate the watt-hour higher, the longer
 (B) rating the watt-hour higher, it is that much longer
 (C) the higher the watt-hour rating, the longer
@@ -81,14 +81,14 @@ The widely accepted big-bang theory holds <span style="text-decoration: underlin
 ---------------------------------
 #SC#11#E
 <span style="text-decoration: underline">Like the idolization accorded the Brontes and Brownings</span>, James Joyce and Virginia Woolf are often subjected to this kind of veneration that blurs the distinction between the artist and the human being.
-(A) Like the Idolization accorded the Brontes and Brownings.
-(B) As the Brontes' and Brownings' idolization.
-(C) Like that accorded to the Brontes and Brownings.
-(D) As it is of the Brontes and Brownings.
-(E) LIke the Brontes and Brownings.
+(A) Like the Idolization accorded the Brontes and Brownings
+(B) As the Brontes' and Brownings' idolization
+(C) Like that accorded to the Brontes and Brownings
+(D) As it is of the Brontes and Brownings
+(E) LIke the Brontes and Brownings
 ---------------------------------
 #SC#12#B
-Carnivorous mammals can endure what would otherwise be lethal levels of body heat because they have a heat-exchange network <span style="text-decoration: underline">which kept </span>the brain from getting too hot.
+Carnivorous mammals can endure what would otherwise be lethal levels of body heat because they have a heat-exchange network <span style="text-decoration: underline">which kept</span> the brain from getting too hot.
 (A) which kept
 (B) that keeps
 (C) which has kept
@@ -160,7 +160,7 @@ Retail sales rose 8/10 of 1 percent in August, intensifying expectations <span s
 (E) of personal spending in the July-September quarter, that it would more than double that of
 ---------------------------------
 #SC#21#D
-The commission has directed advertisers to restrict the use of the word natural to foods that do not contain color or flavor additives, chemical preservatives, <span style="text-decoration: underline">or nothing that has been </span> synthesized.
+The commission has directed advertisers to restrict the use of the word natural to foods that do not contain color or flavor additives, chemical preservatives, <span style="text-decoration: underline">or nothing that has been</span> synthesized.
 (A) or nothing that has been
 (B) or that has been
 (C) and nothing that is
@@ -256,7 +256,7 @@ Galileo was convinced that natural phenomena, as manifestations of the laws of p
 (E) water; just as to the
 ---------------------------------
 #SC#33#A
-<span style="text-decoration: underline"><span style="font-weight: bold">Because an oversupply of computer chips has sent prices plunging</span></span>, the manufacturer has announced that it will cut production by closing its factories for two days a month.
+<span style="text-decoration: underline">Because an oversupply of computer chips has sent prices plunging</span>, the manufacturer has announced that it will cut production by closing its factories for two days a month.
 (A) Because an oversupply of computer chips has sent prices plunging
 (B) Because of plunging prices for computer chips, which is due to an oversupply
 (C) Because computer chip prices have been sent plunging, which resulted from an oversupply
@@ -288,7 +288,7 @@ Along with the drop in producer prices announced yesterday, the strong retail sa
 (E) like an indication of
 ---------------------------------
 #SC#37#A
-Dressed as a man and using the name Robert Shurtleff, Deborah Sampson, the first woman to draw a soldierâ€™s pension, joined the Continental Army in 1782 at the age of <span style="text-decoration: underline">22, was injured three times, and was discharged in 1783 because she had become </span>too ill to serve.
+Dressed as a man and using the name Robert Shurtleff, Deborah Sampson, the first woman to draw a soldier's pension, joined the Continental Army in 1782 at the age of <span style="text-decoration: underline">22, was injured three times, and was discharged in 1783 because she had become </span>too ill to serve.
 (A) 22, was injured three times, and was discharged in 1783 because she had become
 (B) 22, was injured three times, while being discharged in 1783 because she had become
 (C) 22, and was injured three times, and discharged in 1783, being
@@ -297,7 +297,7 @@ Dressed as a man and using the name Robert Shurtleff, Deborah Sampson, the first
 ---------------------------------
 #SC#38#B
 Bengal - born writer, philosopher, and educator Rabindranath Tagore had the greatest admiration <span style="text-decoration: underline">for Mohandas K. Gandhi the person and also as a politician, but Tagore had been</span> skeptical of Gandhi's form of nationalism and his conservative opinions about India's cultural traditions
-(A) same
+(A) for Mohandas K. Gandhi the person and also as a politician, but Tagore had been
 (B) for Mohandas K.Gandhi as a person and as a politician, but Tagore was also
 (C) for Mohandas K.Gandhi not only as a person and as a politician, but Tagore was also
 (D) of Mohandas K.Gandhi as a person and as also a politician, but Tagore was
@@ -632,7 +632,7 @@ Ryunosuke Akutagawa‘s knowledge of the literatures of Europe, China and <span 
 (E) Japan were instrumental in his development as a writer, informing both his literary style in addition to
 ---------------------------------
 #SC#80#E
-The only way for growers to salvage frozen citrus is <span style="text-decoration: underline">to process them quickly into juice concentrate before they rot when warmer weather returns.</span>(A) to process them quickly into juice concentrate before they rot when warmer weather returns
+The only way for growers to salvage frozen citrus is <span style="text-decoration: underline">to process them quickly into juice concentrate before they rot when warmer weather returns.</span>
 (A) to process them quickly into juice concentrate before they rot when warmer weather returns
 (B) if they are quickly processed into juice concentrate before warmer weather returns to rot them
 (C) for them to be processed quickly into juice concentrate before the fruit rots when warmer weather returns
@@ -704,12 +704,12 @@ Often visible as smog, <span style="text-decoration: underline">ozone is formed 
 (E) ozone, formed in the atmosphere from
 ---------------------------------
 #SC#89#A
-<span style="color: #003471">Salt deposits and moisture threaten to destroy the Mohenjo-Daro excavation in Pakistan, the site of an ancient civilization <span style="text-decoration: underline">that flourished at the same time as the civilizations</span> in the Nile delta and the river valleys of the Tigris and Euphrates.
+Salt deposits and moisture threaten to destroy the Mohenjo-Daro excavation in Pakistan, the site of an ancient civilization <span style="text-decoration: underline">that flourished at the same time as the civilizations</span> in the Nile delta and the river valleys of the Tigris and Euphrates.
 (A) that flourished at the same time as the civilizations
 (B) that had flourished at the same time as had the civilizations
 (C) that flourished at the same time those had
 (D) flourishing at the same time as those did
-(E) flourishing at the same time as those were</span>
+(E) flourishing at the same time as those were
 ---------------------------------
 #SC#90#C
 The results of the company's cost-cutting measures are evident in its profits, <span style="text-decoration: underline">which increased five percent during the first three months of this year after it fell </span> over the last two years.
@@ -720,7 +720,7 @@ The results of the company's cost-cutting measures are evident in its profits, <
 (E) with a five percent increase during the first three months of this year after having fallen
 ---------------------------------
 #SC#91#C
-In an effort to reduce their inventories, Italian vintners have cut prices; their wines <span style="text-decoration: underline">have been priced to sell, and they are </span>.
+In an effort to reduce their inventories, Italian vintners have cut prices; their wines <span style="text-decoration: underline">have been priced to sell, and they are</span>.
 (A) have been priced to sell, and they are
 (B) are priced to sell, and they have
 (C) are priced to sell, and they do
@@ -736,7 +736,7 @@ In an effort to reduce their inventories, Italian vintners have cut prices; thei
 (E) Jazz pianist and composer Thelonious Monk produced a body of work rooted both
 ---------------------------------
 #SC#93#A
-Nobody knows exactly how many languages there are in the world, partly because of the difficulty (of? ) distinguishing between a language <span style="text-decoration: underline">and the sub-languages or dialects within it, but those who have tried to count typically have found</span> about five thousand.
+Nobody knows exactly how many languages there are in the world, partly because of the difficulty of distinguishing between a language <span style="text-decoration: underline">and the sub-languages or dialects within it, but those who have tried to count typically have found</span> about five thousand.
 (A) and the sub-languages or dialects within it, but those who have tried to count typically have found
 (B) and the sub-languages or dialects within them, with those who have tried counting typically finding
 (C) and the sub-languages or dialects within it, but those who have tried counting it typically find
@@ -744,7 +744,7 @@ Nobody knows exactly how many languages there are in the world, partly because o
 (E) or the sub-languages or dialects within them, with those who have tried to count typically finding
 ---------------------------------
 #SC#94#A
-<span style="text-decoration: underline">Heating-oil prices are expected to be higher this year than last because refiners are paying about $5 a barrel more for crude oil than they were </span>last year.
+<span style="text-decoration: underline">Heating-oil prices are expected to be higher this year than last because refiners are paying about $5 a barrel more for crude oil than they were</span> last year.
 (A) Heating-oil prices are expected to be higher this year than last because refiners are paying about $5 a barrel more for crude oil than they were
 (B) Heating-oil prices are expected to rise higher this year over last because refiners pay about $5 a barrel for crude oil more than they did
 (C) Expectations are for heating-oil prices to be higher this year than last year's becuase refiners are paying about $5 a barrel for crude oil more than they did
@@ -752,7 +752,7 @@ Nobody knows exactly how many languages there are in the world, partly because o
 (E) It is the expected that heating-oil prices will rise higher this year than last year's because refiners pay about $5 a barrel for crude oil more than they did
 ---------------------------------
 #SC#95#C
-One of the primary distinctions<span style="text-decoration: underline"> between our intelligence with that of other primates may lay not so much in any specific skill but</span> in our ability to extend knowledge gained in one context to new and different ones.
+One of the primary distinctions <span style="text-decoration: underline">between our intelligence with that of other primates may lay not so much in any specific skill but</span> in our ability to extend knowledge gained in one context to new and different ones.
 (A) between our intelligence with that of other primates may lay not so much in any specific skill but
 (B) between our intelligence with that of other primates may lie not so much in any specific skill but instead
 (C) between our intelligence and that of other primates may lie not so much in any specific skill as
@@ -776,7 +776,7 @@ Some anthropologists believe that the genetic homogeneity evident in the world's
 (E) some time in the past, that our ancestors suffered an event so as to reduce their numbers greatly,
 ---------------------------------
 #SC#98#D
-Ranked as one of the most important of Europe’s young playwrights, Franz Xaver Kroetz has written forty plays; his works—translated into over thirty languages—are produced more often <span style="text-decoration: underline">than any </span>contemporary German dramatist.
+Ranked as one of the most important of Europe’s young playwrights, Franz Xaver Kroetz has written forty plays; his works—translated into over thirty languages—are produced more often <span style="text-decoration: underline">than any</span> contemporary German dramatist.
 (A) than any
 (B) than any other
 (C) than are any
@@ -920,7 +920,7 @@ Starfish, with anywhere from five to eight arms, have a strong regenerative abil
 (E) Because even tiny islets can be the basis for claims to the fisheries and oil fields of large sea areas under provisions of the new maritime code, which is already stimulating
 ---------------------------------
 #SC#116#C
-The original building and loan associations were organized as limited life funds, whose members made monthly payments on their share <span style="font-weight: bold"><span style="text-decoration: underline">subscriptions, then taking turns drawing</span></span> on the funds for home mortgages.
+The original building and loan associations were organized as limited life funds, whose members made monthly payments on their share <span style="text-decoration: underline">subscriptions, then taking turns drawing</span> on the funds for home mortgages.
 (A) subscriptions, then taking turns drawing
 (B) subscriptions, and then taking turns drawing
 (C) subscriptions and then took turns drawing
@@ -936,7 +936,7 @@ Gall's hypothesis <span style="text-decoration: underline">of there being differ
 (E) which is widely accepted today is that there are different mental functions localized in different parts of the brain
 ---------------------------------
 #SC#118#C
-Mauritius was a British colony for almost 200 years, <span style="text-decoration: underline">excepting for</span> the domains of administration and teaching, the English language was never really spoken on the island. (GMAT practice test from mba.com)
+Mauritius was a British colony for almost 200 years, <span style="text-decoration: underline">excepting for</span> the domains of administration and teaching, the English language was never really spoken on the island.
 (A) excepting for
 (B) except in
 (C) but except in
@@ -1081,11 +1081,11 @@ Spanning more than fifty years, Friedrich <span style="text-decoration: underlin
 ---------------------------------
 #SC#136#A
 <span style="text-decoration: underline">Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes</span> form a random pattern.
-(A) Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes
-(B) Whereas the tiny tubes for the conveying of nutrients to bone cells are arrayed in mammals in parallel lines, birds have tubes that
-(C) Unlike mammals, where the tiny tubes for conveying nutrients to bone cells are arrayed in parallel lines, birds’ tubes
-(D) Unlike mammals, in whom the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, the tubes in birds
-(E) Unlike the tiny tubes that convey nutrients to bone cells, which in mammals are arrayed in parallel lines, in birds the tubes
+(A)	Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes
+(B)	Whereas the tiny tubes for the conveying of nutrients to bone cells are arrayed in mammals in parallel lines, birds have tubes that
+(C)	Unlike mammals, where the tiny tubes for conveying nutrients to bone cells are arrayed in parallel lines, birds’ tubes
+(D)	Unlike mammals, in whom the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, the tubes in birds
+(E)	Unlike the tiny tubes that convey nutrients to bone cells, which in mammals are arrayed in parallel lines, in birds the tubes
 ---------------------------------
 #SC#137#C
 Joachim Raff and Giacomo Meyerbeer are examples of the kind of composer who receives popular acclaim while living, <span style="text-decoration: underline">often goes into decline after death, and never regains popularity again</span>.

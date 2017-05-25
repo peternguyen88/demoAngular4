@@ -31,7 +31,7 @@
         <td><span *ngIf="question.selected_answer">{{question.selected_answer == question.correct_answer ? 'Correct' : 'Incorrect'}}</span></td>
         <td></td>
         <td><a (click)="startPracticeAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Practice</a></td>
-        <td><a (click)="startPracticeAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Review</a></td>
+        <td><a (click)="startReviewAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Review</a></td>
         <td>Remarks</td>
       </tr>
       </tbody>

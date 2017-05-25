@@ -31,6 +31,11 @@ export class GMATPracticeSummaryComponent {
       this.practiceService.review();
     }
 
+    startReviewAt(question: Question){
+      let index = this.currentPractice.questions.indexOf(question);
+      this.practiceService.reviewAt(index);
+    }
+
     backToSelection(){
       this.practiceService.backToSelection();
     }

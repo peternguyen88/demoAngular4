@@ -18,6 +18,7 @@ export class Question {
   selected_answer: string;
   correct_answer: string;
   bookmarked: boolean = false;
+  remarks: string;
   isFirstRC: boolean = false;
 
   public isCorrect(): boolean {

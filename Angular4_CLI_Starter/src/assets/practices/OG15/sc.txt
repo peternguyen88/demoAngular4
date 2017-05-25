@@ -201,11 +201,11 @@ The Iroquois were primarily planters, <span style="text-decoration: underline">b
 ---------------------------------
 #SC#26#B
 Tropical bats play important roles in the rain forest ecosystem, aiding in the dispersal of cashew, date, and fig seeds; <span style="text-decoration: underline">pollinating banana, breadfruit, and mango trees; and indirectly help produce</span> tequila by pollinating agave plants.
-(a) as it is from the above
-(b) pollinating banana, breadfruit, and mango trees; and indirectly helping to produce
-(c) pollinating banana, breadfruit, and mango trees; and they indirectly help to produce
-(d) they pollinate banana, breadfruit, and mango trees; and indirectly help producing
-(e) they pollinate banana, breadfruit, and mango trees: indirectly helping the producing of
+(A) pollinating banana, breadfruit, and mango trees; and indirectly help produce
+(B) pollinating banana, breadfruit, and mango trees; and indirectly helping to produce
+(C) pollinating banana, breadfruit, and mango trees; and they indirectly help to produce
+(D) they pollinate banana, breadfruit, and mango trees; and indirectly help producing
+(E) they pollinate banana, breadfruit, and mango trees: indirectly helping the producing of
 ---------------------------------
 #SC#27#D
 None of the attempts to specify the causes of crime explains why most of the people exposed to the alleged causes do not commit crimes and, conversely, why so many of those not so exposed <span style="text-decoration: underline">have</span>.

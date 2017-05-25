@@ -7,6 +7,7 @@ import {PracticeMode} from "../../models/constants.enum";
 import {Subscription} from "rxjs/Subscription";
 import {Question} from "../../models/question";
 import {Observable} from "rxjs/Observable";
+import {PracticeResult} from "../../models/test-result";
 
 @Injectable()
 export class PracticeService{
@@ -19,12 +20,22 @@ export class PracticeService{
 
   public selectPracticeSet(practiceSet: GMATPractice){
     this.currentPractice = practiceSet;
-    // Load Questions from Server
-    this.http.get(this.currentPractice.fileLocation).subscribe(response =>{
-      if(response.ok) {
-        PracticeData.processQuestionFile(this.currentPractice, response.text());
-      }
-    });
+    // Try to load from Session Storage
+    if(sessionStorage.getItem(this.currentPractice.practiceName)){
+      PracticeData.processQuestionFile(this.currentPractice, sessionStorage.getItem(this.currentPractice.practiceName));
+      this.loadSavedData();
+    }
+    else {
+      // Load Questions from Server
+      this.http.get(this.currentPractice.fileLocation).subscribe(response => {
+        if (response.ok) {
+          PracticeData.processQuestionFile(this.currentPractice, response.text());
+          this.loadSavedData();
+          // Save to Session Storage for next time use
+          sessionStorage.setItem(this.currentPractice.practiceName, response.text());
+        }
+      });
+    }
     //===========================
     this.stage = Stage.SUMMARY;
   }
@@ -104,10 +115,14 @@ export class PracticeService{
   }
 
   review(){
+    this.reviewAt(0);
+  }
+
+  reviewAt(index: number){
     this.startPractice();
 
     this.practiceMode = PracticeMode.REVIEW;
-    this.currentQuestionIndex = 0;
+    this.currentQuestionIndex = index;
     this.questions = this.currentPractice.questions;
   }
 
@@ -118,10 +133,6 @@ export class PracticeService{
   updateEachSecond(){
     this.currentQuestionTime++;
     this.elapsedTime++;
-  }
-
-  savePracticeData(){
-
   }
 
   // ------------- Navigation -------------------------
@@ -166,6 +177,34 @@ export class PracticeService{
   // -------------End Control Functions------------
 
   // ==================================== End Practice Control ===============================================
+
+  // =============================Save data to Local Storage==========================
+  savePracticeData(){
+    if(localStorage.getItem(this.currentPractice.practiceName)){
+      let savedResult = JSON.parse(localStorage.getItem(this.currentPractice.practiceName)) as PracticeResult;
+      PracticeResult.mergeResult(savedResult, this.currentPractice);
+      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(savedResult));
+      PracticeResult.mergeResultToPractice(this.currentPractice, savedResult);
+    }else{
+      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(new PracticeResult(this.currentPractice)));
+    }
+  }
+
+  loadSavedData(){
+    if(localStorage.getItem(this.currentPractice.practiceName)){
+      let savedResult = JSON.parse(localStorage.getItem(this.currentPractice.practiceName)) as PracticeResult;
+      if(savedResult.numberOfQuestions <= this.currentPractice.numberOfQuestions){
+        for(let i = 0; i < savedResult.questions.length; i++){
+          this.currentPractice.questions[i].selected_answer = savedResult.questions[i].selected_answer;
+          this.currentPractice.questions[i].question_time = savedResult.questions[i].question_time;
+          this.currentPractice.questions[i].bookmarked = savedResult.questions[i].bookmarked;
+          this.currentPractice.questions[i].question_time = savedResult.questions[i].question_time;
+        }
+      }
+    }
+  }
+
+  // ============================End Save Data =========================================
 
   // ==================================== Util Functions =====================================================
   clearSelectedAnswer(){

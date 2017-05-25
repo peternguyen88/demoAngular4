@@ -2,10 +2,11 @@ import {QuestionType, Status} from "../../models/constants.enum";
 import {GMATPractice} from "../../models/gmat-practice";
 import {Question} from "../../models/question";
 export class PracticeData {
+  // Structure: 'practice name', 'number of questions', 'status', 'link to file', 'last time of major change in file'
   static DATA = [
-    ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt'],
-    ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt'],
-    ['OG15-RC',143,Status.ACTIVE, 'assets/practices/OG15/rc.txt']
+    ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt',0],
+    ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt',0],
+    ['OG15-RC',144,Status.ACTIVE, 'assets/practices/OG15/rc.txt',0]
   ];
 
   static practices:GMATPractice[];

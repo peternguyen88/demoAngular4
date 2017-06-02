@@ -106,6 +106,10 @@ export class PracticeService{
   }
 
   endPractice(){
+    // Save Question Time
+    if(this.getCurrentQuestion().selected_answer) {
+      this.getCurrentQuestion().question_time = this.currentQuestionTime;
+    }
     // UnSubscribe
     this.unSubscribe();
     // Save practice

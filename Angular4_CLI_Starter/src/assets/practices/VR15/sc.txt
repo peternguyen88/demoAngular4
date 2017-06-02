@@ -16,7 +16,7 @@ Some bat caves, like honeybee hives, have residents that take on different dutie
 (E) to act as a sentinel sounding
 ---------------------------------
 #SC#3#A
-<span style="text-decoration: underline">However much United States voters may agree that </span> there is waste in government and that the government as a whole spends beyond its means, it is difficult to find broad support for a movement toward a minimal state.
+<span style="text-decoration: underline">However much United States voters may agree that</span> there is waste in government and that the government as a whole spends beyond its means, it is difficult to find broad support for a movement toward a minimal state.
 (A) However much United States voters may agree that
 (B) Despite the agreement among United States voters to the fact
 (C) Although United States voters agree
@@ -56,7 +56,7 @@ From the earliest days of the tribe, kinship determined the way in which the Oji
 (E) the distribution and consumption of them defined by rights and obligations
 ---------------------------------
 #SC#8#C
-As the cost of wireless service has steadily dropped over the last year and as mobile phones have become increasingly common, many people are finding that they can avoid toll charges on their home <span style="text-decoration: underline">phones, using their mobile phones for making long-distance calls at night or on weekends, at a time which </span>many wireless companies provide unlimited airtime for a small monthly fee
+As the cost of wireless service has steadily dropped over the last year and as mobile phones have become increasingly common, many people are finding that they can avoid toll charges on their home <span style="text-decoration: underline">phones, using their mobile phones for making long-distance calls at night or on weekends, at a time which</span> many wireless companies provide unlimited airtime for a small monthly fee
 (A) phones, using their mobile phones for making long-distance calls at night or on weekends, at a time which
 (B) phones, instead using mobile phones to make long-distance calls during the night of weekends, during which
 (C) phones by using their mobile phones to make long-distance calls at night or on weekends, when

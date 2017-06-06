@@ -40,7 +40,7 @@ Hundreds of species of fish generate and discharge electric currents, in bursts 
 (E) to find and attack prey, to defend themselves, or to communicate and navigate
 ---------------------------------
 #SC#6#D
-A Labor Department study states that the <span style="text-decoration: underline">numbers of women employed outside the home grew by more than a thirty-five percent increase </span>in the past decade and accounted for more than sixty-two percent of the total growth in the civilian work force.
+A Labor Department study states that the <span style="text-decoration: underline">numbers of women employed outside the home grew by more than a thirty-five percent increase</span> in the past decade and accounted for more than sixty-two percent of the total growth in the civilian work force.
 (A) numbers of women employed outside the home grew by more than a thirty-five percent increase
 (B) numbers of women employed outside the home grew more than thirty-five percent
 (C) numbers of women employed outside the home were raised by more than thirty-five percent
@@ -80,7 +80,7 @@ Delighted by the reported earnings for the first quarter of the fiscal year, <sp
 (E) Because of rising costs
 ---------------------------------
 #SC#11#C
-Native to south america,<span style="text-decoration: underline">when peanuts were introduced to Africa by portugese explorers early in the sixteenth century they were quickly adopted into Africa's agriculture, probably because of being</span> so similar to the Bambarra groundnut, a popular indigenous plant.
+Native to south america,<span style="text-decoration: underline"> when peanuts were introduced to Africa by portugese explorers early in the sixteenth century they were quickly adopted into Africa's agriculture, probably because of being</span> so similar to the Bambarra groundnut, a popular indigenous plant.
 (A) when peanuts were introduced to Africa by Portugese explorers early in sixteenth century they were quickly adopted into Africa's agriculture, probably because of being
 (B) peanuts having been introduced to Africa by Portugese explorers early in the sixteenth century and quickly adopted into Africa's agriculture,probably because of being
 (C) peanuts were introduced to Africa by Portugese explorers early in the sixteenth century and were quickly adopted into Africa's agriculture,probably because they were
@@ -120,7 +120,7 @@ It is well known in the supermarket industry that how items are placed on shelve
 (E) how frequently the inventory turns over can be
 ---------------------------------
 #SC#16#C
-Iguanas have been an important food source in Latin America since prehistoric times, and <span style="text-decoration: underline">it is still prized as a game animal </span>by the campesinos, who typically cook the meat in a heavily spiced stew.
+Iguanas have been an important food source in Latin America since prehistoric times, and <span style="text-decoration: underline">it is still prized as a game animal</span> by the campesinos, who typically cook the meat in a heavily spiced stew.
 (A) it is still prized as a game animal
 (B) it is still prized as game animals
 (C) they are still prized as game animals
@@ -136,7 +136,7 @@ Travelers to Mars would have to endure low levels of gravity for long periods of
 (E) contending with the chemically reactive Martian soil, and perhaps even warding
 ---------------------------------
 #SC#18#A
-288. <span style="text-decoration: underline">Except for a concert performance that the composer himself staged</span> in 1911, Scott Joplin’s ragtime opera Treemonisha was not produced until 1972, sixty-one years after its completion.
+<span style="text-decoration: underline">Except for a concert performance that the composer himself staged</span> in 1911, Scott Joplin’s ragtime opera Treemonisha was not produced until 1972, sixty-one years after its completion.
 (A) Except for a concert performance that the composer himself staged
 (B) Except for a concert performance with the composer himself staging it
 (C) Besides a concert performance being staged by the composer himself
@@ -224,7 +224,7 @@ Eating saltwater fish may <span style="text-decoration: underline">significantly
 (E) significantly reduce the risk of heart attacks as well as aiding
 ---------------------------------
 #SC#29#E
-According to some economists, the July decrease in unemployment <span style="text-decoration: underline">so that it was the lowest in two years </span>suggests that the gradual improvement in the job market is continuing.
+According to some economists, the July decrease in unemployment <span style="text-decoration: underline">so that it was the lowest in two years</span> suggests that the gradual improvement in the job market is continuing.
 (A) so that it was the lowest in two years
 (B) so that it was the lowest two-year rate
 (C) to what would be the lowest in two years
@@ -232,7 +232,7 @@ According to some economists, the July decrease in unemployment <span style="tex
 (E) to the lowest level in two years
 ---------------------------------
 #SC#30#B
-Thomas Eakins’ powerful style and his choices of subject—the advances in modern surgery, the discipline of sport, the strains of individuals in tension with society or even with themselves—<span style="text-decoration: underline">was as disturbing to his own time as it is </span>compelling for ours.
+Thomas Eakins’ powerful style and his choices of subject—the advances in modern surgery, the discipline of sport, the strains of individuals in tension with society or even with themselves—<span style="text-decoration: underline">was as disturbing to his own time as it is</span> compelling for ours.
 (A) was as disturbing to his own time as it is
 (B) were as disturbing to his own time as they are
 (C) has been as disturbing in his own time as they are

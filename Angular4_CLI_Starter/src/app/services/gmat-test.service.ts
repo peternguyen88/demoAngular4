@@ -20,8 +20,6 @@ export class GMATTestService {
         test.status = Status[e[5]];
         test.fileLocation = e[6] as string;
         GMATTestService.tests.push(test);
-
-        console.log(test);
       });
     }
 

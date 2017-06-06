@@ -31,7 +31,6 @@
     "moment": "2.18.1",
     "ng2-bootstrap": "1.4.2",
     "ng2-charts": "1.5.0",
-    "primeng": "^4.0.0-rc.2",
     "rxjs": "5.2.0",
     "ts-helpers": "1.1.2",
     "zone.js": "0.8.5"

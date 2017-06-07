@@ -7,9 +7,10 @@ export class PracticeData {
     ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt',0],
     ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt',0],
     ['OG15-RC',144,Status.ACTIVE, 'assets/practices/OG15/rc.txt',0],
-    ['VR15-CR',144,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0],
+    ['VR15-CR',83,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0],
     ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0],
-    ['VR15-RC',144,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0]
+    ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0],
+    ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0]
   ];
 
   static practices:GMATPractice[];

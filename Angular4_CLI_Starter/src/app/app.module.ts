@@ -20,8 +20,17 @@ import {HttpModule} from "@angular/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {TimerService} from "./services/gmat-timer.service";
 import {FormsModule} from "@angular/forms";
-import {DigitalTimeDirective} from "./directives/gm-digital-time.directive";
 import {GmatCommonModule} from "./shared/modules/GmatCommonModule";
+import {AngularFireModule} from "angularfire2";
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyAa4rCwsgsFfuKtAtjcRe3tS6cBs0KLsbg",
+  authDomain: "gmat-zero-to-hero.firebaseapp.com",
+  databaseURL: "https://gmat-zero-to-hero.firebaseio.com",
+  projectId: "gmat-zero-to-hero",
+  storageBucket: "gmat-zero-to-hero.appspot.com",
+  messagingSenderId: "227562885868"
+};
 
 @NgModule({
   imports: [
@@ -33,7 +42,8 @@ import {GmatCommonModule} from "./shared/modules/GmatCommonModule";
     ChartsModule,
     HttpModule,
     FormsModule,
-    GmatCommonModule
+    GmatCommonModule,
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   declarations: [
     AppComponent,

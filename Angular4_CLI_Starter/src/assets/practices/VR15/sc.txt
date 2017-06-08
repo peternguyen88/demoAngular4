@@ -560,7 +560,7 @@ The gyrfalcon, an Arctic bird of prey, has survived a close brush with extinctio
 (E) extinction; its numbers are now five times greater than what they were
 ---------------------------------
 #SC#71#B
-Analysts blamed May's sluggish retail sales on unexciting merchandise as well as the weather,<span style="text-decoration: underline"><span style="font-weight: bold"> colder and wetter than was usual in some regions, which slowed</span></span> sales of barbecue grills and lawn furniture.
+Analysts blamed May's sluggish retail sales on unexciting merchandise as well as the weather, <span style="text-decoration: underline">colder and wetter than was usual in some regions, which slowed</span> sales of barbecue grills and lawn furniture.
 (A) colder and wetter than was usual in some regions, which slowed
 (B) which was colder and wetter than usual in some regions, slowing
 (C) since it was colder and wetter than usually in some regions, which slowed
@@ -576,7 +576,7 @@ State officials report that soaring <span style="text-decoration: underline">rat
 (E) liability insurance rates have risen to force
 ---------------------------------
 #SC#73#A
-After suffering $2 billion in losses and 25,000 layoffs, the nation’s semiconductor industry, which makes chips that run everything from <span style="text-decoration: underline"><span style="font-weight: bold">computers and spy satellites to dishwashers, appears to have</span></span> made a long-awaited recovery.
+After suffering $2 billion in losses and 25,000 layoffs, the nation’s semiconductor industry, which makes chips that run everything from <span style="text-decoration: underline">computers and spy satellites to dishwashers, appears to have</span> made a long-awaited recovery.
 (A) computers and spy satellites to dishwashers, appears to have
 (B) computers, spy satellites, and dishwashers, appears having
 (C) computers, spy satellites, and dishwashers, appears that it has
@@ -592,15 +592,15 @@ While some academicians believe that business ethics should be integrated into e
 (E) if it would only be taught as a required course, separately
 ---------------------------------
 #SC#75#D
-Scientists have observed large concentrations of
-heavy-metal deposits in the upper twenty centimeters of<span style="text-decoration: underline"> Baltic Sea sediments, which are consistent with the
-growth of industrial activity there.</span>
+Scientists have observed large concentrations of heavy-metal deposits in the upper twenty centimeters of<span style="text-decoration: underline"> Baltic Sea sediments, which are consistent with the growth of industrial activity there.</span>
 (A) Baltic Sea sediments, which are consistent with the growth of industrial activity there
 (B) Baltic Sea sediments, where the growth of industrial activity is consistent with these findings
 (C) Baltic Sea sediments, findings consistent with its growth of industrial activity
+(D) sediments from the Baltic Sea, findings consistent with the growth of industrial activity in the area
+(E) sediments from the Baltic Sea, consistent with the growth of industrial activity there
 ---------------------------------
 #SC#76#E
-Under a provision of the Constitution that<span style="font-weight: bold"> was never applied, Congress has been required to call a convention for considering possible amendments to the document when formally asked to do it</span> by the legislatures of two-thirds of the states.
+Under a provision of the Constitution that <span style="text-decoration: underline">was never applied, Congress has been required to call a convention for considering possible amendments to the document when formally asked to do it</span> by the legislatures of two-thirds of the states.
 (A) was never applied, Congress has been required to call a convention for considering possible amendments to the document when formally asked to do it
 (B) was never applied, there has been a requirement that Congress call a convention for consideration of possible amendments to the document when asked to do it formally
 (C) was never applied, whereby Congress is required to call a convention for considering possible amendments to the document when asked to do it formally

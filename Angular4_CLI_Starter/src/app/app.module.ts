@@ -3,7 +3,6 @@ import {BrowserModule} from "@angular/platform-browser";
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 import {AppComponent} from "./app.component";
-import {DropdownModule} from "ng2-bootstrap/dropdown";
 import {TabsModule} from "ng2-bootstrap/tabs";
 import {NAV_DROPDOWN_DIRECTIVES} from "./shared/nav-dropdown.directive";
 
@@ -22,6 +21,8 @@ import {TimerService} from "./services/gmat-timer.service";
 import {FormsModule} from "@angular/forms";
 import {GmatCommonModule} from "./shared/modules/GmatCommonModule";
 import {AngularFireModule} from "angularfire2";
+import {AngularFireDatabaseModule} from "angularfire2/database";
+import {AngularFireAuthModule} from "angularfire2/auth";
 
 export const firebaseConfig = {
   apiKey: "AIzaSyAa4rCwsgsFfuKtAtjcRe3tS6cBs0KLsbg",
@@ -34,16 +35,11 @@ export const firebaseConfig = {
 
 @NgModule({
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    DropdownModule.forRoot(),
-    TabsModule.forRoot(),
-    ChartsModule,
-    HttpModule,
-    FormsModule,
+    BrowserModule, BrowserAnimationsModule,
+    AppRoutingModule, TabsModule.forRoot(),
+    ChartsModule, HttpModule, FormsModule,
     GmatCommonModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig), AngularFireDatabaseModule, AngularFireAuthModule
   ],
   declarations: [
     AppComponent,

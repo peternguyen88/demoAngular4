@@ -1,13 +1,34 @@
 <header class="app-header navbar">
     <button class="navbar-toggler mobile-sidebar-toggler hidden-lg-up" type="button">&#9776;</button>
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#" style="max-width: 200px;"></a>
     <ul class="nav navbar-nav hidden-md-down">
         <li class="nav-item">
             <a class="nav-link navbar-toggler sidebar-toggler" href="#">&#9776;</a>
         </li>
     </ul>
 
-    <h4 style="text-align: center; width: 100%; margin-top: 15px;">GMAT - Zero To Hero</h4>
+  <h4 style="text-align: center; flex: 1 1 auto; margin-top: 15px;">GMAT - Zero To Hero</h4>
+
+  <button class="loginBtn loginBtn--facebook" style="margin-top: 10px; cursor: pointer;" *ngIf="!isLogin()" (click)="login()">Login with Facebook</button>
+
+  <ul class="nav navbar-nav" style="max-width: 500px; flex: 0 0 auto;" *ngIf="isLogin()">
+    <li class="nav-item dropdown" dropdown (onToggle)="toggled($event)">
+      <span class="nav-link dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" dropdownToggle>
+        <img src="{{getCurrentUser()?.photoURL}}" class="img-avatar">
+        <span class="hidden-md-down">{{getCurrentUser()?.displayName}}</span>
+      </span>
+      <div class="dropdown-menu dropdown-menu-right" *dropdownMenu aria-labelledby="simple-dropdown">
+
+        <div class="dropdown-header text-center" style="background-color: #00bf8f; color: white;"><strong>Settings</strong></div>
+
+        <span class="dropdown-item" href="#"><i class="fa fa-shield"></i> Unlock Features</span>
+
+        <div class="dropdown-header text-center" style="background-color: dodgerblue; color: white;"><strong></strong>Account</div>
+
+        <span class="dropdown-item" href="#" (click)="logout()"><i class="fa fa-lock"></i> Logout</span>
+      </div>
+    </li>
+  </ul>
 </header>
 
 <div class="app-body">

@@ -17,8 +17,8 @@ export class AppComponent {
       return true;
     }).subscribe((x: any) => {
       console.log('router.change', x);
-      ga('set', 'page', x.url);
-      ga('send', 'pageview');
+      // ga('set', 'page', x.url);
+      // ga('send', 'pageview');
     });
   }
 }

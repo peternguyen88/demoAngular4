@@ -3,7 +3,6 @@ import {BrowserModule} from "@angular/platform-browser";
 import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 import {AppComponent} from "./app.component";
-import {TabsModule} from "ng2-bootstrap/tabs";
 import {NAV_DROPDOWN_DIRECTIVES} from "./shared/nav-dropdown.directive";
 
 import {ChartsModule} from "ng2-charts/ng2-charts";
@@ -23,6 +22,8 @@ import {GmatCommonModule} from "./shared/modules/GmatCommonModule";
 import {AngularFireModule} from "angularfire2";
 import {AngularFireDatabaseModule} from "angularfire2/database";
 import {AngularFireAuthModule} from "angularfire2/auth";
+import {BsDropdownModule, TabsModule} from "ngx-bootstrap";
+import {FirebaseService} from "./services/firebase.service";
 
 export const firebaseConfig = {
   apiKey: "AIzaSyAa4rCwsgsFfuKtAtjcRe3tS6cBs0KLsbg",
@@ -38,6 +39,7 @@ export const firebaseConfig = {
     BrowserModule, BrowserAnimationsModule,
     AppRoutingModule, TabsModule.forRoot(),
     ChartsModule, HttpModule, FormsModule,
+    BsDropdownModule.forRoot(),
     GmatCommonModule,
     AngularFireModule.initializeApp(firebaseConfig), AngularFireDatabaseModule, AngularFireAuthModule
   ],
@@ -55,7 +57,7 @@ export const firebaseConfig = {
   providers: [{
     provide: LocationStrategy,
     useClass: HashLocationStrategy
-  }, TimerService],
+  }, TimerService, FirebaseService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

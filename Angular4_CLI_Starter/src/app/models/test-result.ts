@@ -84,14 +84,6 @@ export class PracticeResult {
         }
       }
     }
-    for(let i = 0; i < practice.questions.length; i++){
-      if(questionResults[i].selected_answer){
-        practice.questions[i].selected_answer = questionResults[i].selected_answer;
-        practice.questions[i].question_time = questionResults[i].question_time;
-        practice.questions[i].bookmarked = questionResults[i].bookmarked;
-        practice.questions[i].remarks = questionResults[i].remarks;
-      }
-    }
   }
 }
 

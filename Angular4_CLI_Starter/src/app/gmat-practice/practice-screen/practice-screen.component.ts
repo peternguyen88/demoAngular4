@@ -8,6 +8,7 @@ import {PracticeMode} from "../../models/constants.enum";
 import {DomSanitizer} from "@angular/platform-browser";
 import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeService} from "../services/gmat-practice.service";
+import {Stage} from "../data/Model";
 
 @Component({
   moduleId: module.id,
@@ -96,7 +97,9 @@ export class PracticeScreenComponent {
   }
 
   ngOnDestroy() {
-    this.practiceService.endPractice();
+    if(this.practiceService.stage == Stage.PRACTICE) {
+      this.practiceService.endPractice();
+    }
   }
 }
 

@@ -12,6 +12,7 @@ export class TestResult {
       this.questions.push(new QuestionResult(e));
     });
     this.isTestFinished = this.numberOfQuestions == this.numberOfAnsweredQuestions;
+    this.lastSavedTime = new Date().getTime();
   }
 
   testName: string;
@@ -19,6 +20,7 @@ export class TestResult {
   numberOfAnsweredQuestions = 0;
   questions: QuestionResult[];
   isTestFinished: boolean;
+  lastSavedTime: number;
 }
 
 export class PracticeResult {
@@ -61,7 +63,35 @@ export class PracticeResult {
         practice.questions[i].remarks = result.questions[i].remarks;
       }
     }
-    result.lastSavedTime = new Date().getTime();
+  }
+
+  /**
+   * In Practice, user can do question in any order -> Need to check a match of question number
+   */
+  public static mergeArrayResultToPractice(practice: GMATPractice, questionResults: QuestionResult[]) : void{
+    let lastMatch = -1; // Index of last match item
+    for(let i = 0; i < questionResults.length; i++){
+      for(let j = lastMatch + 1; j < practice.questions.length; j++){
+        if(questionResults[i].question_number == practice.questions[j].question_number){
+          practice.questions[j].selected_answer = questionResults[i].selected_answer;
+          practice.questions[j].question_time = questionResults[i].question_time;
+          practice.questions[j].bookmarked = questionResults[i].bookmarked;
+          practice.questions[j].remarks = questionResults[i].remarks;
+
+          // No need to loop after finding the match
+          lastMatch = j;
+          break;
+        }
+      }
+    }
+    for(let i = 0; i < practice.questions.length; i++){
+      if(questionResults[i].selected_answer){
+        practice.questions[i].selected_answer = questionResults[i].selected_answer;
+        practice.questions[i].question_time = questionResults[i].question_time;
+        practice.questions[i].bookmarked = questionResults[i].bookmarked;
+        practice.questions[i].remarks = questionResults[i].remarks;
+      }
+    }
   }
 }
 

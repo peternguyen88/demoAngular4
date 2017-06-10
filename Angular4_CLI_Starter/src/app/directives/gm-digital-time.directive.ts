@@ -14,7 +14,7 @@ export class DigitalTimeDirective{
     this.el.nativeElement.innerText = DigitalTimeDirective.convertTimeToString(time);
   }
 
-  private static convertTimeToString(time : number) : string{
+  public static convertTimeToString(time : number) : string{
     let minute = Math.floor(time / 60);
     let second = time % 60;
     return DigitalTimeDirective.padLeft2Number(minute) +":"+DigitalTimeDirective.padLeft2Number(second);

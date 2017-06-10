@@ -1081,11 +1081,11 @@ Spanning more than fifty years, Friedrich <span style="text-decoration: underlin
 ---------------------------------
 #SC#136#A
 <span style="text-decoration: underline">Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes</span> form a random pattern.
-(A)	Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes
-(B)	Whereas the tiny tubes for the conveying of nutrients to bone cells are arrayed in mammals in parallel lines, birds have tubes that
-(C)	Unlike mammals, where the tiny tubes for conveying nutrients to bone cells are arrayed in parallel lines, birds’ tubes
-(D)	Unlike mammals, in whom the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, the tubes in birds
-(E)	Unlike the tiny tubes that convey nutrients to bone cells, which in mammals are arrayed in parallel lines, in birds the tubes
+(A) Whereas in mammals the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, in birds the tubes
+(B) Whereas the tiny tubes for the conveying of nutrients to bone cells are arrayed in mammals in parallel lines, birds have tubes that
+(C) Unlike mammals, where the tiny tubes for conveying nutrients to bone cells are arrayed in parallel lines, birds’ tubes
+(D) Unlike mammals, in whom the tiny tubes that convey nutrients to bone cells are arrayed in parallel lines, the tubes in birds
+(E) Unlike the tiny tubes that convey nutrients to bone cells, which in mammals are arrayed in parallel lines, in birds the tubes
 ---------------------------------
 #SC#137#C
 Joachim Raff and Giacomo Meyerbeer are examples of the kind of composer who receives popular acclaim while living, <span style="text-decoration: underline">often goes into decline after death, and never regains popularity again</span>.

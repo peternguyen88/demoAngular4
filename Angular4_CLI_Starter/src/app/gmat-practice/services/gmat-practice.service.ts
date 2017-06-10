@@ -8,12 +8,13 @@ import {Subscription} from "rxjs/Subscription";
 import {Question} from "../../models/question";
 import {Observable} from "rxjs/Observable";
 import {PracticeResult} from "../../models/test-result";
+import {FirebaseService} from "../../services/firebase.service";
 
 @Injectable()
 export class PracticeService{
   currentPractice: GMATPractice;
 
-  constructor(private http:Http){}
+  constructor(private http:Http, private fbService: FirebaseService){}
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
@@ -182,30 +183,41 @@ export class PracticeService{
 
   // ==================================== End Practice Control ===============================================
 
-  // =============================Save data to Local Storage==========================
+  // =============================Save data to Local Storage & Server==========================
   savePracticeData(){
+    let practiceResult;
+
     if(localStorage.getItem(this.currentPractice.practiceName)){
       let savedResult = JSON.parse(localStorage.getItem(this.currentPractice.practiceName)) as PracticeResult;
       PracticeResult.mergeResult(savedResult, this.currentPractice);
-      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(savedResult));
       PracticeResult.mergeResultToPractice(this.currentPractice, savedResult);
+      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(savedResult));
+      practiceResult = savedResult;
     }else{
-      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(new PracticeResult(this.currentPractice)));
+      practiceResult = new PracticeResult(this.currentPractice);
+      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(practiceResult));
     }
+
+    this.fbService.processSavePerformanceToServer(this.currentPractice.practiceName, practiceResult.lastSavedTime, practiceResult.questions);
   }
 
   loadSavedData(){
+    let savedResult: PracticeResult;
     if(localStorage.getItem(this.currentPractice.practiceName)){
-      let savedResult = JSON.parse(localStorage.getItem(this.currentPractice.practiceName)) as PracticeResult;
+      console.log("Load Saved Data");
+      savedResult = JSON.parse(localStorage.getItem(this.currentPractice.practiceName)) as PracticeResult;
+
       if(savedResult.numberOfQuestions <= this.currentPractice.numberOfQuestions){
-        for(let i = 0; i < savedResult.questions.length; i++){
-          this.currentPractice.questions[i].selected_answer = savedResult.questions[i].selected_answer;
-          this.currentPractice.questions[i].question_time = savedResult.questions[i].question_time;
-          this.currentPractice.questions[i].bookmarked = savedResult.questions[i].bookmarked;
-          this.currentPractice.questions[i].question_time = savedResult.questions[i].question_time;
-        }
+        PracticeResult.mergeArrayResultToPractice(this.currentPractice, savedResult.questions);
       }
     }
+
+    // Will override local result if the server version is newer
+    this.fbService.processRetrievePerformanceFromServer(this.currentPractice.practiceName, savedResult ? savedResult.lastSavedTime : 0, (questionResults) => {
+      console.log("Newer version from Server detected. Getting data from server and saving to local");
+      PracticeResult.mergeArrayResultToPractice(this.currentPractice, questionResults);
+      localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(new PracticeResult(this.currentPractice)));
+    });
   }
 
   // ============================End Save Data =========================================

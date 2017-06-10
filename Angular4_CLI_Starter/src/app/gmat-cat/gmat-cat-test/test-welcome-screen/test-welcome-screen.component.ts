@@ -17,10 +17,7 @@ export class TestWelcomeScreenComponent implements OnInit{
     constructor(private testScreenService: TestScreenService) { }
 
     ngOnInit(): void {
-      let savedTest = localStorage.getItem(this.testScreenService.currentTest.testName);
-      if(savedTest){
-        this.testResult = JSON.parse(savedTest);
-      }
+      this.testScreenService.loadSavedData(testResult => this.testResult = testResult);
     }
 
     public resumeTest(){
@@ -30,7 +27,7 @@ export class TestWelcomeScreenComponent implements OnInit{
     deleteSavedData(){
       this.popupMessage = ConfirmMessageConstant.CONFIRM_DELETE_SAVED_DATA;
       this.popupMessage.accept = () => {
-        localStorage.setItem(this.testScreenService.currentTest.testName, null);
+        this.testScreenService.deleteSavedData();
         this.testResult = null;
       };
     }

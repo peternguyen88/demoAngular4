@@ -7,7 +7,8 @@ import {Question} from "../../models/question";
 import {Http} from "@angular/http";
 import {EnumTestStage, QuestionType, TestMode} from "../../models/constants.enum";
 import {Observable, Subscription} from "rxjs";
-import {TestResult} from "../../models/test-result";
+import {QuestionResult, TestResult} from "../../models/test-result";
+import {FirebaseService} from "../../services/firebase.service";
 
 @Injectable()
 export class TestScreenService {
@@ -30,7 +31,7 @@ export class TestScreenService {
 
     questions: Question[];
 
-    constructor(private http: Http) { }
+    constructor(private http: Http, private fbService: FirebaseService) { }
 
     public start(){
       this.isStarted = true;
@@ -214,10 +215,39 @@ export class TestScreenService {
       }
     }
 
+  // =============================Save data to Local Storage & Server==========================
     public autoSaveTest(){
       let testResult = new TestResult(this.currentTest);
       localStorage.setItem(this.currentTest.testName, JSON.stringify(testResult));
+      this.fbService.processSavePerformanceToServer(this.currentTest.testName, testResult.lastSavedTime, testResult.questions);
     }
+
+    public loadSavedData(callback: (t: TestResult) => any){
+      let savedTest = localStorage.getItem(this.currentTest.testName);
+      let testResult: TestResult;
+      if(savedTest){
+        testResult = JSON.parse(savedTest) as TestResult;
+        callback(testResult);
+      }
+      this.fbService.processRetrievePerformanceFromServer(this.currentTest.testName, testResult ? testResult.lastSavedTime : 0, (questionResults) => {
+        if(!testResult){
+          testResult = new TestResult(this.currentTest);
+        }
+        testResult.questions = [];
+        questionResults.forEach(e => {
+          if(e.selected_answer) testResult.questions.push(e);
+        });
+        testResult.numberOfAnsweredQuestions = testResult.questions.length;
+
+        callback(testResult);
+      });
+    }
+
+    public deleteSavedData(){
+      localStorage.setItem(this.currentTest.testName, null);
+      this.fbService.deleteSavedPerformanceFromServer(this.currentTest.testName);
+    }
+    // ===========================End Saving & Loading Data====================================
 
     private processTestFile(testContent : string){
       this.currentTest.questions = [];

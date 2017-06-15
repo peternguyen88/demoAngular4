@@ -73,5 +73,7 @@ export class ConfirmMessageConstant {
   static PLEASE_LOGIN_TO_CONTINUE: ConfirmMessage = {
     header: 'Please login to continue',
     message: 'You have to login to use this function!',
+    acceptLabel: 'OK, I will login!',
+    showCloseIcon: true
   };
 }

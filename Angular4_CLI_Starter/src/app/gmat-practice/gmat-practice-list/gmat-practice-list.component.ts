@@ -23,8 +23,11 @@ export class GMATPracticeListComponent {
 
   selectPracticeSet(practice: GMATPractice){
     // Have to login to use practice set
-    if(practice.practiceName.indexOf("QP") > 0 && !this.firebaseService.isLogin()){
+    if(practice.practiceName.indexOf("QP") != -1 && !this.firebaseService.isLogin()){
       this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
+      this.popupMessage.accept = () => {
+        this.firebaseService.login();
+      };
       return;
     }
     // Continue selecting practice

@@ -69,4 +69,9 @@ export class ConfirmMessageConstant {
     rejectLabel: 'Cancel',
     showCloseIcon: true
   };
+
+  static PLEASE_LOGIN_TO_CONTINUE: ConfirmMessage = {
+    header: 'Please login to continue',
+    message: 'You have to login to use this function!',
+  };
 }

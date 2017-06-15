@@ -129,6 +129,7 @@ export class PracticeService{
     this.practiceMode = PracticeMode.REVIEW;
     this.currentQuestionIndex = index;
     this.questions = this.currentPractice.questions;
+    this.currentQuestionTime = this.getCurrentQuestion().question_time;
   }
 
   endReview(){

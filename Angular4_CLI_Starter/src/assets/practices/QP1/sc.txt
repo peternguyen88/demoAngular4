@@ -152,7 +152,7 @@ In contrast to <span style="text-decoration: underline">India, where many early 
 (E) early followers of Buddhism in India, many of whom were itinerants travelling the countryside in order to disseminate the Buddha's teachings, those in China
 ---------------------------------
 #SC#20 (Medium)#D
-<span style="text-decoration: underline">Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the decree to which their analytical skills are weak</span>.
+<span style="text-decoration: underline">Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the degree to which their analytical skills are weak</span>.
 (A) Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the degree to which their analytical skills are weak.
 (B) Unlike computer skills or other technical skills, which they admit they lack, many people are disinclined to recognize that their analytical skills are weak.
 (C) Unlike computer skills or other technical skills, analytical skills bring out a disinclination in many people to recognize that they are weak to a degree.
@@ -258,7 +258,7 @@ The auto company attributed its recent increase in profits <span style="text-dec
 #SC#33 (Medium)#B
 The infant mortality rate has decreased steadily over the past decades and is <span style="text-decoration: underline">now at a lower rate than</span> ever before.
 (A) now at a lower rate than
-(B) now bower than
+(B) now lower than
 (C) now a lower rate than
 (D) presently lower than it was
 (E) presently lower than the rate was
@@ -297,7 +297,7 @@ In the English-speaking world Anton Chekhov is <span style="text-decoration: und
 ---------------------------------
 #SC#38 (Medium)#A
 Now generally regarded as a forgery, the Kensington Rune Stone, a 90-kilogram slab of inscribed rock discovered in Minnesota in 1898, <span style="text-decoration: underline">was said to have recorded an encounter between Native Americans and Norse explorers in 1362 and thus was cited as evidence that Europeans explored</span> North America in pre-Columbian times.
-(A) was said to have recorded an encounter between Native Americans and Norse explored in 1362 and thus was cited as evidence that Europeans explored
+(A) was said to have recorded an encounter between Native Americans and Norse explores in 1362 and thus was cited as evidence that Europeans explored
 (B) was said to record an encounter between Native Americans and Norse explorers in 1362, thus being cited as evidence for European exploration of
 (C) said to have recorded an encounter between Native Americans and Norse explorers in 1362, and thus cited as evidence for European exploration of
 (D) which was said to record an encounter between Native Americans and Norse explorers in 1362, and thus cited as evidence that Europeans explored
@@ -571,8 +571,8 @@ Inhospitable places on our planet, from steaming hot springs to the thick ice of
 A study of food resources in the North Pacific between 1989 and 1996 revealed <span style="text-decoration: underline">that creatures of the seabed were suffering from dwindling food supplies, possibly a result from increasing</span> sea surface temperatures during the same period.
 (A) that creatures of the seabed were suffering from dwindling food supplies, possibly a result from increasing
 (B) that creatures of the seabed were suffering because food supplies were dwindling, possibly as a result of an increase in
-(C) that creatures of the seabed were suffering because of food supplies, which were dwindling possibly as a result of increasing creatures of the seabed that were suffering from food supplies that were dwindling, possibly resulting from an increase in
-(D) creatures of the seabed that were suffering because food supplies were dwindling, which possibly resulted from increasing
+(C) that creatures of the seabed were suffering because of food supplies, which were dwindling possibly as a result of increasing
+(D) creatures of the seabed that were suffering from food supplies that were dwindling, possibly resulting from an increase in
 (E) creatures of the seabed that were suffering because food supplies were dwindling, which possibly resulted from increasing
 ---------------------------------
 #SC#73 (Hard)#A

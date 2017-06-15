@@ -26,15 +26,21 @@ export class FirebaseService{
    */
   private processUser(user: firebase.User){
     if(user){
-      this.userObject = this.db.object(FirebaseUtil.userPath(user.email));
+      let userIdentification = user.email ? user.email : user.providerData[0].uid;
+      this.userObject = this.db.object(FirebaseUtil.userPath(userIdentification));
       let firebaseUser : FirebaseUser;
       this.userObject.take(1).subscribe(data => {
         let isUserExist = data.$exists();
         // Create User Object
         if(isUserExist){
           firebaseUser = data;
+          if(firebaseUser.uid == null) {
+            firebaseUser.uid = user.providerData[0].uid;
+            firebaseUser.firebase_uid = user.uid;
+          }
         }else{
-          firebaseUser = new FirebaseUser(user.email, user.displayName);
+          firebaseUser = new FirebaseUser(user.email, user.displayName, user.providerData[0].uid);
+          firebaseUser.firebase_uid = user.uid;
         }
         firebaseUser.login_count++;
         firebaseUser.last_login = new Date().toString();
@@ -52,11 +58,11 @@ export class FirebaseService{
 
   public processRetrievePerformanceFromServer(id: string, localSavedTime: number, mergeData: (questions: QuestionResult[]) => any){
     if(this.isLogin()) {
-      let last_saved_timeObject: FirebaseObjectObservable<number> = this.db.object(FirebaseUtil.performancePathLastSavedTime(this.getCurrentEmail(), id));
+      let last_saved_timeObject: FirebaseObjectObservable<number> = this.db.object(FirebaseUtil.performancePathLastSavedTime(this.getUserIdentification(), id));
       last_saved_timeObject.take(1).subscribe(last_saved_time => {
         console.log(last_saved_time);
         if (last_saved_time.$exists() && last_saved_time.$value > localSavedTime) {// Server Version is newer than local version
-          let questionList: FirebaseListObservable<QuestionResult[]> = this.db.list(FirebaseUtil.performancePathDetail(this.getCurrentEmail(), id));
+          let questionList: FirebaseListObservable<QuestionResult[]> = this.db.list(FirebaseUtil.performancePathDetail(this.getUserIdentification(), id));
           questionList.take(1).subscribe(questions => {
             if (questions.length > 0) {
               mergeData(questions);
@@ -102,16 +108,16 @@ export class FirebaseService{
         summary.correct_questions += e.is_correct ? 1 : 0;
         summary.total_time += e.question_time;
       });
-      this.db.object(FirebaseUtil.performancePathSummary(this.getCurrentEmail(), id)).set(summary).then(error => {if(error) console.log(error)});
+      this.db.object(FirebaseUtil.performancePathSummary(this.getUserIdentification(), id)).set(summary).then(error => {if(error) console.log(error)});
       // ============== Save Detail =======================
       answeredQuestions.forEach(e => FirebaseUtil.cleanQuestionResultForSaving(e)); // Remove undefined property before saving to server.
-      this.db.object(FirebaseUtil.performancePathDetail(this.getCurrentEmail(), id)).set(answeredQuestions).then(error => {if(error) console.log(error)});
+      this.db.object(FirebaseUtil.performancePathDetail(this.getUserIdentification(), id)).set(answeredQuestions).then(error => {if(error) console.log(error)});
     }
   }
 
   public deleteSavedPerformanceFromServer(id: string){
     if(this.isLogin()){
-      this.db.object(FirebaseUtil.performancePath(this.getCurrentEmail(), id)).remove();
+      this.db.object(FirebaseUtil.performancePath(this.getUserIdentification(), id)).remove();
     }
   }
 
@@ -123,8 +129,8 @@ export class FirebaseService{
     return this.fireAuth.auth.currentUser;
   }
 
-  public getCurrentEmail(): string{
-    return this.getCurrentUser().email;
+  public getUserIdentification(): string{
+    return this.getCurrentUser().email ? this.getCurrentUser().email : this.getCurrentUser().providerData[0].uid;
   }
 
   login(){

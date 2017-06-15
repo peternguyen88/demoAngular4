@@ -11,6 +11,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build -prod",
+    "build_and_deploy": "build_and_deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

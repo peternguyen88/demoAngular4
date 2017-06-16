@@ -8,7 +8,7 @@
           <i class="icon-note icons"></i>
           <span>{{currentQuestion.question_number}} of {{currentPractice.numberOfQuestions}}</span>
         </div>
-        <div class="control timer">
+        <div class="control timer" *ngIf="!isReview()">
           <span class="title">Time Spent</span>
           <i class="icons icon-clock" style="padding-left: 5px;"></i>
           <span class="time" gm-digital-time [time]="practiceService.elapsedTime"></span>

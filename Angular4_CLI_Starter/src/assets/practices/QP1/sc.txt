@@ -61,7 +61,7 @@ The military governors and samurai warriors who ruled Japan were trained <span s
 (B) to respect simplicity, be austere, and observe a ritualized code of behavior
 (C) that they should respect simplicity, be austere, and observe a ritualized code of behavior
 (D) that they should respect simplicity, austerity, and a code of behavior that was ritualized and observed
-(E) in order to respect simplicity, austerity, and a code of behavior that was ritualized and observed  
+(E) in order to respect simplicity, austerity, and a code of behavior that was ritualized and observed
 ---------------------------------
 #SC#9 (Easy)#B
 Roughly twice each century the planet Venus passes between the Earth and the Sun, an occasion known as a transit of Venus, <span style="text-decoration: underline">during which it makes the outline of the planet</span> visible in stark relief.
@@ -81,7 +81,7 @@ Though the artifacts of pre-Columbian civilization created a stir from the very 
 ---------------------------------
 #SC#11 (Easy)#C
 On a glacier in the High Himalayas, a Japanese zoologist has found a species of midge <span style="text-decoration: underline">that is unlike any other known insect in its spending</span> its entire life cycle in the snow and ice of a glacier.
-(A) that is any other known insect in its spending
+(A) that is unlike any other known insect in its spending
 (B) that is unlike any insect known as it spends
 (C) that, unlike any other known insect, spends
 (D) unlike any insect known because it spends
@@ -152,7 +152,7 @@ In contrast to <span style="text-decoration: underline">India, where many early 
 (E) early followers of Buddhism in India, many of whom were itinerants travelling the countryside in order to disseminate the Buddha's teachings, those in China
 ---------------------------------
 #SC#20 (Medium)#D
-<span style="text-decoration: underline">Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the decree to which their analytical skills are weak</span>.
+<span style="text-decoration: underline">Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the degree to which their analytical skills are weak</span>.
 (A) Unlike computer skills or other technical skills, there is a disinclination on the part of many people to recognize the degree to which their analytical skills are weak.
 (B) Unlike computer skills or other technical skills, which they admit they lack, many people are disinclined to recognize that their analytical skills are weak.
 (C) Unlike computer skills or other technical skills, analytical skills bring out a disinclination in many people to recognize that they are weak to a degree.
@@ -258,7 +258,7 @@ The auto company attributed its recent increase in profits <span style="text-dec
 #SC#33 (Medium)#B
 The infant mortality rate has decreased steadily over the past decades and is <span style="text-decoration: underline">now at a lower rate than</span> ever before.
 (A) now at a lower rate than
-(B) now bower than
+(B) now lower than
 (C) now a lower rate than
 (D) presently lower than it was
 (E) presently lower than the rate was
@@ -297,7 +297,7 @@ In the English-speaking world Anton Chekhov is <span style="text-decoration: und
 ---------------------------------
 #SC#38 (Medium)#A
 Now generally regarded as a forgery, the Kensington Rune Stone, a 90-kilogram slab of inscribed rock discovered in Minnesota in 1898, <span style="text-decoration: underline">was said to have recorded an encounter between Native Americans and Norse explorers in 1362 and thus was cited as evidence that Europeans explored</span> North America in pre-Columbian times.
-(A) was said to have recorded an encounter between Native Americans and Norse explored in 1362 and thus was cited as evidence that Europeans explored
+(A) was said to have recorded an encounter between Native Americans and Norse explores in 1362 and thus was cited as evidence that Europeans explored
 (B) was said to record an encounter between Native Americans and Norse explorers in 1362, thus being cited as evidence for European exploration of
 (C) said to have recorded an encounter between Native Americans and Norse explorers in 1362, and thus cited as evidence for European exploration of
 (D) which was said to record an encounter between Native Americans and Norse explorers in 1362, and thus cited as evidence that Europeans explored
@@ -317,7 +317,7 @@ The region of Norden is comprised of five sovereign states, each of <span style=
 (B) which recognize a stronger cultural bond with their Nordic neighbors than
 (C) which recognizes a stronger cultural bond with its Nordic neighbors than with
 (D) them recognizing a stronger cultural bond with its Nordic neighbors than they have with
-(E) them recognizing a stronger cultural bond to their Nordic neighbors than they have to 
+(E) them recognizing a stronger cultural bond to their Nordic neighbors than they have to
 ---------------------------------
 #SC#41 (Medium)#C
 Contemporary cognitive scientists maintain that emotions, which are biological functions, evolved in the nervous system to help animals survive in hostile environments and <span style="text-decoration: underline">procreate, and feelings are products of the conscious mind, reflecting</span> the interpretation of emotions.
@@ -408,7 +408,7 @@ Reptiles, by drawing their body heat directly from the Sun <span style="text-dec
 (E) instead of body heat generated by burning calories
 ---------------------------------
 #SC#52 (Medium)#A
-The industrial pollutants known as PCB’s were first manufactured in 1929 and were used as coolants for electrical equipment in Europe and North America until the 1970s, when studies showed <span style="text-decoration: underline">that the compounds had entered the food chain and were harmful to some animals</span>. 
+The industrial pollutants known as PCB’s were first manufactured in 1929 and were used as coolants for electrical equipment in Europe and North America until the 1970s, when studies showed <span style="text-decoration: underline">that the compounds had entered the food chain and were harmful to some animals</span>.
 (A) that the compounds had entered the food chain and were harmful to some animals
 (B) the compounds to have entered the food chain and be harmful to some animals
 (C) the entry of the compounds into the food chain as harmful to some animals
@@ -520,7 +520,7 @@ In order to conserve the energy and heat they need to spend the entire winter si
 (E) which thereby reduces the rate they burn energy so that it is 25 percent lower than
 ---------------------------------
 #SC#66 (Hard)#A
-Unlike amateur clammers, who usually dig clams by hand during the summer, professional clammers <span style="text-decoration: underline">work year-round, using all-weather instruments such as the hydraulic dredge or a 20-foot-long implement known as a bull rake</span>. 
+Unlike amateur clammers, who usually dig clams by hand during the summer, professional clammers <span style="text-decoration: underline">work year-round, using all-weather instruments such as the hydraulic dredge or a 20-foot-long implement known as a bull rake</span>.
 (A) work year-round, using all-weather instruments such as the dredge or a 20-foot-long implement known as a bull rake
 (B) work year-round by using all-weather instruments like hydraulic dredges or 20-foot-long implements known as a bull rake
 (C) working year-round and using such all-weather instruments as a hydraulic dredge or a 20-foot-long implement known as a bull rake
@@ -571,8 +571,8 @@ Inhospitable places on our planet, from steaming hot springs to the thick ice of
 A study of food resources in the North Pacific between 1989 and 1996 revealed <span style="text-decoration: underline">that creatures of the seabed were suffering from dwindling food supplies, possibly a result from increasing</span> sea surface temperatures during the same period.
 (A) that creatures of the seabed were suffering from dwindling food supplies, possibly a result from increasing
 (B) that creatures of the seabed were suffering because food supplies were dwindling, possibly as a result of an increase in
-(C) that creatures of the seabed were suffering because of food supplies, which were dwindling possibly as a result of increasing creatures of the seabed that were suffering from food supplies that were dwindling, possibly resulting from an increase in
-(D) creatures of the seabed that were suffering because food supplies were dwindling, which possibly resulted from increasing
+(C) that creatures of the seabed were suffering because of food supplies, which were dwindling possibly as a result of increasing
+(D) creatures of the seabed that were suffering from food supplies that were dwindling, possibly resulting from an increase in
 (E) creatures of the seabed that were suffering because food supplies were dwindling, which possibly resulted from increasing
 ---------------------------------
 #SC#73 (Hard)#A

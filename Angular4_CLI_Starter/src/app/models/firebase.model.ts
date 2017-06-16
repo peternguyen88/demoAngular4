@@ -1,14 +1,17 @@
 export class FirebaseUser{
   email: string;
+  uid: string;
   name: string;
   login_count: number;
   last_login: string;
   unlock_feature: boolean;
   disable: boolean;
+  firebase_uid: string;
 
-  constructor(email: string, name:string){
+  constructor(email: string, name:string, uid:string){
     this.email = email;
     this.name = name;
+    this.uid = uid;
     this.login_count = 0;
     this.disable = false;
     this.unlock_feature = false;

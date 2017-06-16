@@ -31,6 +31,7 @@ export class PracticeData {
         PracticeData.practices.push(practice);
       });
     }
+    // Hello
     return PracticeData.practices;
   }
 

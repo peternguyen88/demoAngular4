@@ -1,0 +1,11 @@
+// Create new Branch
+git checkout -b <branch>
+// Switching between branches
+git checkout <branch>
+// Commit to remote branch
+git commit -am "Message"
+// Push to remote branch & Set tracking
+git push -u origin <branch>
+// Checkout remote tracking branch
+git fetch
+git checkout test

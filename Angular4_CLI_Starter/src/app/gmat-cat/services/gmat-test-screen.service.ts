@@ -7,8 +7,8 @@ import {Question} from "../../models/question";
 import {Http} from "@angular/http";
 import {EnumTestStage, QuestionType, TestMode} from "../../models/constants.enum";
 import {Observable, Subscription} from "rxjs";
-import {QuestionResult, TestResult} from "../../models/test-result";
-import {FirebaseService} from "../../services/firebase.service";
+import {TestResult} from "../../models/test-result";
+import {WebService} from "../../services/web-service";
 
 @Injectable()
 export class TestScreenService {
@@ -31,7 +31,7 @@ export class TestScreenService {
 
     questions: Question[];
 
-    constructor(private http: Http, private fbService: FirebaseService) { }
+    constructor(private http: Http, private webService: WebService) { }
 
     public start(){
       this.isStarted = true;
@@ -219,7 +219,7 @@ export class TestScreenService {
     public autoSaveTest(){
       let testResult = new TestResult(this.currentTest);
       localStorage.setItem(this.currentTest.testName, JSON.stringify(testResult));
-      this.fbService.processSavePerformanceToServer(this.currentTest.testName, testResult.lastSavedTime, testResult.questions);
+      this.webService.processSavePerformanceToServer(this.currentTest.testName, testResult.lastSavedTime, testResult.questions);
     }
 
     public loadSavedData(callback: (t: TestResult) => any){
@@ -229,7 +229,7 @@ export class TestScreenService {
         testResult = JSON.parse(savedTest) as TestResult;
         callback(testResult);
       }
-      this.fbService.processRetrievePerformanceFromServer(this.currentTest.testName, testResult ? testResult.lastSavedTime : 0, (questionResults) => {
+      this.webService.processRetrievePerformanceFromServer(this.currentTest.testName, testResult ? testResult.lastSavedTime : 0, (questionResults) => {
         if(!testResult){
           testResult = new TestResult(this.currentTest);
         }
@@ -245,7 +245,7 @@ export class TestScreenService {
 
     public deleteSavedData(){
       localStorage.setItem(this.currentTest.testName, null);
-      this.fbService.deleteSavedPerformanceFromServer(this.currentTest.testName);
+      this.webService.deleteSavedPerformanceFromServer(this.currentTest.testName);
     }
     // ===========================End Saving & Loading Data====================================
 

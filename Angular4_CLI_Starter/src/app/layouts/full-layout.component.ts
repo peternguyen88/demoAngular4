@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {FirebaseService} from "../services/firebase.service";
+import {FirebaseDatabaseService} from "../services/firebase.database.service";
 import {Observable} from "rxjs/Observable";
 import * as firebase from "firebase/app";
+import {WebService} from "../services/web-service";
 
 @Component({
   selector: 'app-dashboard',
@@ -11,18 +12,14 @@ import * as firebase from "firebase/app";
 })
 export class FullLayoutComponent implements OnInit {
 
-  user: Observable<firebase.User>;
+  user: firebase.User;
 
-  constructor(private fbService: FirebaseService) {
-    this.user = fbService.getUserObservable();
+  constructor(private webService: WebService) {
+    this.webService.subscribeOnAuthStateChanged(user => this.user = user);
   }
 
   public disabled:boolean = false;
   public status:{isopen:boolean} = {isopen: false};
-
-  public toggled(open:boolean):void {
-    console.log('Dropdown is now: ', open);
-  }
 
   public toggleDropdown($event:MouseEvent):void {
     $event.preventDefault();
@@ -31,19 +28,19 @@ export class FullLayoutComponent implements OnInit {
   }
 
   public login(){
-    this.fbService.login();
+    this.webService.login();
   }
 
   public logout(){
-    this.fbService.logout();
+    this.webService.logout();
   }
 
   public isLogin():boolean{
-    return this.fbService.isLogin();
+    return this.webService.isLogin();
   }
 
   public getCurrentUser() : firebase.User{
-    return this.fbService.getCurrentUser();
+    return this.webService.getCurrentUser();
   }
 
   ngOnInit(): void {}

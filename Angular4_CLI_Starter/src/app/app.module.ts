@@ -23,7 +23,10 @@ import {AngularFireModule} from "angularfire2";
 import {AngularFireDatabaseModule} from "angularfire2/database";
 import {AngularFireAuthModule} from "angularfire2/auth";
 import {BsDropdownModule, TabsModule} from "ngx-bootstrap";
-import {FirebaseService} from "./services/firebase.service";
+import {FirebaseDatabaseService} from "./services/firebase.database.service";
+import {FirebaseAuthenticationService} from "./services/firebase.authentication.service";
+import {WebService} from "./services/web-service";
+import {RestAPIService} from "./services/rest.api.service";
 
 export const firebaseConfig = {
   apiKey: "AIzaSyAa4rCwsgsFfuKtAtjcRe3tS6cBs0KLsbg",
@@ -57,7 +60,7 @@ export const firebaseConfig = {
   providers: [{
     provide: LocationStrategy,
     useClass: HashLocationStrategy
-  }, TimerService, FirebaseService],
+  }, TimerService, FirebaseDatabaseService, FirebaseAuthenticationService, WebService, RestAPIService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

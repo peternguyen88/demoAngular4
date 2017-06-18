@@ -1,7 +1,5 @@
 import {Injectable} from "@angular/core";
 import {AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable} from "angularfire2/database";
-import {AngularFireAuth} from "angularfire2/auth";
-import {Observable} from "rxjs/Observable";
 import * as firebase from "firebase/app";
 import {FirebaseUtil} from "./firebase.util";
 import {FirebasePerformanceSummary, FirebaseUser} from "../models/firebase.model";
@@ -10,21 +8,19 @@ import {TestInfo} from "../gmat-cat/services/test-info";
 import {PracticeData} from "../gmat-practice/data/practice-sets";
 
 @Injectable()
-export class FirebaseService{
+export class FirebaseDatabaseService{
 
   userObject: FirebaseObjectObservable<FirebaseUser>;
+  user: firebase.User;
 
-  constructor(private db: AngularFireDatabase, private fireAuth: AngularFireAuth){
-    this.fireAuth.auth.onAuthStateChanged((user) => {
-      this.processUser(user);
-    });
-  }
+  constructor(private db: AngularFireDatabase){}
 
   /**
    * Update user info (Email, Name, Login Count, Last Login Time)
    * @param user
    */
-  private processUser(user: firebase.User){
+  public onAuthenticationStateChanged(user: firebase.User){
+    this.user = user;
     if(user){
       let userIdentification = user.email ? user.email : user.providerData[0].uid;
       this.userObject = this.db.object(FirebaseUtil.userPath(userIdentification));
@@ -121,27 +117,11 @@ export class FirebaseService{
     }
   }
 
-  public getUserObservable():Observable<firebase.User>{
-    return this.fireAuth.authState;
+  private isLogin(): boolean{
+    return this.userObject != null;
   }
 
-  public getCurrentUser():firebase.User{
-    return this.fireAuth.auth.currentUser;
-  }
-
-  public getUserIdentification(): string{
-    return this.getCurrentUser().email ? this.getCurrentUser().email : this.getCurrentUser().providerData[0].uid;
-  }
-
-  login(){
-    this.fireAuth.auth.signInWithPopup(new firebase.auth.FacebookAuthProvider());
-  }
-
-  logout(){
-    this.fireAuth.auth.signOut();
-  }
-
-  public isLogin():boolean{
-    return this.fireAuth.auth.currentUser != null;
+  public getUserIdentification():string{
+    return this.user.email ? this.user.email : this.user.providerData[0].uid;
   }
 }

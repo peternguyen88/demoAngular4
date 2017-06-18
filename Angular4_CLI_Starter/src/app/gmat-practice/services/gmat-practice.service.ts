@@ -1,4 +1,4 @@
-import {Injectable, OnInit} from "@angular/core";
+import {Injectable} from "@angular/core";
 import {Stage} from "../data/Model";
 import {GMATPractice} from "../../models/gmat-practice";
 import {Http} from "@angular/http";
@@ -8,13 +8,13 @@ import {Subscription} from "rxjs/Subscription";
 import {Question} from "../../models/question";
 import {Observable} from "rxjs/Observable";
 import {PracticeResult} from "../../models/test-result";
-import {FirebaseService} from "../../services/firebase.service";
+import {WebService} from "../../services/web-service";
 
 @Injectable()
 export class PracticeService{
   currentPractice: GMATPractice;
 
-  constructor(private http:Http, private fbService: FirebaseService){}
+  constructor(private http:Http, private webService: WebService){}
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
@@ -199,7 +199,7 @@ export class PracticeService{
       localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(practiceResult));
     }
 
-    this.fbService.processSavePerformanceToServer(this.currentPractice.practiceName, practiceResult.lastSavedTime, practiceResult.questions);
+    this.webService.processSavePerformanceToServer(this.currentPractice.practiceName, practiceResult.lastSavedTime, practiceResult.questions);
   }
 
   loadSavedData(){
@@ -214,7 +214,7 @@ export class PracticeService{
     }
 
     // Will override local result if the server version is newer
-    this.fbService.processRetrievePerformanceFromServer(this.currentPractice.practiceName, savedResult ? savedResult.lastSavedTime : 0, (questionResults) => {
+    this.webService.processRetrievePerformanceFromServer(this.currentPractice.practiceName, savedResult ? savedResult.lastSavedTime : 0, (questionResults) => {
       console.log("Newer version from Server detected. Getting data from server and saving to local");
       PracticeResult.mergeArrayResultToPractice(this.currentPractice, questionResults);
       localStorage.setItem(this.currentPractice.practiceName, JSON.stringify(new PracticeResult(this.currentPractice)));

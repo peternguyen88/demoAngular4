@@ -14,8 +14,8 @@
   <ul class="nav navbar-nav" style="max-width: 500px; flex: 0 0 auto;" *ngIf="isLogin()">
     <li class="nav-item dropdown" dropdown (onToggle)="toggled($event)">
       <span class="nav-link dropdown-toggle pull-right" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" dropdownToggle>
-        <img src="{{getCurrentUser()?.photoURL}}" class="img-avatar">
-        <span class="hidden-md-down">{{getCurrentUser()?.displayName}}</span>
+        <img src="{{user?.photoURL}}" class="img-avatar">
+        <span class="hidden-md-down">{{user?.displayName}}</span>
       </span>
       <div class="dropdown-menu dropdown-menu-right" *dropdownMenu aria-labelledby="simple-dropdown">
 

@@ -12,6 +12,7 @@ export class FirebaseDatabaseService{
 
   userObject: FirebaseObjectObservable<FirebaseUser>;
   user: firebase.User;
+  firebaseUser: FirebaseUser;
 
   constructor(private db: AngularFireDatabase){}
 
@@ -24,25 +25,24 @@ export class FirebaseDatabaseService{
     if(user){
       let userIdentification = user.email ? user.email : user.providerData[0].uid;
       this.userObject = this.db.object(FirebaseUtil.userPath(userIdentification));
-      let firebaseUser : FirebaseUser;
       this.userObject.take(1).subscribe(data => {
         let isUserExist = data.$exists();
         // Create User Object
         if(isUserExist){
-          firebaseUser = data;
-          if(firebaseUser.uid == null) {
-            firebaseUser.uid = user.providerData[0].uid;
-            firebaseUser.firebase_uid = user.uid;
+          this.firebaseUser = data;
+          if(this.firebaseUser.uid == null) {
+            this.firebaseUser.uid = user.providerData[0].uid;
+            this.firebaseUser.firebase_uid = user.uid;
           }
         }else{
-          firebaseUser = new FirebaseUser(user.email, user.displayName, user.providerData[0].uid);
-          firebaseUser.firebase_uid = user.uid;
+          this.firebaseUser = new FirebaseUser(user.email, user.displayName, user.providerData[0].uid);
+          this.firebaseUser.firebase_uid = user.uid;
         }
-        firebaseUser.login_count++;
-        firebaseUser.last_login = new Date().toString();
-        this.userObject.set(firebaseUser).then(error => {if(error) console.log(error)});
+        this.firebaseUser.login_count++;
+        this.firebaseUser.last_login = new Date().toString();
+        this.userObject.set(this.firebaseUser).then(error => {if(error) console.log(error)});
 
-        this.userObject.set(firebaseUser);
+        // this.userObject.set(this.firebaseUser);
         // Push Everything saved locally to server
         if(!isUserExist) this.firstTimeLoginProcess();
       });
@@ -119,6 +119,10 @@ export class FirebaseDatabaseService{
 
   private isLogin(): boolean{
     return this.userObject != null;
+  }
+
+  public isUnlockFeature():boolean{
+    return this.firebaseUser.unlock_feature;
   }
 
   public getUserIdentification():string{

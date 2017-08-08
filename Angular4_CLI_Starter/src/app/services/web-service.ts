@@ -13,8 +13,8 @@ import {RestAPIService} from "./rest.api.service";
 export class WebService {
 
   constructor(private fbDatabaseService: FirebaseDatabaseService, private fbAuthService: FirebaseAuthenticationService, private restAPIService: RestAPIService) {
-    // this.subscribeOnAuthStateChanged(user => fbDatabaseService.onAuthenticationStateChanged(user));
-    this.subscribeOnAuthStateChanged(user => restAPIService.onAuthenticationStateChanged(user));
+    this.subscribeOnAuthStateChanged(user => fbDatabaseService.onAuthenticationStateChanged(user));
+    // this.subscribeOnAuthStateChanged(user => restAPIService.onAuthenticationStateChanged(user));
   }
 
   public subscribeOnAuthStateChanged(subscribeFunction : (user: firebase.User) => void) {
@@ -35,6 +35,10 @@ export class WebService {
 
   public getCurrentUser():firebase.User{
     return this.fbAuthService.getCurrentUser();
+  }
+
+  public isUnlockFeature():boolean{
+    return this.fbDatabaseService.isUnlockFeature();
   }
 
   public processSavePerformanceToServer(id: string, localSavedTime: number, questions: QuestionResult[]) {

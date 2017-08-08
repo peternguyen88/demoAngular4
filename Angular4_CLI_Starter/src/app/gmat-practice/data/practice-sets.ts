@@ -15,6 +15,11 @@ export class PracticeData {
     ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0]
   ];
 
+  static PREMIUM_DATA = [
+    ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0],
+    ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0],
+  ];
+
   static practices:GMATPractice[];
 
   public static getAllPracticeSets(): GMATPractice[] {
@@ -32,6 +37,25 @@ export class PracticeData {
       });
     }
     return PracticeData.practices;
+  }
+
+  static premiumSets:GMATPractice[];
+
+  public static getAllPremiumSets(): GMATPractice[] {
+    if (PracticeData.premiumSets == null) {
+      PracticeData.premiumSets = [];
+
+      PracticeData.PREMIUM_DATA.forEach(e => {
+        let practice = new GMATPractice();
+        practice.practiceName = e[0] as string;
+        practice.numberOfQuestions = e[1] as number;
+        practice.status = e[2] as Status;
+        practice.fileLocation = e[3] as string;
+
+        PracticeData.premiumSets.push(practice);
+      });
+    }
+    return PracticeData.premiumSets;
   }
 
   public static processQuestionFile(practice:GMATPractice, fileContent:string){

@@ -8,7 +8,9 @@ import {Stage} from "./data/Model";
   templateUrl: 'gmat-practice.component.html'
 })
 export class GMATPracticeComponent{
-  constructor(private practiceService : PracticeService){}
+  constructor(private practiceService : PracticeService){
+    this.practiceService.stage = Stage.SELECT;
+  }
 
   isSelectStage():boolean{
     return this.practiceService.stage == Stage.SELECT;

@@ -76,4 +76,11 @@ export class ConfirmMessageConstant {
     acceptLabel: 'OK, I will login!',
     showCloseIcon: true
   };
+
+  static PREMIUM_FEATURE_NOT_ENABLED: ConfirmMessage = {
+    header: 'Premium Feature Access',
+    message: 'This is premium feature, only available for GMAT - Zero To Hero Students or Active Group Members, If you are in one of those two groups, please contact Admin!',
+    acceptLabel: 'OK, I understand',
+    showCloseIcon: true
+  };
 }

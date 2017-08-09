@@ -150,10 +150,10 @@ A certain species of desert lizard digs tunnels in which to lay its eggs. The eg
 ---------------------------------
 #CR#18 (161)#D#500
 Which of the following most logically completes the argument? <br><br>A photograph of the night sky was taken with the camera shutter open for an extended period. The normal motion of stars across the sky caused the images of the stars in the photograph to appear as streaks. However, one bright spot was not streaked. Even if the spot were caused, as astronomers believe, by a celestial object, that object could still have been moving across the sky during the time the shutter was open, since __________.
-(A)	the spot was not the brightest object in the photograph 
-(B)	the photograph contains many streaks that astronomers can identify as caused by noncelestial objects 
-(C)	stars in the night sky do not appear to shift position relative to each other 
-(D)	the spot could have been caused by an object that emitted a flash that lasted for only a fraction of the time that the camera shutter was open 
+(A)	the spot was not the brightest object in the photograph
+(B)	the photograph contains many streaks that astronomers can identify as caused by noncelestial objects
+(C)	stars in the night sky do not appear to shift position relative to each other
+(D)	the spot could have been caused by an object that emitted a flash that lasted for only a fraction of the time that the camera shutter was open
 (E)	if the camera shutter had not been open for an extended period, it would have recorded substantially fewer celestial objects
 ---------------------------------
 #CR#19 (162)#B#600
@@ -229,7 +229,7 @@ Recently declassified information from military satellites in orbit thousands of
 (E)	shows that the planet is continually bombarded by
 ---------------------------------
 #SC#28 (204)#C#300
-<span style="text-decoration: underline">Child development specialists believe that, in confining babies much of the time to strollers, high chairs, playpens, and walkers, muscle development can be inhibited.</span>
+Child development specialists believe <span style="text-decoration: underline">that, in confining babies much of the time to strollers, high chairs, playpens, and walkers, muscle development can be inhibited.</span>
 (A)	that, in confining babies much of the time to strollers, high chairs, playpens, and walkers, muscle development can be inhibited
 (B)	that, in their confinement much of the time to strollers, high chairs, playpens, and walkers, muscle development can be inhibited in babies
 (C)	that confining babies much of the time to strollers, high chairs, playpens, and walkers can inhibit muscle development

@@ -9,6 +9,8 @@ import {DomSanitizer} from "@angular/platform-browser";
 import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeService} from "../services/gmat-practice.service";
 import {Stage} from "../data/Model";
+import {UserQuestionReport} from "../../models/firebase.model";
+import {WebService} from "../../services/web-service";
 
 @Component({
   moduleId: module.id,
@@ -24,7 +26,7 @@ export class PracticeScreenComponent {
   showCorrectAnswer: boolean = false;
 
 
-  constructor(public practiceService: PracticeService) {
+  constructor(public practiceService: PracticeService, private webService: WebService) {
     this.currentQuestion = this.practiceService.getCurrentQuestion();
     this.currentPractice = this.practiceService.currentPractice;
     this.practiceMode = this.practiceService.practiceMode;
@@ -94,6 +96,27 @@ export class PracticeScreenComponent {
 
   public showAnswer(){
     this.showCorrectAnswer = !this.showCorrectAnswer;
+  }
+
+  public  reportQuestion(){
+    if(!this.webService.isLogin()){
+      this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
+      this.popupMessage.accept = () => {
+        this.webService.login();
+      }
+    }else {
+      this.popupMessage = ConfirmMessageConstant.REPORT_REASON;
+      this.popupMessage.accept = () => {
+        let report = new UserQuestionReport();
+        report.question_set = this.currentPractice.practiceName;
+        report.question_number = this.currentQuestion.question_number;
+        report.report_content = this.popupMessage.textContent;
+        report.report_time = new Date().toDateString();
+        this.practiceService.reportQuestion(report);
+
+        delete this.popupMessage.textContent;
+      }
+    }
   }
 
   ngOnDestroy() {

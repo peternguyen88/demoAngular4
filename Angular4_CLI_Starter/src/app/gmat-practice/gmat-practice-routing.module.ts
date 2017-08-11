@@ -6,7 +6,7 @@ import {GMATPremiumComponent} from "./premium/gmat-premium.component";
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'standard',
     component: GMATPracticeComponent,
     data: {
       title: 'GMAT Practice'

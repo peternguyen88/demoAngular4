@@ -4,6 +4,7 @@ import {QuestionResult} from "../models/test-result";
 import {FirebaseAuthenticationService} from "./firebase.authentication.service";
 import * as firebase from "firebase/app";
 import {RestAPIService} from "./rest.api.service";
+import {UserQuestionReport} from "../models/firebase.model";
 
 
 /**
@@ -51,5 +52,12 @@ export class WebService {
 
   public deleteSavedPerformanceFromServer(id: string){
     this.fbDatabaseService.deleteSavedPerformanceFromServer(id);
+  }
+
+  public reportQuestion(report: UserQuestionReport){
+    report.report_user_id = this.fbDatabaseService.getUserIdentification();
+    report.report_user_name = this.fbAuthService.getCurrentUser().displayName;
+
+    this.fbDatabaseService.reportQuestion(report);
   }
 }

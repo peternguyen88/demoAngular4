@@ -30,7 +30,7 @@
         <td>{{question.selected_answer}}</td>
         <td><span gm-digital-time [time]="question.question_time"></span></td>
         <td><span *ngIf="question.selected_answer">{{question.selected_answer == question.correct_answer ? 'Correct' : 'Incorrect'}}</span></td>
-        <td></td>
+        <td style="padding: 0;"><i class="fa fa-flag-checkered fa-lg mt-2" *ngIf="question.bookmarked" style="margin-left: 5px;"></i></td>
         <td><a (click)="startPracticeAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Practice</a></td>
         <td><a (click)="startReviewAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Review</a></td>
         <td>Remarks</td>

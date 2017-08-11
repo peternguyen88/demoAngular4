@@ -6,6 +6,8 @@ export interface ConfirmMessage {
   reject?: Function;
   acceptLabel?: string;
   rejectLabel?: string;
+  textContent?: string;
+  hasTextContent?: boolean;
   showCloseIcon?: boolean;
 }
 
@@ -73,7 +75,7 @@ export class ConfirmMessageConstant {
   static PLEASE_LOGIN_TO_CONTINUE: ConfirmMessage = {
     header: 'Please login to continue',
     message: 'You have to login to use this function!',
-    acceptLabel: 'OK, I will login!',
+    acceptLabel: 'OK, Log Me In!',
     showCloseIcon: true
   };
 
@@ -81,6 +83,15 @@ export class ConfirmMessageConstant {
     header: 'Premium Feature Access',
     message: 'This is premium feature, only available for GMAT - Zero To Hero Students or Active Group Members, If you are in one of those two groups, please contact Admin!',
     acceptLabel: 'OK, I understand',
+    showCloseIcon: true
+  };
+
+  static REPORT_REASON: ConfirmMessage = {
+    header: 'Report',
+    message: 'What is your reason for reporting this question?',
+    acceptLabel: 'Submit',
+    rejectLabel: 'Cancel',
+    hasTextContent: true,
     showCloseIcon: true
   };
 }

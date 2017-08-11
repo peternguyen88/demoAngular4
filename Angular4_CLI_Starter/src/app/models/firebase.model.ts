@@ -27,3 +27,13 @@ export class FirebasePerformanceSummary{
   last_saved: string;
   last_saved_time: number;
 }
+
+export class UserQuestionReport{
+  question_set: string;
+  question_number: string;
+  report_content: string;
+  report_time: string;
+  report_user_name: string;
+  report_user_id: string;
+  processed: boolean = false;
+}

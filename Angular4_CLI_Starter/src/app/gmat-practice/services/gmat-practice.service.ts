@@ -9,6 +9,7 @@ import {Question} from "../../models/question";
 import {Observable} from "rxjs/Observable";
 import {PracticeResult} from "../../models/test-result";
 import {WebService} from "../../services/web-service";
+import {UserQuestionReport} from "../../models/firebase.model";
 
 @Injectable()
 export class PracticeService{
@@ -133,6 +134,7 @@ export class PracticeService{
   }
 
   endReview(){
+    this.savePracticeData();
     this.backToSummary();
   }
 
@@ -181,6 +183,12 @@ export class PracticeService{
   }
 
   // -------------End Control Functions------------
+
+  // ------------- Report ----------------
+
+  public reportQuestion(report: UserQuestionReport){
+    this.webService.reportQuestion(report);
+  }
 
   // ==================================== End Practice Control ===============================================
 

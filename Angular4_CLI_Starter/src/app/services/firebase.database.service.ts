@@ -2,7 +2,7 @@ import {Injectable} from "@angular/core";
 import {AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable} from "angularfire2/database";
 import * as firebase from "firebase/app";
 import {FirebaseUtil} from "./firebase.util";
-import {FirebasePerformanceSummary, FirebaseUser} from "../models/firebase.model";
+import {FirebasePerformanceSummary, FirebaseUser, UserQuestionReport} from "../models/firebase.model";
 import {PracticeResult, QuestionResult, TestResult} from "../models/test-result";
 import {TestInfo} from "../gmat-cat/services/test-info";
 import {PracticeData} from "../gmat-practice/data/practice-sets";
@@ -115,6 +115,12 @@ export class FirebaseDatabaseService{
     if(this.isLogin()){
       this.db.object(FirebaseUtil.performancePath(this.getUserIdentification(), id)).remove();
     }
+  }
+
+  public reportQuestion(report: UserQuestionReport){
+    let questionSet = report.question_set;
+    delete report.question_set;
+    this.db.list(FirebaseUtil.reportPathDetail(questionSet)).push(report);
   }
 
   private isLogin(): boolean{

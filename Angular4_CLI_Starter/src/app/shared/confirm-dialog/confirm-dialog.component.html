@@ -14,7 +14,11 @@
           </button>
         </div>
         <div class="modal-body">
-          {{message.message}}
+          <p>{{message.message}}</p>
+
+          <div *ngIf="message.hasTextContent">
+            <input [(ngModel)]="message.textContent" style="border: 0; border-bottom: 1px solid red; outline: 0; width: 100%;" autofocus/>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-success" (click)="accept()" *ngIf="message.acceptLabel">{{message.acceptLabel}}</button>

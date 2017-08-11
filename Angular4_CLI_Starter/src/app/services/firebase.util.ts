@@ -20,6 +20,10 @@ export class FirebaseUtil{
     return "performances/" + FirebaseUtil.cleanEmail(email) + "/" + setID + "/detail";
   }
 
+  public static reportPathDetail(questionSetName: string){
+    return "question_reports/new/"+questionSetName;
+  }
+
   static cleanEmail(email:string):string{
     return email ? email.replace(/\./g, '_') : email;
   }

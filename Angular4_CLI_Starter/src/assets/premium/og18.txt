@@ -309,11 +309,11 @@ The kinds of hand and wrist injuries that result from extended use of a computer
 (E)	What proportion of schoolchildren in Harnville already use correct posture while using a computer.
 ---------------------------------
 #CR#37 (651)#B#1600
-Country X's recent stock-trading scandal should not diminish investors' confidence in the country's stock market. For one thing, <strong>the discovery of the scandal confirms that Country has a strong regulatory system</strong>, as the following considerations show. In any stock market, some fraudulent activitity is inevitable. If a stock market is well regulated, any significant stock-trading fraud in it will be very likely be discovered. This deters potential perpetrators and facilitates improvement in regulatory processess.<br><br>In the argument, the portion in boldface plays which of the following roles?
+Country X's recent stock-trading scandal should not diminish investors' confidence in the country's stock market. For one thing, <strong>the discovery of the scandal confirms that Country has a strong regulatory system</strong>, as the following considerations show. In any stock market, some fraudulent activitity is inevitable. If a stock market is well regulated, any significant stock-trading fraud in it will be very likely be discovered. This deters potential perpetrators and facilitates improvement in regulatory processes.<br><br>In the argument, the portion in boldface plays which of the following roles?
 (A)	It is the argument's only conclusion.
-(B)	It is the conclusion for which the argument provides support and which itself is used to support the argument the argument's main conclusion.
+(B)	It is the conclusion for which the argument provides support and which itself is used to support the argument's main conclusion.
 (C)	It is argument's main conclusion and is supported by another explicitly stated conclusion for which further support is provided.
-(D)	It is an assumption for which no explicigt support is provided and is used to support the argument's only conclusion.
+(D)	It is an assumption for which no explicit support is provided and is used to support the argument's only conclusion.
 (E)	It is a compound statement containing both the argument's main conclusion and an assumption sued to support that conclusion.
 ---------------------------------
 #CR#38 (656)#C#1700

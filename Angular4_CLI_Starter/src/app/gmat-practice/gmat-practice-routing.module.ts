@@ -6,6 +6,10 @@ import {GMATPremiumComponent} from "./premium/gmat-premium.component";
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'standard'
+  },
+  {
     path: 'standard',
     component: GMATPracticeComponent,
     data: {

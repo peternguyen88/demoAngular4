@@ -688,12 +688,12 @@ Intar, the oldest Hispanic theater company in New York, has moved away from the 
 (E) draws on the works now of both contemporary Hispanic authors living abroad and those
 ---------------------------------
 #SC#87#D#8700
-Last year, land values in most parts of the pinelands rose almost <span style="text-decoration: underline">so fast. and in some parts even faster than
-what they did </span>outside the pinelands.
+Last year, land values in most parts of the pinelands rose almost <span style="text-decoration: underline">so fast. and in some parts even faster than what they did </span>outside the pinelands.
 (A) so fast, and in some parts even faster than what they did
 (B) so fast, and in some parts even faster than, those
 (C) as fast, and in some parts even faster than, those
 (D) as fast as, and in some parts even faster than, those
+(E) as fast as, and in some parts even faster than what they did
 ---------------------------------
 #SC#88#C#8800
 <span style="text-decoration: underline">Clouds are formed from the evaporation of the oceans’ water that is warmed by the Sun and rises high into the atmosphere, condensing in tiny droplets on minute particles of dust.</span>

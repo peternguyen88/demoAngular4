@@ -13,7 +13,7 @@ Roland: The alarming fact is that 90 percent of the people in this country now r
 (B) The current level of unemployment is not moderate.
 (C) If at least 5% of workers are unemployed, the result of questioning a representative group of people cannot be the percentage Roland cites.
 (D) It is unlikely that the people whose statements Roland cites are giving accurate reports.
-(E) If an unemployment figure is given as a certain percent, the actual percentage of those
+(E) If an unemployment figure is given as a certain percent, the actual percentage of those without jobs is even higher.
 ---------------------------------
 #CR#3 (Easy)#E#300
 Guitar strings often go “dead”—become less responsive and bright in tone—after a few weeks of intense use. A researcher whose son is a classical guitarist hypothesized that dirt and oil, rather than changes in the material properties of the string, were responsible.<br><br>Which of the following investigations is most likely to yield significant information that would help to evaluate the researcher’s hypothesis?
@@ -72,7 +72,7 @@ Many breakfast cereals are fortified with vitamin supplements. Some of these cer
 (E) The first and the second each provide evidence in support of the argument’s main conclusion.
 ---------------------------------
 #CR#10 (Easy)#B#1000
-Paper&Print is a chain of British stores selling magazines, books, and stationery products. In Britain, magazines’ retail prices are set by publishers, and the retailer’s share of a magazine's retail price 25 percent. Since Paper&Print’s margin on books and stationery products is much higher, the chain's management plans to devote more of its stores’ shelf space to books and stationery products and reduce the number of magazine titles that its stores carry.<br><br>Which of the following, if true, most strongly argues that the plan, if put into effect, will increase Paper&Print’s profits?
+Paper&Print is a chain of British stores selling magazines, books, and stationery products. In Britain, magazines’ retail prices are set by publishers, and the retailer’s share of a magazine's retail price 25 percent. Since Paper&Print’s margin on books and stationery products is much higher, the chain's management plans to devote more of its stores’ shelf space to books and stationery products and reduce the number of magazine titles that its stores carry.<br><br>Which of the following, if true, most strongly argues that the plan, if put into effect, will NOT increase Paper&Print’s profits?
 (A) Recently magazine publishers, seeking to increase share in competitive sectors of the market, have been competitively cutting the retail prices of some of the largest circulation magazines.
 (B) In market research surveys, few consumers identify Paper&Print as a book or stationery store but many recognize and value the broad range of magazines it carries.
 (C) The publisher’s share of a magazine's price is 50 percent, and the publisher also retains all of the magazine's advertising revenue.
@@ -209,7 +209,7 @@ Drug manufacturer: Television audiences are sure to realize that the “physicia
 ---------------------------------
 #CR#27 (Medium)#A#2700
 In Gandania, where the government has a monopoly on tobacco sales, the incidence of smoking-related health problems has risen steadily for the last twenty years. The health secretary recently proposed a series of laws aimed at curtailing tobacco use in Gandania. Profits from tobacco sales, however, account for ten percent of Gandania's annual revenues. Therefore, Gandania cannot afford to institute the proposed laws.<br><br>Which of the following, if true, most seriously weakens the argument?
-(A) All hearth care in Gandania is government-funded.
+(A) All health care in Gandania is government-funded.
 (B) Implementing the proposed laws is not to cause a significant increase in the amount of tobacco Gandania exports.
 (C) The percentage of revenue Gandania receives from tobacco sales has remained steady in recent years.
 (D) Profits from tobacco sales far surpass any other single source of revenue for the Gandanian government.
@@ -277,7 +277,7 @@ Perkins: According to an article I read, the woolly mammoth‘s extinction in No
 (B) The stone from which stone spearheads were made is unlikely to have disintegrated over the course of 12,000 years.
 (C) Conditions in North America 12,000 years ago were such that humans could not have survived there on a diet that did not include substantial amounts of meat.
 (D) Cave paintings in North America that date from 12,000 years ago depict woolly mammoths as well as a variety of other animals, including deer and buffalo.
-(E) Because of the great effort that would have been required to produce each stone spearhead, hunters would have been to leave them behind.
+(E) Because of the great effort that would have been required to produce each stone spearhead, hunters would have been unlikely to leave them behind.
 ---------------------------------
 #CR#36 (Medium)#A#3600
 A proposed change to federal income tax laws would eliminate deductions from taxable income for donations a taxpayer has made to charitable and educational institutions. If this change were adopted, wealthy individuals would no longer be permitted such deductions. Therefore, many charitable and educational institutions would have to reduce services, and some would have to close their doors.<br><br>The argument above assumes which of the following?

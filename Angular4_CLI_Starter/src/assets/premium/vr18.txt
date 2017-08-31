@@ -141,7 +141,7 @@ Archaeologists working in the Andes Mountains recently excavated a buried 4,000-
 (E)	The site containing the temple was occupied for a significant amount of time before abandonment.
 ---------------------------------
 #CR#17 (154)#A#400
-A certain species of desert lizard digs tunnels in which to lay its eggs. The eggs must must incubate inside the tunnel for several weeks before hatching, and they fail to hatch if they are disturbed at any time during this incubation period. Yet these lizard guard their tunnels for only a few days after laying their eggs.<br><br>Which of the following, if true, most helps explain why there is no need for lizards to guard their tunnels for more than a few days?
+A certain species of desert lizard digs tunnels in which to lay its eggs. The eggs must incubate inside the tunnel for several weeks before hatching, and they fail to hatch if they are disturbed at any time during this incubation period. Yet these lizard guard their tunnels for only a few days after laying their eggs.<br><br>Which of the following, if true, most helps explain why there is no need for lizards to guard their tunnels for more than a few days?
 (A)	The eggs are at risk of being disturbed only during the brief egg-laying season when many lizards are digging in a relatively small area.
 (B)	The length of the incubation period varies somewhat from one tunnel to another.
 (C)	Each female lizard lays from 15 to 20 eggs, only about 10 of which hatch even if the eggs are not disturbed at any time during the incubation period.

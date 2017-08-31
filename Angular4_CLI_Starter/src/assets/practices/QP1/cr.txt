@@ -444,7 +444,7 @@ Pretzel vendor: The new license fee for operating a pretzel stand outside the ar
 (A) There is currently no license fee for operating a pretzel stand outside city hall.
 (B) Pretzel vendors who operate stands outside the art museum were making a profit before the imposition of the new license fee.
 (C) The number of pretzel stands outside the art museum is no greater than the number of pretzel stands now outside city hall.
-(D) People who buy pretzels at pretzel stands are most likely to do so during the hours at which the art museum is open to the
+(D) People who buy pretzels at pretzel stands are most likely to do so during the hours at which the art museum is open to the public.
 (E) Fewer people passing the art museum than passing city hall are to buy pretzels.
 ---------------------------------
 #CR#57 (Hard)#A#5700

@@ -23,7 +23,7 @@
       </div>
 
 
-      <div class="whiteBG">
+      <div class="whiteBG" [style.bottom]="isShowingNote ? '185px' : '62px'">
         <div id="section">
           <div class="content" style="display: inline-block">
             <div class="passage" [innerHTML]="currentQuestion.reading_passage | safeHtml" *ngIf="currentQuestion.isReadingComprehension()" style="width: 50%;">
@@ -79,11 +79,16 @@
         </div>
       </div>
 
+      <div id="questionNote" *ngIf="isShowingNote">
+        <textarea style="width: 100%;resize:horizontal; padding: 0 5px;" rows="5" (blur)="enableHotKey()" (focus)="disableHotKey()" [(ngModel)]="currentQuestion.remarks" maxlength="800"></textarea>
+      </div>
+
       <div id="setUp">
         <button type="button" class="btn btn-outline-info no-glow-button black-text" (click)="currentQuestion.toggleBookmark()"><i class="fa" [ngClass]="{'fa-flag-o': !currentQuestion.bookmarked, 'fa-flag': currentQuestion.bookmarked}"></i>&nbsp; Favorite</button>
 
-        pencil-square-o
         <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="reportQuestion()"><i class="fa fa-exclamation-circle"></i>&nbsp; Report</button>
+        <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleNote()" *ngIf="isReview()" [class.hasNote]="currentQuestion.hasNote()"
+                [disabled]="!currentQuestion.selected_answer"><i class="fa fa-pencil-square-o"></i>&nbsp; Note</button>
       </div>
 
       <div id="footer">

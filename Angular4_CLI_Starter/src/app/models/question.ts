@@ -57,6 +57,10 @@ export class Question {
     this.bookmarked = !this.bookmarked;
   }
 
+  public hasNote():boolean{
+    return this.remarks != null && this.remarks != "";
+  }
+
   public getLabelClass(option: string, isShowAnswer: boolean): string{
     if(isShowAnswer && option == this.correct_answer){
       return 'correct_answer';

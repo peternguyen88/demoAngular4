@@ -10,13 +10,13 @@ import {GMATPracticeComponent} from "./gmat-practice.component";
 import {PracticeService} from "./services/gmat-practice.service";
 import {GMATPracticeListComponent} from "./gmat-practice-list/gmat-practice-list.component";
 import {GMATPracticeSummaryComponent} from "./gmat-practice-summary/gmat-practice-summary.component";
-import {PracticeScreenComponent, SafeHtmlPipe} from "./practice-screen/practice-screen.component";
+import {PracticeScreenComponent, SafeHtmlPipe, TruncatePipe} from "./practice-screen/practice-screen.component";
 import {GMATPremiumComponent} from "./premium/gmat-premium.component";
 
 @NgModule({
   imports: [CommonModule, GmatCommonModule,
     GMATPracticeRoutingModule, FormsModule],
-  declarations: [GMATPracticeComponent, GMATPracticeListComponent, GMATPracticeSummaryComponent, PracticeScreenComponent, SafeHtmlPipe,
+  declarations: [GMATPracticeComponent, GMATPracticeListComponent, GMATPracticeSummaryComponent, PracticeScreenComponent, SafeHtmlPipe, TruncatePipe,
     GMATPremiumComponent],
   providers: [PracticeService]
 })

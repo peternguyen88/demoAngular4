@@ -195,6 +195,13 @@ a.testPause {
   height: 30px;
 }
 
+.testForm #questionNote {
+  position: absolute;
+  margin: 0 10px;
+  width: 980px;
+  bottom: 65px;
+}
+
 #setUp {
   background-color: #d8d8d8;
   font-family: "Open Sans", geneva, sans-serif;
@@ -255,4 +262,9 @@ a.testPause {
 
 .btn{
   cursor: pointer;
+}
+
+.hasNote{
+  color: yellow;
+  background-color: indigo;
 }

@@ -14,6 +14,7 @@ import {TestScreenService} from "./services/gmat-test-screen.service";
 import {FormsModule} from "@angular/forms";
 import {TestSummaryComponent} from "./gmat-cat-test/test-summary-screen/test-summary.component";
 import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
+import {TruncatePipe} from "../gmat-practice/practice-screen/practice-screen.component";
 
 @NgModule({
   imports: [CommonModule, GmatCommonModule,
@@ -23,7 +24,7 @@ import {GmatCommonModule} from "../shared/modules/GmatCommonModule";
     GmatCatListComponent,
     TestWelcomeScreenComponent,
     TestScreenComponent,
-    SafeHtmlPipe,
+    SafeHtmlPipe, TruncatePipe,
     TestSummaryComponent
   ],
   providers: [GMATTestService, TestScreenService]

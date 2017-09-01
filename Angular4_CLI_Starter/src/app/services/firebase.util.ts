@@ -37,7 +37,6 @@ export class FirebaseUtil{
   static cleanQuestionResultForSaving(questionResult: QuestionResult){
     if(!questionResult.selected_answer){
       questionResult.bookmarked = null;
-      questionResult.remarks = null;
       questionResult.question_time = null;
       questionResult.is_correct = null;
     } else {

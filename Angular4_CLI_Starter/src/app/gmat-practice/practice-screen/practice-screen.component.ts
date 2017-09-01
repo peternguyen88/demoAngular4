@@ -24,7 +24,8 @@ export class PracticeScreenComponent {
   popupMessage: ConfirmMessage;
   practiceMode: PracticeMode = PracticeMode.PRACTICE;
   showCorrectAnswer: boolean = false;
-
+  isHotKeyDisabled: boolean = false;
+  isShowingNote = false;
 
   constructor(public practiceService: PracticeService, private webService: WebService) {
     this.currentQuestion = this.practiceService.getCurrentQuestion();
@@ -34,7 +35,7 @@ export class PracticeScreenComponent {
 
   @HostListener('window:keydown', ['$event'])
   public registerHostkey(event: KeyboardEvent){
-    if(this.isReview()){
+    if(this.isReview() && !this.isHotKeyDisabled){
       switch (event.keyCode){
         case 39: // Key Arrow Right
               this.next();
@@ -57,6 +58,9 @@ export class PracticeScreenComponent {
     this.practiceService.prev();
     this.currentQuestion = this.practiceService.getCurrentQuestion();
     this.showCorrectAnswer = false;
+    if(!this.currentQuestion.selected_answer){
+      this.isShowingNote = false;
+    }
   }
 
   public next() {
@@ -64,6 +68,9 @@ export class PracticeScreenComponent {
       this.practiceService.next();
       this.currentQuestion = this.practiceService.getCurrentQuestion();
       this.showCorrectAnswer = false;
+      if(!this.currentQuestion.selected_answer){
+        this.isShowingNote = false;
+      }
     }else{
       this.practiceService.end();
     }
@@ -119,6 +126,18 @@ export class PracticeScreenComponent {
     }
   }
 
+  enableHotKey(){
+    this.isHotKeyDisabled = false;
+  }
+
+  disableHotKey(){
+    this.isHotKeyDisabled = true;
+  }
+
+  toggleNote(){
+    this.isShowingNote = !this.isShowingNote;
+  }
+
   ngOnDestroy() {
     if(this.practiceService.stage == Stage.PRACTICE) {
       this.practiceService.endPractice();
@@ -133,5 +152,19 @@ export class SafeHtmlPipe implements PipeTransform {
 
   transform(value) {
     return this.sanitized.bypassSecurityTrustHtml(value);
+  }
+}
+
+@Pipe({name: 'truncate'})
+export class TruncatePipe implements PipeTransform {
+  transform(value: string): string {
+    if(value) {
+      const limit = 100;
+      const trail = '...';
+      return value.length > limit ? value.substring(0, limit) + trail : value;
+    }
+    else{
+      return null;
+    }
   }
 }

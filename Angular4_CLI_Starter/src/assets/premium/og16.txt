@@ -55,7 +55,7 @@ Which of the following, if true, would most weaken the author's conclusion in li
 ---------------------------------
 #RC#7 (P10 - 45)#C#700
 A small number of the forest species of lepidoptera (moths and butterflies, which exist as caterpillars Line during most of their life cycle) exhibit regularly recurring patterns of population growth and decline—such fluctuations in population are known as population cycles. Although many different variables influence population levels, a regular pattern such as a population cycle seems to imply a dominant, driving force. Identification of that driving force, however, has proved surprisingly elusive despite considerable research. The common approach of studying causes of population cycles by measuring the mortality caused by different agents, such as predatory birds or parasites, has been unproductive in the case of lepidoptera. Moreover, population ecologists' attempts to alter cycles by changing the caterpillars' habitat and by reducing caterpillar populations have not succeeded. In short, the evidence implies that these insect populations, if not self-regulating, may at least be regulated by an agent more intimately connected with the insect than are predatory birds or parasites. <br><br>Recent work suggests that this agent may be a virus. For many years, viral disease had been reported in declining populations of caterpillars, but population ecologists had usually considered viral disease to have contributed to the decline once it was underway rather than to have initiated it. The recent work has been made possible by new techniques of molecular biology that allow viral DNA to be detected at low concentrations in the environment. Nuclear polyhedrosis viruses are hypothesized to be the driving force behind population cycles in lepidoptera in part because the viruses themselves follow an infectious cycle in which, if protected from direct sun light, they may remain virulent for many years in the environment, embedded in durable crystals of polyhedrin protein. Once ingested by a caterpillar, the crystals dissolve, releasing the virus to infect the insect's cells.Late in the course of the infection, millions of new virus particles are formed and enclosed in polyhedrin crystals. These crystals reenter the environment after the insect dies and decomposes, thus becoming available to infect other caterpillars. One of the attractions of this hypothesis is its broad applicability. Remarkably, despite significant differences in habitat and behavior, many species of lepidoptera have population cycles of similar length, between eight and eleven years. Nuclear polyhedrosis viral infection is one factor these disparate species share.
-According to the passage, before the discovery of new techniques for detecting viral DNA, population ecologists believed that viral diseases 
+According to the passage, before the discovery of new techniques for detecting viral DNA, population ecologists believed that viral diseases
 (A)	were not widely prevalent among insect populations generally
 (B)	affected only the caterpillar life stage of lepidoptera
 (C)	were the driving force behind Lepidoptera population cycles
@@ -82,29 +82,29 @@ It can be inferred from the passage that while inside its polyhedrin protein cry
 ---------------------------------
 #RC#10 (P20 - 96)#D#1000
 It is an odd but indisputable fact that the seventeenth-century English women who are generally regarded as among the forerunners of modern feminism are almost all identified with the Royalist side in the conflict between Royalist and Parliamentarians known as the English Civil Wars. Since Royalist ideology is often associated with the radical patriarchalism of seventeenth-century political theorist Robert Filmer—a patriarchalism that equates family and kingdom and asserts the divinely ordained absolute power of the king and, by analogy, of the male head of the household—historians have been understandably puzzled by the fact that Royalist women wrote the earliest extended criticism of the absolute systematic assertions of women's rational and moral equality with men. Some historians have questioned the facile equation of Royalist ideology with Filmerian patriarchalism; and indeed, there may have been no consistent differences between Royalist and Parliamentarians on issues of family organization and women's political rights, but in that case one would expect early feminists to be equally divided between the two sides.<br><br>Catherine Gallagher argues that Royalism engendered feminism because the ideology of absolute monarchy provided a transition to an ideology of the absolute self. She cites the example of the notoriously eccentric author Margaret Cavendish (1626-1673), duchess of Newcastle. Cavendish claimed to be as ambitious as any woman could be, but knowing that as a woman she was excluded from the pursuit of power in the real world, she resolved to be mistress of her own world, the “immaterial world” that any person can create within her own mind—and, as a writer, on paper. In proclaiming what she called her “singularity,” Cavendish insisted that she was a self-sufficient being within her mental empire, the center of her own subjective universe rather than a satellite orbiting a dominant male planet. In justifying this absolute singularity, Cavendish repeatedly invoked the model of the absolute monarch, a figure that became a metaphor for the self-enclose, autonomous nature of the individual person. Cavendish's successors among early feminists retained her notion of woman's sovereign self, but they also sought to break free isolation that her absolute singularity entailed.
-The author of the passage refers to Robert Filmer primarily in order to 
-(A)	show that Royalist ideology was somewhat more radical than most historians appear to realize 
-(B)	qualify the clit ht patriarchalism formed the basis of Royalist ideology 
-(C)	question the view that most early feminists were associated with the Royalist faction 
-(D)	highlight an apparent tension between Royalists ideology and the ideas of early feminists 
-(E)	argue that Royalists held conflicting opinions on issues of family organization nd women's political rights 
+The author of the passage refers to Robert Filmer primarily in order to
+(A)	show that Royalist ideology was somewhat more radical than most historians appear to realize
+(B)	qualify the clit ht patriarchalism formed the basis of Royalist ideology
+(C)	question the view that most early feminists were associated with the Royalist faction
+(D)	highlight an apparent tension between Royalists ideology and the ideas of early feminists
+(E)	argue that Royalists held conflicting opinions on issues of family organization nd women's political rights
 ---------------------------------
 #RC#11 (P20 - 97)#D#1100
 It is an odd but indisputable fact that <span style="background:yellow;"><strong>the seventeenth-century English women</span></strong> who are generally regarded as among the forerunners of modern feminism are almost all identified with the Royalist side in the conflict between Royalist and Parliamentarians known as the English Civil Wars. Since Royalist ideology is often associated with the radical patriarchalism of seventeenth-century political theorist Robert Filmer—a patriarchalism that equates family and kingdom and asserts the divinely ordained absolute power of the king and, by analogy, of the male head of the household—historians have been understandably puzzled by the fact that Royalist women wrote the earliest extended criticism of the absolute systematic assertions of women's rational and moral equality with men. Some historians have questioned the facile equation of Royalist ideology with Filmerian patriarchalism; and indeed, there may have been no consistent differences between Royalist and Parliamentarians on issues of family organization and women's political rights, but in that case one would expect early feminists to be equally divided between the two sides.<br><br>Catherine Gallagher argues that Royalism engendered feminism because the ideology of absolute monarchy provided a transition to an ideology of the absolute self. She cites the example of the notoriously eccentric author Margaret Cavendish (1626-1673), duchess of Newcastle. Cavendish claimed to be as ambitious as any woman could be, but knowing that as a woman she was excluded from the pursuit of power in the real world, she resolved to be mistress of her own world, the “immaterial world” that any person can create within her own mind—and, as a writer, on paper. In proclaiming what she called her “singularity,” Cavendish insisted that she was a self-sufficient being within her mental empire, the center of her own subjective universe rather than a satellite orbiting a dominant male planet. In justifying this absolute singularity, Cavendish repeatedly invoked the model of the absolute monarch, a figure that became a metaphor for the self-enclose, autonomous nature of the individual person. Cavendish's successors among early feminists retained her notion of woman's sovereign self, but they also sought to break free isolation that her absolute singularity entailed.
-The passage suggests which of the following about the seventeenth-century English women mentioned in line 2? 
-(A)	Their status as forerunners of modern feminists is not entirely justified 
-(B)	They did not openly challenge the radical patriarchalism of Royalist Filmerian ideology 
-(C)	Cavendish was the first among these women to criticize women's subordination in marriage and assert women equality with men 
+The passage suggests which of the following about the seventeenth-century English women mentioned in line 2?
+(A)	Their status as forerunners of modern feminists is not entirely justified
+(B)	They did not openly challenge the radical patriarchalism of Royalist Filmerian ideology
+(C)	Cavendish was the first among these women to criticize women's subordination in marriage and assert women equality with men
 (D)	Their views on family organization and women's political rights were diametrically opposed to those of both Royalist and Parliamentarian ideology
-(E)	Historians would be less puzzled if more of them were identified with the Patriarchalism side in the English Civil Wars 
+(E)	Historians would be less puzzled if more of them were identified with the Patriarchalism side in the English Civil Wars
 ---------------------------------
 #RC#12 (P20 - 98)#D#1200
 It is an odd but indisputable fact that the seventeenth-century English women who are generally regarded as among the forerunners of modern feminism are almost all identified with the Royalist side in the conflict between Royalist and Parliamentarians known as the English Civil Wars. Since Royalist ideology is often associated with the radical patriarchalism of seventeenth-century political theorist Robert Filmer—a patriarchalism that equates family and kingdom and asserts the divinely ordained absolute power of the king and, by analogy, of the male head of the household—historians have been understandably puzzled by the fact that Royalist women wrote the earliest extended criticism of the absolute systematic assertions of women's rational and moral equality with men. Some historians have questioned the facile equation of Royalist ideology with Filmerian patriarchalism; and indeed, there may have been no consistent differences between Royalist and Parliamentarians on issues of family organization and women's political rights, but in that case one would expect early feminists to be equally divided between the two sides.<br><br>Catherine Gallagher argues that Royalism engendered feminism because the ideology of absolute monarchy provided a transition to an ideology of the absolute self. She cites the example of the notoriously eccentric author Margaret Cavendish (1626-1673), duchess of Newcastle. Cavendish claimed to be as ambitious as any woman could be, but knowing that as a woman she was excluded from the pursuit of power in the real world, she resolved to be mistress of her own world, the “immaterial world” that any person can create within her own mind—and, as a writer, on paper. In proclaiming what she called her “singularity,” Cavendish insisted that she was a self-sufficient being within her mental empire, the center of her own subjective universe rather than a satellite orbiting a dominant male planet. In justifying this absolute singularity, Cavendish repeatedly invoked the model of the absolute monarch, a figure that became a metaphor for the self-enclose, autonomous nature of the individual person. Cavendish's successors among early feminists retained her notion of woman's sovereign self, but they also sought to break free isolation that her absolute singularity entailed.
-The passage suggests that Margaret Cavendish's decision to become a author was motivated, at least in part, by a desire to 
-(A)	Justify her support for the Royalist cause 
-(B)	Encourage her readers to work toward eradicating Filmer Patriarchalism 
-(C)	Persuade other women to break free from their political and social isolation 
-(D)	Analyze the cause for women's exclusion from the pursuit of power 
+The passage suggests that Margaret Cavendish's decision to become a author was motivated, at least in part, by a desire to
+(A)	Justify her support for the Royalist cause
+(B)	Encourage her readers to work toward eradicating Filmer Patriarchalism
+(C)	Persuade other women to break free from their political and social isolation
+(D)	Analyze the cause for women's exclusion from the pursuit of power
 (E)	Create a world over which she could exercise total control
 ---------------------------------
 #RC#13 (P20 - 99)#D#1300
@@ -204,7 +204,7 @@ According to the passage, Krontiris's work differs from that of the scholars men
 (B)	Krontiris's work is based on a reinterpretation of the work of earlier scholars.
 (C)	Krontiris's views are at odds with those of both Kelly and Burkhardt.
 (D)	Krontiris's work focuses on the place of women in Renaissance society.
-(E)	Krontiris's views are based exclusively on the study of a privileged group of women. 
+(E)	Krontiris's views are based exclusively on the study of a privileged group of women.
 ---------------------------------
 #RC#24 (P26 - 132)#D#2400
 Jacob Burckhardt's view that Renaissance European women “stood on a footing of perfect equality” with Renaissance men has been repeatedly cited by feminist scholars as a prelude to their presentation of rich historical evidence of women's inequality. In striking contrast to Burckhardt, Joan Kelly in her famous 1977 essay, “Did Women Have a Renaissance?” argued that the Renaissance was a period of economic and social decline for women relative both to Renaissance men and to medieval women. Recently, however, a significant trend among feminist scholars has entailed a rejection of both Kelly's dark vision of the Renaissance and Burckhardt's rosy one. Many recent works by these scholars stress the ways in which differences among Renaissance women—especially in terms of social status and religion—work to complicate the kinds of generalizations both Burckhardt and Kelly made on the basis of their observations about upper-class Italian women.<br><br>The trend is also evident, however, in works focusing on those middle- and upper-class European women whose ability to write gives them disproportionate representation in the historical record. Such women were, simply by virtue of their literacy, members of a tiny minority of the population, so it is risky to take their descriptions of their experiences as typical of “female experience” in any general sense. Tina Krontiris, for example, in her fascinating study of six Renaissance women writers, does tend at times to conflate “women” and“women writers,” assuming that women's gender, irrespective of other social differences, including literacy, allows us to view women as a homogeneous social group and make that group an object of analysis. Nonetheless, Krontiris makes a significant contribution to the field and is representative of those authors who offer what might be called a cautiously optimistic assessment of Renaissance women's achievements, although she also stresses the social obstacles Renaissance women faced when they sought to raise their “oppositional voices.” Krontiris is concerned to show women intentionally negotiating some power for themselves (at least in the realm of public discourse) against potentially constraining ideologies, but in her sober and thoughtful concluding remarks, she suggests that such verbal opposition to cultural stereotypes was highly circumscribed; women seldom attacked the basic assumptions in the ideologies that oppressed them.
@@ -213,7 +213,7 @@ According to the passage, feminist scholars cite Burckhardt's view of Renaissanc
 (B)	Burckhardt's view has been discredited by Kelly.
 (C)	Burckhardt's view is one that many feminist scholars wish to refute.
 (D)	Burckhardt's work provides rich historical evidence of inequality between Renaissance women and men.
-(E)	Burckhardt's work includes historical research supporting the arguments of the feminist scholars. 
+(E)	Burckhardt's work includes historical research supporting the arguments of the feminist scholars.
 ---------------------------------
 #RC#25 (P26 - 133)#D#2500
 Jacob Burckhardt's view that Renaissance European women “stood on a footing of perfect equality” with Renaissance men has been repeatedly cited by feminist scholars as a prelude to their presentation of rich historical evidence of women's inequality. In striking contrast to Burckhardt, Joan Kelly in her famous 1977 essay, “Did Women Have a Renaissance?” argued that the Renaissance was a period of economic and social decline for women relative both to Renaissance men and to medieval women. Recently, however, a significant trend among <span style="background:yellow;"><strong>feminist scholars</span></strong> has entailed a rejection of both Kelly's dark vision of the Renaissance and Burckhardt's rosy one. Many recent works by these scholars stress the ways in which differences among Renaissance women—especially in terms of social status and religion—work to complicate the kinds of generalizations both Burckhardt and Kelly made on the basis of their observations about upper-class Italian women.<br><br>The trend is also evident, however, in works focusing on those middle- and upper-class European women whose ability to write gives them disproportionate representation in the historical record. Such women were, simply by virtue of their literacy, members of a tiny minority of the population, so it is risky to take their descriptions of their experiences as typical of “female experience” in any general sense. Tina Krontiris, for example, in her fascinating study of six Renaissance women writers, does tend at times to conflate “women” and“women writers,” assuming that women's gender, irrespective of other social differences, including literacy, allows us to view women as a homogeneous social group and make that group an object of analysis. Nonetheless, Krontiris makes a significant contribution to the field and is representative of those authors who offer what might be called a cautiously optimistic assessment of Renaissance women's achievements, although she also stresses the social obstacles Renaissance women faced when they sought to raise their “oppositional voices.” Krontiris is concerned to show women intentionally negotiating some power for themselves (at least in the realm of public discourse) against potentially constraining ideologies, but in her sober and thoughtful concluding remarks, she suggests that such verbal opposition to cultural stereotypes was highly circumscribed; women seldom attacked the basic assumptions in the ideologies that oppressed them.
@@ -240,7 +240,7 @@ The last sentence in the passage serves primarily to
 (B)	undermine the argument that literate women of the Renaissance sought to oppose social constraints imposed on them
 (C)	show a way in which Krontiris's work illustrates a “cautiously optimistic"assessment of Renaissance women's achievements
 (D)	summarize Krontiris's view of the effect of literacy on the lives of upper- and middle-class Renaissance women
-(E)	illustrate the way in which Krontiris's study differs from the studies done by Burckhardt and Kelly 
+(E)	illustrate the way in which Krontiris's study differs from the studies done by Burckhardt and Kelly
 ---------------------------------
 #RC#28 (P26 - 136)#D#2800
 Jacob Burckhardt's view that Renaissance European women “stood on a footing of perfect equality” with Renaissance men has been repeatedly cited by feminist scholars as a prelude to their presentation of rich historical evidence of women's inequality. In striking contrast to Burckhardt, Joan Kelly in her famous 1977 essay, “Did Women Have a Renaissance?” argued that the Renaissance was a period of economic and social decline for women relative both to Renaissance men and to medieval women. Recently, however, a significant trend among feminist scholars has entailed a rejection of both Kelly's dark vision of the Renaissance and Burckhardt's rosy one. Many recent works by these scholars stress the ways in which differences among Renaissance women—especially in terms of social status and religion—work to complicate the kinds of generalizations both Burckhardt and Kelly made on the basis of their observations about upper-class Italian women.<br><br>The trend is also evident, however, in works focusing on those middle- and upper-class European women whose ability to write gives them disproportionate representation in the historical record. Such women were, simply by virtue of their literacy, members of a tiny minority of the population, so it is risky to take their descriptions of their experiences as typical of “female experience” in any general sense. Tina Krontiris, for example, in her fascinating study of six Renaissance women writers, does tend at times to conflate “women” and“women writers,” assuming that women's gender, irrespective of other social differences, including literacy, allows us to view women as a homogeneous social group and make that group an object of analysis. Nonetheless, Krontiris makes a significant contribution to the field and is representative of those authors who offer what might be called a cautiously optimistic assessment of Renaissance women's achievements, although she also stresses the social obstacles Renaissance women faced when they sought to raise their “oppositional voices.” Krontiris is concerned to show women intentionally negotiating some power for themselves (at least in the realm of public discourse) against potentially constraining ideologies, but in her sober and thoughtful concluding remarks, she suggests that such verbal opposition to cultural stereotypes was highly circumscribed; women seldom attacked the basic assumptions in the ideologies that oppressed them.
@@ -253,7 +253,7 @@ The author of the passage implies that the women studied by Krontiris are unusua
 ---------------------------------
 #RC#29 (P27 - 137)#E#2900
 Most attempts by physicists to send particles faster than the speed of light involve a remarkable phenomenon called quantum tunneling, in which particles travel through solid barriers that appear to be impenetrable.If you throw a ball at a wall, you expect it to bounce back, not to pass straight through it. Yet subatomic particles perform the equivalent feat. Quantum theory says that there is a distinct, albeit small, probability that such a particle(10) will tunnel its way through a barrier;the probability declines exponentially as the thickness of the barrier increases.Though the extreme rapidity of quantum tunneling was noted as early as 1932, not until 1955 was it hypothesized—by Wigner and Eisenbud—that tunneling particles sometimes travel faster than light. Their grounds were calculations that suggested that the time it takes a particle to tunnel through a barrier increases with the thickness of the barrier until tunneling time reaches a maximum; beyond that maximum, tunneling time stays the same regardless of barrier thickness. This would imply that once maximum tunneling time is reached, tunneling speed will increase without limit as barrier thickness increases. Several recent experiments have supported this hypothesis that tunneling particles sometimes reach superluminal speed. According to measurements performed by Raymond Chiao and colleagues, for example, photons can pass through an optical filter at 1.7 times the speed of light.
-The Author of the passage mentions calculations about tunneling time and barrier thickness in order to 
+The Author of the passage mentions calculations about tunneling time and barrier thickness in order to
 (A)	suggest that tunneling time is unrelated to barrier thickness
 (B)	explain the evidence by which Winger and Eisenbud discovered the phenomenon of tunneling
 (C)	describe data recently challenged by Raymond Chiao and colleagues
@@ -262,7 +262,7 @@ The Author of the passage mentions calculations about tunneling time and barrier
 ---------------------------------
 #RC#30 (P27 - 138)#E#3000
 Most attempts by physicists to send particles faster than the speed of light involve a remarkable phenomenon called quantum tunneling, in which particles travel through solid barriers that appear to be impenetrable.If you throw a ball at a wall, you expect it to bounce back, not to pass straight through it. Yet subatomic particles perform the equivalent feat. Quantum theory says that there is a distinct, albeit small, probability that such a particle(10) will tunnel its way through a barrier;the probability declines exponentially as the thickness of the barrier increases.Though the extreme rapidity of quantum tunneling was noted as early as 1932, not until 1955 was it hypothesized—by Wigner and Eisenbud—that tunneling particles sometimes travel faster than light. Their grounds were calculations that suggested that the time it takes a particle to tunnel through a barrier increases with the thickness of the barrier until tunneling time reaches a maximum; beyond that maximum, tunneling time stays the same regardless of barrier thickness. This would imply that once maximum tunneling time is reached, tunneling speed will increase without limit as barrier thickness increases. Several recent experiments have supported this hypothesis that tunneling particles sometimes reach superluminal speed. According to measurements performed by Raymond Chiao and colleagues, for example, photons can pass through an optical filter at 1.7 times the speed of light.
-The passage implies that if tunneling time reached no maximum in increasing with barrier thickness, then 
+The passage implies that if tunneling time reached no maximum in increasing with barrier thickness, then
 (A)	Tunneling speed would increase with barrier thickness
 (B)	Tunneling speed would decline with barrier thickness
 (C)	Tunneling speed would vary with barrer thickness
@@ -304,7 +304,7 @@ A provincial government plans to raise the gasoline tax to give people an incent
 ---------------------------------
 #CR#35 (4 Easy)#A#400
 Editorial: The roof of Northtown Council's equipment-storage building collapsed under the weight of last week's heavy snowfall. The building was constructed recently and met local building-safety codes in every particular, except that the nails used for attaching roof supports to the building's columns were of a smaller size than the codes specify for this purpose. Clearly, this collapse exemplifies how even a single, apparently insignificant, departure from safety standards can have severe consequences.<br><br>Which of the following, if true, most strongly supports the editorial's argument?
-(A)	The only other buildings whose roofs collapsed from the weight of the snowfall were older buildings constructed according to less exacting standards than those in the safety codes. 
+(A)	The only other buildings whose roofs collapsed from the weight of the snowfall were older buildings constructed according to less exacting standards than those in the safety codes.
 (B)	Because of the particular location of the equipment-storage building, the weight of snow on its roof was greater than the maximum weight allowed for in the safety codes.
 (C)	Because the equipment-storage building was not intended for human occupation, some safety-code provisions that would have applied to an office building did not apply to it.
 (D)	The columns of the building were no stronger than the building-safety codes required for such a building.
@@ -312,9 +312,9 @@ Editorial: The roof of Northtown Council's equipment-storage building collapsed 
 ---------------------------------
 #CR#36 (8 Medium)#A#500
 A newly discovered painting seems to be the work of one of two seventeenth-century artists, either the northern German Johannes Drechen or the Frenchman Louis Birelle, who sometimes painted in the same style as Drechen. Analysis of the carved picture frame, which has been identified as the painting's original seventeenth-century frame, showed that it is made of wood found widely in northern Germany at the time, but rare in the part of France where Birelle lived. This shows that the painting is most likely the work of Drechen. <br><br>Which of the following is an assumption that the argument requires?
-(A)	The frame was made from wood local to the region where the picture was painted. 
+(A)	The frame was made from wood local to the region where the picture was painted.
 (B)	Drechen is unlikely to have ever visited the home region of Birelle in France.
-(C)	Sometimes a painting so resembles others of its era that no expert is able to confidently decide who painted it. 
+(C)	Sometimes a painting so resembles others of its era that no expert is able to confidently decide who painted it.
 (D)	The painter of the picture chose the frame for the picture.
 (E)	The carving style of the picture frame is not typical of any specific region of Europe.
 ---------------------------------
@@ -335,7 +335,7 @@ Many agricultural intensive areas of the world are beginning to encounter water 
 (E)	More than half of the water used for agriculture in the farmers' region is lost to evaporation or leakage from irrigation channels.
 ---------------------------------
 #CR#39 (30 Medium)#D#800
-People who do regular volunteer work tend to live longer, on average, than people who do not. It has been found that ‘doing good.' a category that certainly includes volunteer work, releases endorphins, the brain's natural opiates, which induce in people a feeling of well-being. Clearly, there is a connection: Regular releases of endorphins must in some way help to extend people's lives.<br><br>Which of the following, it true most seriously undermine the force of the evidence given as support the hypothesis that endorphins promote longevity
+People who do regular volunteer work tend to live longer, on average, than people who do not. It has been found that ‘doing good', a category that certainly includes volunteer work, releases endorphins, the brain's natural opiates, which induce in people a feeling of well-being. Clearly, there is a connection: Regular releases of endorphins must in some way help to extend people's lives.<br><br>Which of the following, it true most seriously undermine the force of the evidence given as support the hypothesis that endorphins promote longevity
 (A)	People who do regular volunteer work are only somewhat more likely than others to characterize the work they do for as a ‘doing good.'
 (B)	Although extremely high levels of endorphins could be harmful to health, such levels are never reached as a result of the natural release of endorphins.
 (C)	There are many people who have done some volunteer work but who do not do such work regularly.
@@ -355,21 +355,21 @@ A study of ticket sales at a summer theater festival found that people who bough
 (A)	The price per ticket was slightly cheaper for those who bought all ten tickets in advance.
 (B)	Many people who attended the theater festival believed strongly that they should support it financially.
 (C)	Those who attended all ten plays became eligible for a partial refund.
-(D)	Usually, people who bought tickets to individual plays did so immediately prior to each performance that they attended. 
+(D)	Usually, people who bought tickets to individual plays did so immediately prior to each performance that they attended.
 (E)	People who arrived just before the performance began could not be assured of obtaining seats in a preferred location.
 ---------------------------------
 #CR#42 (41 Medium)#E#1100
 Although there is no record of poet Edmund Spenser's parentage, we do know that as a youth Spenser attended the Merchant Tailors' School in London for a period between 1560 and 1570. Records from this time indicate that the Merchant Tailors' Guild then had only three members named Spenser: Robert Spenser, listed as a gentleman; Nicholas Spenser, elected the Guild's Warden in 1568; and John Spenser, listed as a "journeyman cloth-maker." Of these, the last was likely the least affluent of the three—and most likely Edmund's father, since school accounting records list Edmund as a scholar who attended the school at a reduced fee.<br><br>Which of the following is an assumption on which the argument depends?
 (A)	Anybody in sixteenth century London who made clothing professionally would have had to be a member of the Merchant Tailors' Guild.
 (B)	The fact that Edmund Spenser attended the Merchant Tailors' School did not necessarily mean that he planned to become a tailor.
-(C)	No member of the Guild could become Guild warden in sixteenth century London unless he was a gentleman. 
+(C)	No member of the Guild could become Guild warden in sixteenth century London unless he was a gentleman.
 (D)	Most of those whose fathers were members of the Merchant Tailors' Guild were students at the Merchant Tailors' School.
 (E)	The Merchant Tailors' School did not reduce its fees for the children of the more affluent Guild members.
 ---------------------------------
 #CR#43 (43 Medium)#C#1200
 Which of the following most logically completes the argument below?<br><br>NowNews, although still the most popular magazine covering cultural events in Kalopolis, has recently suffered a significant drop in advertising revenue because of falling circulation. Many readers have begun buying a competing magazine that, at 50 cents per copy, costs less than NowNews at $1.50 per copy. In order to boost circulation and thus increase advertising revenue, NowNews's publisher has proposed making it available at no charge, but this proposal has a serious drawback, since _______.
 (A)	Those Kalopolis residents with the greatest interest in cultural events are regular readers of both magazines.
-(B)	One reason NowNews's circulation fell was that its competitor's reporting on cultural events was superior. 
+(B)	One reason NowNews's circulation fell was that its competitor's reporting on cultural events was superior.
 (C)	The newsstands and stores that currently sell NowNews will no longer carry it if it is being given away for free.
 (D)	At present, 10 percent of the total number of copies of each issue of NowNews are distributed free to students on college campuses in the Kalopolis area.
 (E)	NowNews's competitor would begin to lose large amounts of money if it were forced to lower its cover price.
@@ -385,10 +385,10 @@ Archaeologist: Researchers excavating a burial site in Cyprus found a feline ske
 #CR#45 (49 Easy)#E#1400
 Economist: The most economically efficient way to reduce emissions of air pollutants is to tax them in proportion to the damage they are likely to cause. But in Country Y, many serious pollutants are untaxed and unregulated, and policy makers strongly oppose new taxes. Therefore, the best way to achieve a reduction in air pollutant emissions in Country Y would be to institute fixed upper limits on them.<br><br>Which of the following is an assumption of the economist's argument?
 (A)	Policy makers in Country Y oppose all new taxes equally strongly, regardless of any benefits they may provide.
-(B)	Country Y's air pollutant emissions world not fall significantly it they were taxed in proportion to the damage they are likely to cause.
-(C)	Policy makers in Country Y strongly favor reductions in an pollutant emissions.
-(D)	Country Y's policy makers believe that air pollutant emissions should be reduced with maximum economic efficiently 
-(E)	Policy makers in Country Y do not oppose setting ?xed upper limits on air pollutant emissions as strongly as they oppose new taxes.
+(B)	Country Y's air pollutant emissions would not fall significantly if they were taxed in proportion to the damage they are likely to cause.
+(C)	Policy makers in Country Y strongly favor reductions in air pollutant emissions.
+(D)	Country Y's policy makers believe that air pollutant emissions should be reduced with maximum economic efficiently
+(E)	Policy makers in Country Y do not oppose setting fixed upper limits on air pollutant emissions as strongly as they oppose new taxes.
 ---------------------------------
 #CR#46 (53 Easy)#C#1500
 Humans get Lyme disease from infected ticks. Ticks get infected by feeding on animals with Lyme disease, but the ease of transmission from host animal to tick varies. With most species of host animal, transmission of Lyme disease to ticks is extremely rare, but white-footed mice are an exception, readily passing Lyme disease to ticks. And white-footed mouse populations greatly expand, becoming the main food source for ticks, in areas where biodiversity is in decline.<br><br>The information in the passage most strongly supports which of the following?
@@ -439,11 +439,11 @@ Politician: Hybrid cars use significantly less fuel per kilometer than nonhybrid
 (E)	The future cost of gasoline and other fuel cannot be predicted with absolute precision or certainty.
 ---------------------------------
 #CR#52 (65 Easy)#D#2100
-One summer, floods covered low-lying garlic ?elds situated in a region with a large mosquito population. Since mosquitoes lay their eggs in standing water, ?ooded ?elds would normally attract mosquitoes, yet no mosquitoes were found in the ?elds. Diallyl sul?de, a major component of garlic, is known to repel several species of insects, including mosquitoes, so it is likely that diallyl sul?de from the garlic repelled the mosquitoes.<br><br>Which of the following, if true, most strengthens the argument?
-(A)	Diallyl sul?de is also found in onions but at concentrations lower than in garlic.
-(B)	The mosquito population of the region as a whole was signi?cantly smaller during the year in which the ?ooding took place than it had been in previous years.
-(C)	By the end of the summer, most of the garlic plants in the ?ooded ?elds had been killed by waterborne fungi.
-(D)	Many insect species not repelled by diallyl sul?de were found in the ?ooded garlic ?elds throughout the summer.
+One summer, floods covered low-lying garlic ﬁelds situated in a region with a large mosquito population. Since mosquitoes lay their eggs in standing water, ﬂooded ﬁelds would normally attract mosquitoes, yet no mosquitoes were found in the ﬁelds. Diallyl sulﬁde, a major component of garlic, is known to repel several species of insects, including mosquitoes, so it is likely that diallyl sulﬁde from the garlic repelled the mosquitoes.
+(A)	Diallyl sulﬁde is also found in onions but at concentrations lower than in garlic.
+(B)	The mosquito population of the region as a whole was significantly smaller during the year in which the flooding took place than it had been in previous years.
+(C)	By the end of the summer, most of the garlic plants in the flooded fields had been killed by waterborne fungi.
+(D)	Many insect species not repelled by diallyl sulﬁde were found in the flooded garlic fields throughout the summer.
 (E)	Mosquitoes are known to be susceptible to toxins in plants other than garlic, such as marigolds.
 ---------------------------------
 #CR#53 (67 Medium)#D#2200
@@ -451,7 +451,7 @@ Coffee shop owner: A large number of customers will pay at least the fair market
 (A)	The new system if implemented, would increase the number of customers.
 (B)	By roasting its own coffee, the shop has managed to reduce the difficulties and cost of maintaining an inventory of freshly roasted coffee.
 (C)	Many customers stay in the cafe for long stretches of time.
-(D)	The shop makes a substantial pro?t from pastries and other food bought by the coffee drinkers.
+(D)	The shop makes a substantial profit from pastries and other food bought by the coffee drinkers.
 (E)	No other coffee shop in the area has such a system.
 ---------------------------------
 #CR#54 (70 Easy)#A#2300
@@ -486,24 +486,24 @@ Increased use of incineration is sometimes advocated as a safe way to dispose of
 (D)	The frequency of reports of unexpected releases of chemical agents at newly built incinerators is about the same as the frequency at older incinerators.
 (E)	ln only three of the reported incidents of unexpected chemical leaks did the releases extend outside the property on which the incinerators were located.
 ---------------------------------
-#CR#58 (81 Hard)#A#2700
+#CR#58 (81 Hard)#E#2700
 Public health expert: <span style="font-weight: bold">Increasing the urgency of a public health message may be counterproductive.</span> In addition to irritating the majority who already behave responsibly, <span style="font-weight: bold">it may undermine all government pronouncements on health by convincing people that such messages are overly cautious.</span> And there is no reason to believe that those who ignore measured voices will listen to shouting.<br><br>The two sections in boldface play which of the following roles in the public health expert's argument?
-(A)	The ?rst is a conclusion for which support is provided. but is not the argument's main conclusion; the second is an unsupported premise supporting the arguments main conclusion.
-(B)	The ?rst is a premise supporting the only explicit conclusion; so is the second.
-(C)	The ?rst is the argument's main conclusion; the second supports that conclusion and is itself a conclusion for which support is provided.
-(D)	The ?rst is a premise supporting the argument's only conclusion; the second is that conclusion.
-(E)	The ?rst is the argument‘s only explicit conclusion; the second is a premise supporting that conclusion.
+(A)	The first is a conclusion for which support is provided. but is not the argument's main conclusion; the second is an unsupported premise supporting the arguments main conclusion.
+(B)	The first is a premise supporting the only explicit conclusion; so is the second.
+(C)	The first is the argument's main conclusion; the second supports that conclusion and is itself a conclusion for which support is provided.
+(D)	The first is a premise supporting the argument's only conclusion; the second is that conclusion.
+(E)	The first is the argument‘s only explicit conclusion; the second is a premise supporting that conclusion.
 ---------------------------------
 #CR#59 (84 Hard)#E#2800
-Proposed new safety rules for the Beach City airport would lengthen considerably the minimum time between takeoffs from the airport. In consequence, the airport would be able to accommodate 10 percent fewer ?ights than currently use the airport daily. The city's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists come by plane. Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget.<br><br>The argument depends on assuming which of the following?
-(A)	There are no periods of the day during which the interval between ?ights taking off from the airport is significantly greater than the currently allowed 
+Proposed new safety rules for the Beach City airport would lengthen considerably the minimum time between takeoffs from the airport. In consequence, the airport would be able to accommodate 10 percent fewer flights than currently use the airport daily. The city's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists come by plane. Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget.<br><br>The argument depends on assuming which of the following?
+(A)	There are no periods of the day during which the interval between flights taking off from the airport is significantly greater than the currently allowed
 (B)	Few, if any, of the tourists who use the Beach City airport do so when their main destination is a neighboring community and not Beach City itself.
 (C)	If the proposed safety rules are adopted, the reduction in tourist numbers will not result mainly from a reduction in the number of tourists who spend relatively little in Beach City.
 (D)	Increasing the minimum time between takeoffs is the only way to achieve necessary safety improvements without a large expenditure by the city government on airport enhancements.
-(E)	The response to the adoption of the new safety rules would not include an increase in the number of passengers per ?ight.
+(E)	The response to the adoption of the new safety rules would not include an increase in the number of passengers per flight.
 ---------------------------------
 #CR#60 (94 Hard)#A#2900
-Last year a global disturbance of weather patterns disrupted harvests in many of the world's important agricultural areas. Worldwide production of soybeans, an important source of protein for people and livestock alike, was not adversely affected, however. Indeed, last year's soybean crop was was actually slightly larger than average. Nevertheless, the weather phenomenon is probably responsible for a recent increase in the world price of soybeans.<br><br>Which of the following, if true, provides the strongest justification for the attribution of the increase in soybean prices to the weather phenomenon?
+Last year a global disturbance of weather patterns disrupted harvests in many of the world's important agricultural areas. Worldwide production of soybeans, an important source of protein for people and livestock alike, was not adversely affected, however. Indeed, last year's soybean crop was actually slightly larger than average. Nevertheless, the weather phenomenon is probably responsible for a recent increase in the world price of soybeans.<br><br>Which of the following, if true, provides the strongest justification for the attribution of the increase in soybean prices to the weather phenomenon?
 (A)	Last year's harvest of anchovies, which provide an important protein source for livestock, was disrupted by the effects of the weather phenomenon.
 (B)	Most countries that produce soybeans for export had above-average harvests of a number of food crops other than soybeans last year.
 (C)	The world price of soybeans also rose several years ago, immediately after an earlier occurrence of similar global weather disturbance.
@@ -537,7 +537,7 @@ Between 1980 and 2000 the sea otter population of the Aleutian Islands declined 
 #CR#64 (109 Very Hard)#A#3300
 In an experiment, each volunteer was allowed to choose between an easy task and a hard task and was told that another volunteer would do the other task. Each volunteer could also choose to have a computer assign the two tasks randomly. Most volunteers chose the easy task for themselves and under questioning later said they had acted fairly. But when the scenario was described to another group of volunteers, almost all said choosing the easy task would be unfair. This shows that most people apply weaker moral standards to themselves than to others.<br><br>Which of the following is an assumption required by this argument?
 (A)	At least some volunteers who said they had acted fairly in choosing the easy task would have said that it was unfair for someone else to do so.
-(B)	The most moral choice for the volunteers would have been to have the computer assign the two tasks randomly. 
+(B)	The most moral choice for the volunteers would have been to have the computer assign the two tasks randomly.
 (C)	There were at least some volunteers who were assigned to do the hard task and felt that the assignment was unfair.
 (D)	On average, the volunteers to whom the scenario was described were more accurate in their moral judgments than the other volunteers were.
 (E)	At least some volunteers given the choice between assigning the tasks themselves and having the computer assign them felt that they had made the only fair choice available to them.
@@ -559,9 +559,9 @@ It is widely assumed that people need to engage in intellectual activities such 
 (E)	The tasks evaluating mental sharpness for which data were compiled by the study were more akin to mathematics problems than to conversation.
 ---------------------------------
 #SC#67 (2 Easy)#B#100
-<span style="text-decoration: underline">Hurricanes at first begin traveling from east to west, because that direction is the way the prevailing winds in the tropics blow, but</span> they then veer off toward higher latitudes, in many cases changing direction toward the east before dissipating over the colder, more northerly waters or over land. 
-(A)	Hurricanes at first begin traveling from east to west, because that direction is the way the prevailing winds in the tropics blow, but 
-(B)	At first, hurricanes travel from east to west, because that is the direction of the prevailing winds in the tropics, but 
+<span style="text-decoration: underline">Hurricanes at first begin traveling from east to west, because that direction is the way the prevailing winds in the tropics blow, but</span> they then veer off toward higher latitudes, in many cases changing direction toward the east before dissipating over the colder, more northerly waters or over land.
+(A)	Hurricanes at first begin traveling from east to west, because that direction is the way the prevailing winds in the tropics blow, but
+(B)	At first, hurricanes travel from east to west, because that is the direction of the prevailing winds in the tropics, but
 (C)	While hurricanes travel from east to west at first, the direction of the prevailing winds blowing in the tropics, and
 (D)	Because hurricanes at first travel from east to west, since it is the direction of the prevailing winds in the tropics,
 (E)	Hurricanes, beginning by traveling from east to west, because this is the direction of the prevailing winds in the tropics,
@@ -570,8 +570,8 @@ It is widely assumed that people need to engage in intellectual activities such 
 While Noble Sissle may be best known for his collaboration with Eubie Blake, as both a vaudeville performer <span style="text-decoration: underline">and as a lyricist for songs and Broadway musicals, also enjoying</span> an independent career as a singer with such groups as Hahn's Jubilee Singers.
 (A)	and as a lyricist for songs and Broadway musicals, also enjoying
 (B)	and writing lyrics for songs and Broadway musicals, also enjoying
-(C)	and a lyricist for songs and Broadway musicals, he also enjoyed 
-(D)	as well as writing lyrics for songs and Broadway musicals, he also enjoyed 
+(C)	and a lyricist for songs and Broadway musicals, he also enjoyed
+(D)	as well as writing lyrics for songs and Broadway musicals, he also enjoyed
 (E)	as well as a lyricist for songs and Broadway musicals, he had also enjoyed
 ---------------------------------
 #SC#69 (7 Easy)#D#300
@@ -585,25 +585,25 @@ From an experiment using special extrasensory perception cards, each bearing one
 #SC#70 (10 Easy)#D#400
 A long-term study of some 1,000 physicians indicates that the more coffee these doctors drank, the <span style="text-decoration: underline">more they had a likelihood of coronary disease.</span>
 (A)	more they had a likelihood of coronary disease
-(B)	more was their likelihood of having coronary disease 
+(B)	more was their likelihood of having coronary disease
 (C)	more they would have a likelihood to have coronary disease
-(D)	greater was their likelihood of having coronary disease 
+(D)	greater was their likelihood of having coronary disease
 (E)	greater was coronary disease likely
 ---------------------------------
 #SC#71 (13 Easy)#C#500
 Although Alice Walker published a number of essays, poetry collections, and stories during the 1970s, her third novel, The Color Purple, <span style="text-decoration: underline">which was published in 1982, brought her the widest acclaim in that it won both the National Book Award as well as the Pulitzer Prize.</span>
-(A)	which was published in 1982, brought her the widest acclaim in that it won both the National Book Award as well as the Pulitzer Prize 
-(B)	published in 1982, bringing her the widest acclaim by winning both the National Book Award and the Pulitzer Prize 
-(C)	published in 1982, brought her the widest acclaim, winning both the National Book Award and the Pulitzer Prize 
-(D)	was published in 1982 and which, winning both the National Book Award and the Pulitzer Prize, brought her the widest acclaim 
+(A)	which was published in 1982, brought her the widest acclaim in that it won both the National Book Award as well as the Pulitzer Prize
+(B)	published in 1982, bringing her the widest acclaim by winning both the National Book Award and the Pulitzer Prize
+(C)	published in 1982, brought her the widest acclaim, winning both the National Book Award and the Pulitzer Prize
+(D)	was published in 1982 and which, winning both the National Book Award and the Pulitzer Prize, brought her the widest acclaim
 (E)	was published in 1982, winning both the National Book Award as well as the Pulitzer Prize, and bringing her the widest acclaim
 ---------------------------------
 #SC#72 (18 Easy)#C#600
-Unlike <span style="text-decoration: underline">the nests of leaf cutters and most other ants</span>, situated underground or in pieces of wood, raider ants make a portable nest by entwining their long legs to form "curtains" of ants that hang from logs or boulders, providing protection for the queen and the colony larvae and pupae. 
-(A)	the nests of leaf cutters and most other ants 
-(B)	the nests of leaf cutters and most other ants, which are 
-(C)	leaf cutters and most other ants, whose nests are 
-(D)	leaf cutters and most other ants in having nests 
+Unlike <span style="text-decoration: underline">the nests of leaf cutters and most other ants</span>, situated underground or in pieces of wood, raider ants make a portable nest by entwining their long legs to form "curtains" of ants that hang from logs or boulders, providing protection for the queen and the colony larvae and pupae.
+(A)	the nests of leaf cutters and most other ants
+(B)	the nests of leaf cutters and most other ants, which are
+(C)	leaf cutters and most other ants, whose nests are
+(D)	leaf cutters and most other ants in having nests
 (E)	those of leaf cutters and most other ants with nests
 ---------------------------------
 #SC#73 (20 Easy)#D#700
@@ -623,19 +623,19 @@ Thai village crafts, <span style="text-decoration: underline">as with</span> oth
 (E)	like those of
 ---------------------------------
 #SC#75 (23 Easy)#C#900
-<span style="text-decoration: underline">Discussion of greenhouse effects have usually had as a focus the possibility of Earth growing warmer and to what extent it might,</span> but climatologists have indicated all along that precipitation, storminess, and temperature extremes are likely to have the greatest impact on people. 
-(A)	Discussion of greenhouse effects have usually had as a focus the possibility of Earth growing warmer and to what extent it might, 
-(B)	Discussion of greenhouse effects has usually had as its focus whether Earth would get warmer and what the extent would be, 
-(C)	Discussion of greenhouse effects has usually focused on whether Earth would grow warmer and to what extent, 
-(D)	The discussion of greenhouse effects have usually focused on the possibility of Earth getting warmer and to what extent it might, 
+<span style="text-decoration: underline">Discussion of greenhouse effects have usually had as a focus the possibility of Earth growing warmer and to what extent it might,</span> but climatologists have indicated all along that precipitation, storminess, and temperature extremes are likely to have the greatest impact on people.
+(A)	Discussion of greenhouse effects have usually had as a focus the possibility of Earth growing warmer and to what extent it might,
+(B)	Discussion of greenhouse effects has usually had as its focus whether Earth would get warmer and what the extent would be,
+(C)	Discussion of greenhouse effects has usually focused on whether Earth would grow warmer and to what extent,
+(D)	The discussion of greenhouse effects have usually focused on the possibility of Earth getting warmer and to what extent it might,
 (E)	The discussion of greenhouse effects has usually focused on whether Earth would grow warmer and the extent that is,
 ---------------------------------
 #SC#76 (27 Easy)#A#1000
 In the seventh century B.C., the Roman alphabet was adapted from the Etruscan alphabet, which in turn had been adapted in the previous century from a western Greek alphabet, <span style="text-decoration: underline">which itself had been adapted earlier</span> in the same century from the Phoenician alphabet.
-(A)	which itself had been adapted earlier 
-(B)	adapting itself earlier 
-(C)	itself being adapted earlier 
-(D)	having been earlier adapted itself 
+(A)	which itself had been adapted earlier
+(B)	adapting itself earlier
+(C)	itself being adapted earlier
+(D)	having been earlier adapted itself
 (E)	earlier itself having been adapted
 ---------------------------------
 #SC#77 (28 Easy)#C#1100
@@ -689,22 +689,22 @@ Over the next few years, increasing demands on the Chattahoochee River, which fl
 #SC#83 (52 Medium)#C#1700
 According to a recent study of consumer spending on prescription medications, increases in the sales of the 50 drugs that were advertised most <span style="text-decoration: underline">heavily accounts for almost half of the $20.8 billion increase in drug spending last year, the remainder of which came</span> from sales of the 9,850 prescription medicines that companies did not advertise or advertised very little.
 (A)	heavily accounts for almost half of the $20.8 billion increase in drug spending last year, the remainder of which came
-(B)	heavily were what accounted for almost half of the $20.8 billion increase in drug spending last year; the remainder of the increase coming 
+(B)	heavily were what accounted for almost half of the $20.8 billion increase in drug spending last year; the remainder of the increase coming
 (C)	heavily accounted for almost half of the $20.8 billion increase in drug spending last year, the remainder of the increase coming
 (D)	heavily, accounting for almost half of the $20.8 billion increase in drug spending last year, while the remainder of the increase came
 (E)	heavily, which accounted for almost half of the $20.8 billion increase in drug spending last year, with the remainder of it coming
 ---------------------------------
 #SC#84 (63 Medium)#B#1800
 <span style="text-decoration: underline">Having been named for a mythological nymph who cared for the infant Jupiter, the asteroid named Ida, in the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter, was discovered in 1884.</span>
-(A)	Having been named for a mythological nymph who cared for the infant Jupiter, the asteroid named Ida, in the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter, was discovered in 1884. 
-(B)	Discovered in 1884, the asteroid lda, named for a mythological nymph who cared for the infant Jupiter, is in the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter. 
-(C)	In the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter, the asteroid lda, discovered in 1884 and named for a mythological nymph who cared for the infant Jupiter. 
-(D)	The asteroid Ida, named for a mythological nymph who cared for the infant Jupiter and discovered in 1884, is in the middle of the belt of asteroids to orbit the Sun between Mars and Jupiter. 
+(A)	Having been named for a mythological nymph who cared for the infant Jupiter, the asteroid named Ida, in the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter, was discovered in 1884.
+(B)	Discovered in 1884, the asteroid lda, named for a mythological nymph who cared for the infant Jupiter, is in the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter.
+(C)	In the middle of the belt of asteroids that orbit the Sun between Mars and Jupiter, the asteroid lda, discovered in 1884 and named for a mythological nymph who cared for the infant Jupiter.
+(D)	The asteroid Ida, named for a mythological nymph who cared for the infant Jupiter and discovered in 1884, is in the middle of the belt of asteroids to orbit the Sun between Mars and Jupiter.
 (E)	Ida, an asteroid discovered in 1884 and which was named for a mythological nymph who cared for the infant Jupiter, is in the middle of the belt of asteroids to orbit the Sun between Mars and Jupiter.
 ---------------------------------
 #SC#85 (66 Medium)#A#1900
 <span style="text-decoration: underline">Covering 71 percent of Earth's surface, the oceans play an essential role in maintaining the conditions for human existence on land, moderating</span> temperature by the absorption of heat and carbon dioxide, and giving pure water back to the atmosphere through evaporation
-A Covering 71 percent of Earth's surface, the oceans play an essential role in maintaining the conditions for human existence on land, moderating
+(A) Covering 71 percent of Earth's surface, the oceans play an essential role in maintaining the conditions for human existence on land, moderating
 (B)	Covering 71 percent of Earth's Earth's surface and playing an essential role in maintaining the conditions for human existence on land, the oceans moderate
 (C)	The oceans cover 71 percent of Earth's surface and play an essential role in maintaining conditions for human existence on land, and by moderating
 (D)	The oceans cover 71 percent of Earth's surface, play an essential role in mandating the conditions for human existence on land, and moderate
@@ -720,18 +720,18 @@ Researchers studying <span style="text-decoration: underline">the brain scans of
 ---------------------------------
 #SC#87 (80 Medium)#A#2100
 Companies are relying more and more on networked computers for such critical tasks as inventory management, electronic funds transfer, and electronic data interchange, <span style="text-decoration: underline">in which standard business transactions are handled via computer rather than on paper</span>.
-(A)	in which standard business transactions are handled via computer rather than on paper 
-(B)	where computers handle standard business transactions rather than on paper 
-(C)	in which computers handle standard business transactions instead of on paper 
-(D)	where standard business transactions are handled, not with paper, but instead via computer 
+(A)	in which standard business transactions are handled via computer rather than on paper
+(B)	where computers handle standard business transactions rather than on paper
+(C)	in which computers handle standard business transactions instead of on paper
+(D)	where standard business transactions are handled, not with paper, but instead via computer
 (E)	in which standard business transactions are being handled via computer, in place of on paper
 ---------------------------------
 #SC#88 (86 Medium)#C#2200
-To map Earth's interior, geologists use a network of seismometers to chart seismic waves that originate in the earth's crust and ricochet around <span style="text-decoration: underline">its interior, most rapidly traveling through cold, dense regions and slower</span> through hotter rocks.
-(A)	interior, most rapidly traveling through cold, dense regions and slower 
-(B)	interior, which travel most rapidly through cold, dense regions, and more slowly 
-(C)	interior, traveling most rapidly through cold, dense regions and more slowly 
-(D)	interior and most rapidly travel through cold, dense regions, and slower 
+To map Earth's interior, geologists use a network of seismometers to chart seismic waves that originate in the earth's crust and ricochet around its <span style="text-decoration: underline">interior, most rapidly traveling through cold, dense regions and slower</span> through hotter rocks.
+(A)	interior, most rapidly traveling through cold, dense regions and slower
+(B)	interior, which travel most rapidly through cold, dense regions, and more slowly
+(C)	interior, traveling most rapidly through cold, dense regions and more slowly
+(D)	interior and most rapidly travel through cold, dense regions, and slower
 (E)	interior and that travel most rapidly through cold, dense regions and slower
 ---------------------------------
 #SC#89 (90 Hard)#B#2300
@@ -743,11 +743,11 @@ Prices at the producer level are only 1.3 percent higher now <span style="text-d
 (E)	as they were a year ago and are going down, despite floods in the Midwest and drought in the south, and are hurting crops and therefore raising
 ---------------------------------
 #SC#90 (97 Medium)#D#2400
-The 19-year-old pianist and composer performed his most recent work all over Europe, Asia, and North America last year, <span style="text-decoration: underline">winning prestigious awards in both London as well as Tokyo for his achievement at so young an age, and he is hoping</span> to continue composing now that he has returned to Chicago. 
-(A)	winning prestigious awards in both London as well as Tokyo for his achievement at so young an age, and he is hoping 
-(B)	winning prestigious awards both in London and Tokyo for his achievement at such a young age, and hoping 
-(C)	having won prestigious awards both in London and Tokyo for his achievement at so young an age, hoping 
-(D)	winning prestigious awards in both London and Tokyo for his achievement at such a young age, and he hopes 
+The 19-year-old pianist and composer performed his most recent work all over Europe, Asia, and North America last year, <span style="text-decoration: underline">winning prestigious awards in both London as well as Tokyo for his achievement at so young an age, and he is hoping</span> to continue composing now that he has returned to Chicago.
+(A)	winning prestigious awards in both London as well as Tokyo for his achievement at so young an age, and he is hoping
+(B)	winning prestigious awards both in London and Tokyo for his achievement at such a young age, and hoping
+(C)	having won prestigious awards both in London and Tokyo for his achievement at so young an age, hoping
+(D)	winning prestigious awards in both London and Tokyo for his achievement at such a young age, and he hopes
 (E)	having won prestigious awards both in London as well as Tokyo for his achievement at so young an age, and he hopes
 ---------------------------------
 #SC#91 (101 Easy)#E#2500
@@ -775,11 +775,11 @@ November is traditionally the strongest month for sales of light trucks, <span s
 (E)	so that this past November's sales, even compared with previous Novembers' sales,
 ---------------------------------
 #SC#94 (120 Hard)#D#2800
-The largest of all the planets, <span style="text-decoration: underline">not only is Jupiter three times so massive as Saturn, the next larger</span> planet, but also possesses four of the largest satellites, or moons, in our solar system. 
-(A)	not only is Jupiter three times so massive as Saturn, the next larger 
-(B)	not only is Jupiter three times as massive as Saturn, the next largest 
-(C)	Jupiter, not only three times as massive as Saturn, the next largest 
-(D)	Jupiter not only is three times as massive as Saturn, the next largest 
+The largest of all the planets, <span style="text-decoration: underline">not only is Jupiter three times so massive as Saturn, the next larger</span> planet, but also possesses four of the largest satellites, or moons, in our solar system.
+(A)	not only is Jupiter three times so massive as Saturn, the next larger
+(B)	not only is Jupiter three times as massive as Saturn, the next largest
+(C)	Jupiter, not only three times as massive as Saturn, the next largest
+(D)	Jupiter not only is three times as massive as Saturn, the next largest
 (E)	Jupiter is not only three times so massive as Saturn, the next larger
 ---------------------------------
 #SC#95 (124 Hard)#D#2900
@@ -815,7 +815,7 @@ Almost like clones in their similarity to one another, <span style="text-decorat
 (E)	members of the cheetah species are especially vulnerable to disease because of their homogeneity
 ---------------------------------
 #SC#99 (133 Hard)#D#3300
-As sources of electrical power, windmills now account for only about 2,500 megawatts nationwide, but production <span style="text-decoration: underline">is almost expected to double by the end of the year, which would provide</span> enough electricity for 1.3 million households.
+As sources of electrical power, windmills now account for only about 2,500 megawatts nationwide, but production is <span style="text-decoration: underline">almost expected to double by the end of the year, which would provide</span> enough electricity for 1.3 million households.
 (A)	almost expected to double by the end of the year, which would provide
 (B)	almost expected that it will double by the end of the year, thus providing
 (C)	expected that it will almost double by the end of the year to provide
@@ -831,11 +831,11 @@ As sources of electrical power, windmills now account for only about 2,500 megaw
 (E)	That a ruined structure found at Aqaba, Jordan, was probably a church is indicated by its eastward orientation and overall plan, as well as by the
 ---------------------------------
 #SC#101 (137 Very Hard)#A#3500
-By 1999, astronomers <span style="text-decoration: underline">had discovered 17 nearby stars that are orbited by planets</span> about the size of Jupiter 
-(A)	had discovered 17 nearby stars that are orbited by planets 
-(B)	had discovered 17 nearby stars with planets orbiting them that were 
-(C)	had discovered that there were 17 nearby stars that were orbited by planets 
-(D)	have discovered 17 nearby stars with planets orbiting them that are 
+By 1999, astronomers <span style="text-decoration: underline">had discovered 17 nearby stars that are orbited by planets</span> about the size of Jupiter
+(A)	had discovered 17 nearby stars that are orbited by planets
+(B)	had discovered 17 nearby stars with planets orbiting them that were
+(C)	had discovered that there were 17 nearby stars that were orbited by planets
+(D)	have discovered 17 nearby stars with planets orbiting them that are
 (E)	have discovered that 17 nearby stars are orbited by planets
 ---------------------------------
 #SC#102 (138 Very Hard)#D#3600

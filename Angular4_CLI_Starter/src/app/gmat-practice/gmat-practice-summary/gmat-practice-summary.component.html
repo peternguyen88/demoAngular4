@@ -20,7 +20,7 @@
         <th style="width: 80px;">Favorite</th>
         <th style="width: 100px;">Practice</th>
         <th style="width: 100px;">Review</th>
-        <th>Remark</th>
+        <th>Remarks</th>
       </tr>
       </thead>
       <tbody>
@@ -33,7 +33,7 @@
         <td style="padding: 0;"><i class="fa fa-flag-checkered fa-lg mt-2" *ngIf="question.bookmarked" style="margin-left: 5px;"></i></td>
         <td><a (click)="startPracticeAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Practice</a></td>
         <td><a (click)="startReviewAt(question)" style="text-decoration: underline; cursor: pointer; color: blue;">Review</a></td>
-        <td>Remarks</td>
+        <td>{{question.remarks}}</td>
       </tr>
       </tbody>
     </table>

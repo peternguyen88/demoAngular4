@@ -17,6 +17,7 @@ export class PracticeData {
 
   static PREMIUM_DATA = [
     ['OG16',102,Status.ACTIVE, 'assets/premium/og16.txt',0],
+    ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0],
     ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0],
     ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0],
   ];

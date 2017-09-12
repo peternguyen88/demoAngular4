@@ -24,7 +24,7 @@ import {TruncatePipe} from "../gmat-practice/practice-screen/practice-screen.com
     GmatCatListComponent,
     TestWelcomeScreenComponent,
     TestScreenComponent,
-    SafeHtmlPipe, TruncatePipe,
+    SafeHtmlPipe,
     TestSummaryComponent
   ],
   providers: [GMATTestService, TestScreenService]

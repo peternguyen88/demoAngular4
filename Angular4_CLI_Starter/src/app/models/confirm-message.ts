@@ -86,6 +86,13 @@ export class ConfirmMessageConstant {
     showCloseIcon: true
   };
 
+  static STUDENT_ACCESS_ONLY: ConfirmMessage = {
+    header: 'Restricted Feature Access',
+    message: 'This is premium feature, only available for GMAT - Zero To Hero Students!',
+    acceptLabel: 'OK, I understand',
+    showCloseIcon: true
+  };
+
   static REPORT_REASON: ConfirmMessage = {
     header: 'Report',
     message: 'What is your reason for reporting this question?',

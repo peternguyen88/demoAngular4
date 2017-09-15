@@ -34,6 +34,9 @@ export class FirebaseDatabaseService{
             this.firebaseUser.uid = user.providerData[0].uid;
             this.firebaseUser.firebase_uid = user.uid;
           }
+          if(this.firebaseUser.is_student == null){
+            this.firebaseUser.is_student = false;
+          }
         }else{
           this.firebaseUser = new FirebaseUser(user.email, user.displayName, user.providerData[0].uid);
           this.firebaseUser.firebase_uid = user.uid;
@@ -129,6 +132,10 @@ export class FirebaseDatabaseService{
 
   public isUnlockFeature():boolean{
     return this.firebaseUser.unlock_feature;
+  }
+
+  public isStudent():boolean{
+    return this.firebaseUser && this.firebaseUser.is_student;
   }
 
   public getUserIdentification():string{

@@ -39,6 +39,10 @@ export class FullLayoutComponent implements OnInit {
     return this.webService.isLogin();
   }
 
+  public isStudent():boolean{
+    return this.webService.isStudent();
+  }
+
   public getCurrentUser() : firebase.User{
     return this.webService.getCurrentUser();
   }

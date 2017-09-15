@@ -3,6 +3,7 @@ import {Routes, RouterModule} from "@angular/router";
 
 import {GMATPracticeComponent} from "./gmat-practice.component";
 import {GMATPremiumComponent} from "./premium/gmat-premium.component";
+import {GMATComprehensiveComponent} from "./comprehensive/gmat-comprehensive.component";
 
 const routes: Routes = [
   {
@@ -21,6 +22,13 @@ const routes: Routes = [
     component: GMATPremiumComponent,
     data: {
       title: 'GMAT Premium Practice'
+    }
+  },
+  {
+    path: 'comprehensive',
+    component: GMATComprehensiveComponent,
+    data: {
+      title: 'GMAT Comprehensive - Student Access Only'
     }
   }
 ];

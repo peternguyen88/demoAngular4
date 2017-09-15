@@ -42,6 +42,10 @@ export class WebService {
     return this.fbDatabaseService.isUnlockFeature();
   }
 
+  public isStudent():boolean{
+    return this.fbAuthService ? this.fbDatabaseService.isStudent() : false;
+  }
+
   public processSavePerformanceToServer(id: string, localSavedTime: number, questions: QuestionResult[]) {
     this.fbDatabaseService.processSavePerformanceToServer(id, localSavedTime, questions);
   }

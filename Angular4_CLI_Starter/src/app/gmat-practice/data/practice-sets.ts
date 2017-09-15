@@ -12,14 +12,26 @@ export class PracticeData {
     ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0],
     ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0],
     ['QP1-SC',75,Status.ACTIVE, 'assets/practices/QP1/sc.txt',0],
-    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0]
+    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0],
+
+      ['COM-CR-01',72,Status.ACTIVE, 'assets/comprehensive/cr-01.txt',0]
   ];
 
   static PREMIUM_DATA = [
     ['OG16',102,Status.ACTIVE, 'assets/premium/og16.txt',0],
     ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0],
+    ['OG17',61,Status.ACTIVE, 'assets/premium/og17.txt',0],
+    ['VR17',45,Status.ACTIVE, 'assets/premium/vr17.txt',0],
     ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0],
     ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0],
+  ];
+
+  static COMPREHENSIVE_SC = [
+    ['COM-SC-01',84,Status.ACTIVE, 'assets/comprehensive/sc_01.txt',0],
+    ['COM-SC-02',84,Status.ACTIVE, 'assets/comprehensive/sc_02.txt',0],
+    ['COM-SC-03',84,Status.ACTIVE, 'assets/comprehensive/sc_03.txt',0],
+    ['COM-SC-04',84,Status.ACTIVE, 'assets/comprehensive/sc_04.txt',0],
+    ['COM-SC-05',83,Status.ACTIVE, 'assets/comprehensive/sc_05.txt',0],
   ];
 
   static practices:GMATPractice[];
@@ -29,13 +41,7 @@ export class PracticeData {
       PracticeData.practices = [];
 
       PracticeData.DATA.forEach(e => {
-        let practice = new GMATPractice();
-        practice.practiceName = e[0] as string;
-        practice.numberOfQuestions = e[1] as number;
-        practice.status = e[2] as Status;
-        practice.fileLocation = e[3] as string;
-
-        PracticeData.practices.push(practice);
+        PracticeData.practices.push(PracticeData.buildPractice(e));
       });
     }
     return PracticeData.practices;
@@ -48,16 +54,31 @@ export class PracticeData {
       PracticeData.premiumSets = [];
 
       PracticeData.PREMIUM_DATA.forEach(e => {
-        let practice = new GMATPractice();
-        practice.practiceName = e[0] as string;
-        practice.numberOfQuestions = e[1] as number;
-        practice.status = e[2] as Status;
-        practice.fileLocation = e[3] as string;
-
-        PracticeData.premiumSets.push(practice);
+        PracticeData.premiumSets.push(PracticeData.buildPractice(e));
       });
     }
     return PracticeData.premiumSets;
+  }
+
+  static comprehensiveSC:GMATPractice[];
+
+  public static getComprehensiveSC(): GMATPractice[]{
+    if (PracticeData.comprehensiveSC == null) {
+      PracticeData.comprehensiveSC = [];
+      PracticeData.COMPREHENSIVE_SC.forEach(e => {
+        PracticeData.comprehensiveSC.push(PracticeData.buildPractice(e));
+      });
+    }
+    return PracticeData.comprehensiveSC;
+  }
+
+  private static buildPractice(e) {
+    let practice = new GMATPractice();
+    practice.practiceName = e[0] as string;
+    practice.numberOfQuestions = e[1] as number;
+    practice.status = e[2] as Status;
+    practice.fileLocation = e[3] as string;
+    return practice;
   }
 
   public static processQuestionFile(practice:GMATPractice, fileContent:string){

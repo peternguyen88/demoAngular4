@@ -3,6 +3,7 @@ import {Question} from "./question";
 export class GMATPractice {
   numberOfQuestions: number;
   practiceName: string;
+  practiceFullName: string;
   status: Status;
   fileLocation: string;
   questions: Question[] = [];

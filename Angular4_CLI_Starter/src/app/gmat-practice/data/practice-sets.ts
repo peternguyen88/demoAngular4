@@ -17,7 +17,7 @@ export class PracticeData {
 
   static PREMIUM_DATA = [
     ['OG16',102,Status.ACTIVE, 'assets/premium/og16.txt',0],
-    ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0],
+    ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0, 'Verbal Review 2016'],
     ['OG17',61,Status.ACTIVE, 'assets/premium/og17.txt',0],
     ['VR17',45,Status.ACTIVE, 'assets/premium/vr17.txt',0],
     ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0],
@@ -76,6 +76,8 @@ export class PracticeData {
     practice.numberOfQuestions = e[1] as number;
     practice.status = e[2] as Status;
     practice.fileLocation = e[3] as string;
+    if(e.length >= 5)
+      practice.practiceFullName = e[5] as string;
     return practice;
   }
 

@@ -348,7 +348,7 @@ The typical size difference between males and females has lessened since the ori
 (A) In 1982, archaeologists recovered Henry VIII’s ship Mary Rose, which, having sunk in 1545, with more than 17,000 artifacts on board,
 (B) Henry ship Mary Rose sank in 1545 and, recovered by archaeologists in 1982, they found more than 17,000 artifacts on board,
 (C) When Henry ship Mary Rose, which sank in 1545, was recovered in 1982, archaeologists found more than 17,000 artifacts on board,
-(D) Having sunk in 1545, Henry V111's ship Mary Rose was recovered in 1982 by archaeologists, finding more than 17,000 artifacts on board, with
+(D) Having sunk in 1545, Henry VIII's ship Mary Rose was recovered in 1982 by archaeologists, finding more than 17,000 artifacts on board, with
 (E) Finding more than 17,000 artifacts on board, Henry ship Mary Rose, which sank in 1545, was recovered in 1982 by archaeologists and it had
 ---------------------------------
 #SC#45 (Medium)#D#4500

@@ -1,6 +1,6 @@
 ####84#COMPREHENSIVE SC PART IV
 #SC#1#B#
-Growing evidence that  <span style="text-decoration: underline"> coastal erosion occurs continuously, not in just such calamitous bursts like hurricanes, has </span>  led scientists and planners to urge a stringent new approach to limiting development along the nation’s shoreline.
+Growing evidence that  <span style="text-decoration: underline"> coastal erosion occurs continuously, not in just such calamitous bursts like hurricanes, has</span>  led scientists and planners to urge a stringent new approach to limiting development along the nation’s shoreline.
 (A) coastal erosion occurs continuously, not in just such calamitous bursts like hurricanes, has
 (B) coastal erosion occurs continuously, not just in calamitous bursts such as hurricanes, has
 (C) coastal erosion is continuously occurring, not in just calamitous bursts like hurricanes, having
@@ -8,7 +8,7 @@ Growing evidence that  <span style="text-decoration: underline"> coastal erosion
 (E) there is continuous coastal erosion occurring, not in just such calamitous bursts like hurricanes, has
 ---------------------------------
 #SC#2#C#
-Scientists have identified an asteroid, 2000 BF19, that is about half a mile wide  <span style="text-decoration: underline"> and, if it strikes Earth, it can do tremendous damage to part of the planet but </span>  probably not cause planet-wide destruction.
+Scientists have identified an asteroid, 2000 BF19, that is about half a mile wide  <span style="text-decoration: underline"> and, if it strikes Earth, it can do tremendous damage to part of the planet but</span>  probably not cause planet-wide destruction.
 (A) and, if it strikes Earth, it can do tremendous damage to part of the planet but
 (B) and, if it would strike Earth, part of the planet could experience a tremendous amount of damage but it would
 (C) and that, if it were to strike Earth, could do tremendous damage to part of the planet but would
@@ -16,7 +16,7 @@ Scientists have identified an asteroid, 2000 BF19, that is about half a mile wid
 (E) and that, if it strikes Earth, it could experience a tremendous amount of damage but
 ---------------------------------
 #SC#3#B#
-The current economic downturn  <span style="text-decoration: underline"> has significantly reduced advertising income both for business journals as well as general consumer magazines, especially if focusing </span>  on technology.
+The current economic downturn  <span style="text-decoration: underline"> has significantly reduced advertising income both for business journals as well as general consumer magazines, especially if focusing</span>  on technology.
 (A) has significantly reduced advertising income both for business journals as well as general consumer magazines, especially if focusing
 (B) has significantly reduced advertising income both for business journals and for general consumer magazines, especially those focusing
 (C) significantly reduced advertising income for both business journals and for general consumer magazines, especially when focused
@@ -24,7 +24,7 @@ The current economic downturn  <span style="text-decoration: underline"> has sig
 (E) reduced advertising income significantly for both business journals, as well as for general consumer magazines, especially those focusing
 ---------------------------------
 #SC#4#A#
-<span style="text-decoration: underline"> The United States minted about 857 million silver-colored “Susan B. Anthony” dollars between 1979 and 1981, but the coin </span> proved unpopular because it looked and felt too much like a quarter. 
+<span style="text-decoration: underline"> The United States minted about 857 million silver-colored “Susan B. Anthony” dollars between 1979 and 1981, but the coin</span> proved unpopular because it looked and felt too much like a quarter.
 (A) The United States minted about 857 million silver-colored “Susan B. Anthony” dollars between 1979 and 1981, but the coin
 (B) About 857 million silver-colored “Susan B. Anthony” dollars were minted as coins in the United States between 1979 and 1981 but
 (C) About 857 million silver-colored “Susan B. Anthony” dollars that were minted between 1979 and 1981 in the United States
@@ -32,7 +32,7 @@ The current economic downturn  <span style="text-decoration: underline"> has sig
 (E) Between 1979 and 1981 the United States minted about 857 million silver-colored “Susan B. Anthony” dollars, which
 ---------------------------------
 #SC#5#C#
-According to a survey of graduating medical students conducted by the Association of American Medical Colleges,  <span style="text-decoration: underline"> minority graduates are nearly four times more likely than are other graduates in planning to practice </span>  in socioeconomically deprived areas.
+According to a survey of graduating medical students conducted by the Association of American Medical Colleges,  <span style="text-decoration: underline"> minority graduates are nearly four times more likely than are other graduates in planning to practice</span>  in socioeconomically deprived areas.
 (A) minority graduates are nearly four times more likely than are other graduates in planning to practice
 (B) minority graduates are nearly four times more likely than other graduates who plan on practicing
 (C) minority graduates are nearly four times as likely as other graduates to plan on practicing
@@ -40,7 +40,7 @@ According to a survey of graduating medical students conducted by the Associatio
 (E) it is nearly four times as likely for minority graduates than other graduates to plan to practice
 ---------------------------------
 #SC#6#A#
-For protection from the summer sun, the Mojave lived in open-sided, flat-topped dwellings known as shades,  <span style="text-decoration: underline"> each a roof of poles and arrowweed </span>  supported by posts set in a rectangle.
+For protection from the summer sun, the Mojave lived in open-sided, flat-topped dwellings known as shades,  <span style="text-decoration: underline"> each a roof of poles and arrowweed</span>  supported by posts set in a rectangle.
 (A) each a roof of poles and arrowweed
 (B) each a roof of poles and arrowweed that are being
 (C) with each being a roof of poles and arrowweed
@@ -48,7 +48,7 @@ For protection from the summer sun, the Mojave lived in open-sided, flat-topped 
 (E) with roofs of poles and arrowweed that are
 ---------------------------------
 #SC#7#A#
-Sulfur dioxide, a major contributor to acid rain, is  <span style="text-decoration: underline"> an especially serious pollutant because it diminishes the respiratory system’s ability to deal </span>  with all other pollutants.
+Sulfur dioxide, a major contributor to acid rain, is  <span style="text-decoration: underline"> an especially serious pollutant because it diminishes the respiratory system’s ability to deal</span>  with all other pollutants.
 (A) an especially serious pollutant because it diminishes the respiratory system’s ability to deal
 (B) an especially serious pollutant because of diminishing the respiratory system’s capability of dealing
 (C) an especially serious pollutant because it diminishes the capability of the respiratory system in dealing
@@ -56,7 +56,7 @@ Sulfur dioxide, a major contributor to acid rain, is  <span style="text-decorati
 (E) a specially serious pollutant because of diminishing the respiratory system’s ability to deal
 ---------------------------------
 #SC#8#D#
-While digging in the Egyptian desert,  <span style="text-decoration: underline"> huge fossil bones have been found by paleontologists, which appears to have been </span>  the second most massive dinosaur that ever lived.
+While digging in the Egyptian desert,  <span style="text-decoration: underline"> huge fossil bones have been found by paleontologists, which appears to have been</span>  the second most massive dinosaur that ever lived.
 (A) huge fossil bones have been found by paleontologists, which appears to have been
 (B) huge fossil bones have been found by paleontologists, which appear to be from
 (C) it appears that paleontologists have found huge fossil bones that are from
@@ -64,7 +64,7 @@ While digging in the Egyptian desert,  <span style="text-decoration: underline">
 (E) paleontologists have found huge fossil bones, which are from what appear to be
 ---------------------------------
 #SC#9#C#
-<span style="text-decoration: underline"> Analyzing campaign expenditures, the media has had as a focus </span>  the high costs and low ethics of campaign finance, but they have generally overlooked the cost of actually administering elections, which includes facilities, transport, printing, staffing, and technology.
+<span style="text-decoration: underline"> Analyzing campaign expenditures, the media has had as a focus</span>  the high costs and low ethics of campaign finance, but they have generally overlooked the cost of actually administering elections, which includes facilities, transport, printing, staffing, and technology.
 (A) Analyzing campaign expenditures, the media has had as a focus
 (B) Analyses of campaign expenditures by the media has been focus on
 (C) In analyzing campaign expenditures, the media have focused on
@@ -72,7 +72,7 @@ While digging in the Egyptian desert,  <span style="text-decoration: underline">
 (E) In their analysis of campaign expenditures, the media has been focusing on
 ---------------------------------
 #SC#10#D#
-In the mid-1970’s,  <span style="text-decoration: underline"> since birds were overcome by pollution, and routinely falling from the sky above Los Angeles freeways, this prompted officials in California to devise a plan that reduced </span>  automobile emissions.
+In the mid-1970’s,  <span style="text-decoration: underline"> since birds were overcome by pollution, and routinely falling from the sky above Los Angeles freeways, this prompted officials in California to devise a plan that reduced</span>  automobile emissions.
 (A) since birds were overcome by pollution, and routinely falling from the sky above Los Angeles freeways, this prompted officials in California to devise a plan that reduced
 (B) since birds that had been overcome by pollution were routinely falling from the sky above Los Angeles freeways, it prompted officials in California to devise a plan that would reduce
 (C) birds had been overcome by pollution and routinely fell from the sky above Los Angeles freeways, prompting officials in California to devise a plan that reduced
@@ -80,7 +80,7 @@ In the mid-1970’s,  <span style="text-decoration: underline"> since birds were
 (E) birds overcome by pollution and routinely falling from the sky above Los Angeles freeways were prompting officials in California to devise a plan to reduce
 ---------------------------------
 #SC#11#A#
-Despite the  <span style="text-decoration: underline"> growing number of people who purchase plane tickets online, airline executives are convinced that, just as one-third of bank customers still prefer human tellers to automatic teller machines, many travelers will </span>  still use travel agents.
+Despite the  <span style="text-decoration: underline"> growing number of people who purchase plane tickets online, airline executives are convinced that, just as one-third of bank customers still prefer human tellers to automatic teller machines, many travelers will</span>  still use travel agents.
 (A) growing number of people who purchase plane tickets online, airline executives are convinced that, just as one-third of bank customers still prefer human tellers to automatic teller machines, many travelers will
 (B) growing number of people who purchase plane tickets online, airline executives are convinced, just as one-third of bank customers still prefer human tellers to automatic teller machines, that many travelers would
 (C) growing number of people purchasing plane tickets online, airline executives are convinced, just as one-third of bank customers still prefer human tellers as compared to automatic teller machines, many travelers will
@@ -88,7 +88,7 @@ Despite the  <span style="text-decoration: underline"> growing number of people 
 (E) fact that the number of people who purchase plane tickets online are growing, airline executives are convinced that, just as one-third of bank customers still prefer human tellers compared with automatic teller machines, many travelers would
 ---------------------------------
 #SC#12#D#
-For the first time in the modem era, non-Hispanic Whites are officially a minority in California,  <span style="text-decoration: underline"> which amounts to a little less than half the population of the state, down from nearly three- quarters only a decade ago </span> .
+For the first time in the modem era, non-Hispanic Whites are officially a minority in California,  <span style="text-decoration: underline">which amounts to a little less than half the population of the state, down from nearly three- quarters only a decade ago</span>.
 (A) which amounts to a little less than half the population of the state, down from nearly three- quarters only a decade ago
 (B) which amounts to a little less than half the population of the state, down from a decade ago, when it was nearly three-quarters
 (C) and that amounts to a little less than half the population of the state, down from a decade ago, when they were nearly three-quarters
@@ -96,7 +96,7 @@ For the first time in the modem era, non-Hispanic Whites are officially a minori
 (E) amounting to a little less than half the population of the state, down from what it was a decade ago by nearly three-quarters
 ---------------------------------
 #SC#13#E#
-For the last five years the Dutch economy has grown faster than <span style="text-decoration: underline"> Britain, France, or Germany, with the unemployment rate having remained </span> well below that of the other three countries. <span style="text-decoration: underline"> Britain, France, or Germany, with the unemployment rate having remained </span>
+For the last five years the Dutch economy has grown faster than <span style="text-decoration: underline"> Britain, France, or Germany, with the unemployment rate having remained</span> well below that of the other three countries.
 (A) Britain, France, or Germany, with the unemployment rate having remained
 (B) have those of Britain, France, or Germany, and the unemployment rate remaining
 (C) have Britain, France, and Germany, and the unemployment rate has remained
@@ -104,7 +104,7 @@ For the last five years the Dutch economy has grown faster than <span style="tex
 (E) the economies of Britain, France, and Germany, and the unemployment rate has remained
 ---------------------------------
 #SC#14#D#
-Most of the purported health benefits of tea <span style="text-decoration: underline"> comes from antioxidants—compounds also found in beta carotene, vitamin E, and vitamin C that </span> inhibit the formation of plaque along the body’s blood vessels. 
+Most of the purported health benefits of tea <span style="text-decoration: underline"> comes from antioxidants—compounds also found in beta carotene, vitamin E, and vitamin C that</span> inhibit the formation of plaque along the body’s blood vessels.
 (A) comes from antioxidants—compounds also found in beta carotene, vitamin E, and vitamin C that
 (B) comes from antioxidants—compounds that are also found in beta carotene, vitamin E, and vitamin C, and they
 (C) come from antioxidants—compounds also found in beta carotene, vitamin E, and vitamin C, and
@@ -112,7 +112,7 @@ Most of the purported health benefits of tea <span style="text-decoration: under
 (E) come from antioxidants—compounds also found in beta carotene, vitamin E, and vitamin C, and they
 ---------------------------------
 #SC#15#D#
-<span style="text-decoration: underline"> Imported into Massachusetts from Europe in 1869, the gypsy moth was used by a French scientist in an attempt at developing a strong strain of silk-producing insects, crossing gypsy moths with adult silkworms. </span>
+<span style="text-decoration: underline"> Imported into Massachusetts from Europe in 1869, the gypsy moth was used by a French scientist in an attempt at developing a strong strain of silk-producing insects, crossing gypsy moths with adult silkworms.</span>
 (A) Imported into Massachusetts from Europe in 1869, the gypsy moth was used by a French scientist in an attempt at developing a strong strain of silk-producing insects, crossing gypsy moths with adult silkworms.
 (B) Imported into Massachusetts form Europe in 1869, a French scientist was attempting to develop a strong strain of silk-producing insects by crossing gypsy moths with adult silkworms.
 (C) To cross gypsy moths with adult silkworms, in attempting the development of a strong strain of silk-producing insects, a French scientist in 1869 imported the gypsy moth into Massachusetts from Europe.
@@ -120,7 +120,7 @@ Most of the purported health benefits of tea <span style="text-decoration: under
 (E) In an attempt at the development of a strong strain of silk-producing insects, a French scientist, importing the gypsy moth from Europe into Massachusetts in 1869 in order to cross gypsy moths and adult silkworms.
 ---------------------------------
 #SC#16#C#
-<span style="text-decoration: underline"> In Japan, a government advisory committee called for the breakup of Nippon Telephone and Telegraph Company, the largest telephone company in the world, so it would be </span>  two local phone companies and one long-distance provider.
+<span style="text-decoration: underline"> In Japan, a government advisory committee called for the breakup of Nippon Telephone and Telegraph Company, the largest telephone company in the world, so it would be</span>  two local phone companies and one long-distance provider.
 (A) In Japan, a government advisory committee called for the breakup of Nippon Telephone and Telegraph Company, the largest telephone company in the world, so it would be
 (B) The breakup of the world’s largest telephone company, Nippon Telephone and Telegraph Company, was called for by a government advisory committee in Japan, so it would be
 (C) A government advisory committee in Japan called for the breakup of Nippon Telephone and Telegraph Company, the world’s largest telephone company, into
@@ -128,7 +128,7 @@ Most of the purported health benefits of tea <span style="text-decoration: under
 (E) Called for by a government advisory committee, the breakup of Nippon Telephone and Telegraph Company in Japan, the world’s largest telephone company, was to be into
 ---------------------------------
 #SC#17#D#
-Scientists who studied the famous gold field known as Serra Pelada concluded that the rich lode was  <span style="text-decoration: underline"> not produced by the accepted methods of ore formation but that swarms of microbes over millions of years </span>  concentrated the gold from jungle soils and rivers and rocks.
+Scientists who studied the famous gold field known as Serra Pelada concluded that the rich lode was  <span style="text-decoration: underline"> not produced by the accepted methods of ore formation but that swarms of microbes over millions of years</span>  concentrated the gold from jungle soils and rivers and rocks.
 (A) not produced by the accepted methods of ore formation but that swarms of microbes over millions of years
 (B) not produced by the accepted methods of ore formation but instead swarms of microbes over millions of years that
 (C) not produced by the accepted methods of ore formation but swarms of microbes over millions of years that
@@ -136,7 +136,7 @@ Scientists who studied the famous gold field known as Serra Pelada concluded tha
 (E) produced not by the accepted methods of ore formation but that swarms of microbes over millions of years
 ---------------------------------
 #SC#18#A#
-The commission’s office of compliance, inspections, and investigations plans to intensify its scrutiny of stock analysts  <span style="text-decoration: underline"> to investigate not only whether research is an independent function at brokerage firms, but also whether conflicts result when analysts own the stocks they write about or when they are </span>  paid for their work by a firm’s investment banking division.
+The commission’s office of compliance, inspections, and investigations plans to intensify its scrutiny of stock analysts  <span style="text-decoration: underline"> to investigate not only whether research is an independent function at brokerage firms, but also whether conflicts result when analysts own the stocks they write about or when they are</span>  paid for their work by a firm’s investment banking division.
 (A) to investigate not only whether research is an independent function at brokerage firms, but also whether conflicts result when analysts own the stocks they write about or when they are
 (B) to investigate not only whether research is an independent function at brokerage firms, but also if conflicts result when analysts own the stocks they write about or they are
 (C) to not only investigate whether or not research is an independent function at brokerage firms, but also if conflicts result when analysts own the stocks they write about or are
@@ -144,7 +144,7 @@ The commission’s office of compliance, inspections, and investigations plans t
 (E) not only to investigate whether research is an independent function at brokerage firms, but also whether conflicts result when analysts own the stocks they write about or when
 ---------------------------------
 #SC#19#A#
-Several financial officers of the company spoke on condition  <span style="text-decoration: underline"> that they not be named </span>  in the press reports.
+Several financial officers of the company spoke on condition  <span style="text-decoration: underline"> that they not be named</span>  in the press reports.
 (A) that they not be named
 (B) that their names will not be used
 (C) that their names are not used
@@ -152,7 +152,7 @@ Several financial officers of the company spoke on condition  <span style="text-
 (E) of not naming them
 ---------------------------------
 #SC#20#A#
-<span style="text-decoration: underline"> Scholars who once thought Native American literatures were solely oral narratives </span>  recorded by missionaries or anthropologists now understand this body of work to consist of both oral literatures and the written works of Native American authors, who have been publishing since 1772.
+<span style="text-decoration: underline"> Scholars who once thought Native American literatures were solely oral narratives</span>  recorded by missionaries or anthropologists now understand this body of work to consist of both oral literatures and the written works of Native American authors, who have been publishing since 1772.
 (A) Scholars who once thought Native American literatures were solely oral narratives
 (B) Scholars thinking of Native American literatures once solely as oral narratives, and
 (C) Scholars who once had thought of Native American literatures solely as oral narratives and
@@ -160,7 +160,7 @@ Several financial officers of the company spoke on condition  <span style="text-
 (E) Native American literatures, which some scholars once, thinking they were solely oral narratives
 ---------------------------------
 #SC#21#C#
-<span style="text-decoration: underline"> Just like the background in art history needed by an archaeologist in order to evaluate finds of ancient art, the </span>  nautical archaeologist needs specialized knowledge of the history and theory of ship design in order to understand shipwrecks.
+<span style="text-decoration: underline"> Just like the background in art history needed by an archaeologist in order to evaluate finds of ancient art, the</span>  nautical archaeologist needs specialized knowledge of the history and theory of ship design in order to understand shipwrecks.
 (A) Just like the background in art history needed by an archaeologist in order to evaluate finds of ancient art, the
 (B) Just as an archaeologist who needs a background in art history to evaluate finds of ancient art, a
 (C) Just as an archaeologist needs a background in art history to evaluate finds of ancient art, so a
@@ -168,7 +168,7 @@ Several financial officers of the company spoke on condition  <span style="text-
 (E) As evaluating finds of ancient art requires an archaeologist who has a background in art history, so the
 ---------------------------------
 #SC#22#E#
-The globalization of financial-services companies has been a boon to money launders, because  <span style="text-decoration: underline"> of allowing money placed in a bank in a less regulated jurisdiction to be transferred </span>  to a branch in a more regulated one.
+The globalization of financial-services companies has been a boon to money launders, because  <span style="text-decoration: underline"> of allowing money placed in a bank in a less regulated jurisdiction to be transferred</span>  to a branch in a more regulated one.
 (A) of allowing money placed in a bank in a less regulated jurisdiction to be transferred
 (B) of allowing the transfer of money placed in a bank in a less regulated jurisdiction
 (C) it allows that money placed in a bank in a less regulated jurisdiction is transferred
@@ -176,7 +176,7 @@ The globalization of financial-services companies has been a boon to money laund
 (E) it allows money placed in a bank in a less regulated jurisdiction to be transferred
 ---------------------------------
 #SC#23#C#
-Unlike human runners, who broke the four-minute mile in 1954 and  <span style="text-decoration: underline"> they consistently recorded faster times ever since, horses in classic races such as the Kentucky Derby have had winning times with little improvement </span> : Secretariat’s world-record-breaking Derby time of 1:59 2/5, for example, was set in 1973 and remained unsurpassed more than a quarter of a century later.
+Unlike human runners, who broke the four-minute mile in 1954 and  <span style="text-decoration: underline"> they consistently recorded faster times ever since, horses in classic races such as the Kentucky Derby have had winning times with little improvement</span> : Secretariat’s world-record-breaking Derby time of 1:59 2/5, for example, was set in 1973 and remained unsurpassed more than a quarter of a century later.
 (A) they consistently recorded faster times ever since, horses in classic races such as the Kentucky Derby have had winning times with little improvement
 (B) they have consistently recorded faster times ever since, those of horses in classic races such as the Kentucky Derby have shown little improvement in winning times
 (C) have consistently recorded faster times ever since, horses in classic races such as the Kentucky Derby have shown little improvement in winning times
@@ -184,7 +184,7 @@ Unlike human runners, who broke the four-minute mile in 1954 and  <span style="t
 (E) consistently recorded faster times ever since, those of horses in classic races such as the Kentucky Derby have shown little improvement in winning times
 ---------------------------------
 #SC#24#A#
-The single-family house constructed by the Yana, a Native American people who lived in what is now northern California, was conical in shape, its framework of poles overlaid with slabs of bark, either cedar or pine, and  <span style="text-decoration: underline"> banked with dirt to a height of </span>  three to four feet.
+The single-family house constructed by the Yana, a Native American people who lived in what is now northern California, was conical in shape, its framework of poles overlaid with slabs of bark, either cedar or pine, and  <span style="text-decoration: underline"> banked with dirt to a height of</span>  three to four feet.
 (A) banked with dirt to a height of
 (B) banked with dirt as high as that of
 (C) banked them with dirt to a height of
@@ -192,7 +192,7 @@ The single-family house constructed by the Yana, a Native American people who li
 (E) was banked with dirt as high as that of
 ---------------------------------
 #SC#25#C#
-In Hungary,  <span style="text-decoration: underline"> as in much of Eastern Europe, an overwhelming proportion of women work, many of which are in </span>  middle management and light industry.
+In Hungary,  <span style="text-decoration: underline"> as in much of Eastern Europe, an overwhelming proportion of women work, many of which are in</span>  middle management and light industry.
 (A) as in much of Eastern Europe, an overwhelming proportion of women work, many of which are in
 (B) as with much of Eastern Europe, an overwhelming proportion of women works, many in
 (C) as in much of Eastern Europe, an overwhelming proportion of women work, many of them in
@@ -200,7 +200,7 @@ In Hungary,  <span style="text-decoration: underline"> as in much of Eastern Eur
 (E) like much of Eastern Europe, an overwhelming proportion of women work, many are in
 ---------------------------------
 #SC#26#E#
-<span style="text-decoration: underline"> On Earth, among the surest indications of sunspot cycles are believed to be the rate that trees grow </span> , as seen in the rings visible in the cross sections of their trunks.
+<span style="text-decoration: underline"> On Earth, among the surest indications of sunspot cycles are believed to be the rate that trees grow</span> , as seen in the rings visible in the cross sections of their trunks.
 (A) On Earth, among the surest indications of sunspot cycles are believed to be the rate that trees grow
 (B) On Earth, among the surest indications of sunspot cycles are, it is believed, the rate of tree growth
 (C) On Earth, the rate at which trees grow is believed to be among the surest indications of sunspot cycles
@@ -208,7 +208,7 @@ In Hungary,  <span style="text-decoration: underline"> as in much of Eastern Eur
 (E) Among the surest indications on Earth of sunspot cycles is believed to be the rate at which trees grow
 ---------------------------------
 #SC#27#A#
-In an effort to reduce the number of fires started by cigarettes, a major tobacco company is test¬marketing a cigarette  <span style="text-decoration: underline"> in which thin layers of extra paper are used to decrease the amount of oxygen entering the cigarette, thereby slowing </span>  the rate at which it bums and lowering the heat it generates.
+In an effort to reduce the number of fires started by cigarettes, a major tobacco company is test¬marketing a cigarette  <span style="text-decoration: underline"> in which thin layers of extra paper are used to decrease the amount of oxygen entering the cigarette, thereby slowing</span>  the rate at which it bums and lowering the heat it generates.
 (A) in which thin layers of extra paper are used to decrease the amount of oxygen entering the cigarette, thereby slowing
 (B) in which they use thin layers of extra paper in decreasing the amount of oxygen entering the cigarette, which slows
 (C) that uses thin layers of extra paper to decrease the amount of oxygen when it enters the cigarette, thereby slowing
@@ -216,7 +216,7 @@ In an effort to reduce the number of fires started by cigarettes, a major tobacc
 (E) using thin layers of extra paper in decreasing the amount of oxygen entering the cigarette, which slows
 ---------------------------------
 #SC#28#A#
-Socially and environmentally responsible investing is on the rise: last year in the United States, over $2 trillion was invested in funds that screen companies  <span style="text-decoration: underline"> according to a variety of criteria such as </span>  adherence to labor standards, protection of the environment, and observance of human rights.
+Socially and environmentally responsible investing is on the rise: last year in the United States, over $2 trillion was invested in funds that screen companies  <span style="text-decoration: underline"> according to a variety of criteria such as</span>  adherence to labor standards, protection of the environment, and observance of human rights.
 (A) according to a variety of criteria such as
 (B) according to a variety of such criteria, as by
 (C) according to such a variety of criteria as by
@@ -224,7 +224,7 @@ Socially and environmentally responsible investing is on the rise: last year in 
 (E) in accordance with a variety of criteria, such as by
 ---------------------------------
 #SC#29#E#
-Since 1975  <span style="text-decoration: underline"> so many people have been moving to Utah such that Mormons who were once 75 percent of the population are now only accounting for half of it </span> .
+Since 1975  <span style="text-decoration: underline"> so many people have been moving to Utah such that Mormons who were once 75 percent of the population are now only accounting for half of it</span> .
 (A) so many people have been moving to Utah such that Mormons who were once 75 percent of the population are now only accounting for half of it
 (B) many people have been moving to Utah, so Mormons once 75 percent of the population are now accounting for only half
 (C) that many people have been moving to Utah, such that the Mormons that were once 75 percent of the population are now accounting for only half of it
@@ -232,7 +232,7 @@ Since 1975  <span style="text-decoration: underline"> so many people have been m
 (E) so many people have been moving to Utah that the Mormons, who once represented 75 percent of the population, now account for only half
 ---------------------------------
 #SC#30#A#
-After more than four decades of research and development, a new type of jet engine is being  <span style="text-decoration: underline"> tested that could eventually propel aircraft anywhere in the world within two hours or help </span>  boost cargoes into space at significantly lower costs than current methods permit.
+After more than four decades of research and development, a new type of jet engine is being  <span style="text-decoration: underline"> tested that could eventually propel aircraft anywhere in the world within two hours or help</span>  boost cargoes into space at significantly lower costs than current methods permit.
 (A) tested that could eventually propel aircraft anywhere in the world within two hours or help
 (B) tested that could eventually have the capability of propelling aircraft anywhere in the world within two hours or to help
 (C) tested, eventually able to propel aircraft anywhere in the world within two hours, or helping
@@ -240,7 +240,7 @@ After more than four decades of research and development, a new type of jet engi
 (E) tested, and it could eventually have the capability to propel aircraft anywhere in the world within two hours or help
 ---------------------------------
 #SC#31#C#
-<span style="text-decoration: underline"> When working with overseas clients, an understanding of cultural norms is at least as important as grasping the pivotal business issues for the global manager. </span>
+<span style="text-decoration: underline"> When working with overseas clients, an understanding of cultural norms is at least as important as grasping the pivotal business issues for the global manager.</span>
 (A) When working with overseas clients, an understanding of cultural norms is at least as important as grasping the pivotal business issues for the global manager.
 (B) When they work with overseas clients, understanding cultural norms is at least of equal importance to the global manager as grasping the pivotal business issues.
 (C) For global managers working with overseas clients, understanding cultural norms is at least as important as grasping the pivotal business issues.
@@ -248,7 +248,7 @@ After more than four decades of research and development, a new type of jet engi
 (E) Global managers working with overseas clients find an understanding of cultural norms to be equally important as grasping the pivotal business issues.
 ---------------------------------
 #SC#32#D#
-Were it not for the fusion-powered heat and radiation that rush from its core,  <span style="text-decoration: underline"> instead its own weight would cause a star to collapse </span> .
+Were it not for the fusion-powered heat and radiation that rush from its core,  <span style="text-decoration: underline"> instead its own weight would cause a star to collapse</span> .
 (A) instead its own weight would cause a star to collapse
 (B) instead a star would have collapsed under its own weight
 (C) a star would have to be collapsing under its own weight
@@ -256,7 +256,7 @@ Were it not for the fusion-powered heat and radiation that rush from its core,  
 (E) its own weight would have caused a star’s collapse
 ---------------------------------
 #SC#33#E#
-Energy prices have tripled in the United States over the last two years, research indicates <span style="text-decoration: underline"> few people to have significantly reduced the amount of driving they do, nor are they making </span> fuel efficiency a priority when shopping for cars. 
+Energy prices have tripled in the United States over the last two years, research indicates <span style="text-decoration: underline"> few people to have significantly reduced the amount of driving they do, nor are they making</span> fuel efficiency a priority when shopping for cars.
 (A) few people to have significantly reduced the amount of driving they do, nor are they making
 (B) few people having significantly reduced the amount of driving they do or made
 (C) that there are few people who have significantly reduced the amount of driving they do, nor having made
@@ -264,7 +264,7 @@ Energy prices have tripled in the United States over the last two years, researc
 (E) that few people have significantly reduced the amount of driving they do or made
 ---------------------------------
 #SC#34#B#
-In 1914 a total of 469,000 cars and trucks were produced in the United States, but in 1929 almost twice  <span style="text-decoration: underline"> the numbers of tucks alone </span>  came off the assembly lines.
+In 1914 a total of 469,000 cars and trucks were produced in the United States, but in 1929 almost twice  <span style="text-decoration: underline"> the numbers of tucks alone</span>  came off the assembly lines.
 (A) the numbers of tucks alone
 (B) that number of trucks alone
 (C) the number of trucks by themselves
@@ -272,7 +272,7 @@ In 1914 a total of 469,000 cars and trucks were produced in the United States, b
 (E) as many trucks by themselves
 ---------------------------------
 #SC#35#A#
-<span style="text-decoration: underline"> Approved April 24, 1800, the act of Congress that made provision for the removal of the government of the United States to the new federal city, Washington, D.C., also established </span> the Library of Congress. 
+<span style="text-decoration: underline"> Approved April 24, 1800, the act of Congress that made provision for the removal of the government of the United States to the new federal city, Washington, D.C., also established</span> the Library of Congress.
 (A) Approved April 24, 1800, the act of Congress that made provision for the removal of the government of the United States to the new federal city, Washington, D.C., also established
 (B) The act of Congress, which was approved April 24, 1800, making provision for the removal of the government of the United States to the new federal city, Washington, D.C., also established
 (C) The act of Congress approved April 24, 1800, which made provision for the removal of the government of the United States to the new federal city, Washington, D.C., and established
@@ -280,7 +280,7 @@ In 1914 a total of 469,000 cars and trucks were produced in the United States, b
 (E) Approved April 24, 1800, the act of Congress made provision for the removal of the government of the United States to the new federal city, Washington, D.C., also establishing
 ---------------------------------
 #SC#36#A#
-Some scientists contend  <span style="text-decoration: underline"> that many species of dinosaur had a metabolism more like </span>  a warm¬blooded mammal’s than a cold-blooded reptile’s.
+Some scientists contend  <span style="text-decoration: underline"> that many species of dinosaur had a metabolism more like</span>  a warm¬blooded mammal’s than a cold-blooded reptile’s.
 (A) that many species of dinosaur had a metabolism more like
 (B) that the metabolism of many dinosaur species were more like
 (C) that the metabolisms of many species of dinosaurs were more like those of
@@ -288,7 +288,7 @@ Some scientists contend  <span style="text-decoration: underline"> that many spe
 (E) there were many dinosaur species that had a metabolism more like that of
 ---------------------------------
 #SC#37#A#
-According to public health officials, in 1998 Massachusetts became the first state in which more babies were bom to women over the age of thirty  <span style="text-decoration: underline"> than </span>  under it.
+According to public health officials, in 1998 Massachusetts became the first state in which more babies were bom to women over the age of thirty  <span style="text-decoration: underline"> than</span>  under it.
 (A) than
 (B) than bom
 (C) than they were
@@ -296,7 +296,7 @@ According to public health officials, in 1998 Massachusetts became the first sta
 (E) than had been bom
 ---------------------------------
 #SC#38#E#
-Prospecting for gold during the California gold rush was a relatively easy task,  <span style="text-decoration: underline"> because of erosion, prehistoric glacier movement, and ancient, gold-bearing riverbeds thrust to the surface by volcanic activity put gold literally within reach for </span>  anybody with a pan or shovel.
+Prospecting for gold during the California gold rush was a relatively easy task,  <span style="text-decoration: underline"> because of erosion, prehistoric glacier movement, and ancient, gold-bearing riverbeds thrust to the surface by volcanic activity put gold literally within reach for</span>  anybody with a pan or shovel.
 (A) because of erosion, prehistoric glacier movement, and ancient, gold-bearing riverbeds thrust to the surface by volcanic activity put gold literally within reach for
 (B) because of erosion, prehistoric glacier movement, and volcanic activity that thrust ancient, gold¬bearing riverbeds to the surface, and putting gold literally within reach of
 (C) owing to erosion, prehistoric glacier movement, and volcanic activity that had thrust ancient, gold-bearing riverbeds to the surface, and putting gold literally within reach of
@@ -304,7 +304,7 @@ Prospecting for gold during the California gold rush was a relatively easy task,
 (E) since erosion, prehistoric glacier movement, and ancient, gold-bearing riverbeds thrust to the surface by volcanic activity put gold literally within reach of
 ---------------------------------
 #SC#39#C#
-In an attempt to guarantee the security of its innovative water purification method, the company required each employee to sign a confidentiality agreement  <span style="text-decoration: underline"> prohibiting that its water purification methods be disclosed to companies </span>  using an analogous purification process.
+In an attempt to guarantee the security of its innovative water purification method, the company required each employee to sign a confidentiality agreement  <span style="text-decoration: underline"> prohibiting that its water purification methods be disclosed to companies</span>  using an analogous purification process.
 (A) prohibiting that its water purification methods be disclosed to companies
 (B) prohibiting them from the disclosing of its water purification methods to any company
 (C) prohibiting disclosure of its water purification methods to any company
@@ -312,7 +312,7 @@ In an attempt to guarantee the security of its innovative water purification met
 (E) that would prohibit its water purification methods to be disclosed to a company
 ---------------------------------
 #SC#40#B#
-The first English settlers to establish a permanent colony in America did  <span style="text-decoration: underline"> it not at Plymouth but </span>  along the shore of the James River west of Chesapeake Bay.
+The first English settlers to establish a permanent colony in America did  <span style="text-decoration: underline"> it not at Plymouth but</span>  along the shore of the James River west of Chesapeake Bay.
 (A) it not at Plymouth but
 (B) so not at Plymouth but
 (C) not at Plymouth but instead
@@ -320,7 +320,7 @@ The first English settlers to establish a permanent colony in America did  <span
 (E) it not at Plymouth but rather
 ---------------------------------
 #SC#41#B#
-Although she had been known as an effective legislator first in the Texas Senate and  <span style="text-decoration: underline"> later in the United States House of Representatives, not until Barbara Jordan’s participation in the hearings on the impeachment of President Richard Nixon in 1974 was she made a nationally recognized figure, as it was </span>  televised nationwide.
+Although she had been known as an effective legislator first in the Texas Senate and  <span style="text-decoration: underline"> later in the United States House of Representatives, not until Barbara Jordan’s participation in the hearings on the impeachment of President Richard Nixon in 1974 was she made a nationally recognized figure, as it was</span>  televised nationwide.
 (A) later in the United States House of Representatives, not until Barbara Jordan’s participation in the hearings on the impeachment of President Richard Nixon in 1974 was she made a nationally recognized figure, as it was
 (B) later in the United States House of Representatives, Barbara Jordan did not become a nationally recognized figure until 1974, when she participated in the hearings on the impeachment of President Richard Nixon, which were
 (C) later in the United States House of Representatives, it was not until 1974 that Barbara Jordan became a nationally recognized figure, with her participation in the hearings on the impeachment of President Richard Nixon, which was
@@ -328,7 +328,7 @@ Although she had been known as an effective legislator first in the Texas Senate
 (E) then also later in the United States House of Representatives, Barbara Jordan did not become a nationally recognized figure until 1974, when she participated in the hearings on the impeachment of President Richard Nixon, which was
 ---------------------------------
 #SC#42#B#
-A South American bird that forages for winged termites and other small insects while swinging upside down from the foliage of tall trees, the  <span style="text-decoration: underline"> graveteiro belongs to the ovenbird family, a group of New World tropical birds that includes more than 230 species and that are </span>  represented in virtually every kind of habitat.
+A South American bird that forages for winged termites and other small insects while swinging upside down from the foliage of tall trees, the  <span style="text-decoration: underline"> graveteiro belongs to the ovenbird family, a group of New World tropical birds that includes more than 230 species and that are</span>  represented in virtually every kind of habitat.
 (A) graveteiro belongs to the ovenbird family, a group of New World tropical birds that includes more than 230 species and that are
 (B) graveteiro belongs to the ovenbird family, a group of New World tropical birds that includes more than 230 species and is
 (C) graveteiro belongs to the ovenbird family, a group of New World tropical birds that include more than 230 species and is
@@ -336,7 +336,7 @@ A South American bird that forages for winged termites and other small insects w
 (E) graveteiro, which belongs to the ovenbird family, a group of New World tropical birds that includes more than 230 species and is
 ---------------------------------
 #SC#43#D#
-<span style="text-decoration: underline"> Being that she was secretary of labor, Frances Perkins’ considerable influence with Franklin D. Roosevelt was used preventing </span> him from restraining strikes by longshoremen and automobile workers. 
+<span style="text-decoration: underline"> Being that she was secretary of labor, Frances Perkins’ considerable influence with Franklin D. Roosevelt was used preventing</span> him from restraining strikes by longshoremen and automobile workers.
 (A) Being that she was secretary of labor, Frances Perkins’ considerable influence with Franklin D. Roosevelt was used preventing
 (B) As secretary of labor, Frances Perkins’ considerable influence with Franklin D. Roosevelt was used to prevent
 (C) Being secretary of labor, Frances Perkins’ considerable influence with Franklin D. Roosevelt was used preventing
@@ -344,7 +344,7 @@ A South American bird that forages for winged termites and other small insects w
 (E) Secretary of labor, Frances Perkins’ considerable influence was used with Franklin D. Roosevelt preventing
 ---------------------------------
 #SC#44#E#
-<span style="text-decoration: underline"> As the honeybee’s stinger is heavily barbed, staying where it is inserted, this results in the act of stinging causing </span> the bee to sustain a fatal injury. 
+<span style="text-decoration: underline"> As the honeybee’s stinger is heavily barbed, staying where it is inserted, this results in the act of stinging causing</span> the bee to sustain a fatal injury.
 (A) As the honeybee’s stinger is heavily barbed, staying where it is inserted, this results in the act of stinging causing
 (B) As the heavily barbed stinger of the honeybee stays where it is inserted, with the result that the act of stinging causes
 (C) The honeybee’s stinger, heavily barbed and staying where it is inserted, results in the fact that the act of stinging causes
@@ -352,7 +352,7 @@ A South American bird that forages for winged termites and other small insects w
 (E) The honeybee’s stinger is heavily barbed and stays where it is inserted, with the result that the act of stinging causes
 ---------------------------------
 #SC#45#E#
-In Scotland, the  <span style="text-decoration: underline"> number of wild salmon have been reduced because of uncontrolled deep-sea and coastal netting </span> , by pollution, and by various other threats to the fish’s habitat.
+In Scotland, the  <span style="text-decoration: underline"> number of wild salmon have been reduced because of uncontrolled deep-sea and coastal netting</span> , by pollution, and by various other threats to the fish’s habitat.
 (A) number of wild salmon have been reduced because of uncontrolled deep-sea and coastal netting
 (B) number of wild salmon is reduced because deep-sea and coastal netting is not controlled
 (C) numbers of wild salmon has been reduced because of uncontrolled deep-sea and coastal netting
@@ -360,7 +360,7 @@ In Scotland, the  <span style="text-decoration: underline"> number of wild salmo
 (E) wild salmon’s numbers have been reduced by uncontrolled deep-sea and coastal netting
 ---------------------------------
 #SC#46#D#
-A scrub jay can remember when it cached a particular piece of food in a particular place, researchers have discovered, and  <span style="text-decoration: underline"> tend not to bother to recover a perishable treat if </span>  stored long enough to have rotted.
+A scrub jay can remember when it cached a particular piece of food in a particular place, researchers have discovered, and  <span style="text-decoration: underline"> tend not to bother to recover a perishable treat if</span>  stored long enough to have rotted.
 (A) tend not to bother to recover a perishable treat if
 (B) they tend not to bother recovering a perishable treat
 (C) tending not to bother to recover a perishable treat it
@@ -368,7 +368,7 @@ A scrub jay can remember when it cached a particular piece of food in a particul
 (E) tends not bothering to recover a perishable treat it
 ---------------------------------
 #SC#47#C#
-The population of India has been steadily increasing for decades, and  <span style="text-decoration: underline"> it will probably have what is estimated as </span>  1.6 billion people by 2050 and surpass China as the world’s most populous nation.
+The population of India has been steadily increasing for decades, and  <span style="text-decoration: underline"> it will probably have what is estimated as</span>  1.6 billion people by 2050 and surpass China as the world’s most populous nation.
 (A) it will probably have what is estimated as
 (B) they are likely to have
 (C) the country will probably have
@@ -376,7 +376,7 @@ The population of India has been steadily increasing for decades, and  <span sty
 (E) there will be an estimated
 ---------------------------------
 #SC#48#D#
-Spanish poet Juan Ramon Jimenez, who won the Nobel Prize for Literature in 1956,  <span style="text-decoration: underline"> so embarrassed in his later years by what he considered the excessive sentiment in the poems in his first two collections, he destroyed </span>  every copy he could find.
+Spanish poet Juan Ramon Jimenez, who won the Nobel Prize for Literature in 1956,  <span style="text-decoration: underline"> so embarrassed in his later years by what he considered the excessive sentiment in the poems in his first two collections, he destroyed</span>  every copy he could find.
 (A) so embarrassed in his later years by what he considered the excessive sentiment in the poems in his first two collections, he destroyed
 (B) and was so embarrassed in his later years by what he considered as the excessive sentiment in the poems in his first two collections that he destroyed
 (C) in his later years he was so embarrassed by what he considered as the excessive sentiment in the poems in his first two collections, destroying
@@ -384,7 +384,7 @@ Spanish poet Juan Ramon Jimenez, who won the Nobel Prize for Literature in 1956,
 (E) because he was so embarrassed in his later years by what he considered as the excessive sentiment in the poems in his first two collections, destroying
 ---------------------------------
 #SC#49#E#
-A Swiss government panel recommended that the country sell about half its gold  <span style="text-decoration: underline"> reserves and this raised fears of other countries that </span>  do the same and inundate the market.
+A Swiss government panel recommended that the country sell about half its gold  <span style="text-decoration: underline"> reserves and this raised fears of other countries that</span>  do the same and inundate the market.
 (A) reserves and this raised fears of other countries that
 (B) reserves, which, as a result, raised fears of other countries that
 (C) reserves; as a result, they feared that other countries would
@@ -405,7 +405,7 @@ Organized in 1966 by the Fish and Wildlife Service, the Breeding Bird Survey use
 (B) being motivated by the practical matters of navigation, instead of complicated philosophical questions about the nature of matter and the universe, as it has been recently
 (C) motivated not by complicated philosophical questions about the nature of matter and the universe, like they were more recently, but by the practical matters of navigation
 (D) motivated by the practical matters of navigation, not complicated philosophical questions about the nature of matter and the universe, which was the case more recently
-(E) motivated not by complicated philosophical questions about the nature of matter and the universe, as has been the case more recently, but by the practical matters of navigation 
+(E) motivated not by complicated philosophical questions about the nature of matter and the universe, as has been the case more recently, but by the practical matters of navigation
 ---------------------------------
 #SC#52#A#
 <span style="text-decoration: underline">Less than 35 years after the release of African honeybees outside Sao Paulo. Brazil,</span> their descendants, popularly known as killer bees, had migrated as far north as southern Texas.

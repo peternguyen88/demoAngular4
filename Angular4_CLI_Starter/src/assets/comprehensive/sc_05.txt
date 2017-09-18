@@ -56,7 +56,7 @@ Some patients who do not respond to therapies for depression may simply have rec
 (E) for example, when they have a drug prescription with a dosage too low to be effective, or been
 ---------------------------------
 #SC#8#E#
-<span style="text-decoration: underline">Unlike battery-powered electric cars, automakers sav that cars with fuel cells, which supply them with electricity, can provide driving range and performance similar to</span> the internal combustion engine.
+<span style="text-decoration: underline">Unlike battery-powered electric cars, automakers say that cars with fuel cells, which supply them with electricity, can provide driving range and performance similar to</span> the internal combustion engine.
 (A) Unlike battery-powered electric cars, automakers say that cars with fuel cells, which supply them with electricity, can provide driving range and performance similar to
 (B) Unlike battery-powered electric cars, automakers say that cars with electricity supplied by fuel cells can exhibit driving range and performance similar to those provided by
 (C) Unlike battery-powered electric cars, fuel cells that supply cars with electricity can provide driving range and performance that automakers say is similar to
@@ -72,7 +72,7 @@ Some patients who do not respond to therapies for depression may simply have rec
 (E) While children's programming had once been limited to a few hours a week, at least four cable networks are now dedicated
 ---------------------------------
 #SC#10#A#
-Both the caribou and the reindeer <span style="text-decoration: underline">belong to the species Ranaifer tarandus. but after 7.000 years of domestication in Eurasia, reindeer have developed a tendency to circle in tight groups, while caribou tend</span> to spread far and wide.
+Both the caribou and the reindeer <span style="text-decoration: underline">belong to the species Ranaifer tarandus, but after 7.000 years of domestication in Eurasia, reindeer have developed a tendency to circle in tight groups, while caribou tend</span> to spread far and wide.
 (A) belong to the species Rangifer tarandus, but after 7,000 years of domestication in Eurasia, reindeer have developed a tendency to circle in tight groups, while caribou tend
 (B) belong to the same species, Rangifer tarandus, but about 7,000 years of domestication in Eurasia have developed reindeer's tendency to circle in tight groups, which is different from caribou that tend
 (C) belong to the species Rangifer tarandus, but being domesticated in Eurasia for about 7,000 years has developed reindeer's tendency to circle in tight groups, and that is different from caribou tending
@@ -152,7 +152,7 @@ Diesel engines burn as much as 30 percent less fuel than gasoline engines <span 
 (E) that have a comparable size, as well as emitting far fewer carbon dioxide and other gases having
 ---------------------------------
 #SC#20#A#
-<span style="text-decoration: underline">The spectacular disintegration of a comet last year in full view of ground- and space-based telescopes provided new insights into how comets form and mav thus force</span> a rethinking of the role of comets in the delivery of organic compounds to the evolving Earth.
+<span style="text-decoration: underline">The spectacular disintegration of a comet last year in full view of ground- and space-based telescopes provided new insights into how comets form and may thus force</span> a rethinking of the role of comets in the delivery of organic compounds to the evolving Earth.
 (A) The spectacular disintegration of a comet last year in full view of ground- and space-based telescopes provided new insights into how comets form and may thus force
 (B) The spectacular disintegration of a comet last year in full view of ground- as well as space-based telescopes, provided new insights into how comets form and thus possibly forcing
 (C) When a comet's spectacular disintegration occurred in full view of ground- and space-based telescopes last year, it provided new insights into how comets form and thus may possibly force
@@ -328,7 +328,7 @@ George Washington Carver dedicated his life to <span style="text-decoration: und
 (E) the economic strengthening in the South with improving soil and diversifying crops
 ---------------------------------
 #SC#42#B#
-<span style="text-decoration: underline">Constructed at least as early as the Sui dvnastv fA.D. 581-6181 the Altar of Heaven is the oldest known altar used in Chinese state religious practice, more than 1.000 years older than a similar one in Beiiina. it is</span> the only altar found so far that predates the Qing dynasty (A.D. 1644-1912).
+<span style="text-decoration: underline">Constructed at least as early as the Sui dynasty (A.D. 581-618) the Altar of Heaven is the oldest known altar used in Chinese state religious practice, more than 1.000 years older than a similar one in Beiiina. it is</span> the only altar found so far that predates the Qing dynasty (A.D. 1644-1912).
 (A) Constructed at least as early as the Sui dynasty (A.D. 581-618), the Altar of Heaven is the oldest known altar used in Chinese state religious practice, more than 1,000 years older than a similar one in Beijing, it is
 (B) Constructed at least as early as the Sui dynasty (A.D. 581-618), the Altar of Heaven, the oldest known altar used in Chinese state religious practice, is more than 1,000 years older than a similar one in Beijing and is
 (C) The Altar of Heaven, having been constructed at least as early as the Sui dynasty (A.D. 581-618) and the oldest known altar used in Chinese state religious practice, is more than 1,000 years older than a similar one in Beijing and
@@ -352,7 +352,7 @@ After determining the levels of calcium carbonate and <span style="text-decorati
 (E) what the types of fossilized algae were that were present in core samples taken from the bottom of Lake Titicaca in the Andes, a group of scientists was able
 ---------------------------------
 #SC#45#E#
-Although the turtle has been toothless for more than 150 million years, in some contemporary turtle species the moderately sharp and jagged edges of <span style="text-decoration: underline">their hornv iaws function for teeth</span>.
+Although the turtle has been toothless for more than 150 million years, in some contemporary turtle species the moderately sharp and jagged edges of <span style="text-decoration: underline">their horny jaws function for teeth</span>.
 (A) their horny jaws function for teeth
 (B) its horny jaws function for teeth
 (C) its horny jaws function as do teeth
@@ -376,7 +376,7 @@ The features of the floor of the Kasei Valles on Mars look just like those at th
 (E) which is suggestive of flowing ice having possibly
 ---------------------------------
 #SC#48#B#
-Ranked among great mathematical scientists such as Archimedes, Kepler, and Newton, Abu Ali al-Hasan ibn <span style="text-decoration: underline">al- Havtham. who was born in Iraq in 965 C.E.. had experimented extensively with light and vision, laving the foundation for modern optics and also the notion of science being based on experiment as well as</span> on philosophical arguments.
+Ranked among great mathematical scientists such as Archimedes, Kepler, and Newton, Abu Ali al-Hasan ibn <span style="text-decoration: underline">al- Haytham. who was born in Iraq in 965 C.E.. had experimented extensively with light and vision, laving the foundation for modern optics and also the notion of science being based on experiment as well as</span> on philosophical arguments.
 (A) al-Haytham, who was born in Iraq in 965 C.E., had experimented extensively with light and vision, laying the foundation for modern optics and also the notion of science being based on experiment as well as
 (B) al-Haytham, born in Iraq in 965 C.E., experimented extensively with light and vision, laying the foundation for modern optics and for the notion that science should be based on experiment as well as
 (C) al-Haytham, born in Iraq in 965 C.E. and who experimented extensively with light and vision, thereby laid the foundation for modern optics and also for the notion that science should be based on not only experiment but also

@@ -18,6 +18,25 @@
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <h5>Critical Reasoning</h5>
+    </div>
+
+    <div class="card-block">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let practice of crPracticeSets">
+          <div class="card card-inverse card-primary">
+            <div class="card-block pb-0 btn-primary" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
+              <h4 class="mb-0">{{practice.practiceName}}</h4>
+              <p>{{practice.numberOfQuestions}} Questions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <confirm-dialog [popupMessage]="popupMessage" (close)="popupMessage = null;"></confirm-dialog>
 </div>
 

@@ -38,6 +38,13 @@ export class PracticeData {
     ['COM-CR-03',85,Status.ACTIVE, 'assets/comprehensive/cr_03.txt',0, 'CR Comprehensive - Part III'],
   ];
 
+  static COMPREHENSIVE_RC = [
+    ['COM-RC-01',88,Status.ACTIVE, 'assets/comprehensive/rc_01.txt',0, 'RC Comprehensive - Part I'],
+    ['COM-RC-02',88,Status.ACTIVE, 'assets/comprehensive/rc_02.txt',0, 'RC Comprehensive - Part II'],
+    ['COM-RC-03',89,Status.ACTIVE, 'assets/comprehensive/rc_03.txt',0, 'RC Comprehensive - Part III'],
+    ['COM-RC-04',85,Status.ACTIVE, 'assets/comprehensive/rc_04.txt',0, 'RC Comprehensive - Part IV'],
+  ];
+
 
   static practices:GMATPractice[];
 
@@ -80,6 +87,14 @@ export class PracticeData {
   public static getComprehensiveCR(): GMATPractice[]{
     let cr = [];
     PracticeData.COMPREHENSIVE_CR.forEach(e => {
+      cr.push(PracticeData.buildPractice(e));
+    });
+    return cr;
+  }
+
+  public static getComprehensiveRC(): GMATPractice[]{
+    let cr = [];
+    PracticeData.COMPREHENSIVE_RC.forEach(e => {
       cr.push(PracticeData.buildPractice(e));
     });
     return cr;

@@ -15,12 +15,14 @@ import {PracticeData} from "../data/practice-sets";
 export class GMATComprehensiveComponent{
   scPracticeSets: GMATPractice[];
   crPracticeSets: GMATPractice[];
+  rcPracticeSets: GMATPractice[];
   popupMessage: ConfirmMessage;
 
   constructor(private practiceService: PracticeService, private webService: WebService) {
     this.practiceService.stage = Stage.SELECT;
     this.scPracticeSets = PracticeData.getComprehensiveSC();
     this.crPracticeSets = PracticeData.getComprehensiveCR();
+    this.rcPracticeSets = PracticeData.getComprehensiveRC();
   }
 
   selectPracticeSet(practice: GMATPractice){

@@ -7,8 +7,8 @@
     <div class="card-block">
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let practice of scPracticeSets">
-          <div class="card card-inverse card-primary">
-            <div class="card-block pb-0 btn-primary" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
+          <div class="card card-inverse card-info">
+            <div class="card-block pb-0 btn-info" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
               <h4 class="mb-0">{{practice.practiceName}}</h4>
               <p>{{practice.numberOfQuestions}} Questions</p>
             </div>
@@ -26,8 +26,27 @@
     <div class="card-block">
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let practice of crPracticeSets">
-          <div class="card card-inverse card-primary">
-            <div class="card-block pb-0 btn-primary" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
+          <div class="card card-inverse card-danger">
+            <div class="card-block pb-0 btn-danger" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
+              <h4 class="mb-0">{{practice.practiceName}}</h4>
+              <p>{{practice.numberOfQuestions}} Questions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h5>Reading Comprehension</h5>
+    </div>
+
+    <div class="card-block">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let practice of rcPracticeSets">
+          <div class="card card-inverse card-success">
+            <div class="card-block pb-0 btn-success" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
               <h4 class="mb-0">{{practice.practiceName}}</h4>
               <p>{{practice.numberOfQuestions}} Questions</p>
             </div>

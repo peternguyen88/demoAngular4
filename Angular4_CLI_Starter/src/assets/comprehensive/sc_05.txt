@@ -567,7 +567,7 @@ With surface temperatures estimated at minus 230 degrees Fahrenheit, Jupiter's m
 (D) Europa, long considered as far too cold to support life, and its
 (E) Europa, long considered to be far too cold to support life, and to have
 ---------------------------------
-#SC#72#C#
+#SC#72#D#
 Deborah Aguiar-Velez, founder of Sistemas Corporation, has written a computer textbook in Spanish <span style="text-decoration: underline">for people who speak Spanish and so then</span> do not have to rely on translations from English.
 (A) for people who speak Spanish and so then
 (B) for people who speak Spanish, and then they
@@ -640,7 +640,7 @@ The period when the great painted caves at Lascaux and Altamira were occupied by
 (E) are established by carbon-14 dating, but that which is much more difficult to determine is
 ---------------------------------
 #SC#81#C#
-On August 13, 1868, the warship U. S. S. Wateree, anchored in the harbor of Arica, off the coast of what is now northern <span style="text-decoration: underline">Chile.rode on the crest of a tsunami fseismic sea wave! and coming to rest in the Atacama Desert, it was</span> some three miles up the coast and almost two miles inland from its initial anchorage.
+On August 13, 1868, the warship U. S. S. Wateree, anchored in the harbor of Arica, off the coast of what is now northern <span style="text-decoration: underline">Chile, rode on the crest of a tsunami fseismic sea wave! and coming to rest in the Atacama Desert, it was</span> some three miles up the coast and almost two miles inland from its initial anchorage.
 (A) rode on the crest of a tsunami (seismic sea wave) and coming to rest in the Atacama Desert, it was
 (B) rode on the crest of a tsunami (seismic sea wave), while it came to rest in the Atacama Desert,
 (C) rode on the crest of a tsunami (seismic sea wave) and came to rest in the Atacama Desert,
@@ -648,7 +648,7 @@ On August 13, 1868, the warship U. S. S. Wateree, anchored in the harbor of Aric
 (E) riding on the crest of a tsunami (seismic sea wave), it had come to rest in the Atacama Desert, which is
 ---------------------------------
 #SC#82#E#
-The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but News of these <span style="text-decoration: underline">Shots, which were sent by SWIFT Messenger, took four davs in reaching New York City as well as another additional eleven davs</span>to reach Charleston, South Carolina.
+The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but News of these <span style="text-decoration: underline">Shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days</span> to reach Charleston, South Carolina.
 (A) shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days
 (B) shots that was sent by SWIFT Messenger took four days in order to reach New York City, and also another eleven days
 (C) shots that were sent by SWIFT Messenger took four days to reach New York City and another eleven days

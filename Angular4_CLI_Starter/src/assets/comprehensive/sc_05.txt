@@ -296,7 +296,7 @@ Astronomers have uncovered evidence <span style="text-decoration: underline">tha
 (E) of a star as bright as the full moon that exploded into view 340,000 years ago and that emitted
 ---------------------------------
 #SC#38#E#
-<span style="text-decoration: underline">In hoping to restrain economic growth, interest rates were raised bv British policymakers, making it more expensive to borrow for businesses and consumers</span>.
+<span style="text-decoration: underline">In hoping to restrain economic growth, interest rates were raised by British policymakers, making it more expensive to borrow for businesses and consumers</span>.
 (A) In hoping to restrain economic growth, interest rates were raised by British policymakers, making it more expensive to borrow for businesses and consumers.
 (B) Making it more expensive for businesses and consumers to borrow, interest rates were raised by British policymakers, in hopes of their restraining economic growth.
 (C) In making borrowing for businesses and consumers more expensive, British policymakers, in hopes they will restrain economic growth, had raised interest rates.
@@ -400,7 +400,7 @@ The army cutworm moth is a critical source of fat for as many as a third of Yell
 (E) bears, which overturn rocks to find the insects, as many as
 ---------------------------------
 #SC#51#C#
-A Food and Drug Administration rule implemented in December 2000 mandates that any new <span style="text-decoration: underline">drug that they intend to be used both bv adults and children must</span> undergo pediatric study and that its manufacturers list children's doses on the label.
+A Food and Drug Administration rule implemented in December 2000 mandates that any new <span style="text-decoration: underline">drug that they intend to be used both by adults and children must</span> undergo pediatric study and that its manufacturers list children's doses on the label.
 (A) drug that they intend to be used both by adults and children must
 (B) drug whose intended use is for adults and children as well
 (C) drug intended for use by both adults and children
@@ -440,7 +440,7 @@ If a drug that is already on the market has the potential to help adults and chi
 (E) the drug to have to undergo
 ---------------------------------
 #SC#56#B#
-<span style="text-decoration: underline">Whereas high speeds generally cannot be achieved bv ramjets without their initially being assisted bv</span> a rocket, a scramjet, or supersonic combustion ramjet, can attain high speeds by reducing airflow compression at the entrance of the engine and letting air pass through at supersonic speeds.
+<span style="text-decoration: underline">Whereas high speeds generally cannot be achieved by ramjets without their initially being assisted by</span> a rocket, a scramjet, or supersonic combustion ramjet, can attain high speeds by reducing airflow compression at the entrance of the engine and letting air pass through at supersonic speeds.
 (A) Whereas high speeds generally cannot be achieved by ramjets without their initially being assisted by
 (B) Whereas a ramjet generally cannot achieve high speeds without the initial assistance of
 (C) With ramjets, high speeds generally are not able to be achieved without initially being assisted by
@@ -512,7 +512,7 @@ The Kwakiutl recognized one social unit larger than the tribe—the confederacy,
 (E) tribes, interacting among one another more often than with
 ---------------------------------
 #SC#65#A#
-<span style="text-decoration: underline">The United States will be affected bv whether Taiwan develops a closer relationship with mainland China or preserves the status QUO</span>,since the island nation is the United States' seventh-largest trading partner.
+<span style="text-decoration: underline">The United States will be affected by whether Taiwan develops a closer relationship with mainland China or preserves the status QUO</span>,since the island nation is the United States' seventh-largest trading partner.
 (A) The United States will be affected by whether Taiwan develops a closer relationship with mainland China or preserves the status quo
 (B) Whether or not Taiwan develops a closer relationship with mainland China or preserves the status quo affecting the United States
 (C) Whether or not Taiwan develops a closer relationship with mainland China or the status quo is preserved, it will affect the United States
@@ -584,7 +584,7 @@ The striking differences between the semantic organization of Native American la
 (E) those of European languages, both in grammar and vocabulary, has
 ---------------------------------
 #SC#74#C#
-The first detailed study of magpie attacks in Australia indicates that <span style="text-decoration: underline">bv the time they had reached adulthood. 98 percent of men and 75 percent of women born in the country have been attacked bv the birds</span>.
+The first detailed study of magpie attacks in Australia indicates that <span style="text-decoration: underline">by the time they had reached adulthood. 98 percent of men and 75 percent of women born in the country have been attacked by the birds</span>.
 (A) by the time they had reached adulthood, 98 percent of men and 75 percent of women born in the country have been attacked by the birds
 (B) by the time they reach adulthood, 98 percent of men and 75 percent of women, who were born in the country, had been attacked by the birds
 (C) by the time they reached adulthood, 98 percent of men and 75 percent of women born in the country had been attacked by the birds
@@ -632,7 +632,7 @@ Some scientists have been critical of the laboratory tests conducted by the Fede
 (E) far exceed those that humans could consume
 ---------------------------------
 #SC#80#B#
-The period when the great painted caves at Lascaux and Altamira were occupied by Upper Paleolithic people <span style="text-decoration: underline">has been established bv carbon-14 dating, but what is much more difficult to determine are</span> the reason for their decoration, the use to which primitive people put the caves, and the meaning of the magnificently depicted animals.
+The period when the great painted caves at Lascaux and Altamira were occupied by Upper Paleolithic people <span style="text-decoration: underline">has been established by carbon-14 dating, but what is much more difficult to determine are</span> the reason for their decoration, the use to which primitive people put the caves, and the meaning of the magnificently depicted animals.
 (A) has been established by carbon-14 dating, but what is much more difficult to determine are
 (B) has been established by carbon-14 dating, but what is much more difficult to determine is
 (C) have been established by carbon-14 dating, but what is much more difficult to determine is
@@ -648,7 +648,7 @@ On August 13, 1868, the warship U. S. S. Wateree, anchored in the harbor of Aric
 (E) riding on the crest of a tsunami (seismic sea wave), it had come to rest in the Atacama Desert, which is
 ---------------------------------
 #SC#82#E#
-The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but News of these <span style="text-decoration: underline">Shots, which were sent bv SWIFT Messenger, took four davs in reaching New York City as well as another additional eleven davs</span>to reach Charleston, South Carolina.
+The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but News of these <span style="text-decoration: underline">Shots, which were sent by SWIFT Messenger, took four davs in reaching New York City as well as another additional eleven davs</span>to reach Charleston, South Carolina.
 (A) shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days
 (B) shots that was sent by SWIFT Messenger took four days in order to reach New York City, and also another eleven days
 (C) shots that were sent by SWIFT Messenger took four days to reach New York City and another eleven days

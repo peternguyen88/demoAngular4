@@ -496,7 +496,7 @@ The Sports Medicine Programs of the Olympic Training Center, a complex where fin
 (E) Since the numbers 1 and 2 and the letters A and B have connotations associated with them and they are aware of it
 ---------------------------------
 #SC#63#B#
-The budget for education reflects the administration's demand that <span style="text-decoration: underline">the money is controlled bv local school districts, but it can only</span> be spent on teachers, not on books, computers, or other materials or activities.
+The budget for education reflects the administration's demand that <span style="text-decoration: underline">the money is controlled by local school districts, but it can only</span> be spent on teachers, not on books, computers, or other materials or activities.
 (A) the money is controlled by local school districts, but it can only be spent
 (B) the money be controlled by local school districts, but it allows them to spend the money only
 (C) the money is to be controlled by local school districts, but allowing it only to be spent
@@ -632,7 +632,7 @@ The country's currency, weakened by both concern about the government's agreemen
 (E) The country’s currency, weakened by both concern about the government’s agreement with the international monetary fund and growing fears of a raise in inflation, continued its slide to a record low against the dollar, which forced
 ---------------------------------
 #SC#80#C#
-A new genetically engineered papaya was <span style="text-decoration: underline">produced not bv seed companies who have been motivated bv profit, which was the case with most genetically modified crops previously approved for commercial use,</span> but university and United States Department of Agriculture researchers who allowed growers to use it free of charge.
+A new genetically engineered papaya was <span style="text-decoration: underline">produced not by seed companies who have been motivated by profit, which was the case with most genetically modified crops previously approved for commercial use,</span> but university and United States Department of Agriculture researchers who allowed growers to use it free of charge.
 (A) produced not by seed companies who have been motivated by profit, which was the case with most genetically modified crops previously approved for commercial use, but
 (B) produced not by profit-motivated seed companies, the case with most genetically modified crops previously approved for commercial use, but
 (C) produced not by profit-motivated seed companies, as was the case with most genetically modified crops previously approved for commercial use, but by

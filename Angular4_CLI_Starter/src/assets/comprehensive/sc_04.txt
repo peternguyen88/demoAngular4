@@ -1,6 +1,6 @@
 ####84#COMPREHENSIVE SC PART IV
 #SC#1#D#
-Broccoli thrives in moderate to cool climates and <span style="text-decoration: underline">propagated bv seeds, either sown directly in the field or in plant beds designed for producing</span> transplants.
+Broccoli thrives in moderate to cool climates and <span style="text-decoration: underline">propagated by seeds, either sown directly in the field or in plant beds designed for producing</span> transplants.
 (A) propagated by seeds, either sown directly in the field or in plant beds designed for producing
 (B) propagated by seeds, sown either directly in the field or sown in plant beds designed so as to produce
 (C) is propagated by seeds either sown directly in the field or in plant beds designed so that they produce
@@ -64,7 +64,7 @@ Changes in sea level <span style="text-decoration: underline">are not only a res
 (E) result from not only changes in water temperature, affecting water density, but as well as when glaciers melt
 ---------------------------------
 #SC#9#E#
-Each year companies in the United States could save as much as $58 billion <span style="text-decoration: underline">annually bv preventing illness among employees and gain as much as $200 billion through improving performance of workers if they simply provided</span> offices with cleaner air.
+Each year companies in the United States could save as much as $58 billion <span style="text-decoration: underline">annually by preventing illness among employees and gain as much as $200 billion through improving performance of workers if they simply provided</span> offices with cleaner air.
 (A) annually by preventing illness among employees and gain as much as $200 billion through improving performance of workers if they simply provided
 (B) annually if they prevented employee illness and gain as much as $200 billion through worker performance improved by simply providing
 (C) annually in employee illness prevention and gain as much as $200 billion through worker performance improved by simply providing
@@ -88,7 +88,7 @@ The Nobel Prize in chemistry was awarded to three scientists for their discovery
 (E) of plastic being able to be made electrically conductive—an advance that has led
 ---------------------------------
 #SC#12#D#
-In 1945, after a career as First Lady in which she shattered expectations <span style="text-decoration: underline">more audaciously than either Abigail Adams or Dolly Madison ever had been. Eleanor Roosevelt was appointed a delegate to the United Nations General Assembly bv President Harrv S Truman.</span>
+In 1945, after a career as First Lady in which she shattered expectations <span style="text-decoration: underline">more audaciously than either Abigail Adams or Dolly Madison ever had been. Eleanor Roosevelt was appointed a delegate to the United Nations General Assembly by President Harrv S Truman.</span>
 (A) more audaciously than either Abigail Adams or Dolly Madison ever had been, Eleanor Roosevelt was appointed a delegate to the United Nations General Assembly by President Harry S Truman
 (B) more audaciously than either Abigail Adams or Dolly Madison, President Harry S Truman had Eleanor Roosevelt appointed to be a delegate to the United Nations General Assembly
 (C) with an audacity never matched in the case of Abigail Adams or Dolly Madison, President Harry S Truman had Eleanor Roosevelt appointed as a delegate to the United Nations General Assembly
@@ -136,7 +136,7 @@ Archaeologists in Egypt have excavated a 5,000-year-old wooden hull that is the 
 (E) together to represent
 ---------------------------------
 #SC#18#E#
-Although they are more temperamental and far more expensive than transistor-driven amplifiers, <span style="text-decoration: underline">many audiophiles and audio professionals prefer the warmer, richer tones produced bv vacuum-tube-driven amplifiers.</span>
+Although they are more temperamental and far more expensive than transistor-driven amplifiers, <span style="text-decoration: underline">many audiophiles and audio professionals prefer the warmer, richer tones produced by vacuum-tube-driven amplifiers.</span>
 (A) many audiophiles and audio professionals prefer the warmer, richer tones produced by vacuum-tube-driven amplifiers
 (B) many audiophiles and audio professionals think the warmer, richer tones produced by vacuum-tube-driven amplifiers make them preferable
 (C) warmer, richer tones are produced by vacuum-tube-driven amplifiers and they are thus preferred by many audiophiles and audio professionals
@@ -408,7 +408,7 @@ Gone are the sharp edges and jutting planes of styles from former eras; instead,
 (E) ergonomic, conforming more to the shape of the body than flaunting shape
 ---------------------------------
 #SC#52#E#
-The Chicago and Calumet <span style="text-decoration: underline">Rivers originally flowed into the St. Lawrence bv wav of Lake Michigan, but having been redirected by constructing</span> canals so that the water now empties into the Mississippi by way of the Illinois River.
+The Chicago and Calumet <span style="text-decoration: underline">Rivers originally flowed into the St. Lawrence by wav of Lake Michigan, but having been redirected by constructing</span> canals so that the water now empties into the Mississippi by way of the Illinois River.
 (A) Rivers originally flowed into the St. Lawrence by way of Lake Michigan, but having been redirected by constructing
 (B) Rivers had originally flowed into the St. Lawrence by way of Lake Michigan, but they have been redirected by constructing
 (C) Rivers, which originally flowed into the St. Lawrence by way of Lake Michigan but have been redirected by the construction of
@@ -656,7 +656,7 @@ A survey of 765 working women over eighteen years of age found that 60 percent o
 (E) When compared to nonrunners, running three days a week saves
 ---------------------------------
 #SC#83#C#
-The majority of scientists believe that to reduce and stabilize atmospheric concentrations of carbon dioxide, emissions must be cut at the source by <span style="text-decoration: underline">fossil fuels that are burned more efficiently and, in some cases, bv alternatives such as hydrogen fuel cells that can replace fossil fuels altogether.</span>
+The majority of scientists believe that to reduce and stabilize atmospheric concentrations of carbon dioxide, emissions must be cut at the source by <span style="text-decoration: underline">fossil fuels that are burned more efficiently and, in some cases, by alternatives such as hydrogen fuel cells that can replace fossil fuels altogether.</span>
 (A) fossil fuels that are burned more efficiently and, in some cases, by alternatives such as hydrogen fuel cells that can replace fossil fuels altogether
 (B) fossil fuels that are burned more efficiently and, in some cases, those that are replaced altogether with alternatives such as hydrogen fuel cells
 (C) burning fossil fuels more efficiently and, in some cases, by replacing fossil fuels altogether with alternatives such as hydrogen fuel cells

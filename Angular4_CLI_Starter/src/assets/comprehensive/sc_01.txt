@@ -21,7 +21,7 @@ In the sixteenth century, the push for greater precision in measuring time was <
 (B) being motivated by the practical matters of navigation, instead of complicated philosophical questions about the nature of matter and the universe, as it has been recently
 (C) motivated not by complicated philosophical questions about the nature of matter and the universe, like they were more recently, but by the practical matters of navigation
 (D) motivated by the practical matters of navigation, not complicated philosophical questions about the nature of matter and the universe, which was the case more recently
-(E) motivated not by complicated philosophical questions about the nature of matter and the universe, as has been the case more recently, but by the practical matters of navigation 
+(E) motivated not by complicated philosophical questions about the nature of matter and the universe, as has been the case more recently, but by the practical matters of navigation
 ---------------------------------
 #SC#4#A#
 Currently 26 billion barrels a year, <span style="text-decoration: underline">world consumption of oil is rising at a rate of</span> 2 percent annually.
@@ -37,7 +37,7 @@ Currently 26 billion barrels a year, <span style="text-decoration: underline">wo
 (B) She turned away from literary realism and wrote romantic stories about the peasant life and landscape of northern Sweden, and novelist Selma Lagerlof in 1909 became the first woman as well as the first Swedish writer that won
 (C) Selma Lagerlof was a novelist who turned away from literary realism to write romantic stories about the peasant life and landscape of northern Sweden, and in 1909 she became the first woman in addition to the first Swedish writer winning
 (D) A novelist who turned away from literary realism to write romantic stories about the peasant life and landscape of northern Sweden, Selma Lagerlof became in 1909 the first woman and also the first Swedish writer to win
-(E) As a novelist, Selma Lagerlof turned away from literary realism and wrote romantic stories about the peasant life and landscape of northern Sweden, in 1909 becoming the first woman and also the first Swedish writer that won 
+(E) As a novelist, Selma Lagerlof turned away from literary realism and wrote romantic stories about the peasant life and landscape of northern Sweden, in 1909 becoming the first woman and also the first Swedish writer that won
 ---------------------------------
 #SC#6#E#
 For the farmer who takes care to keep them cool, <span style="text-decoration: underline">providing them with high-energy feed, and milking them regularly. Holstein cows are producing</span> an average of 2,275 gallons of milk each per year.
@@ -61,7 +61,7 @@ Humans have been damaging the environment for centuries by overcutting trees and
 (B) Galileo had not invented the telescope, but when he heard, in 1609, of such an optical instrument having been made,
 (C) Galileo, even though he had not invented the telescope, on hearing, in 1609, that such an optical instrument had been made, he
 (D) Even though Galileo did not invent the telescope, on hearing, in 1609, that such an optical instrument had been made,
-(E) Even though Galileo did not invent the telescope, but when he heard, 1609, of such an optical instrument being made, he 
+(E) Even though Galileo did not invent the telescope, but when he heard, 1609, of such an optical instrument being made, he
 ---------------------------------
 #SC#9#C#
 In January 1994 an oil barge ran aground off the coast of San Juan, Puerto Rico, <span style="text-decoration: underline">leaking its cargo of 750.000 gallons into the ocean, while causing the pollution</span> of the city’s beaches.
@@ -101,7 +101,7 @@ In attempting to solve the problems caused by a lowering of the price of oil, oi
 (B) Nearly 99 percent of five hundred million different species of living creatures that appeared on Earth have vanished.
 (C) Vanished are nearly 99 percent of the five hundred million different species of living creatures that appeared on Earth.
 (D) Of five hundred million different species of living creatures that have appeared on Earth, nearly 99 percent of them have vanished.
-(E) Of the five hundred million different species of living creatures that have appeared on Earth, nearly 99 percent have vanished. 
+(E) Of the five hundred million different species of living creatures that have appeared on Earth, nearly 99 percent have vanished.
 ---------------------------------
 #SC#14#A#
 Not one of the potential investors <span style="text-decoration: underline">is expected to make an offer to buy First Interstate Bank until a merger agreement is signed that includes a provision for penalties if the deal were</span> not to be concluded.
@@ -157,7 +157,7 @@ Birds known as honeyguides exhibit a unique pattern of behavior: the bird leads 
 (B) with chattering and its flying
 (C) by chattering as it flies
 (D) by chattering and its flying
-(E) by chattering as they are flying 
+(E) by chattering as they are flying
 ---------------------------------
 #SC#21#A#
 <span style="text-decoration: underline">Regardless of their form or function, all aerodynamically enhanced, curved objects made for throwing have been called boomerangs by non-Australians even since 1788,</span> when Europeans saw Dharug-peaking men tossing “bumariny” in the area later known as Sydney.
@@ -173,7 +173,7 @@ The electronics company has unveiled what it claims <span style="text-decoration
 (B) to be the smallest network digital camcorder in the world, which is as long as a handheld computer, weighing
 (C) is the smallest network digital camcorder in the world, which is as long as a handheld computer, and it weighs
 (D) is the world’s smallest network digital camcorder, which is as long as a handheld computer and weighs
-(E) is the world’s smallest network digital camcorder, the length of which is that of a handheld computer, weighing 
+(E) is the world’s smallest network digital camcorder, the length of which is that of a handheld computer, weighing
 ---------------------------------
 #SC#23#C#
 The Environmental Protection Agency’s proposal to place restrictions <span style="text-decoration: underline">on both diesel fuel and diesel engines has sparked a counterattack by the oil industry, saving</span> that the move will exacerbate the nation’s fuel supply problems.
@@ -189,7 +189,7 @@ The Acoma and Hopi are probably the two oldest surviving Pueblo communities, <sp
 (B) both of which have dated
 (C) and each has dated
 (D) and each one dating
-(E) each one of which date 
+(E) each one of which date
 ---------------------------------
 #SC#25#B#
 Neither First Lady Eleanor Roosevelt nor Secretary of Labor Frances Perkins sought recognition by the press, and both cautiously allowed others of the Roosevelt brain trust <span style="text-decoration: underline">to take credit for the genesis of historic programs in public employment, relief, and social security that were in large measure what they had been responsible for</span>.
@@ -288,7 +288,7 @@ According to a 1996 survey by the National Association of College and University
 (E) as those charging
 ---------------------------------
 #SC#37#A#
-Discussion of greenhouse effects has usually focused on whether the Earth would warm and by how much, but climatologists have indicated all along that <span style="text-decoration: underline">the most obvious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess</span>.
+Discussion of greenhouse effects has usually focused on whether the Earth would warm and by how much, but climatologists have indicated all along that <span style="text-decoration: underline">the most obyious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess</span>.
 (A) the most obvious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess
 (B) the effects that are the most obvious ones, extremes of temperature, precipitation, and storminess, would be those impacting the most on people
 (C) those effects to have the largest impact on people, extremes of temperature, precipitation, and storminess, are what are the most obvious effects
@@ -373,7 +373,7 @@ Most states impose limitations on the authority of the legislature <span style="
 (B) to borrow money, the objectives of which are the protecting of
 (C) to borrow money, limitations intended to protect
 (D) for borrowing money, of which the objective is protecting
-(E) for borrowing money, limitations with the intent of protecting 
+(E) for borrowing money, limitations with the intent of protecting
 ---------------------------------
 #SC#48#B#
 Because fish look through water, their eyes are very different <span style="text-decoration: underline">from a mammal</span>.
@@ -493,7 +493,7 @@ Trans World Entertainment Corporation, which owns the Record Town and Saturday M
 (B) it is closing up to one-fourth of its stores, which accounted for its poor sales
 (C) it was closing up to one fourth of its stores because of poor sales
 (D) to be closing, on account of poor sales, up to one-fourth of its stores
-(E) having poor sales, such that up to one-fourth of its stores will be closed 
+(E) having poor sales, such that up to one-fourth of its stores will be closed
 ---------------------------------
 #SC#63#B#
 Finally reaching a decision on an issue that has long been politically charged in the Pacific Northwest, <span style="text-decoration: underline">politicians decided to postpone by at least five years an ambitious plan to protect wild salmon and other endangered fish, instead of which they proposed a series of smaller steps, by which they intend</span> to protect the fish.
@@ -509,7 +509,7 @@ Providing initial evidence that airports are a larger source of pollution than t
 (B) as much annually as is emitted by the
 (C) as much compared to what is annually emitted by all
 (D) that emitted annually by all
-(E) that emitted annually compared to the 
+(E) that emitted annually compared to the
 ---------------------------------
 #SC#65#E#
 The quality of early pieces of blown glass excavated in Italy and Western Europe <span style="text-decoration: underline">by far surpass those of pieces from the eastern Mediterranean, when regarded not only in terms of</span> the variety of shapes represented, but also in terms of decorative techniques and functionality.
@@ -533,7 +533,7 @@ According to some botanists, invasive plants are the second most serious <span s
 (B) threat, after habitat loss, to native species of plants and animals and for maintaining biologically diverse ecosystems
 (C) threat, after losing their habitat, to native species of plants and animals and also to maintenance of biologically diverse ecosystems
 (D) threat to native species of plants and animals and for maintaining biologically diverse ecosystems, after habitat loss
-(E) threat to native species of plants and animals as well as to maintaining biologically diverse ecosystems, after losing their habitat 
+(E) threat to native species of plants and animals as well as to maintaining biologically diverse ecosystems, after losing their habitat
 ---------------------------------
 #SC#68#E#
 Scientists claim that the discovery of the first authenticated mammal bones in amber could provide important clues <span style="text-decoration: underline">of determining, in addition to how, when mammals colonized the islands of the West Indies</span>.
@@ -557,7 +557,7 @@ Although women’s wages are improving, Department of Labor statistics show that
 (B) For about four cents an acre the United States acquired, in the Louisiana Purchase of 1803, 828,0 square miles, more than doubling the country’s size and it brought
 (C) With the Louisiana Purchase in 1803, the United States acquired 828,000 square miles for about four cents an acre, more than doubling its size and bringing
 (D) The United States, in the Louisiana Purchase of 1803, for about four cents an acre, acquired 828,0 square miles, more than doubling the country’s size, bringing
-(E) Acquiring 828,000 square miles in the Louisiana Purchase of 1803, the United States bought it for about four cents an acre, more than doubling the country’s size and bringing 
+(E) Acquiring 828,000 square miles in the Louisiana Purchase of 1803, the United States bought it for about four cents an acre, more than doubling the country’s size and bringing
 ---------------------------------
 #SC#71#C#
 In an attempt to attract more tourists, <span style="text-decoration: underline">the Swiss government commissioned several life-size fiberglass cow statues, having them decorated by local artists, and</span> set them up on the streets of Zurich.
@@ -581,7 +581,7 @@ According to entomologists, single locusts are quiet creatures, but <span style=
 (B) when placing them with others of their species, then
 (C) locusts, when placed with others of their species,
 (D) placing them with others of their species,
-(E) placed with others of their species, then 
+(E) placed with others of their species, then
 ---------------------------------
 #SC#74#E#
 Until the passage of the Piracy and Counterfeiting Amendments Act in 1982, a first-time charge of copyright infringement was merely a misdemeanor <span style="text-decoration: underline">charge, federal prosecutors being unlikely in pursuing criminal copyright infringers, while offenders were</span> subject to relatively small penalties.
@@ -605,69 +605,69 @@ Roughly one-half of the world’s population, <span style="text-decoration: unde
 (B) including virtually all of East and Southeast Asia, is wholly dependent on rice as
 (C) virtually all of East and Southeast Asia as well, wholly dependent on rice as
 (D) which includes virtually all of East and Southeast Asia’s, being wholly dependent on rice as
-(E) which includes virtually all of East and Southeast Asia also, is wholly dependent on rice to be 
+(E) which includes virtually all of East and Southeast Asia also, is wholly dependent on rice to be
 ---------------------------------
 #SC#77#A#
-After increasing steadily for centuries, the total annual catch of all wild <span style="text-decoration: underline">fish peaked in 1989; since that time, the total catch for most species has declined or plateaued. prompting</span> conservation efforts designed to help prevent population crashes and possible extinctions.  
-(A) fish peaked in 1989; since that time, the total catch for most species has declined or plateaued, prompting 
-(B) fish peaked in 1989, but with the total catch since then declining or plateauing in the case of most species, prompting 
-(C) fish had peaked in 1989; since that time, the decline or plateau of the total catch for most species, which prompted 
-(D) fish, which peaked in 1989, and, in the case of most species, it has declined or plateaued since, prompted 
-(E) fish, which peaked in 1989 but has since declined or plateaued for most species, and this prompted 
+After increasing steadily for centuries, the total annual catch of all wild <span style="text-decoration: underline">fish peaked in 1989; since that time, the total catch for most species has declined or plateaued. prompting</span> conservation efforts designed to help prevent population crashes and possible extinctions.
+(A) fish peaked in 1989; since that time, the total catch for most species has declined or plateaued, prompting
+(B) fish peaked in 1989, but with the total catch since then declining or plateauing in the case of most species, prompting
+(C) fish had peaked in 1989; since that time, the decline or plateau of the total catch for most species, which prompted
+(D) fish, which peaked in 1989, and, in the case of most species, it has declined or plateaued since, prompted
+(E) fish, which peaked in 1989 but has since declined or plateaued for most species, and this prompted
 ---------------------------------
 #SC#78#B#
-During the eighteenth century, widespread changes in agriculture, known as the agrarian  <span style="text-decoration: underline">revolution, involving the large-scale introduction of enclosed fields, of new farming techniques and crops, and</span> the substitution of commercial for subsistence farming.  
-(A) revolution, involving the large-scale introduction of enclosed fields, of new farming techniques and crops, and 
-(B) revolution, involved the large-scale introduction of enclosed fields and of new farming techniques and crops, and 
-(C) revolution, which involved the large-scale introduction of enclosed fields and of new farming techniques and crops, and 
-(D) revolution involved the large-scale introduction of enclosed fields, new farming techniques and crops, and of 
-(E) revolution that involved the large-scale introduction of enclosed fields and new farming techniques and crops, and of 
+During the eighteenth century, widespread changes in agriculture, known as the agrarian  <span style="text-decoration: underline">revolution, involving the large-scale introduction of enclosed fields, of new farming techniques and crops, and</span> the substitution of commercial for subsistence farming.
+(A) revolution, involving the large-scale introduction of enclosed fields, of new farming techniques and crops, and
+(B) revolution, involved the large-scale introduction of enclosed fields and of new farming techniques and crops, and
+(C) revolution, which involved the large-scale introduction of enclosed fields and of new farming techniques and crops, and
+(D) revolution involved the large-scale introduction of enclosed fields, new farming techniques and crops, and of
+(E) revolution that involved the large-scale introduction of enclosed fields and new farming techniques and crops, and of
 ---------------------------------
 #SC#79#E#
-More than fifty years after the Second World War, a number of African American soldiers were awarded—some of them posthumously— <span style="text-decoration: underline">with the Congressional Medal of Honor, which was the nation’s highest military award, and which was long overdue in</span> recognition of their outstanding bravery.  
-(A) with the Congressional Medal of Honor, which was the nation’s highest military award, and which was long overdue in 
-(B) with the Congressional Medal of Honor, the nation’s highest military award for long-overdue 
-(C) the Congressional Medal of Honor, which was the nation’s highest military award, long-overdue in 
-(D) the Congressional Medal of Honor, the nation’s highest military award for long-overdue 
-(E) the Congressional Medal of Honor, the nation’s highest military award, in long-overdue 
+More than fifty years after the Second World War, a number of African American soldiers were awarded—some of them posthumously— <span style="text-decoration: underline">with the Congressional Medal of Honor, which was the nation’s highest military award, and which was long overdue in</span> recognition of their outstanding bravery.
+(A) with the Congressional Medal of Honor, which was the nation’s highest military award, and which was long overdue in
+(B) with the Congressional Medal of Honor, the nation’s highest military award for long-overdue
+(C) the Congressional Medal of Honor, which was the nation’s highest military award, long-overdue in
+(D) the Congressional Medal of Honor, the nation’s highest military award for long-overdue
+(E) the Congressional Medal of Honor, the nation’s highest military award, in long-overdue
 ---------------------------------
 #SC#80#A#
-The discovery that Earth’s inner <span style="text-decoration: underline">core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of the flow of heat from the inner through the outer planet and of the formation and periodic reversal in direction of Earth’s magnetic field.</span>  
-(A) core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of the flow of heat from the inner through the outer planet and of the formation and periodic reversal in direction of Earth’s magnetic field 
-(B) core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of how heat from the inner core flows through the outer planet, and the formation and periodic reversal in direction of Earth’s magnetic field 
-(C) core rotates independently and more quickly than Earth’s outer layers are responsible for advancing studies of how heat from the inner core flows through the outer planet, and how Earth’s magnetic field forms and the periodic reversal of its direction 
-(D) core, rotating independently and more quickly than Earth’s outer layers, are responsible for advancing studies of the flow of heat from the inner through the outer planet, and the formation and periodic reversal in direction of Earth’s magnetic field 
-(E) core, rotating independently of and more quickly than Earth’s outer layers, is responsible for advancing studies of the flow of heat from the inner through the outer planet and of how Earth’s magnetic field forms and the periodic reversal of its direction 
+The discovery that Earth’s inner <span style="text-decoration: underline">core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of the flow of heat from the inner through the outer planet and of the formation and periodic reversal in direction of Earth’s magnetic field.</span>
+(A) core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of the flow of heat from the inner through the outer planet and of the formation and periodic reversal in direction of Earth’s magnetic field
+(B) core rotates independently of and more quickly than Earth’s outer layers is responsible for advancing studies of how heat from the inner core flows through the outer planet, and the formation and periodic reversal in direction of Earth’s magnetic field
+(C) core rotates independently and more quickly than Earth’s outer layers are responsible for advancing studies of how heat from the inner core flows through the outer planet, and how Earth’s magnetic field forms and the periodic reversal of its direction
+(D) core, rotating independently and more quickly than Earth’s outer layers, are responsible for advancing studies of the flow of heat from the inner through the outer planet, and the formation and periodic reversal in direction of Earth’s magnetic field
+(E) core, rotating independently of and more quickly than Earth’s outer layers, is responsible for advancing studies of the flow of heat from the inner through the outer planet and of how Earth’s magnetic field forms and the periodic reversal of its direction
 ---------------------------------
 #SC#81#C#
-Until a few centuries ago, any large bones discovered in the fields or caves of Europe, <span style="text-decoration: underline">now known to be large prehistoric animals, were usually assumed to be</span> the remains of giants and were often displayed as curiosities in castles, palaces, town halls, churches, and monasteries.  
-(A) now known to be large prehistoric animals, were usually assumed to be 
-(B) presently known as from large prehistoric animals, were usually assumed as 
-(C) bones now known to be those of large prehistoric animals, were usually assumed to be 
-(D) bones known at present as of large prehistoric animals, were usually assumed as those of 
-(E) currently known as those of large prehistoric animals, were usually assumed to be those of 
+Until a few centuries ago, any large bones discovered in the fields or caves of Europe, <span style="text-decoration: underline">now known to be large prehistoric animals, were usually assumed to be</span> the remains of giants and were often displayed as curiosities in castles, palaces, town halls, churches, and monasteries.
+(A) now known to be large prehistoric animals, were usually assumed to be
+(B) presently known as from large prehistoric animals, were usually assumed as
+(C) bones now known to be those of large prehistoric animals, were usually assumed to be
+(D) bones known at present as of large prehistoric animals, were usually assumed as those of
+(E) currently known as those of large prehistoric animals, were usually assumed to be those of
 ---------------------------------
 #SC#82#E#
-The principal feature of the redesigned checks is a series of printed instructions that the company hopes will help merchants confirm a check’s authenticity, <span style="text-decoration: underline">which includes reminders to watch the endorsement, compare signatures, and view</span> the watermark while holding the check to the light.  
-(A) which includes reminders to watch the endorsement, compare signatures, and view 
-(B) which include reminders for watching the endorsement, to compare signatures and view 
-(C) by including reminders for watching the endorsement, comparing signatures, and viewing 
-(D) including reminders to watch the endorsement, comparing signatures and viewing 
-(E) including reminders to watch the endorsement, compare signatures, and view 
+The principal feature of the redesigned checks is a series of printed instructions that the company hopes will help merchants confirm a check’s authenticity, <span style="text-decoration: underline">which includes reminders to watch the endorsement, compare signatures, and view</span> the watermark while holding the check to the light.
+(A) which includes reminders to watch the endorsement, compare signatures, and view
+(B) which include reminders for watching the endorsement, to compare signatures and view
+(C) by including reminders for watching the endorsement, comparing signatures, and viewing
+(D) including reminders to watch the endorsement, comparing signatures and viewing
+(E) including reminders to watch the endorsement, compare signatures, and view
 ---------------------------------
 #SC#83#E#
-In 1850 Lucretia Mott published her Discourse on Women, <span style="text-decoration: underline">arguing in a treatise for women to have equal political and legal rights</span> and for changes in the married women’s property laws  
-(A) arguing in a treatise for women to have equal political and legal rights 
-(B) arguing in a treatise for equal political and legal rights for women 
-(C) a treatise that advocates women’s equal political and legal rights 
-(D) a treatise advocating women’s equal political and legal rights 
-(E) a treatise that argued for equal political and legal rights for women 
+In 1850 Lucretia Mott published her Discourse on Women, <span style="text-decoration: underline">arguing in a treatise for women to have equal political and legal rights</span> and for changes in the married women’s property laws
+(A) arguing in a treatise for women to have equal political and legal rights
+(B) arguing in a treatise for equal political and legal rights for women
+(C) a treatise that advocates women’s equal political and legal rights
+(D) a treatise advocating women’s equal political and legal rights
+(E) a treatise that argued for equal political and legal rights for women
 ---------------------------------
 #SC#84#E#
-In little more than a decade, Argentina has become the world’s leading exporter of honey, <span style="text-decoration: underline">with nearly 90.000 tons a year sold to foreign markets, almost half of which going</span> to the United States  
-(A) with nearly 90,000 tons a year sold to foreign markets, almost half of which going 
-(B) with the sale of nearly 90,000 tons a year to foreign markets, and almost half of it that goes 
-(C) with the sale to foreign markets of nearly 90,000 tons a year, with almost half of it going 
-(D) selling nearly 90,000 tons a year to foreign markets, and almost half of it goes 
-(E) selling nearly 90,000 tons a year to foreign markets, with almost half going 
+In little more than a decade, Argentina has become the world’s leading exporter of honey, <span style="text-decoration: underline">with nearly 90.000 tons a year sold to foreign markets, almost half of which going</span> to the United States
+(A) with nearly 90,000 tons a year sold to foreign markets, almost half of which going
+(B) with the sale of nearly 90,000 tons a year to foreign markets, and almost half of it that goes
+(C) with the sale to foreign markets of nearly 90,000 tons a year, with almost half of it going
+(D) selling nearly 90,000 tons a year to foreign markets, and almost half of it goes
+(E) selling nearly 90,000 tons a year to foreign markets, with almost half going
 ---------------------------------

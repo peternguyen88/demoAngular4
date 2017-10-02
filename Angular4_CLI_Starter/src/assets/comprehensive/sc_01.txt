@@ -600,7 +600,7 @@ Unlike the body’s inflammatory response to cuts and sprains, <span style="text
 (E) in which widespread swelling and stiffness immobilize the injured area until healing, instead, the body’s more localized response to sunburn results
 ---------------------------------
 #SC#76#B#
-Roughly one-half of the world’s population, <span style="text-decoration: underline"including virtually all of East and Southeast Asia also, is wholly dependent on rice to be</span>  its staple food.
+Roughly one-half of the world’s population, <span style="text-decoration: underline">including virtually all of East and Southeast Asia also, is wholly dependent on rice to be</span>  its staple food.
 (A) including virtually all of East and Southeast Asia also, is wholly dependent on rice to be
 (B) including virtually all of East and Southeast Asia, is wholly dependent on rice as
 (C) virtually all of East and Southeast Asia as well, wholly dependent on rice as

@@ -10,9 +10,6 @@ export class PracticeData {
     ['VR15-CR',83,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0, 'Verbal Review 2015 - CR'],
     ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0, 'Verbal Review 2015 - SC'],
     ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0, 'Verbal Review 2015 - RC'],
-    ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0, 'Question Pack 1 - CR'],
-    ['QP1-SC',75,Status.ACTIVE, 'assets/practices/QP1/sc.txt',0, 'Question Pack 1 - SC'],
-    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0, 'Question Pack 1 - RC']
   ];
 
   static PREMIUM_DATA = [
@@ -22,6 +19,9 @@ export class PracticeData {
     ['VR17',45,Status.ACTIVE, 'assets/premium/vr17.txt',0, 'Verbal Review 2017'],
     ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0, 'Official Guide 2018'],
     ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0, 'Verbal Review 2018'],
+    ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0, 'Question Pack 1 - CR'],
+    ['QP1-SC',75,Status.ACTIVE, 'assets/practices/QP1/sc.txt',0, 'Question Pack 1 - SC'],
+    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0, 'Question Pack 1 - RC'],
   ];
 
   static COMPREHENSIVE_SC = [

@@ -811,9 +811,9 @@ The irradiation of food kills bacteria and thus retards spoilage. However, it al
 ---------------------------------
 #CR#102#E#10200
 One way to judge the performance of a company is to compare it with other companies. This technique, commonly called "benchmarking", permits the manager of a company to discover better industrial practices and can provide a justification for the adoption of good practices.<br><br>Any of the following, if true, is a valid reason for benchmarking the performance of a company against companies with which it is not in competition rather that against competitors <span style="font-weight: bold">EXCEPT</span>:
-(A) Comparisons with competitors are most likely to fous on practices that the manager making the comparisions already employs
+(A) Comparisons with competitors are most likely to focus on practices that the manager making the comparisons already employs
 (B) Getting "inside" information about the unique practices of competitors is particularly difficult
-(C) Since companies that compete with each other are likely to have cpmparable levels of efficiency, only benchmarking against noncompetitors is likely to reveal practices that would aid in beating competitors
+(C) Since companies that compete with each other are likely to have comparable levels of efficiency, only benchmarking against non-competitors is likely to reveal practices that would aid in beating competitors
 (D) Managers are generally more receptive to new ideas that they find outside their own industry
 (E) Much of the success of good companies is due to their adoption of practices that take advantage of the special circumstances of their products of markets
 ---------------------------------

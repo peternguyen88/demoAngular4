@@ -424,7 +424,7 @@ The technological conservatism of bicycle manufacturers is a reflection of the k
 (E) The authorities who set standards for high-performance bicycle racing do not keep informed about innovative bicycle design.
 ---------------------------------
 #CR#54 (Hard)#B#5400
-In a study conducted in Canada, servers in various restaurants wrote “Thank you" on randomly selected bills before presenting the bills to their customers. lips on these bills were an average of three percentage points higher than tips on bills without the message. Therefore, if servers in Canada regularly wrote “Thank you” on restaurant their average income from tips would be significantly higher than it otherwise would have been.<br><br>Which of the following is an assumption on which the argument relies?
+In a study conducted in Canada, servers in various restaurants wrote “Thank you" on randomly selected bills before presenting the bills to their customers. Tips on these bills were an average of three percentage points higher than tips on bills without the message. Therefore, if servers in Canada regularly wrote “Thank you” on restaurant their average income from tips would be significantly higher than it otherwise would have been.<br><br>Which of the following is an assumption on which the argument relies?
 (A) The “Thank you" messages would have the same impact on regular patrons of a restaurant as they would on occasional patrons of the same restaurant.
 (B) Regularly seeing “Thank you" written on their bills would not lead restaurant patrons to revert to their earlier tipping habits.
 (C) The written “Thank you" reminds restaurant patrons that tips constitute a significant part of the income of many food servers.

@@ -640,7 +640,7 @@ In an attempt to produce premium oysters, a firm in Scotland has developed a pro
 (E) farm that is sitting below the surface of the ocean and it provides
 ---------------------------------
 #SC#81#D#
-Because of wireless service costs plummeting in the last year, and as mobile phones are increasingly common, many people now using their mobile phones to make calls across a wide region at night and on weekends, when numerous wireless companies provide unlimited airtime for a relatively small monthly fee.
+<span style="text-decoration: underline">Because of wireless service costs plummeting in the last year, and as mobile phones are increasingly common, many people</span> now using their mobile phones to make calls across a wide region at night and on weekends, when numerous wireless companies provide unlimited airtime for a relatively small monthly fee.
 (A) Because of wireless service costs plummeting in the last year, and as mobile phones are increasingly common, many people
 (B) As the cost of wireless service plummeted in the last year and as mobile phones became increasingly common, many people
 (C) In the last year, with the cost of wireless service plummeting, and mobile phones have become increasingly common, there are many people

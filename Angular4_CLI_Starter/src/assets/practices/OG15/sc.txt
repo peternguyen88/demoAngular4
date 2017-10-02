@@ -952,12 +952,12 @@ George Sand (Aurore Lucile Dupin) was one of the first European writers to consi
 (E) legitimate subjects for literature and to portray them
 ---------------------------------
 #SC#120#C#12000
-The world wildlife fund has declared that global warming, <span style="text-decoration: underline">a phenomenon most scientsts agree to be caused by human beings in burning fossil fuels,</span> will create havoc among migratory birds by altering the enviroment in ways harmful to their habitats.
+The world wildlife fund has declared that global warming, <span style="text-decoration: underline">a phenomenon most scientists agree to be caused by human beings in burning fossil fuels,</span> will create havoc among migratory birds by altering the enviroment in ways harmful to their habitats.
 (A) a phenomenon most scientists agree to be caused by human beings in burning fossil fuels,
 (B) a phenomenon most scientists agree that is caused by fossil fuels burned by human beings,
-(C) a phenomenon that most scientists agree is caused by human beings's burning of fossil fuels
+(C) a phenomenon that most scientists agree is caused by human beings' burning of fossil fuels
 (D) which most scientists agree on as phenomenon caused by human beings who burn fossil fuels,
-(E) which most scientsts agree to be a phenomenon caused by fossil fuels burned by human beings
+(E) which most scientists agree to be a phenomenon caused by fossil fuels burned by human beings
 ---------------------------------
 #SC#121#B#12100
 New theories propose that catastrophic impacts of asteroids and comets may have caused reversals in the Earth’s magnetic field, the onset of ice ages, <span style="text-decoration: underline">splitting apart continents</span> 80 million years ago, and great volcanic eruptions.

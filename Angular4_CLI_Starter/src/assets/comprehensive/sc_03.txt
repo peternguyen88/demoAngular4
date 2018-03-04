@@ -264,8 +264,8 @@ Energy prices have tripled in the United States over the last two years, researc
 (E) that few people have significantly reduced the amount of driving they do or made
 ---------------------------------
 #SC#34#B#
-In 1914 a total of 469,000 cars and trucks were produced in the United States, but in 1929 almost twice  <span style="text-decoration: underline"> the numbers of tucks alone</span>  came off the assembly lines.
-(A) the numbers of tucks alone
+In 1914 a total of 469,000 cars and trucks were produced in the United States, but in 1929 almost twice  <span style="text-decoration: underline"> the numbers of trucks alone</span>  came off the assembly lines.
+(A) the numbers of trucks alone
 (B) that number of trucks alone
 (C) the number of trucks by themselves
 (D) as many trucks themselves

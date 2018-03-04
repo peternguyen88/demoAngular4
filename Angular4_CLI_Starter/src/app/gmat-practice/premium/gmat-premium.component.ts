@@ -12,7 +12,7 @@ import {PracticeData} from "../data/practice-sets";
 @Component({
   templateUrl: 'gmat-premium.component.html'
 })
-export class GMATPremiumComponent{
+export class GMATPremiumComponent {
   practiceSets: GMATPractice[];
   popupMessage: ConfirmMessage;
 
@@ -21,32 +21,34 @@ export class GMATPremiumComponent{
     this.practiceSets = PracticeData.getAllPremiumSets();
   }
 
-  selectPracticeSet(practice: GMATPractice){
+  selectPracticeSet(practice: GMATPractice) {
     // Have to login to use practice set
-    if(!this.webService.isLogin()){
-      this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
-      this.popupMessage.accept = () => {
-        this.webService.login();
-      };
-      return;
-    }
-    if(!this.webService.isUnlockFeature()){
-      this.popupMessage = ConfirmMessageConstant.PREMIUM_FEATURE_NOT_ENABLED;
-      return;
+    if (new Date().getTime() > new Date('Fri Jan 12 2018 23:59:59 GMT+0700 (SE Asia Standard Time)').getTime()) {
+      if (!this.webService.isLogin()) {
+        this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
+        this.popupMessage.accept = () => {
+          this.webService.login();
+        };
+        return;
+      }
+      if (!this.webService.isUnlockFeature()) {
+        this.popupMessage = ConfirmMessageConstant.PREMIUM_FEATURE_NOT_ENABLED;
+        return;
+      }
     }
     // Continue selecting practice
     this.practiceService.selectPracticeSet(practice);
   }
 
-  isSelectStage():boolean{
+  isSelectStage(): boolean {
     return this.practiceService.stage == Stage.SELECT;
   }
 
-  isSummaryStage():boolean{
+  isSummaryStage(): boolean {
     return this.practiceService.stage == Stage.SUMMARY;
   }
 
-  isPracticeStage():boolean{
+  isPracticeStage(): boolean {
     return this.practiceService.stage == Stage.PRACTICE;
   }
 }

@@ -320,7 +320,7 @@ Ecologist: The Scottish Highlands were once the site of extensive forests, but t
 (E) The first is a position for which the ecologist argues; the second provides evidence to support that position.
 ---------------------------------
 #CR#41#D#
-As a large corporation in a small country, Hachnut wants its managers to have international experience, so <strong>each year it sponsors management education abroad for its management trainees.</strong> Hachnut has found, however, that the attrition rate of graduates from this program is very high, with many of them leaving Hachnut to join competing firms soon after completing the program. Hachnut does use performance during the program as a criterion in deciding among candidates for management positions, but </strong>both this function and the goal of providing international experience could be achieved in other ways.</strong> Therefore, if the attrition problem cannot be successfully addressed, Hachnut should discontinue the sponsorship program.<br><br>In the argument given, the two boldfaced portions play which of the following roles?
+As a large corporation in a small country, Hachnut wants its managers to have international experience, so <strong>each year it sponsors management education abroad for its management trainees.</strong> Hachnut has found, however, that the attrition rate of graduates from this program is very high, with many of them leaving Hachnut to join competing firms soon after completing the program. Hachnut does use performance during the program as a criterion in deciding among candidates for management positions, but <strong>both this function and the goal of providing international experience could be achieved in other ways.</strong> Therefore, if the attrition problem cannot be successfully addressed, Hachnut should discontinue the sponsorship program.<br><br>In the argument given, the two boldfaced portions play which of the following roles?
 (A) The first describes a practice that the argument seeks to justify; the second states a judgment that is used in support of a justification for that practice.
 (B) The first describes a practice that the argument seeks to explain; the second presents part of the argument's explanation of that practice.
 (C) The first introduces a practice that the argument seeks to evaluate; the second provides grounds for holding that the practice cannot achieve its objective.
@@ -495,7 +495,7 @@ Fedora Convertibles began selling the Freewheeler - its newest convertible sport
 (D) Sales of similar models of cars are typically much higher in the summer months than at any other time of the year.
 (E) Freewheeler sales are important to meeting the sales goals of Fedora as a company.
 ---------------------------------
-#CR#63#A#
+#CR#63#B#
 Environmentalist: The use of snowmobiles in the vast park north of Milville creates unacceptable levels of air pollution and should be banned.<br><br>Milville business spokesperson: Snowmobiling brings many out-of-towners to Milville in winter months, to the great financial benefit of many local residents. So, economics dictate that we put up with the pollution.<br><br>Environmentalist: I disagree: A great many cross-country skiers are now kept from visiting Milville by the noise and pollution that snowmobiles generate.<br><br>Environmentalist responds to the business spokesperson by doing which of the following?
 (A) Challenging an assumption that certain desirable outcome can derive from only one set of circumstances
 (B) Challenging an assumption that certain desirable outcome is outweighed by negative aspects associated with producing that outcome
@@ -655,7 +655,7 @@ People who have spent a lot of time in contact with animals often develop animal
 (D) There is no occupation for which the risk of developing an animal-induced allergy is higher than 30 percent.
 (E) Among members of the general population who have spent as much time with animals as zoo employees typically have, the percentage with animal-induced allergies is significantly more than 30 percent.
 ---------------------------------
-#CR#83#D#
+#CR#83#E#
 Which of the following most logically completes the argument?<br><br>A certain cultivated herb is one of a group of closely related plants that thrive in soil with high concentrations of metals that are toxic to most other plants. Agronomists studying the herb have discovered that it produces large amounts of histidine, an amino acid that, in test-tube solutions, renders these metals chemically inert. Possibly, therefore, the herb's high histidine production is what allows it to grow in metal-rich soils, a hypothesis that would gain support if ___________.
 (A) histidine is found in all parts of the plant—roots, stem, leaves, and flowers
 (B) the herb's high level of histidine production is found to be associated with an unusually low level of production of other amino acids

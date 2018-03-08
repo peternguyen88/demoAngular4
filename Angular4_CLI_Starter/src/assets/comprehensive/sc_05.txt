@@ -496,7 +496,7 @@ Although the vast constellation of small islands that dot the South <span style=
 (E) Pacific, populated by only a few million people, yet they are
 ---------------------------------
 #SC#63#B#
-Meteor showers and individual streaks of light that flash across the sky every night are generated when tiny flecks of celestial detritus, often no larger than <span style="text-decoration: underline">grains of sand or of pebbles, burn UP speeding</span> through the atmosphere.
+Meteor showers and individual streaks of light that flash across the sky every night are generated when tiny flecks of celestial detritus, often no larger than <span style="text-decoration: underline">grains of sand or of pebbles, burn up speeding</span> through the atmosphere.
 (A) grains of sand or of pebbles, burn up speeding
 (B) grains of sand or pebbles, burn up while speeding
 (C) grains of sand or pebbles, which burn up while speeding
@@ -512,7 +512,7 @@ The Kwakiutl recognized one social unit larger than the tribe—the confederacy,
 (E) tribes, interacting among one another more often than with
 ---------------------------------
 #SC#65#A#
-<span style="text-decoration: underline">The United States will be affected by whether Taiwan develops a closer relationship with mainland China or preserves the status QUO</span>,since the island nation is the United States' seventh-largest trading partner.
+<span style="text-decoration: underline">The United States will be affected by whether Taiwan develops a closer relationship with mainland China or preserves the status quo</span>, since the island nation is the United States' seventh-largest trading partner.
 (A) The United States will be affected by whether Taiwan develops a closer relationship with mainland China or preserves the status quo
 (B) Whether or not Taiwan develops a closer relationship with mainland China or preserves the status quo affecting the United States
 (C) Whether or not Taiwan develops a closer relationship with mainland China or the status quo is preserved, it will affect the United States
@@ -601,7 +601,7 @@ The first detailed study of magpie attacks in Australia indicates that <span sty
 ---------------------------------
 #SC#76#C#
 Desert are inhabited <span style="text-decoration: underline">with several distinct animal species, with each their</span> own method of adapting to long periods of moisture shortage.
-(A) with several distinct animal species
+(A) with several distinct animal species, with each their
 (B) with distinctly several animal species, each with its
 (C) by several distinct animal species, each with its
 (D) by several distinct animal species, having each its
@@ -648,7 +648,7 @@ On August 13, 1868, the warship U. S. S. Wateree, anchored in the harbor of Aric
 (E) riding on the crest of a tsunami (seismic sea wave), it had come to rest in the Atacama Desert, which is
 ---------------------------------
 #SC#82#E#
-The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but News of these <span style="text-decoration: underline">Shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days</span> to reach Charleston, South Carolina.
+The first Shots of the American Revolution, fired at Lexington and Concord, Massachusetts, were, according to Legend, heard around the world, but news of these <span style="text-decoration: underline">shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days</span> to reach Charleston, South Carolina.
 (A) shots, which were sent by SWIFT Messenger, took four days in reaching New York City as well as another additional eleven days
 (B) shots that was sent by SWIFT Messenger took four days in order to reach New York City, and also another eleven days
 (C) shots that were sent by SWIFT Messenger took four days to reach New York City and another eleven days

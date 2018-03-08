@@ -144,7 +144,7 @@ The commission’s office of compliance, inspections, and investigations plans t
 (E) not only to investigate whether research is an independent function at brokerage firms, but also whether conflicts result when analysts own the stocks they write about or when
 ---------------------------------
 #SC#19#A#
-Several financial officers of the company spoke on condition  <span style="text-decoration: underline"> that they not be named</span>  in the press reports.
+Several financial officers of the company spoke on condition <span style="text-decoration: underline">that they not be named</span>  in the press reports.
 (A) that they not be named
 (B) that their names will not be used
 (C) that their names are not used
@@ -399,8 +399,8 @@ To meet the rapidly rising market demand for fish and seafood, suppliers are gro
 (D) they grow naturally, cutting their feed allotment
 (E) they grow naturally, with their feed allotment cut
 ---------------------------------
-#SC#51#C#
-Organized in 1966 by the Fish and Wildlife Service, the Breeding Bird Survey uses annual roadside counts along established routes <span style="text-decoration: underline">not, like more recently, motivated by complicated philosophical questions about the nature of matter and the universe, but the practical matters of navigation</span>: sailors simply needed more highly accurate timepieces in order to compute their longitude from the positions of the stars.
+#SC#51#E#
+In the sixteenth century, the push for greater precision in measuring time was <span style="text-decoration: underline">not, like more recently, motivated by complicated philosophical questions about the nature of matter and the universe, but the practical matters of navigation</span>: sailors simply needed more highly accurate timepieces in order to compute their longitude from the positions of the stars.
 (A) not, like more recently, motivated by complicated philosophical questions about the nature of matter and the universe, but the practical matters of navigation
 (B) being motivated by the practical matters of navigation, instead of complicated philosophical questions about the nature of matter and the universe, as it has been recently
 (C) motivated not by complicated philosophical questions about the nature of matter and the universe, like they were more recently, but by the practical matters of navigation
@@ -416,7 +416,7 @@ Organized in 1966 by the Fish and Wildlife Service, the Breeding Bird Survey use
 (E) It took less than the 35 years after the time that African honeybees were released outside Sao Paulo, Brazil, and then
 ---------------------------------
 #SC#53#C#
-<span style="text-decoration: underline">Nikola Tesla, the inventor of alternating current, because he was excited with the prospects of harnessing Niagara Falls for producing electric power,</span> he predicted in the mid-1890's that electricity generated at Niagara would one day power the streetcars of London and the streetlights of Paris.
+<span style="text-decoration: underline">Nikola Tesla, the inventor of alternating current, because he was excited with the prospects of harnessing Niagara Falls for producing electric power, he</span> predicted in the mid-1890's that electricity generated at Niagara would one day power the streetcars of London and the streetlights of Paris.
 (A) Nikola Tesla, the inventor of alternating current, because he was excited with the prospects of harnessing Niagara Falls for producing electric power, he
 (B) The prospects of harnessing Niagara Falls to produce electric power was exciting to Nikola Tesla, the inventor of alternating current, and so he
 (C) Excited about the prospects of harnessing Niagara Falls to produce electric power, Nikola Tesla, the inventor of alternating current,
@@ -440,7 +440,7 @@ The list of animals that <span style="text-decoration: underline">exhibits a pre
 (E) exhibit the preference as to either using the right or the left hand (i.e., claw, paw, or foot) has been expanded and includes
 ---------------------------------
 #SC#56#C#
-<span style="text-decoration: underline">The Achaemenid empire of Persia reached the Indus Valley in the fifth century B.C., bringing the Aramaic script with it. from which was derived both northern and</span> southern Indian alphabets.
+The Achaemenid empire of Persia reached the Indus Valley in the fifth century B.C., bringing <span style="text-decoration: underline">the Aramaic script with it. from which was derived both northern and</span> southern Indian alphabets.
 (A) the Aramaic script with it, from which was derived both northern and
 (B) the Aramaic script with it, and from which deriving both the northern and the
 (C) with it the Aramaic script, from which derive both the northern and the
@@ -504,7 +504,7 @@ The budget for education reflects the administration's demand that <span style="
 (E) local school districts are to be in control of the money, but it can only spend it
 ---------------------------------
 #SC#64#A#
-As a result of a supernova explosion, every human being on Earth was bombarded on February 23, 1987, by about 100 billion neutrinos; fortunately, <span style="text-decoration: underline">neutrinos are harmless elementary particles that</span> are produced in nuclear reactions and that interact very weakly with matter.
+As a result of a supernova explosion, every human being on Earth was bombarded on February 23, 1987, by about 100 billion neutrinos; fortunately, <span style="text-decoration: underline">neutrinos are harmless elementary particles that are produced in nuclear reactions and that</span> interact very weakly with matter.
 (A) neutrinos are harmless elementary particles that are produced in nuclear reactions and that
 (B) neutrinos, which are harmless, are elementary particles produced in nuclear reactions and which
 (C) neutrinos are harmless elementary particles produced in nuclear reactions and which

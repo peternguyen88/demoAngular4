@@ -45,7 +45,7 @@ The country of Ertland has never imported apples in any significant quantity bec
 (B) Consumers in Ertland tend to spend about the same proportion of their income on fresh fruits and vegetables as do consumers in Kosolia.
 (C) At times in the past, Ertland has exported significant quantities of apples to Kosolia.
 (D) Some varieties of apples grown in Kosolia can be harvested throughout most of the year, whereas the varieties grown in Ertland can be harvested only during two months of the year.
-(E) Profiles of Ertland-grown apples are high enough in Ertland that growers, wholesalers, and retailers there could easily afford to reduce the price at which these apples are sold.
+(E) Profit of Ertland-grown apples are high enough in Ertland that growers, wholesalers, and retailers there could easily afford to reduce the price at which these apples are sold.
 ---------------------------------
 #CR#7#B#
 As part of major renovations to Flowertown's Main Street train station, consultants to the train company proposed moving the station's entrance from its current valuable Main Street location to a low-rent adjoining side street and then leasing the high-rent entrance space to retail businesses. In that way, the train company could easily pay for those and all other proposed renovations without negative impact on its tight budget. <br><br>Which of the following, if true, would most strongly support the consultants' proposal?
@@ -183,7 +183,7 @@ The population of Megacity, a sprawling metropolis in Remsland, has grown at a f
 (D) The great majority of immigrants to Remsland settle in Megacity, at least initially.
 (E) Megacity has long offered better employment prospects than most rural areas.
 ---------------------------------
-#CR#24#C#
+#CR#24#D#
 Plant scientists have used genetic engineering on seeds to produce crop plants that are highly resistant to insect damage. <strong>Unfortunately, the seeds themselves are quite expensive, and the plants require more fertilizer and water to grow well than normal ones.</strong> Thus, for most farmers the savings on pesticides would not compensate for the higher seed costs and the cost of additional fertilizer. <strong>However, since consumer demand for grains, fruits, and vegetables grown without the use of pesticides continues to rise, the use of genetically engineered seeds of this kind is likely to become widespread.</strong><br><br>In the argument given, the two portions in boldface play which of the following roles?
 (A) The first supplies a context for the argument; the second is the argument's main conclusion.
 (B) The first introduces a development that the argument predicts will have a certain outcome; the second is a state of affairs that the argument denies will be part of that outcome.
@@ -552,7 +552,7 @@ Herbicides allow cereal crops to be grown very efficiently, with virtually no co
 (D) Birds other than partridges that live in or around cereal crop fields have also been suffering population declines.
 (E) The toxins contained in herbicides typically used on cereal crops can be readily identified in the tissues of animals that have ingested them.
 ---------------------------------
-#CR#70#C#
+#CR#70#B#
 A product that represents a clear technological advance over competing products can generally command a high price. <strong>Because technological advances tend to be quickly surpassed and companies want to make large profits while they still can, many companies charge the maximum possible price for such a product.</strong> But large profits on the new product will give competitors a strong incentive to quickly match the new product's capabilities. <strong>Consequently, the strategy to maximize overall profit from a new product is to charge less than the greatest possible price.</strong><br><br>In the argument above, the two portions in boldface play which of the following roles?
 (A) The first is a consideration that has been raised to argue that a certain strategy is counterproductive; the second presents that strategy.
 (B) The first is a consideration raised to support the strategy that the argument recommends; the second presents that strategy.

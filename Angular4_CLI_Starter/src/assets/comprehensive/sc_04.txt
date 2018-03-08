@@ -96,7 +96,7 @@ In 1945, after a career as First Lady in which she shattered expectations <span 
 (E) with an audacity never matched either in the case of Abigail Adams or of Dolly Madison's, Eleanor Roosevelt was appointed to be a delegate to the United Nations General Assembly by President Harry S Truman
 ---------------------------------
 #SC#13#A#
-An international team of <span style="text-decoration: underline">astronomers working at telescopes in the Canary Islands and Spain has detected at least 18 huge aas spheres estimated to have 5 to 15 times the mass of Jupiter,</span> the solar system's largest planet.
+An international team of <span style="text-decoration: underline">astronomers working at telescopes in the Canary Islands and Spain has detected at least 18 huge gas spheres estimated to have 5 to 15 times the mass of Jupiter,</span> the solar system's largest planet.
 (A) astronomers working at telescopes in the Canary Islands and Spain has detected at least 18 huge gas spheres estimated to have 5 to 15 times the mass of Jupiter
 (B) astronomers working at telescopes in the Canary Islands and Spain has detected at least 18 huge gas spheres estimated to be 5 to 15 times Jupiter's mass
 (C) astronomers is working at telescopes in the Canary Islands and Spain, having detected at least 18 huge gas spheres that are estimated at 5 to 15 times the mass of Jupiter
@@ -368,7 +368,7 @@ There is a widespread belief in the United States and Western Europe that young 
 (E) a lessening of the commitment to work and a career that their parents and grandparents had
 ---------------------------------
 #SC#47#E#
-A team of <span style="text-decoration: underline">scientists has recently provided evidence of Earth being bombarded daily with as many as 40.000 small comets, vaporizing in the upper atmosphere</span> to fall to Earth as rain.
+A team of scientists has recently provided evidence of <span style="text-decoration: underline">Earth being bombarded daily with as many as 40.000 small comets, vaporizing in the upper atmosphere to</span> fall to Earth as rain.
 (A) of Earth being bombarded daily with as many as 40,000 small comets, vaporizing in the upper atmosphere to
 (B) of Earth's being daily bombarded with as many as 40,000 small comets, vaporizing in the upper atmosphere and that
 (C) that as much or more than 40,000 small comets daily bombard Earth, vaporizing in the upper atmosphere, and
@@ -376,7 +376,7 @@ A team of <span style="text-decoration: underline">scientists has recently provi
 (E) that Earth is bombarded daily with as many as 40,000 small comets that vaporize in the upper atmosphere and
 ---------------------------------
 #SC#48#E#
-In an effort to increase profits, the company moved <span style="text-decoration: underline">itself from emphasizing its chemicals business to expand</span>into high-growth pharmaceuticals and futuristic biotechnologies.
+In an effort to increase profits, the company moved <span style="text-decoration: underline">itself from emphasizing its chemicals business to expand</span> into high-growth pharmaceuticals and futuristic biotechnologies.
 (A) itself from emphasizing its chemicals business to expand
 (B) itself from emphasizing its chemicals business then to expanding
 (C) from an emphasis on its chemicals business and to expanding

@@ -183,7 +183,7 @@ By merging its two publishing divisions, the company will increase <span style="
 (D) in its share, from 6 percent to 10 percent, of the $21 billion book market in the country, which ranges
 (E) to 10 percent from 6 percent its share of the country’s $21 billion book market, which ranges
 ---------------------------------
-#SC#24#B#
+#SC#24#C#
 A recent review of pay scales indicates <span style="text-decoration: underline">that CEO’s now earn an average of 419 times more pay than blue-collar workers, compared to a ratio of 42 times</span> in 1980.
 (A) that CEO’s now earn an average of 419 times more pay than blue-collar workers, compared to a ratio of 42 times
 (B) that, on average, CEO’s now earn 419 times the pay of blue-collar workers, a ratio that compares to 42 times
@@ -584,7 +584,7 @@ Fossils of a whale  <span style="text-decoration: underline"> that beached on an
 (E) The systematic clearing of forests in the United States not only created farmland (especially in the Northeast), giving consumers relatively inexpensive houses and furniture, but it
 ---------------------------------
 #SC#74#E#
-A New York City ordinance of 1897 regulated the use of bicycles, mandated a maximum speed of eight miles an hour, required of cyclists to keep feet on pedals and hands on handlebars at all times, and it granted pedestrians right-of-way.
+A New York City ordinance of 1897 <span style="text-decoration: underline">regulated the use of bicycles, mandated a maximum speed of eight miles an hour, required of cyclists to keep feet on pedals and hands on handlebars at all times, and it granted</span> pedestrians right-of-way.
 (A) regulated the use of bicycles, mandated a maximum speed of eight miles an hour, required of cyclists to keep feet on pedals and hands on handlebars at all times, and it granted
 (B) regulated the use of bicycles, mandated a maximum speed of eight miles an hour, required cyclists to keep feet on pedals and hands on handlebars at all times, granting
 (C) regulating the use of bicycles mandated a maximum speed of eight miles an hour, required cyclists that they keep feet on pedals and hands on handlebars at all times, and it granted

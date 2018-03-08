@@ -288,7 +288,7 @@ According to a 1996 survey by the National Association of College and University
 (E) as those charging
 ---------------------------------
 #SC#37#A#
-Discussion of greenhouse effects has usually focused on whether the Earth would warm and by how much, but climatologists have indicated all along that <span style="text-decoration: underline">the most obyious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess</span>.
+Discussion of greenhouse effects has usually focused on whether the Earth would warm and by how much, but climatologists have indicated all along that <span style="text-decoration: underline">the most obvious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess</span>.
 (A) the most obvious effects, and those that would have the largest impact on people, would be extremes of temperature, precipitation, and storminess
 (B) the effects that are the most obvious ones, extremes of temperature, precipitation, and storminess, would be those impacting the most on people
 (C) those effects to have the largest impact on people, extremes of temperature, precipitation, and storminess, are what are the most obvious effects
@@ -335,7 +335,7 @@ Recent findings lend strong support to the theory <span style="text-decoration: 
 (D) of a black hole lying at the Milky Way’s center and
 (E) of a black hole that lies at the center of the Milky Way and of
 ---------------------------------
-#SC#43#A#
+#SC#43#E#
 For many revisionist historians, Christopher Columbus has come to personify <span style="text-decoration: underline">devastation and enslavement in the name of progress that has decimated native peoples of the Western Hemisphere</span>.
 (A) devastation and enslavement in the name of progress that has decimated native peoples of the Western Hemisphere
 (B) devastation and enslavement in the name of progress by which native peoples of the Western Hemisphere decimated
@@ -471,7 +471,7 @@ The most vexing problem faced by researchers exploring wind-powered generation o
 (D) how to achieve a constant flow of power from an unpredictable natural source, but a flow that meets demand without overloading
 (E) how a constant flow of power from an unpredictable natural source can be achieved, which meets demand but does not overload
 ---------------------------------
-#SC#60#C#
+#SC#60#D#
 Responding to the public’s fascination with-and sometimes undue alarm over-possible threats from asteroids, <span style="text-decoration: underline">a scale developed by astronomers rates the likelihood that a particular asteroid or comet may</span> collide with Earth.
 (A) a scale developed by astronomers rates the likelihood that a particular asteroid or comet may
 (B) a scale that astronomers have developed rates how likely it is for a particular asteroid or comet to

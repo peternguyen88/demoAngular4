@@ -10,6 +10,7 @@ export class PracticeData {
     ['VR15-CR',83,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0, 'Verbal Review 2015 - CR'],
     ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0, 'Verbal Review 2015 - SC'],
     ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0, 'Verbal Review 2015 - RC'],
+    ['OG19',59,Status.ACTIVE, 'assets/premium/og19.txt',0, 'Official Guide 2019'],
   ];
 
   static PREMIUM_DATA = [

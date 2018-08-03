@@ -1,6 +1,6 @@
-@set PROJECT_DIR=D:\Personal\WebstormProjects\GMAT Test\Angular4_CLI_Starter
-@set FIREBASE_DIR=D:\Personal\WebstormProjects\Deployment\gmat-zero-to-hero.firebaseapp
-@set HEROKU_DIR=D:\Personal\WebstormProjects\Deployment\gmat-zero-to-hero.herokuapp
+@set PROJECT_DIR=D:\Codes\Angular\gmat\Angular4_CLI_Starter
+@set FIREBASE_DIR=D:\Codes\Angular\Deployment\gmat-zero-to-hero.firebaseapp
+@set HEROKU_DIR=D:\Codes\Angular\Deployment\gmat-zero-to-hero.herokuapp
 
 @echo ON
 cd /d %PROJECT_DIR%

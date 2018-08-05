@@ -33,6 +33,7 @@
             <div class="questionWrap" [ngClass]="{halfWidth: currentQuestion.isReadingComprehension(), fullWidth : !currentQuestion.isReadingComprehension()}">
               <div class="question">
                 <div [innerHTML]="currentQuestion.question_stem | safeHtml"></div>
+
               </div>
 
               <div style="margin-top: 10px;">

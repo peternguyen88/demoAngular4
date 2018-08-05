@@ -19,11 +19,13 @@ export class PracticeService{
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
+  cache : boolean = true;
 
   public selectPracticeSet(practiceSet: GMATPractice){
     this.currentPractice = practiceSet;
+
     // Try to load from Session Storage
-    if(sessionStorage.getItem(this.currentPractice.practiceName)){
+    if(sessionStorage.getItem(this.currentPractice.practiceName) && this.cache){
       PracticeData.processQuestionFile(this.currentPractice, sessionStorage.getItem(this.currentPractice.practiceName));
       this.loadSavedData();
     }

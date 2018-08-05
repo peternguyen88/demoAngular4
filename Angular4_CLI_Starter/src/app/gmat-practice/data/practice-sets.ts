@@ -1,6 +1,7 @@
 import {QuestionType, Status} from "../../models/constants.enum";
 import {GMATPractice} from "../../models/gmat-practice";
 import {Question} from "../../models/question";
+
 export class PracticeData {
   // Structure: 'practice name', 'number of questions', 'status', 'link to file', 'last time of major change in file'
   static DATA = [
@@ -11,6 +12,7 @@ export class PracticeData {
     ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0, 'Verbal Review 2015 - SC'],
     ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0, 'Verbal Review 2015 - RC'],
     ['OG19',59,Status.ACTIVE, 'assets/premium/og19.txt',0, 'Official Guide 2019'],
+    ['VR19',47,Status.ACTIVE, 'assets/premium/vr19.txt',0, 'Verbal Review 2019'],
   ];
 
   static PREMIUM_DATA = [
@@ -46,6 +48,17 @@ export class PracticeData {
     ['COM-RC-04',85,Status.ACTIVE, 'assets/comprehensive/rc_04.txt',0, 'RC Comprehensive - Part IV'],
   ];
 
+  static QUANTITATIVE = [
+    ['MR700-DS',97,Status.ACTIVE, 'assets/quant/mr700-ds.txt',0, 'Math Revolution - 700+ Level - DS'],
+  ];
+
+  static  DS_OPTIONS = [
+    "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+    "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+    "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient to answer the question asked.",
+    "EACH statement ALONE is sufficient to answer the question asked.",
+    "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data specific to the problem are needed.",
+  ];
 
   static practices:GMATPractice[];
 
@@ -93,6 +106,16 @@ export class PracticeData {
     return cr;
   }
 
+  public static getQuantitativeSets(): GMATPractice[]{
+    let quant = [];
+
+    PracticeData.QUANTITATIVE.forEach(e => {
+      quant.push(PracticeData.buildPractice(e));
+    });
+
+    return quant;
+  }
+
   public static getComprehensiveRC(): GMATPractice[]{
     let cr = [];
     PracticeData.COMPREHENSIVE_RC.forEach(e => {
@@ -130,6 +153,12 @@ export class PracticeData {
       else if(questionInfo[0] == "RC"){
         question.question_type = QuestionType.READING_COMPREHENSION;
       }
+      else if(questionInfo[0] == "DS"){
+        question.question_type = QuestionType.DATA_SUFFICIENCY;
+      }
+      else if(questionInfo[0] == "PS"){
+        question.question_type = QuestionType.PROBLEM_SOLVING;
+      }
 
       question.question_number = questionInfo[1];
       question.correct_answer = questionInfo[2];
@@ -142,17 +171,33 @@ export class PracticeData {
       }
 
       question.question_stem = lines[questionStemStart];
-      question.option_A = lines[questionStemStart+1].slice(4);
-      question.option_B = lines[questionStemStart+2].slice(4);
-      question.option_C = lines[questionStemStart+3].slice(4);
-      question.option_D = lines[questionStemStart+4].slice(4);
-      question.option_E = lines[questionStemStart+5].slice(4);
 
-      PracticeData.safeGuardQuestion(lines[questionStemStart+1]);
-      PracticeData.safeGuardQuestion(lines[questionStemStart+2]);
-      PracticeData.safeGuardQuestion(lines[questionStemStart+3]);
-      PracticeData.safeGuardQuestion(lines[questionStemStart+4]);
-      PracticeData.safeGuardQuestion(lines[questionStemStart+5]);
+      if(question.question_type == QuestionType.DATA_SUFFICIENCY){    // DS questions have no option
+        let firstDatum  = lines[questionStemStart + 1];
+        let secondDatum = lines[questionStemStart + 2];
+
+        question.question_stem += '<br><br>' + '(1) ' + firstDatum + '<br><br>' + '(2) '+secondDatum;
+
+        question.option_A = PracticeData.DS_OPTIONS[0];
+        question.option_B = PracticeData.DS_OPTIONS[1];
+        question.option_C = PracticeData.DS_OPTIONS[2];
+        question.option_D = PracticeData.DS_OPTIONS[3];
+        question.option_E = PracticeData.DS_OPTIONS[4];
+      }
+
+      else {
+        question.option_A = lines[questionStemStart + 1].slice(4);
+        question.option_B = lines[questionStemStart + 2].slice(4);
+        question.option_C = lines[questionStemStart + 3].slice(4);
+        question.option_D = lines[questionStemStart + 4].slice(4);
+        question.option_E = lines[questionStemStart + 5].slice(4);
+
+        PracticeData.safeGuardQuestion(lines[questionStemStart + 1]);
+        PracticeData.safeGuardQuestion(lines[questionStemStart + 2]);
+        PracticeData.safeGuardQuestion(lines[questionStemStart + 3]);
+        PracticeData.safeGuardQuestion(lines[questionStemStart + 4]);
+        PracticeData.safeGuardQuestion(lines[questionStemStart + 5]);
+      }
 
       questions.push(question);
     });

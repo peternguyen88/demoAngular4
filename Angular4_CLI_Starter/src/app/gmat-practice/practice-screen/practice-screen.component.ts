@@ -1,10 +1,10 @@
 /**
  * Display Test To User
  */
-import {Component, HostListener, Pipe, PipeTransform} from "@angular/core";
+import {AfterViewChecked, Component, HostListener, OnDestroy, Pipe, PipeTransform} from "@angular/core";
 import {Question} from "../../models/question";
 import {ConfirmMessage, ConfirmMessageConstant} from "../../models/confirm-message";
-import {PracticeMode} from "../../models/constants.enum";
+import {PracticeMode, QuestionType} from "../../models/constants.enum";
 import {DomSanitizer} from "@angular/platform-browser";
 import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeService} from "../services/gmat-practice.service";
@@ -12,13 +12,16 @@ import {Stage} from "../data/Model";
 import {UserQuestionReport} from "../../models/firebase.model";
 import {WebService} from "../../services/web-service";
 
+declare var renderMathInElement: any;
+
 @Component({
   moduleId: module.id,
   selector: 'gmat-practice-screen',
   templateUrl: 'practice-screen.component.html',
   styleUrls: ['practice-screen.component.css']
 })
-export class PracticeScreenComponent {
+
+export class PracticeScreenComponent implements AfterViewChecked{
   currentQuestion: Question;
   currentPractice: GMATPractice;
   popupMessage: ConfirmMessage;
@@ -27,10 +30,21 @@ export class PracticeScreenComponent {
   isHotKeyDisabled: boolean = false;
   isShowingNote = false;
 
+  updateMathContent: boolean = false;
+  questionChangeDetected = false;
+
   constructor(public practiceService: PracticeService, private webService: WebService) {
-    this.currentQuestion = this.practiceService.getCurrentQuestion();
+    this.updateCurrentQuestion(this.practiceService.getCurrentQuestion());
     this.currentPractice = this.practiceService.currentPractice;
     this.practiceMode = this.practiceService.practiceMode;
+  }
+
+  private updateCurrentQuestion(question : Question) {
+    this.currentQuestion = question;
+    if(this.currentQuestion.question_type == QuestionType.DATA_SUFFICIENCY || this.currentQuestion.question_type == QuestionType.PROBLEM_SOLVING){
+      this.updateMathContent = true;
+    }
+    this.questionChangeDetected = true;
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -56,7 +70,7 @@ export class PracticeScreenComponent {
 
   public prev() {
     this.practiceService.prev();
-    this.currentQuestion = this.practiceService.getCurrentQuestion();
+    this.updateCurrentQuestion(this.practiceService.getCurrentQuestion());
     this.showCorrectAnswer = false;
     if(!this.currentQuestion.selected_answer){
       this.isShowingNote = false;
@@ -66,7 +80,7 @@ export class PracticeScreenComponent {
   public next() {
     if(!this.practiceService.isLastQuestion()) {
       this.practiceService.next();
-      this.currentQuestion = this.practiceService.getCurrentQuestion();
+      this.updateCurrentQuestion(this.practiceService.getCurrentQuestion());
       this.showCorrectAnswer = false;
       if(!this.currentQuestion.selected_answer){
         this.isShowingNote = false;
@@ -142,6 +156,11 @@ export class PracticeScreenComponent {
     if(this.practiceService.stage == Stage.PRACTICE) {
       this.practiceService.endPractice();
     }
+  }
+
+  ngAfterViewChecked (): void {
+    if(this.updateMathContent && this.questionChangeDetected)
+      renderMathInElement(document.getElementById('section'));
   }
 }
 

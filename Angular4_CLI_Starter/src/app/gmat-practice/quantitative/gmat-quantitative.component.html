@@ -1,0 +1,30 @@
+<div *ngIf="isSelectStage()">
+  <div class="card">
+    <div class="card-header">
+      <h5>Choose Your Practice Set</h5>
+    </div>
+
+    <div class="card-block">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let practice of quantPracticeSets">
+          <div class="card card-inverse card-primary">
+            <div class="card-block pb-0 btn-primary" style="cursor: pointer;" (click)="selectPracticeSet(practice)">
+              <h4 class="mb-0">{{practice.practiceName}}</h4>
+              <p>{{practice.numberOfQuestions}} Questions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <confirm-dialog [popupMessage]="popupMessage" (close)="popupMessage = null;"></confirm-dialog>
+</div>
+
+<div *ngIf="isSummaryStage()">
+  <gmat-practice-summary></gmat-practice-summary>
+</div>
+
+<div *ngIf="isPracticeStage()">
+  <gmat-practice-screen></gmat-practice-screen>
+</div>

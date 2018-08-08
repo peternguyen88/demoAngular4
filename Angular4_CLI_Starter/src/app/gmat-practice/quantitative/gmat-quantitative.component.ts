@@ -23,13 +23,13 @@ export class GmatQuantitativeComponent{
 
   selectPracticeSet(practice: GMATPractice){
     // Have to login to use practice set
-    // if(!this.webService.isLogin()){
-    //   this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
-    //   this.popupMessage.accept = () => {
-    //     this.webService.login();
-    //   };
-    //   return;
-    // }
+    if(practice.practiceName.startsWith('IS') && !this.webService.isLogin()){
+      this.popupMessage = ConfirmMessageConstant.PLEASE_LOGIN_TO_CONTINUE;
+      this.popupMessage.accept = () => {
+        this.webService.login();
+      };
+      return;
+    }
 
     // if(!this.webService.isStudent()){
     //   this.popupMessage = ConfirmMessageConstant.STUDENT_ACCESS_ONLY;

@@ -8,7 +8,7 @@ The passage is primarily concerned with
 (D) analyzing the impact on later life-forms of an important evolutionary development 
 (E) contrasting a period of evolutionary change with other such periods 
 ---------------------------------
-#RC#2 (P1 - 2)#B200
+#RC#2 (P1 - 2)#B#200
 The dry mountain ranges of the western United States contain rocks dating back 440 to 510 million years, to the Ordovician period, and teeming with evidence of tropical marine life. This rock record provides clues about one of the most significant radiations (periods when existing life-forms gave rise to variations that would eventually evolve into entirely new species) in the history of marine invertebrates. During this radiation the number of marine biological families increased greatly, and these families included species that would dominate the marine ecosystems of the area for the next 215 million years. Although the radiation spanned tens of millions of years, major changes in many species occurred during a geologically short time span within the radiation and, furthermore, appear to have occurred worldwide, suggesting that external events were major factors in the radiation. And , in fact, there is evidence of major ecological and geological changes during this period: the sea level dropped drastically and mountain ranges were formed, in this instance, rather than leading to large-scale extinctions, these kinds of environmental changes may have resulted in an enriched pattern of habitats and nutrients, which in turn gave rise to the Ordovician radiation. However, the actual relationship between these environmental factors and the diversification of life forms is not yet fully understood
 Which of the following can be inferred from the passage regarding the geologic changes that occurred during Ordovician period?
 (A) They were more drastic than those associated with other radiations.
@@ -359,7 +359,7 @@ The reason many people consider the Mediterranean island to be ungovernable <spa
 (D) is that the inhabitants long ago learned to distrust and to neutralize
 (E) was on account of the inhabitants long ago learning to distrust and neutralize
 ---------------------------------
-#SC#43#D#100
+#SC#43#C#100
 The completion in 1925 of the Holland <span style="text-decoration: underline">Tunnel, linking Manhattan with New Jersey’s highways, which permitted 2,000 cars to pass through each tube every hour and</span> was hailed as the decade’s $48 million engineering masterpiece.
 (A) Tunnel, linking Manhattan with New Jersey’s highways, which permitted 2,000 cars to pass through each tube every hour and
 (B) Tunnel, linking Manhattan with New Jersey’s highways and permitting 2,000 cars to pass through each tube every hour, it

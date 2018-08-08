@@ -1,4 +1,4 @@
-####75####MR700-DS
+####97####MR700-DS
 #DS#1#C#
 If \(a \leq b \leq c \leq d\) is \(a \geq 20\)?
 \(a + b + c + d =170 \)
@@ -147,7 +147,7 @@ The range of attendees of 3 the performances is 39
 #DS#30#C#
 In a certain company, the average (arithmetic mean) salary of finance executives is $\(x\) and the average (arithmetic mean) salary of marketing executives is $\(y\). Is the average (arithmetic mean) salary of finance executives and marketing executives combined greater than $\(\frac{x+y}{2}\)?
 The number of the finance executives is less than the number of the marketing executives.
-\(x\) is $10,000 less than \(y).
+\(x\) is $10,000 less than \(y\).
 ---------------------------------
 #DS#31#B#
 If the median of 3 positive integers is 6, is the average (arithmetic mean) of the integers greater than 6?

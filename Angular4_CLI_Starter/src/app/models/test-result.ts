@@ -43,7 +43,7 @@ export class PracticeResult {
 
   public static mergeResult(result: PracticeResult, practice: GMATPractice) : void{
     for(let i = 0; i < practice.questions.length; i++){
-      if(practice.questions[i].selected_answer){
+      if(practice.questions[i] && practice.questions[i].selected_answer){
         result.questions[i].selected_answer = practice.questions[i].selected_answer;
         result.questions[i].question_time = practice.questions[i].question_time;
         result.questions[i].is_correct = practice.questions[i].isCorrect();

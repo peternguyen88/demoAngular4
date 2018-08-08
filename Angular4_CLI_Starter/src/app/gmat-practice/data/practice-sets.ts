@@ -49,7 +49,10 @@ export class PracticeData {
   ];
 
   static QUANTITATIVE = [
+    ['MR700-PS',53,Status.ACTIVE, 'assets/quant/mr700-ps.txt',0, 'Math Revolution - 700+ Level - PS'],
     ['MR700-DS',97,Status.ACTIVE, 'assets/quant/mr700-ds.txt',0, 'Math Revolution - 700+ Level - DS'],
+    ['IS-S1-I',111,Status.ACTIVE, 'assets/quant/is/is-s1-I.txt',0, 'Ian Stewart - Set 1 - Part I'],
+    ['IS-S1-II',111,Status.ACTIVE, 'assets/quant/is/is-s1-II.txt',0, 'Ian Stewart - Set 1 - Part II'],
   ];
 
   static  DS_OPTIONS = [
@@ -186,17 +189,19 @@ export class PracticeData {
       }
 
       else {
-        question.option_A = lines[questionStemStart + 1].slice(4);
-        question.option_B = lines[questionStemStart + 2].slice(4);
-        question.option_C = lines[questionStemStart + 3].slice(4);
-        question.option_D = lines[questionStemStart + 4].slice(4);
-        question.option_E = lines[questionStemStart + 5].slice(4);
+        let sliceLength = lines[questionStemStart + 1].startsWith('(A)') ? 4 : 3;
 
-        PracticeData.safeGuardQuestion(lines[questionStemStart + 1]);
-        PracticeData.safeGuardQuestion(lines[questionStemStart + 2]);
-        PracticeData.safeGuardQuestion(lines[questionStemStart + 3]);
-        PracticeData.safeGuardQuestion(lines[questionStemStart + 4]);
-        PracticeData.safeGuardQuestion(lines[questionStemStart + 5]);
+        question.option_A = lines[questionStemStart + 1].slice(sliceLength);
+        question.option_B = lines[questionStemStart + 2].slice(sliceLength);
+        question.option_C = lines[questionStemStart + 3].slice(sliceLength);
+        question.option_D = lines[questionStemStart + 4].slice(sliceLength);
+        question.option_E = lines[questionStemStart + 5].slice(sliceLength);
+
+        // PracticeData.safeGuardQuestion(lines[questionStemStart + 1]);
+        // PracticeData.safeGuardQuestion(lines[questionStemStart + 2]);
+        // PracticeData.safeGuardQuestion(lines[questionStemStart + 3]);
+        // PracticeData.safeGuardQuestion(lines[questionStemStart + 4]);
+        // PracticeData.safeGuardQuestion(lines[questionStemStart + 5]);
       }
 
       questions.push(question);
@@ -206,9 +211,9 @@ export class PracticeData {
     practice.questions = questions;
   }
 
-  static safeGuardQuestion(option: string){
-    if(option.slice(3,4) != " "){
-      console.log("Issue:"+option);
-    }
-  }
+  // static safeGuardQuestion(option: string){
+  //   if(option.slice(3,4) != " "){
+  //     console.log("Issue:"+option);
+  //   }
+  // }
 }

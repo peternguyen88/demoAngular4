@@ -1,5 +1,6 @@
 import {Status} from "./constants.enum";
 import {Question} from "./question";
+
 export class GMATPractice {
   numberOfQuestions: number;
   practiceName: string;
@@ -7,8 +8,14 @@ export class GMATPractice {
   status: Status;
   fileLocation: string;
   questions: Question[] = [];
+  hasExplanation: boolean;
+  allowedTime : number;
 
-  isActive():boolean{
-    return this.status == Status.ACTIVE;
+  isTest():boolean{
+    return this.status == Status.TEST;
+  }
+
+  getExplanationLocation() : string{
+    return this.fileLocation.substring(0, this.fileLocation.lastIndexOf(".")) + "-explanation" + this.fileLocation.substring(this.fileLocation.lastIndexOf("."));
   }
 }

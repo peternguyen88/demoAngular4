@@ -3,56 +3,61 @@ import {GMATPractice} from "../../models/gmat-practice";
 import {Question} from "../../models/question";
 
 export class PracticeData {
-  // Structure: 'practice name', 'number of questions', 'status', 'link to file', 'last time of major change in file'
+  // Structure: 'practice name', 'number of questions', 'status', 'link to file', 'last time of major change in file', 'name', 'has explanation'
   static DATA = [
-    ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt',0, 'Official Guide 2015 - CR'],
-    ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt',0, 'Official Guide 2015 - SC'],
-    ['OG15-RC',144,Status.ACTIVE, 'assets/practices/OG15/rc.txt',0, 'Official Guide 2015 - RC'],
-    ['VR15-CR',83,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0, 'Verbal Review 2015 - CR'],
-    ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0, 'Verbal Review 2015 - SC'],
-    ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0, 'Verbal Review 2015 - RC'],
-    ['OG19',59,Status.ACTIVE, 'assets/premium/og19.txt',0, 'Official Guide 2019'],
-    ['VR19',47,Status.ACTIVE, 'assets/premium/vr19.txt',0, 'Verbal Review 2019'],
+    ['OG15-CR',124,Status.ACTIVE, 'assets/practices/OG15/cr.txt',0, 'Official Guide 2015 - CR', false],
+    ['OG15-SC',140,Status.ACTIVE, 'assets/practices/OG15/sc.txt',0, 'Official Guide 2015 - SC', false],
+    ['OG15-RC',144,Status.ACTIVE, 'assets/practices/OG15/rc.txt',0, 'Official Guide 2015 - RC', false],
+    ['VR15-CR',83,Status.ACTIVE, 'assets/practices/VR15/cr.txt',0, 'Verbal Review 2015 - CR', false],
+    ['VR15-SC',144,Status.ACTIVE, 'assets/practices/VR15/sc.txt',0, 'Verbal Review 2015 - SC', false],
+    ['VR15-RC',104,Status.ACTIVE, 'assets/practices/VR15/rc.txt',0, 'Verbal Review 2015 - RC', false],
+    ['OG19',59,Status.ACTIVE, 'assets/premium/og19.txt',0, 'Official Guide 2019', false],
+    ['VR19',47,Status.ACTIVE, 'assets/premium/vr19.txt',0, 'Verbal Review 2019', false],
   ];
 
   static PREMIUM_DATA = [
-    ['OG16',102,Status.ACTIVE, 'assets/premium/og16.txt',0, 'Official Guide 2016'],
-    ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0, 'Verbal Review 2016'],
-    ['OG17',61,Status.ACTIVE, 'assets/premium/og17.txt',0, 'Official Guide 2017'],
-    ['VR17',45,Status.ACTIVE, 'assets/premium/vr17.txt',0, 'Verbal Review 2017'],
-    ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0, 'Official Guide 2018'],
-    ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0, 'Verbal Review 2018'],
-    ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0, 'Question Pack 1 - CR'],
-    ['QP1-SC',75,Status.ACTIVE, 'assets/practices/QP1/sc.txt',0, 'Question Pack 1 - SC'],
-    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0, 'Question Pack 1 - RC'],
+    ['OG16',102,Status.ACTIVE, 'assets/premium/og16.txt',0, 'Official Guide 2016', false],
+    ['VR16',76,Status.ACTIVE, 'assets/premium/vr16.txt',0, 'Verbal Review 2016', false],
+    ['OG17',61,Status.ACTIVE, 'assets/premium/og17.txt',0, 'Official Guide 2017', false],
+    ['VR17',45,Status.ACTIVE, 'assets/premium/vr17.txt',0, 'Verbal Review 2017', false],
+    ['OG18',61,Status.ACTIVE, 'assets/premium/og18.txt',0, 'Official Guide 2018', false],
+    ['VR18',42,Status.ACTIVE, 'assets/premium/vr18.txt',0, 'Verbal Review 2018', false],
+    ['QP1-CR',75,Status.ACTIVE, 'assets/practices/QP1/cr.txt',0, 'Question Pack 1 - CR', false],
+    ['QP1-SC',75,Status.ACTIVE, 'assets/practices/QP1/sc.txt',0, 'Question Pack 1 - SC', false],
+    ['QP1-RC',75,Status.ACTIVE, 'assets/practices/QP1/rc.txt',0, 'Question Pack 1 - RC', false],
   ];
 
   static COMPREHENSIVE_SC = [
-    ['COM-SC-01',84,Status.ACTIVE, 'assets/comprehensive/sc_01.txt',0, 'SC Comprehensive - Part I'],
-    ['COM-SC-02',84,Status.ACTIVE, 'assets/comprehensive/sc_02.txt',0, 'SC Comprehensive - Part II'],
-    ['COM-SC-03',84,Status.ACTIVE, 'assets/comprehensive/sc_03.txt',0, 'SC Comprehensive - Part III'],
-    ['COM-SC-04',84,Status.ACTIVE, 'assets/comprehensive/sc_04.txt',0, 'SC Comprehensive - Part IV'],
-    ['COM-SC-05',83,Status.ACTIVE, 'assets/comprehensive/sc_05.txt',0, 'SC Comprehensive - Part V'],
+    ['COM-SC-01',84,Status.ACTIVE, 'assets/comprehensive/sc_01.txt',0, 'SC Comprehensive - Part I', false],
+    ['COM-SC-02',84,Status.ACTIVE, 'assets/comprehensive/sc_02.txt',0, 'SC Comprehensive - Part II', false],
+    ['COM-SC-03',84,Status.ACTIVE, 'assets/comprehensive/sc_03.txt',0, 'SC Comprehensive - Part III', false],
+    ['COM-SC-04',84,Status.ACTIVE, 'assets/comprehensive/sc_04.txt',0, 'SC Comprehensive - Part IV', false],
+    ['COM-SC-05',83,Status.ACTIVE, 'assets/comprehensive/sc_05.txt',0, 'SC Comprehensive - Part V', false],
   ];
 
   static COMPREHENSIVE_CR = [
-    ['COM-CR-01',86,Status.ACTIVE, 'assets/comprehensive/cr_01.txt',0, 'CR Comprehensive - Part I'],
-    ['COM-CR-02',86,Status.ACTIVE, 'assets/comprehensive/cr_02.txt',0, 'CR Comprehensive - Part II'],
-    ['COM-CR-03',85,Status.ACTIVE, 'assets/comprehensive/cr_03.txt',0, 'CR Comprehensive - Part III'],
+    ['COM-CR-01',86,Status.ACTIVE, 'assets/comprehensive/cr_01.txt',0, 'CR Comprehensive - Part I', false],
+    ['COM-CR-02',86,Status.ACTIVE, 'assets/comprehensive/cr_02.txt',0, 'CR Comprehensive - Part II', false],
+    ['COM-CR-03',85,Status.ACTIVE, 'assets/comprehensive/cr_03.txt',0, 'CR Comprehensive - Part III', false],
   ];
 
   static COMPREHENSIVE_RC = [
-    ['COM-RC-01',88,Status.ACTIVE, 'assets/comprehensive/rc_01.txt',0, 'RC Comprehensive - Part I'],
-    ['COM-RC-02',88,Status.ACTIVE, 'assets/comprehensive/rc_02.txt',0, 'RC Comprehensive - Part II'],
-    ['COM-RC-03',89,Status.ACTIVE, 'assets/comprehensive/rc_03.txt',0, 'RC Comprehensive - Part III'],
-    ['COM-RC-04',85,Status.ACTIVE, 'assets/comprehensive/rc_04.txt',0, 'RC Comprehensive - Part IV'],
+    ['COM-RC-01',88,Status.ACTIVE, 'assets/comprehensive/rc_01.txt',0, 'RC Comprehensive - Part I', false],
+    ['COM-RC-02',88,Status.ACTIVE, 'assets/comprehensive/rc_02.txt',0, 'RC Comprehensive - Part II', false],
+    ['COM-RC-03',89,Status.ACTIVE, 'assets/comprehensive/rc_03.txt',0, 'RC Comprehensive - Part III', false],
+    ['COM-RC-04',85,Status.ACTIVE, 'assets/comprehensive/rc_04.txt',0, 'RC Comprehensive - Part IV', false],
   ];
 
   static QUANTITATIVE = [
-    ['MR700-PS',53,Status.ACTIVE, 'assets/quant/mr700-ps.txt',0, 'Math Revolution - 700+ Level - PS'],
-    ['MR700-DS',97,Status.ACTIVE, 'assets/quant/mr700-ds.txt',0, 'Math Revolution - 700+ Level - DS'],
-    ['IS-S1-I',111,Status.ACTIVE, 'assets/quant/is/is-s1-I.txt',0, 'Ian Stewart - Set 1 - Part I'],
-    ['IS-S1-II',111,Status.ACTIVE, 'assets/quant/is/is-s1-II.txt',0, 'Ian Stewart - Set 1 - Part II'],
+    ['MR700-PS',53,Status.ACTIVE, 'assets/quant/mr700-ps.txt',0, 'Math Revolution - 700+ Level - PS', false],
+    ['MR700-DS',97,Status.ACTIVE, 'assets/quant/mr700-ds.txt',0, 'Math Revolution - 700+ Level - DS', false],
+    ['IS-S1-I',111,Status.ACTIVE, 'assets/quant/is/is-s1-I.txt',0, 'Ian Stewart - Set 1 - Part I', false],
+    ['IS-S1-II',111,Status.ACTIVE, 'assets/quant/is/is-s1-II.txt',0, 'Ian Stewart - Set 1 - Part II', false],
+  ];
+
+  static GMATCLUB_QUANT_TESTS = [
+    ['GMC-01',31,Status.TEST, 'assets/tests/quant-tests/gcm-01.txt',0, 'GMAT Club Quant Test 01', true],
+    ['GMC-02',31,Status.TEST, 'assets/tests/quant-tests/gcm-02.txt',0, 'GMAT Club Quant Test 02', true],
   ];
 
   static  DS_OPTIONS = [
@@ -119,6 +124,16 @@ export class PracticeData {
     return quant;
   }
 
+  public static getGMATClubTests(): GMATPractice[]{
+    let quant = [];
+
+    PracticeData.GMATCLUB_QUANT_TESTS.forEach(e => {
+      quant.push(PracticeData.buildPractice(e));
+    });
+
+    return quant;
+  }
+
   public static getComprehensiveRC(): GMATPractice[]{
     let cr = [];
     PracticeData.COMPREHENSIVE_RC.forEach(e => {
@@ -135,11 +150,19 @@ export class PracticeData {
     practice.fileLocation = e[3] as string;
     if(e.length >= 5)
       practice.practiceFullName = e[5] as string;
+    practice.hasExplanation = e[6] as boolean;
     return practice;
   }
 
   public static processQuestionFile(practice:GMATPractice, fileContent:string){
     let questions : Question[] = [];
+
+    let headers : string[] = fileContent.substring(0, fileContent.indexOf("\n")).split("####");
+    if(headers.length >= 5){
+      let maxTime :number = parseInt(headers[4]);
+      practice.allowedTime = maxTime * 60;
+    }
+
     let data = fileContent.slice(fileContent.indexOf("\n")).split("---------------------------------").filter(e => e.trim() != "");
 
     data.forEach(e => {
@@ -196,12 +219,6 @@ export class PracticeData {
         question.option_C = lines[questionStemStart + 3].slice(sliceLength);
         question.option_D = lines[questionStemStart + 4].slice(sliceLength);
         question.option_E = lines[questionStemStart + 5].slice(sliceLength);
-
-        // PracticeData.safeGuardQuestion(lines[questionStemStart + 1]);
-        // PracticeData.safeGuardQuestion(lines[questionStemStart + 2]);
-        // PracticeData.safeGuardQuestion(lines[questionStemStart + 3]);
-        // PracticeData.safeGuardQuestion(lines[questionStemStart + 4]);
-        // PracticeData.safeGuardQuestion(lines[questionStemStart + 5]);
       }
 
       questions.push(question);
@@ -211,9 +228,13 @@ export class PracticeData {
     practice.questions = questions;
   }
 
-  // static safeGuardQuestion(option: string){
-  //   if(option.slice(3,4) != " "){
-  //     console.log("Issue:"+option);
-  //   }
-  // }
+  public static processExplanationFile(practice:GMATPractice, fileContent:string){
+    let data = fileContent.slice(fileContent.indexOf("\n")).split("---------------------------------").filter(e => e.trim() != "");
+
+    let index = 0;
+    data.forEach(e => {
+      let explanation = e.trim();
+      practice.questions[index++].question_explanation = explanation.slice(explanation.indexOf("\n") + 1);
+    });
+  }
 }

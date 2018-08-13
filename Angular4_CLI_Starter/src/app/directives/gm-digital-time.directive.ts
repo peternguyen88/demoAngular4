@@ -15,9 +15,11 @@ export class DigitalTimeDirective{
   }
 
   public static convertTimeToString(time : number) : string{
+    let sign = time >= 0 ? '' : '- ';
+    time = Math.abs(time);
     let minute = Math.floor(time / 60);
     let second = time % 60;
-    return DigitalTimeDirective.padLeft2Number(minute) +":"+DigitalTimeDirective.padLeft2Number(second);
+    return sign + DigitalTimeDirective.padLeft2Number(minute) +":"+DigitalTimeDirective.padLeft2Number(second);
   }
 
   private static padLeft2Number(n : number) : string{

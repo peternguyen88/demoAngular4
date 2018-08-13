@@ -14,12 +14,13 @@ import {PracticeScreenComponent, SafeHtmlPipe, TruncatePipe} from "./practice-sc
 import {GMATPremiumComponent} from "./premium/gmat-premium.component";
 import {GMATComprehensiveComponent} from "./comprehensive/gmat-comprehensive.component";
 import {GmatQuantitativeComponent} from "./quantitative/gmat-quantitative.component";
+import {GmatClubTestComponent} from "./gmatclub-test/gmat-club-test.component";
 
 @NgModule({
   imports: [CommonModule, GmatCommonModule,
     GMATPracticeRoutingModule, FormsModule],
   declarations: [GMATPracticeComponent, GMATPracticeListComponent, GMATPracticeSummaryComponent, PracticeScreenComponent, SafeHtmlPipe, TruncatePipe,
-    GMATPremiumComponent, GMATComprehensiveComponent, GmatQuantitativeComponent],
+    GMATPremiumComponent, GMATComprehensiveComponent, GmatQuantitativeComponent, GmatClubTestComponent],
   providers: [PracticeService]
 })
 

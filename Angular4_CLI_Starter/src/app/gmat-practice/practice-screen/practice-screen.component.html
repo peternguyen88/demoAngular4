@@ -11,9 +11,10 @@
           <span>{{currentQuestion.question_number}} of {{currentPractice.numberOfQuestions}}</span>
         </div>
         <div class="control timer" *ngIf="!isReview()">
-          <span class="title">Time Spent</span>
+          <span class="title">{{currentPractice.isTest() ? 'Time Remain' : 'Time Spent'}}</span>
           <i class="icons icon-clock" style="padding-left: 5px;"></i>
-          <span class="time" gm-digital-time [time]="practiceService.elapsedTime"></span>
+          <span class="time" gm-digital-time [time]="practiceService.elapsedTime" *ngIf="!currentPractice.isTest()"></span>
+          <span class="time" gm-digital-time [time]="currentPractice.allowedTime - practiceService.elapsedTime" *ngIf="currentPractice.isTest()"></span>
         </div>
         <a *ngIf="!isReview()" class="nextBtn testPause" (click)="pauseOrResume()">{{practiceService.isPaused? 'RESUME' : 'PAUSE'}} <i class="fa fa-star-half-o"></i></a>
 
@@ -25,7 +26,7 @@
       </div>
 
 
-      <div class="whiteBG" [style.bottom]="isShowingNote ? '185px' : '62px'">
+      <div class="whiteBG" [style.bottom]="isShowingNote || isShowingExplanation ? '280px' : '62px'">
         <div id="section">
           <div class="content" style="display: inline-block">
             <div class="passage" [innerHTML]="currentQuestion.reading_passage | safeHtml" *ngIf="currentQuestion.isReadingComprehension()" style="width: 50%;">
@@ -82,7 +83,11 @@
       </div>
 
       <div id="questionNote" *ngIf="isShowingNote">
-        <textarea style="width: 100%;resize:horizontal; padding: 0 5px;" rows="5" (blur)="enableHotKey()" (focus)="disableHotKey()" [(ngModel)]="currentQuestion.remarks" maxlength="800"></textarea>
+        <textarea style="height:205px; width: 100%;resize:horizontal; padding: 0 5px;" rows="5" (blur)="enableHotKey()" (focus)="disableHotKey()" [(ngModel)]="currentQuestion.remarks" maxlength="800"></textarea>
+      </div>
+
+      <div id="questionExplanation" *ngIf="isShowingExplanation">
+        <div class="content" style="height:193px; width: 100%;resize:horizontal; padding: 5px 5px;" [innerHTML]="currentQuestion.question_explanation | safeHtml"></div>
       </div>
 
       <div id="setUp">
@@ -91,6 +96,9 @@
         <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="reportQuestion()"><i class="fa fa-exclamation-circle"></i>&nbsp; Report</button>
         <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleNote()" *ngIf="isReview()" [class.hasNote]="currentQuestion.hasNote()"
                 [disabled]="!currentQuestion.selected_answer"><i class="fa fa-pencil-square-o"></i>&nbsp; Note</button>
+
+        <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleExplanation()" *ngIf="isReview()">
+                <i class="fa fa-file-text-o"></i>&nbsp; Show Explanation</button>
       </div>
 
       <div id="footer">
@@ -98,7 +106,7 @@
         <a class="endExamBtn" (click)="end()" *ngIf="!isReview()"><i class="fa fa-close"></i> End Practice</a>
 
         <div class="nextBtn">
-          <a (click)="prev()" [ngClass]="{disabled: practiceService.isFirstQuestion()}" style="margin-right: 10px;"><i class="fa fa-arrow-left"> Previous</i></a>
+          <a (click)="prev()" [ngClass]="{disabled: practiceService.isFirstQuestion() || isInTestMode()}" style="margin-right: 10px;"><i class="fa fa-arrow-left"> Previous</i></a>
           <a (click)="next()" [ngClass]="{disabled: isReview() && practiceService.isLastQuestion()}">{{!isReview() && practiceService.isLastQuestion() ? 'Finish' : 'Next'}} <i class="fa fa-arrow-right"></i></a>
         </div>
       </div>

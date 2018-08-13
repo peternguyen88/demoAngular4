@@ -56,7 +56,7 @@ export class PracticeResult {
 
   public static mergeResultToPractice(practice: GMATPractice, result: PracticeResult) : void{
     for(let i = 0; i < practice.questions.length; i++){
-      if(result.questions[i].selected_answer){
+      if(result.questions[i] && result.questions[i].selected_answer){
         practice.questions[i].selected_answer = result.questions[i].selected_answer;
         practice.questions[i].question_time = result.questions[i].question_time;
         practice.questions[i].bookmarked = result.questions[i].bookmarked;

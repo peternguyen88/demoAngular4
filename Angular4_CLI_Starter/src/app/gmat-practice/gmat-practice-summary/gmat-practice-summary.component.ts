@@ -14,9 +14,11 @@ import {forEach} from "@angular/router/src/utils/collection";
 })
 export class GMATPracticeSummaryComponent {
     currentPractice: GMATPractice;
+    resumable: boolean = true;
 
     constructor(private practiceService: PracticeService) {
       this.currentPractice = practiceService.currentPractice;
+      this.resumable = this.currentPractice.questions.length != this.getUnansweredQuestionIndex();
     }
 
     startPractice(){
@@ -24,7 +26,9 @@ export class GMATPracticeSummaryComponent {
     }
 
     resumePractice(){
-      this.practiceService.startAt(this.getUnansweredQuestionIndex());
+      if(this.resumable) {
+        this.practiceService.resume(this.getUnansweredQuestionIndex());
+      }
     }
 
     startPracticeAt(question: Question){

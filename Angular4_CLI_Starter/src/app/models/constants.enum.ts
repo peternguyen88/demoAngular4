@@ -16,7 +16,8 @@ export enum TestType{
 
 export enum Status{
   ACTIVE = <any>"ACTIVE",
-  LOCKED = <any>"LOCKED"
+  LOCKED = <any>"LOCKED",
+  TEST = <any>"TEST"
 }
 
 export enum EnumTestStage{
@@ -34,7 +35,8 @@ export enum TestMode{
 
 export enum PracticeMode{
   PRACTICE = <any>"PRACTICE",
-  REVIEW = <any>"REVIEW"
+  REVIEW = <any>"REVIEW",
+  TEST = <any>"TEST"
 }
 
 export enum TimerType{

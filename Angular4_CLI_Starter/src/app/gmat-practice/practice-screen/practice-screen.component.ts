@@ -1,7 +1,7 @@
 /**
  * Display Test To User
  */
-import {AfterViewChecked, Component, HostListener, OnDestroy, Pipe, PipeTransform} from "@angular/core";
+import {AfterViewChecked, Component, HostListener, Pipe, PipeTransform} from "@angular/core";
 import {Question} from "../../models/question";
 import {ConfirmMessage, ConfirmMessageConstant} from "../../models/confirm-message";
 import {PracticeMode, QuestionType} from "../../models/constants.enum";
@@ -11,6 +11,7 @@ import {PracticeService} from "../services/gmat-practice.service";
 import {Stage} from "../data/Model";
 import {UserQuestionReport} from "../../models/firebase.model";
 import {WebService} from "../../services/web-service";
+import * as $ from 'jquery';
 
 declare var renderMathInElement: any;
 
@@ -29,6 +30,7 @@ export class PracticeScreenComponent implements AfterViewChecked{
   showCorrectAnswer: boolean = false;
   isHotKeyDisabled: boolean = false;
   isShowingNote = false;
+  isShowingExplanation = false;
 
   updateMathContent: boolean = false;
   questionChangeDetected = false;
@@ -78,6 +80,28 @@ export class PracticeScreenComponent implements AfterViewChecked{
   }
 
   public next() {
+    if(this.isInTestMode()){
+      if(!this.currentQuestion.selected_answer) {
+        this.popupMessage = ConfirmMessageConstant.ANSWER_REQUIRED;
+      }
+      else if(this.practiceService.isLastQuestion()){
+        this.popupMessage = ConfirmMessageConstant.FINAL_QUESTION_REACHED;
+        this.popupMessage.accept = () => {
+          this.practiceService.end();
+          this.closePopup();
+        }
+      }
+      else{
+        this.popupMessage = ConfirmMessageConstant.CONFIRM_NEXT_QUESTION;
+        this.popupMessage.accept = () => {
+          this.practiceService.next();
+          this.updateCurrentQuestion(this.practiceService.getCurrentQuestion());
+          this.closePopup();
+        }
+      }
+      return;
+    }
+
     if(!this.practiceService.isLastQuestion()) {
       this.practiceService.next();
       this.updateCurrentQuestion(this.practiceService.getCurrentQuestion());
@@ -150,6 +174,13 @@ export class PracticeScreenComponent implements AfterViewChecked{
 
   toggleNote(){
     this.isShowingNote = !this.isShowingNote;
+    this.isShowingExplanation = false;
+  }
+
+  toggleExplanation(){
+    this.isShowingExplanation = !this.isShowingExplanation;
+    this.isShowingNote = false;
+    if(this.isShowingExplanation) this.questionChangeDetected = true;
   }
 
   ngOnDestroy() {
@@ -158,9 +189,19 @@ export class PracticeScreenComponent implements AfterViewChecked{
     }
   }
 
+  isInTestMode() : boolean{
+    return this.practiceMode == PracticeMode.TEST;
+  }
+
   ngAfterViewChecked (): void {
-    if(this.updateMathContent && this.questionChangeDetected)
+    if(this.updateMathContent && this.questionChangeDetected) {
       renderMathInElement(document.getElementById('section'));
+      if (document.getElementById('questionExplanation')) {
+        renderMathInElement(document.getElementById('questionExplanation'));
+        $('#questionExplanation').scrollTop(0);
+      }
+      this.questionChangeDetected = false;
+    }
   }
 }
 

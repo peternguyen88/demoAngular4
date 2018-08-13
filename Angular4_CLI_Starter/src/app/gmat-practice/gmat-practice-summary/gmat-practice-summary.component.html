@@ -5,8 +5,8 @@
     <i class="fa fa-align-justify"></i> Practice Summary - {{currentPractice.practiceName}}
   </div>
   <div class="card-block">
-    <button class="btn btn-success" style="margin-bottom: 20px;" (click)="startPractice()">Start Practice</button>
-    <button class="btn btn-primary" style="margin-bottom: 20px;" (click)="resumePractice()">Resume Practice</button>
+    <button class="btn btn-success" style="margin-bottom: 20px;" (click)="startPractice()">Start {{!currentPractice.isTest() ? 'Practice' : 'Test'}}</button>
+    <button class="btn btn-primary" style="margin-bottom: 20px;" (click)="resumePractice()" [ngClass]="{disabled: !resumable}">Resume {{!currentPractice.isTest() ? 'Practice' : 'Test'}}</button>
     <button class="btn btn-warning" style="margin-bottom: 20px;" (click)="startReview()">Review All</button>
 
     <table class="table table-bordered table-striped table-condensed">

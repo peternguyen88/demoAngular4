@@ -460,7 +460,7 @@ If the symbol \(Ω\) represents one of addition, substraction, multiplication, 
 \(4Ω2=2\)
 ---------------------------------
 #DS#93#D#
-In a parabola, \(y=f(x)=ax^2+bx+c,(a≠0)\). How many points meet with x-axis?
+In a parabola, \(y=f(x)=ax^2+bx+c,(a\)≠\(0)\). How many points meet with x-axis?
 In \(x=f(y)\), y-axis meets with two points.
 In \(y=f(x-1)\), x-axis meets with two points.
 ---------------------------------
@@ -470,7 +470,7 @@ A sequence \(A_n\) is there such that \(A_n=A_{n-1}-A_{n-2}\) where n are intege
 \(A_{14}=1\)
 ---------------------------------
 #DS#95#A#
-If \((a+b)(c+d)≠0\) and \(\frac{c-d}{c+d}x - \frac{a-b}{a+b}x = \frac{bc-ad}{(a+b)(c+d)}\)  where \(a, b, c, d\) are positive integers, then \(x=\)?
+If \((a+b)(c+d)\)≠\(0\) and \(\frac{c-d}{c+d}x - \frac{a-b}{a+b}x = \frac{bc-ad}{(a+b)(c+d)}\)  where \(a, b, c, d\) are positive integers, then \(x=\)?
 \(\frac{b}{a} < \frac{d}{c}\)
 \(2x^2-x=0\)
 ---------------------------------

@@ -202,6 +202,15 @@ a.testPause {
   bottom: 65px;
 }
 
+.testForm #questionExplanation {
+  position: absolute;
+  margin: 0 10px;
+  width: 980px;
+  bottom: 65px;
+  overflow: scroll;
+  background-color: ghostwhite;
+}
+
 #setUp {
   background-color: #d8d8d8;
   font-family: "Open Sans", geneva, sans-serif;

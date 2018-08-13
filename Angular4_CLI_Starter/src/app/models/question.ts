@@ -5,6 +5,7 @@ import {QuestionType} from "./constants.enum";
  */
 export class Question {
   question_number: string;
+  question_explanation: string;
   question_type: QuestionType;
   question_stem: string;
   reading_passage: string;
@@ -59,6 +60,10 @@ export class Question {
 
   public hasNote():boolean{
     return this.remarks != null && this.remarks != "";
+  }
+
+  public hasExplanation() : boolean{
+    return this.question_explanation != null;
   }
 
   public getLabelClass(option: string, isShowAnswer: boolean): string{

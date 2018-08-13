@@ -83,29 +83,29 @@ The author of the passage implies which of the following regarding the formulato
 #RC#10 (P3 - 1)#B#1000
 Researchers studying how genes control animal behavior have had to deal with many uncertainties. In the first place, most behaviors are governed by more than one gene, and until recently geneticists had no method for identifying the multiple genes involved. In addition, even when a single gene is found to control a behavior, researchers in different fields do not necessarily agree that it is a “behavioral gene.” Neuroscientists, whose interest in genetic research is to understand the nervous system (which generates behavior), define the term broadly. But ethologists—specialists in animal behavior—are interested in evolution, so they define the term narrowly. They insist that mutations in a behavioral gene must alter a specific normal behavior and not merely make the organism ill, so that the genetically induced behavioral change will provide variation that natural selection can act upon, possibly leading to the evolution of a new species. For example, in the fruit fly, researchers have identified the gene Shaker, mutations in which cause flies to shake violently under anesthesia. Since shaking is not healthy, ethologists do not consider Shaker a behavioral gene. In contrast, ethologists do consider the gene period (per), which controls the fruit fly’s circadian (24-hour) rhythm, a behavioral gene because files with mutated per genes are healthy; they simply have different rhythms.
 It can be inferred from the passage that which of the following, if true, would be most likely to influence ethologists’ opinions about whether a particular gene in a species is a behavioral gene?
-(A)The gene is found only in that species.
-(B)The gene is extremely difficult to identify.
-(C)The only effect of mutations in the gene is to make the organism ill.
-(D)Neuroscientists consider the gene to be a behavioral gene.
-(E)Geneticists consider the gene to be a behavioral gene.
+(A) The gene is found only in that species.
+(B) The gene is extremely difficult to identify.
+(C) The only effect of mutations in the gene is to make the organism ill.
+(D) Neuroscientists consider the gene to be a behavioral gene.
+(E) Geneticists consider the gene to be a behavioral gene.
 ---------------------------------
 #RC#11 (P3 - 2)#A#1100
 Researchers studying how genes control animal behavior have had to deal with many uncertainties. In the first place, most behaviors are governed by more than one gene, and until recently geneticists had no method for identifying the multiple genes involved. In addition, even when a single gene is found to control a behavior, researchers in different fields do not necessarily agree that it is a “behavioral gene.” Neuroscientists, whose interest in genetic research is to understand the nervous system (which generates behavior), define the term broadly. But ethologists—specialists in animal behavior—are interested in evolution, so they define the term narrowly. They insist that mutations in a behavioral gene must alter a specific normal behavior and not merely make the organism ill, so that the genetically induced behavioral change will provide variation that natural selection can act upon, possibly leading to the evolution of a new species. For example, in the fruit fly, researchers have identified the gene Shaker, mutations in which cause flies to shake violently under anesthesia. Since shaking is not healthy, ethologists do not consider Shaker a behavioral gene. In contrast, ethologists do consider the gene period (per), which controls the fruit fly’s circadian (24-hour) rhythm, a behavioral gene because files with mutated per genes are healthy; they simply have different rhythms.
 The passage suggests that neuroscientists would most likely consider Shaker to be which of the following?
-(A)An example of a behavioral gene
-(B)One of multiple genes that control a single behavior
-(C)A gene that, when mutated, causes an alteration in a specific normal behavior without making the organism ill
-(D)A gene of interest to ethologists but of no interest to neuroscientists
-(E)A poor source of information about the nervous system
+(A) An example of a behavioral gene
+(B) One of multiple genes that control a single behavior
+(C) A gene that, when mutated, causes an alteration in a specific normal behavior without making the organism ill
+(D) A gene of interest to ethologists but of no interest to neuroscientists
+(E) A poor source of information about the nervous system
 ---------------------------------
 #RC#12 (P3 - 3)#C#1200
 Researchers studying how genes control animal behavior have had to deal with many uncertainties. In the first place, most behaviors are governed by more than one gene, and until recently geneticists had no method for identifying the multiple genes involved. In addition, even when a single gene is found to control a behavior, researchers in different fields do not necessarily agree that it is a “behavioral gene.” Neuroscientists, whose interest in genetic research is to understand the nervous system (which generates behavior), define the term broadly. But ethologists—specialists in animal behavior—are interested in evolution, so they define the term narrowly. They insist that mutations in a behavioral gene must alter a specific normal behavior and not merely make the organism ill, so that the genetically induced behavioral change will provide variation that natural selection can act upon, possibly leading to the evolution of a new species. For example, in the fruit fly, researchers have identified the gene Shaker, mutations in which cause flies to shake violently under anesthesia. Since shaking is not healthy, ethologists do not consider Shaker a behavioral gene. In contrast, ethologists do consider the gene period (per), which controls the fruit fly’s circadian (24-hour) rhythm, a behavioral gene because files with mutated per genes are healthy; they simply have different rhythms.
 It can be inferred from the passage that which of the following, if true, would be most likely to influence ethologists’ opinions about whether a particular gene in a species is a behavioral gene?
-(A)The gene is found only in that species.
-(B)The gene is extremely difficult to identify.
-(C)The only effect of mutations in the gene is to make the organism ill.
-(D)Neuroscientists consider the gene to be a behavioral gene.
-(E)Geneticists consider the gene to be a behavioral gene.
+(A) The gene is found only in that species.
+(B) The gene is extremely difficult to identify.
+(C) The only effect of mutations in the gene is to make the organism ill.
+(D) Neuroscientists consider the gene to be a behavioral gene.
+(E) Geneticists consider the gene to be a behavioral gene.
 ---------------------------------
 #RC#13 (P4 - 1)#E#1300
 Historians who study European women of the Renaissance try to measure “independence,” “options,” and other indicators of the degree to which the expression of women’s individuality was either permitted or suppressed. Influenced by Western individualism, these historians define peculiar form of personhood: an innately bounded unit, autonomous and standing apart from both nature and society. An anthropologist, however, would contend that a person can be conceived in ways other than as an “individual.” In many societies a person’s identity is not intrinsically unique and self-contained but instead is defined within a complex web of social relationships.<br><br>In her study of the fifteenth-century Florentine widow Alessandra Strozzi, a historian who specializes in European women of the Renaissance attributes individual intention and authorship of actions to her subject. This historian assumes that Alessandra had goals and interests different from those of her sons, yet much of the historian’s own research reveals that Alessandra acted primarily as a champion of her sons’ interests, taking their goals as her own. Thus Alessandra conforms more closely to the anthropologist’s notion that personal motivation is embedded in a social context. Indeed, one could argue that Alessandra did not distinguish her personhood from that of her sons. In Renaissance Europe the boundaries of the conceptual self were not always firm and closed and did not necessarily coincide with the boundaries of the bodily self.

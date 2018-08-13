@@ -19,7 +19,7 @@ export class PracticeService{
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
-  cache : boolean = true;
+  cache : boolean = false;
 
   public selectPracticeSet(practiceSet: GMATPractice){
     this.currentPractice = practiceSet;
@@ -76,6 +76,7 @@ export class PracticeService{
   // -------------Control Functions----------------
   start(){
     this.startAt(0);
+    this.practiceMode = PracticeMode.TEST;
   }
 
   startAt(index: number){
@@ -86,10 +87,33 @@ export class PracticeService{
     this.currentQuestionTime = 0;
     this.currentQuestionIndex = index;
     this.elapsedTime = 0;
-    this.practiceMode = PracticeMode.PRACTICE;
+    this.practiceMode = this.currentPractice.isTest() ? PracticeMode.TEST : PracticeMode.PRACTICE;
     this.questions = this.currentPractice.questions;
     this.clearSelectedAnswer();
     this.subscribe();
+  }
+
+  resume(index: number){
+    if(this.practiceMode == PracticeMode.TEST){
+      let totalTimeOfPreviousQuestions = this.sumTotalTimeOfPreviousQuestions(index);
+      this.startAt(index);
+      this.elapsedTime = totalTimeOfPreviousQuestions;
+    }else{
+      this.startAt(index);
+    }
+  }
+
+  sumTotalTimeOfPreviousQuestions(index: number) : number{
+    let count = 0;
+    let sum = 0;
+    for(let question of this.currentPractice.questions){
+      if(count++ < index){
+        sum += question.question_time;
+      }else{
+        break;
+      }
+    }
+    return sum;
   }
 
   pauseOrResume(){
@@ -102,7 +126,7 @@ export class PracticeService{
   }
 
   end(){
-    if(this.practiceMode == PracticeMode.PRACTICE){
+    if(this.practiceMode == PracticeMode.PRACTICE || this.practiceMode == PracticeMode.TEST){
       this.endPractice();
     }else{
       this.endReview();
@@ -127,12 +151,24 @@ export class PracticeService{
   }
 
   reviewAt(index: number){
-    this.startPractice();
 
     this.practiceMode = PracticeMode.REVIEW;
     this.currentQuestionIndex = index;
     this.questions = this.currentPractice.questions;
     this.currentQuestionTime = this.getCurrentQuestion().question_time;
+
+    if(this.currentPractice.hasExplanation){
+      // Load Questions from Server
+        this.http.get(this.currentPractice.getExplanationLocation()).subscribe(response => {
+          if (response.ok) {
+            PracticeData.processExplanationFile(this.currentPractice, response.text());
+          }
+          this.startPractice();
+        });
+    }
+    else{
+      this.startPractice();
+    }
   }
 
   endReview(){
@@ -141,8 +177,10 @@ export class PracticeService{
   }
 
   updateEachSecond(){
-    this.currentQuestionTime++;
-    this.elapsedTime++;
+    if(this.practiceMode != PracticeMode.REVIEW) {
+      this.currentQuestionTime++;
+      this.elapsedTime++;
+    }
   }
 
   // ------------- Navigation -------------------------

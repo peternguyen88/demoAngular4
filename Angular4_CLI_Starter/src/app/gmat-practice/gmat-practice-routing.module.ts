@@ -5,6 +5,7 @@ import {GMATPracticeComponent} from "./gmat-practice.component";
 import {GMATPremiumComponent} from "./premium/gmat-premium.component";
 import {GMATComprehensiveComponent} from "./comprehensive/gmat-comprehensive.component";
 import {GmatQuantitativeComponent} from "./quantitative/gmat-quantitative.component";
+import {GmatClubTestComponent} from "./gmatclub-test/gmat-club-test.component";
 
 const routes: Routes = [
   {
@@ -37,6 +38,13 @@ const routes: Routes = [
     component: GmatQuantitativeComponent,
     data: {
       title: 'GMAT Quantitative'
+    }
+  },
+  {
+    path: 'gmat-club-test',
+    component: GmatClubTestComponent,
+    data: {
+      title: 'GMAT Club Test'
     }
   }
 ];

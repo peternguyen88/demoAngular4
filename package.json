@@ -37,5 +37,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

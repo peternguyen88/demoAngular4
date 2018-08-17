@@ -18,4 +18,8 @@ export class GMATPractice {
   getExplanationLocation() : string{
     return this.fileLocation.substring(0, this.fileLocation.lastIndexOf(".")) + "-explanation" + this.fileLocation.substring(this.fileLocation.lastIndexOf("."));
   }
+
+  getExplanationName():string{
+    return this.practiceName + '-explanation';
+  }
 }

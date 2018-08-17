@@ -1,10 +1,20 @@
 <button class="btn btn-primary" style="margin-bottom: 20px;" (click)="backToSelection()"><i class="fa fa-arrow-left"></i> Back</button>
 
-<div class="card">
+<div class="card" *ngIf="!isShowingCustomPage">
   <div class="card-header">
     <i class="fa fa-align-justify"></i> Practice Summary - {{currentPractice.practiceName}}
   </div>
   <div class="card-block">
+
+    <div class="alert alert-success" role="alert" *ngIf="currentPractice.isTest()">
+      <strong>Note:</strong> You can use the Start/Resume Test buttons to activate Test Mode with countdown timer!
+    </div>
+
+    <div class="alert alert-warning" role="alert" *ngIf="currentPractice.practiceName === 'OG15-SC'">
+      This package comes with detailed explanations. Please read this to understand the structure of the explanation.
+      <button type="button" class="btn btn-link" (click)="showCustomPage('og-companion-manhattan.html')">Read Me</button>
+    </div>
+
     <button class="btn btn-success" style="margin-bottom: 20px;" (click)="startPractice()">Start {{!currentPractice.isTest() ? 'Practice' : 'Test'}}</button>
     <button class="btn btn-primary" style="margin-bottom: 20px;" (click)="resumePractice()" [ngClass]="{disabled: !resumable}">Resume {{!currentPractice.isTest() ? 'Practice' : 'Test'}}</button>
     <button class="btn btn-warning" style="margin-bottom: 20px;" (click)="startReview()">Review All</button>
@@ -38,4 +48,9 @@
       </tbody>
     </table>
   </div>
+</div>
+
+
+<div class="container" *ngIf="isShowingCustomPage">
+  <div [innerHTML]="customPageContent | safeHtml"></div>
 </div>

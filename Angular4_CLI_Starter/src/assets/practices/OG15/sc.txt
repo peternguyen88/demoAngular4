@@ -85,7 +85,7 @@ The widely accepted big-bang theory holds <span style="text-decoration: underlin
 (B) As the Brontes' and Brownings' idolization
 (C) Like that accorded to the Brontes and Brownings
 (D) As it is of the Brontes and Brownings
-(E) LIke the Brontes and Brownings
+(E) Like the Brontes and Brownings
 ---------------------------------
 #SC#12#B#1200
 Carnivorous mammals can endure what would otherwise be lethal levels of body heat because they have a heat-exchange network <span style="text-decoration: underline">which kept</span> the brain from getting too hot.
@@ -193,8 +193,8 @@ The Iroquois were primarily planters, <span style="text-decoration: underline">b
 ---------------------------------
 #SC#25#A#2500
 <span style="text-decoration: underline">Neuroscientists,having amassed a wealth of knowledge over the past twenty years about the brain and its development from birth to adulthood, are</span> now drawing solid conclusions about how the human brain grows and how babies acquire language.
-(A) Neuroscientists,having amassed a wealth of knowledge over the past twenty years about how the human brain and its development from birth to adulthood, are
-(B) Neuroscientists,having amassed a wealth of knowledge about the brain and its development from birth to adulthood over the past twenty years,and are
+(A) Neuroscientists, having amassed a wealth of knowledge over the past twenty years about how the human brain and its development from birth to adulthood, are
+(B) Neuroscientists, having amassed a wealth of knowledge about the brain and its development from birth to adulthood over the past twenty years,and are
 (C) Neuroscientists amassing a wealth of knowledge about the brain and its development from birth to adulthood over the past twenty years,and are
 (D) Neuroscientists have amassed a wealth of knowledge over past twenty years about the brain and its development from birth to adulthood,
 (E) Neuroscientists have amassed, over the past twenty years, a wealth of knowledge about the brain and its development from birth to adulthood ,
@@ -487,13 +487,13 @@ While <span style="text-decoration: underline">all states face similar industria
 (D) each state faces similar industrial waste problems, the predominant industries and regulatory environment of each state obviously determines
 (E) all states face similar industrial waste problems, the predominant industries and the regulatory environment of each state obviously determine
 ---------------------------------
-#SC#62#C#6200
-Rivaling the pyramids of Egypt or even the ancient cities of the Maya as an achievement, the army of terra-cotta warriors created to protect Qin Shi Huang, China’s first emperor, in his afterlife is more than 2,000 years old and <span style="text-decoration: underline">took 700,000 artisans more than 36 years to complete them</span>.
-(A) took 700,000 artisans more than 36 years to complete them
-(B) took 700,000 artisans more than 36 years to complete it
-(C) took 700,000 artisans more than 36 years to complete
-(D) 700,000 artisans took more than 36 years to complete
-(E) to complete them took 700,000 artisans more than 36 years
+#SC#62#A#6200
+Rivaling the pyramids of Egypt or even the ancient cities of the Maya as an achievement, <span style="text-decoration: underline">the army of terra-cotta warriors created to protect Qin Shi Huang, China's first emperor, in his afterlife is more than 2,000 years old and took 700,000 artisans more than 36 years to complete</span>.
+(A) the army of terra-cotta warriors created to protect Qin Shi Huang, China's first emperor, in his afterlife is more than 2,000 years old and took 700,000 artisans more than 36 years to complete
+(B) Qin Shi huang, China's first emperor, was protected in his afterlife by an army of terracotta warriors that was created more than 2,000 years ago by 700,000 artisans who took more than 36 years to complete it
+(C) it took 700,000 artisans more than 36 years to create an army of terra-cotta warriors more than 2,000 years ago that would protect Qin Shi Huang, China's first emperor, in his afterlife
+(D) more than 2,000 years ago, 700,000 artisans worked more than 36 years to create an army of terra-cotta warriors to protect Qin Shi Huang, China's first emperor, in his afterlife
+(E) more than 36 years were needed to complete the army of terra-cotta warriors that 700,000 artisans created 2,000 years ago to protect Qin Shi Huang, China's first emperor, in his afterlife
 ---------------------------------
 #SC#63#E#6300
 When Congress reconvenes, some newly elected members from rural states will try <span style="text-decoration: underline">and establish tighter restrictions for the amount of grain farmers are to be allowed to grow and to encourage </span>more aggressive sales of United States farm products overseas.
@@ -872,12 +872,12 @@ Among the objects found in the excavated temple were small terra-cotta effigies 
 (E) to heal physical and mental ills or thanking her for such help
 ---------------------------------
 #SC#110#C#11000
-<span style="text-decoration: underline">Published in Harlem, the owner and editor of the Messenger were two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader</span>.
-(A) Published in Harlem, the owner and editor of the Messenger were two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader.
-(B) Published in Harlem, two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, were the owner and editor of the Messenger.
-(C) Published in Harlem, the Messenger was owned and edited by two young journalists, A. Philip Randolph, who would later make his reputation as a labor leader, and Chandler Owen.
-(D) The Messenger was owned and edited by two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, and published in Harlem.
-(E) The owner and editor being two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, the Messenger was published in Harlem.
+<span style="text-decoration: underline">Published in Harlem, the owner and editor of <i>the Messenger</i> were two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader</span>.
+(A) Published in Harlem, the owner and editor of <i>the Messenger</i> were two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader.
+(B) Published in Harlem, two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, were the owner and editor of <i>the Messenger</i>.
+(C) Published in Harlem, <i>the Messenger</i> was owned and edited by two young journalists, A. Philip Randolph, who would later make his reputation as a labor leader, and Chandler Owen.
+(D) <i>The Messenger</i> was owned and edited by two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, and published in Harlem.
+(E) The owner and editor being two young journalists, Chandler Owen and A. Philip Randolph, who would later make his reputation as a labor leader, <i>the Messenger</i> was published in Harlem.
 ---------------------------------
 #SC#111#A#11100
 A mutual fund having billions of dollars in assets will typically invest that money in hundreds of <span style="text-decoration: underline">companies, rarely holding more than one percent</span> of the shares of any particular corporation.

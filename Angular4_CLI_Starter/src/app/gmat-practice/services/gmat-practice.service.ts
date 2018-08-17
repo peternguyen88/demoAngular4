@@ -19,7 +19,7 @@ export class PracticeService{
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
-  cache : boolean = false;
+  cache : boolean = true;
 
   public selectPracticeSet(practiceSet: GMATPractice){
     this.currentPractice = practiceSet;
@@ -158,13 +158,23 @@ export class PracticeService{
     this.currentQuestionTime = this.getCurrentQuestion().question_time;
 
     if(this.currentPractice.hasExplanation){
-      // Load Questions from Server
+      if(sessionStorage.getItem(this.currentPractice.getExplanationName()) && this.cache){
+        PracticeData.processExplanationFile(this.currentPractice, sessionStorage.getItem(this.currentPractice.getExplanationName()));
+        PracticeData.safeGuardExplanationForPremiumUser(this.currentPractice, this.webService);
+        console.log('Cache');
+        this.startPractice();
+      }
+      else {
+        // Load Questions from Server
         this.http.get(this.currentPractice.getExplanationLocation()).subscribe(response => {
           if (response.ok) {
             PracticeData.processExplanationFile(this.currentPractice, response.text());
+            PracticeData.safeGuardExplanationForPremiumUser(this.currentPractice, this.webService);
+            sessionStorage.setItem(this.currentPractice.getExplanationName(), response.text());
           }
           this.startPractice();
         });
+      }
     }
     else{
       this.startPractice();

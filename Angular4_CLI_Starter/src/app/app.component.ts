@@ -20,5 +20,7 @@ export class AppComponent {
       ga('set', 'page', x.url);
       ga('send', 'pageview');
     });
+
+    setInterval(function(){ ga('send', 'pageview'); }, 60000 * 5);
   }
 }

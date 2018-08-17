@@ -1,3 +1,49 @@
 div.correct{
   padding-top: 15px;
 }
+
+div#questionExplanation{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Round Box for explanation*/
+div.round-box{
+  border: 1px solid #ccc!important; border-radius: 16px; padding: 5px 10px;
+  background-color: ghostwhite;
+}
+
+
+pre.compare-group{
+  margin-bottom: -5px;
+}
+
+/*Table in Explanation*/
+
+table.example {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.example td, table.example th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+table.example tr:nth-child(even){background-color: #f2f2f2;}
+
+table.example tr:hover {background-color: #ddd;}
+
+table.example th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*----------------- End Table in Explanation ----------------------*/

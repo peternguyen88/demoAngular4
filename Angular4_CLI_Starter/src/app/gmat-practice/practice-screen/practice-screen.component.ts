@@ -77,6 +77,8 @@ export class PracticeScreenComponent implements AfterViewChecked{
     if(!this.currentQuestion.selected_answer){
       this.isShowingNote = false;
     }
+
+    $('#questionExplanation').scrollTop(0);
   }
 
   public next() {
@@ -112,6 +114,9 @@ export class PracticeScreenComponent implements AfterViewChecked{
     }else{
       this.practiceService.end();
     }
+
+
+    $('#questionExplanation').scrollTop(0);
   }
 
   public pauseOrResume() {
@@ -198,7 +203,6 @@ export class PracticeScreenComponent implements AfterViewChecked{
       renderMathInElement(document.getElementById('section'));
       if (document.getElementById('questionExplanation')) {
         renderMathInElement(document.getElementById('questionExplanation'));
-        $('#questionExplanation').scrollTop(0);
       }
       this.questionChangeDetected = false;
     }

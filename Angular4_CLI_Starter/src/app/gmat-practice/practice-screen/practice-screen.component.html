@@ -26,7 +26,7 @@
       </div>
 
 
-      <div class="whiteBG" [style.bottom]="isShowingNote || isShowingExplanation ? '280px' : '62px'">
+      <div class="whiteBG" [style.bottom]="isShowingNote || isShowingExplanation ? '330px' : '62px'">
         <div id="section">
           <div class="content" style="display: inline-block">
             <div class="passage" [innerHTML]="currentQuestion.reading_passage | safeHtml" *ngIf="currentQuestion.isReadingComprehension()" style="width: 50%;">
@@ -83,11 +83,11 @@
       </div>
 
       <div id="questionNote" *ngIf="isShowingNote">
-        <textarea style="height:205px; width: 100%;resize:horizontal; padding: 0 5px;" rows="5" (blur)="enableHotKey()" (focus)="disableHotKey()" [(ngModel)]="currentQuestion.remarks" maxlength="800"></textarea>
+        <textarea style="height:255px; width: 100%;resize:horizontal; padding: 0 5px;" rows="5" (blur)="enableHotKey()" (focus)="disableHotKey()" [(ngModel)]="currentQuestion.remarks" maxlength="800"></textarea>
       </div>
 
       <div id="questionExplanation" *ngIf="isShowingExplanation">
-        <div class="content" style="height:193px; width: 100%;resize:horizontal; padding: 5px 5px;" [innerHTML]="currentQuestion.question_explanation | safeHtml"></div>
+        <div class="content" style="height:243px; width: 100%;resize:horizontal; padding: 5px 5px;" [innerHTML]="currentQuestion.question_explanation | safeHtml"></div>
       </div>
 
       <div id="setUp">
@@ -97,7 +97,7 @@
         <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleNote()" *ngIf="isReview()" [class.hasNote]="currentQuestion.hasNote()"
                 [disabled]="!currentQuestion.selected_answer"><i class="fa fa-pencil-square-o"></i>&nbsp; Note</button>
 
-        <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleExplanation()" *ngIf="isReview()">
+        <button type="button" class="btn btn-outline-info no-glow-button black-text" style="float:right;" (click)="toggleExplanation()" *ngIf="isReview() && currentPractice.hasExplanation">
                 <i class="fa fa-file-text-o"></i>&nbsp; Show Explanation</button>
       </div>
 

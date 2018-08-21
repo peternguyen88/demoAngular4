@@ -7,6 +7,7 @@ import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeData} from "../data/practice-sets";
 import {ConfirmMessage, ConfirmMessageConstant} from "../../models/confirm-message";
 import {WebService} from "../../services/web-service";
+import {Router} from "@angular/router";
 
 @Component({
   moduleId: module.id,
@@ -30,6 +31,7 @@ export class GMATPracticeListComponent {
       };
       return;
     }
+
     // Continue selecting practice
     this.practiceService.selectPracticeSet(practice);
   }

@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {NavigationEnd, Router} from "@angular/router";
+import * as $ from 'jquery';
 
 // Declare ga function as ambient
 declare var ga: Function;
@@ -9,7 +10,18 @@ declare var ga: Function;
   template: '<router-outlet></router-outlet>'
 })
 export class AppComponent {
+  isActive: boolean = true;
+
   constructor(public router: Router) {
+    // Check if current tab is active
+    const self = this;
+    $(window).blur(function () {
+      self.isActive = false;
+    });
+    $(window).focus(function () {
+      self.isActive = true;
+    });
+
     router.events.distinctUntilChanged((previous: any, current: any) => {
       if (current instanceof NavigationEnd) {
         return previous.url === current.url;
@@ -21,6 +33,8 @@ export class AppComponent {
       ga('send', 'pageview');
     });
 
-    setInterval(function(){ ga('send', 'pageview'); }, 60000 * 5);
+    setInterval(function () {
+      if (self.isActive) ga('send', 'pageview');
+    }, 60000 * 10);
   }
 }

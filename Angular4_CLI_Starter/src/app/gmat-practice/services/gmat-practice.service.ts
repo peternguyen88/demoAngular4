@@ -10,18 +10,28 @@ import {Observable} from "rxjs/Observable";
 import {PracticeResult} from "../../models/test-result";
 import {WebService} from "../../services/web-service";
 import {UserQuestionReport} from "../../models/firebase.model";
+import {ActivatedRoute, Router} from "@angular/router";
+import {Location} from "@angular/common";
 
 @Injectable()
 export class PracticeService{
   currentPractice: GMATPractice;
 
-  constructor(private http:Http, private webService: WebService){}
+  constructor(private location: Location, private router: Router, private route:ActivatedRoute, private http:Http, private webService: WebService){}
 
   //========================================Render Control ===================================================
   stage: Stage = Stage.SELECT;
   cache : boolean = true;
+  isLoading: boolean = false;
 
   public selectPracticeSet(practiceSet: GMATPractice){
+    const url = this.router.url.split('?')[0];
+    if(url.indexOf(practiceSet.practiceName) < 0) {
+      const newUrl = url + '/' + practiceSet.practiceName;
+      console.log(newUrl);
+      this.location.go(newUrl);
+    }
+
     this.currentPractice = practiceSet;
 
     // Try to load from Session Storage
@@ -30,6 +40,7 @@ export class PracticeService{
       this.loadSavedData();
     }
     else {
+      this.isLoading = true;
       // Load Questions from Server
       this.http.get(this.currentPractice.fileLocation).subscribe(response => {
         if (response.ok) {
@@ -37,6 +48,7 @@ export class PracticeService{
           this.loadSavedData();
           // Save to Session Storage for next time use
           sessionStorage.setItem(this.currentPractice.practiceName, response.text());
+          this.isLoading = false;
         }
       });
     }
@@ -54,6 +66,9 @@ export class PracticeService{
 
   public backToSelection(){
     this.stage = Stage.SELECT;
+
+    const url = this.router.url.split('?')[0];
+    this.location.go(url);
   }
 
   //========================================End Render Control ===============================================
@@ -80,6 +95,15 @@ export class PracticeService{
   }
 
   startAt(index: number){
+
+    if(this.isLoading) {
+      let self = this;
+      setTimeout(function () {
+        self.startAt(index);
+      }, 200);
+      return;
+    }
+
     this.startPractice();
 
     this.isStarted = true;
@@ -151,6 +175,14 @@ export class PracticeService{
   }
 
   reviewAt(index: number){
+
+    if(this.isLoading) {
+      let self = this;
+      setTimeout(function () {
+        self.reviewAt(index);
+      }, 200);
+      return;
+    }
 
     this.practiceMode = PracticeMode.REVIEW;
     this.currentQuestionIndex = index;

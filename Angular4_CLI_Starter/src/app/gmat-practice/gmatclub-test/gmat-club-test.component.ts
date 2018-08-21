@@ -5,6 +5,7 @@ import {WebService} from "../../services/web-service";
 import {ConfirmMessage, ConfirmMessageConstant} from "../../models/confirm-message";
 import {GMATPractice} from "../../models/gmat-practice";
 import {PracticeData} from "../data/practice-sets";
+import {ActivatedRoute} from "@angular/router";
 
 /**
  * Main Component for taking GMAT CAT - Premium Mode
@@ -16,7 +17,7 @@ export class GmatClubTestComponent{
   gmatClubTest: GMATPractice[];
   popupMessage: ConfirmMessage;
 
-  constructor(private practiceService: PracticeService, private webService: WebService) {
+  constructor(private route: ActivatedRoute, private practiceService: PracticeService, private webService: WebService) {
     this.practiceService.stage = Stage.SELECT;
     this.gmatClubTest = PracticeData.getGMATClubTests();
   }
@@ -50,5 +51,18 @@ export class GmatClubTestComponent{
 
   isPracticeStage():boolean{
     return this.practiceService.stage == Stage.PRACTICE;
+  }
+
+  ngOnInit() {
+    let setID = this.route.snapshot.paramMap.get('setID');
+    if(setID){
+      let practiceSets :GMATPractice[] = PracticeData.getGMATClubTests().filter(p => p.practiceName === setID);
+      if(practiceSets.length){
+        this.practiceService.selectPracticeSet(practiceSets[0]);
+        this.practiceService.stage = Stage.SUMMARY;
+      }
+    }else{
+      this.practiceService.stage = Stage.SELECT;
+    }
   }
 }
